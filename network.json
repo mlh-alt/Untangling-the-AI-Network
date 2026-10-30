@@ -1,0 +1,1837 @@
+{
+  "meta": {
+    "total_funded": "$594,817,317",
+    "total_spent_ie": "$384,927,366",
+    "n_funders": 144,
+    "n_candidates": 41,
+    "date_range": "Jan 01, 2025 – Oct 29, 2026"
+  },
+  "pacs": [
+    {
+      "id": "1483808",
+      "label": "Grow California",
+      "raised": "$54,318,569",
+      "spent_ie": "$20,479,423"
+    },
+    {
+      "id": "1478581",
+      "label": "California Leads",
+      "raised": "$28,262,079",
+      "spent_ie": "$14,805,427"
+    },
+    {
+      "id": "1486767",
+      "label": "Building a Better California",
+      "raised": "$434,821,490",
+      "spent_ie": "$324,750,000"
+    },
+    {
+      "id": "1483390",
+      "label": "META California",
+      "raised": "$17,000,000",
+      "spent_ie": "$2,621,655"
+    },
+    {
+      "id": "1487425",
+      "label": "California Back to Basics",
+      "raised": "$54,571,559",
+      "spent_ie": "$19,506,423"
+    },
+    {
+      "id": "1488176",
+      "label": "Deliver for California",
+      "raised": "$6,505,063",
+      "spent_ie": "$2,764,437"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BRIN SERGEY",
+      "label": "Sergey Brin",
+      "tier": "Funders",
+      "total": 104000000,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($102,000,000); Deliver for California ($2,000,000)"
+    },
+    {
+      "id": "MORGAN STANLEY",
+      "label": "Stanley Morgan",
+      "tier": "Funders",
+      "total": 101501869.05,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($101,501,869)"
+    },
+    {
+      "id": "SCHMIDT ERIC",
+      "label": "Eric Schmidt",
+      "tier": "Funders",
+      "total": 40236457.01,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($40,236,457)"
+    },
+    {
+      "id": "DOERR III L JOHN",
+      "label": "L John Doerr III",
+      "tier": "Funders",
+      "total": 42000000,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($40,000,000); California Back to Basics ($2,000,000)"
+    },
+    {
+      "id": "LARSEN CHRISTIAN",
+      "label": "Christian Larsen",
+      "tier": "Funders",
+      "total": 36865749.36,
+      "n_connections": 1,
+      "detail": "Gave to: Grow California ($36,865,749)"
+    },
+    {
+      "id": "COLLISON PATRICK",
+      "label": "Patrick Collison",
+      "tier": "Funders",
+      "total": 36149793.76,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($33,169,794); California Back to Basics ($2,980,000)"
+    },
+    {
+      "id": "Google LLC",
+      "label": "Google LLC",
+      "tier": "Funders",
+      "total": 21000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Leads ($21,000,000)"
+    },
+    {
+      "id": "DRAPER TIMOTHY",
+      "label": "Timothy Draper",
+      "tier": "Funders",
+      "total": 17000000,
+      "n_connections": 1,
+      "detail": "Gave to: Grow California ($17,000,000)"
+    },
+    {
+      "id": "Meta Platforms",
+      "label": "Meta Platforms",
+      "tier": "Funders",
+      "total": 24050000,
+      "n_connections": 2,
+      "detail": "Gave to: META California ($17,000,000); California Leads ($7,050,000)"
+    },
+    {
+      "id": "KHOSLA VINOD",
+      "label": "Vinod Khosla",
+      "tier": "Funders",
+      "total": 14761504,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($12,561,504); California Back to Basics ($2,200,000)"
+    },
+    {
+      "id": "LARSEN CHRIS",
+      "label": "Chris Larsen",
+      "tier": "Funders",
+      "total": 12511844.8,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($12,511,845)"
+    },
+    {
+      "id": "MORITZ MICHAEL",
+      "label": "Michael Moritz",
+      "tier": "Funders",
+      "total": 13500000,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($7,500,000); California Back to Basics ($6,000,000)"
+    },
+    {
+      "id": "SHRIRAM KAVITARK RAM",
+      "label": "Kavitark Ram Shriram",
+      "tier": "Funders",
+      "total": 5005599.45,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($5,005,599)"
+    },
+    {
+      "id": "SLOOTMAN FRANK",
+      "label": "Frank Slootman",
+      "tier": "Funders",
+      "total": 5000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($5,000,000)"
+    },
+    {
+      "id": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
+      "label": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+      "tier": "Funders",
+      "total": 4968061.28,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($4,968,061)"
+    },
+    {
+      "id": "RESNICK STEWART",
+      "label": "Stewart Resnick",
+      "tier": "Funders",
+      "total": 4500000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($4,500,000)"
+    },
+    {
+      "id": "HERING JOHN",
+      "label": "John Hering",
+      "tier": "Funders",
+      "total": 5911960.75,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($3,921,961); California Back to Basics ($1,990,000)"
+    },
+    {
+      "id": "XU TONY",
+      "label": "Tony Xu",
+      "tier": "Funders",
+      "total": 3993982.02,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($3,493,982); California Back to Basics ($500,000)"
+    },
+    {
+      "id": "LEVCHIN MAKSIM RAFAEL",
+      "label": "Maksim Rafael Levchin",
+      "tier": "Funders",
+      "total": 3021883.55,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($3,021,884)"
+    },
+    {
+      "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
+      "label": "Govern For California Action Committee",
+      "tier": "Funders",
+      "total": 3000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($3,000,000)"
+    },
+    {
+      "id": "KARAM ANDREW",
+      "label": "Andrew Karam",
+      "tier": "Funders",
+      "total": 3000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($3,000,000)"
+    },
+    {
+      "id": "LIN ALFRED",
+      "label": "Alfred Lin",
+      "tier": "Funders",
+      "total": 3000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($3,000,000)"
+    },
+    {
+      "id": "RICK CARUSO AND AFFILIATED ENTITIES",
+      "label": "Rick Caruso And Affiliated Entities",
+      "tier": "Funders",
+      "total": 3000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($3,000,000)"
+    },
+    {
+      "id": "MALKA MEYER",
+      "label": "Meyer Malka",
+      "tier": "Funders",
+      "total": 3486173.77,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($2,986,174); California Back to Basics ($500,000)"
+    },
+    {
+      "id": "COULTER JAMES",
+      "label": "James Coulter",
+      "tier": "Funders",
+      "total": 2527189.16,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,527,189)"
+    },
+    {
+      "id": "DUNLEVIE BRUCE",
+      "label": "Bruce Dunlevie",
+      "tier": "Funders",
+      "total": 2110000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,110,000)"
+    },
+    {
+      "id": "MERRILL ASHLEY",
+      "label": "Ashley Merrill",
+      "tier": "Funders",
+      "total": 2040000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($2,040,000)"
+    },
+    {
+      "id": "BUCHHEIT PAUL",
+      "label": "Paul Buchheit",
+      "tier": "Funders",
+      "total": 2000000,
+      "n_connections": 1,
+      "detail": "Gave to: Deliver for California ($2,000,000)"
+    },
+    {
+      "id": "HASTINGS REED",
+      "label": "Reed Hastings",
+      "tier": "Funders",
+      "total": 2000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($2,000,000)"
+    },
+    {
+      "id": "MARCUS GEORGE",
+      "label": "George Marcus",
+      "tier": "Funders",
+      "total": 2000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,000,000)"
+    },
+    {
+      "id": "SEIBEL MICHAEL",
+      "label": "Michael Seibel",
+      "tier": "Funders",
+      "total": 2000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($2,000,000)"
+    },
+    {
+      "id": "HUFFMAN STEVE",
+      "label": "Steve Huffman",
+      "tier": "Funders",
+      "total": 2101800.64,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,999,998); Building a Better California ($101,803)"
+    },
+    {
+      "id": "MEHTA NEIL",
+      "label": "Neil Mehta",
+      "tier": "Funders",
+      "total": 2999998,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,999,998); Building a Better California ($1,000,000)"
+    },
+    {
+      "id": "SLAVIK JAMES",
+      "label": "James Slavik",
+      "tier": "Funders",
+      "total": 1998899.14,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,998,899)"
+    },
+    {
+      "id": "SLAVIK PAUL",
+      "label": "Paul Slavik",
+      "tier": "Funders",
+      "total": 1998899.14,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,998,899)"
+    },
+    {
+      "id": "EHRSAM III FREDERICK E",
+      "label": "Frederick E Ehrsam III",
+      "tier": "Funders",
+      "total": 1979907.76,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,979,908)"
+    },
+    {
+      "id": "OBERNDORF WILLIAM E",
+      "label": "William E Oberndorf",
+      "tier": "Funders",
+      "total": 1686400,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($1,686,400)"
+    },
+    {
+      "id": "LAFFONT PHILIPPE",
+      "label": "Philippe Laffont",
+      "tier": "Funders",
+      "total": 1500076.6,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,500,077)"
+    },
+    {
+      "id": "LAFFONT THOMAS",
+      "label": "Thomas Laffont",
+      "tier": "Funders",
+      "total": 1500076.6,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,500,077)"
+    },
+    {
+      "id": "BASZUCKI DAVID",
+      "label": "David Baszucki",
+      "tier": "Funders",
+      "total": 1500000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,500,000)"
+    },
+    {
+      "id": "MAKAN DIVESH",
+      "label": "Divesh Makan",
+      "tier": "Funders",
+      "total": 2490479.52,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,500,000); Building a Better California ($990,480)"
+    },
+    {
+      "id": "SINGERMAN BRIAN",
+      "label": "Brian Singerman",
+      "tier": "Funders",
+      "total": 2720818,
+      "n_connections": 3,
+      "detail": "Gave to: California Back to Basics ($1,500,000); Building a Better California ($720,818); Deliver for California ($500,000)"
+    },
+    {
+      "id": "BAKER JR G LEONARD",
+      "label": "G Leonard Baker JR",
+      "tier": "Funders",
+      "total": 1695829.84,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,300,000); Building a Better California ($395,830)"
+    },
+    {
+      "id": "BYERS BROOK",
+      "label": "Brook Byers",
+      "tier": "Funders",
+      "total": 2104393.67,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,100,000); Building a Better California ($1,004,394)"
+    },
+    {
+      "id": "PINCUS MARK",
+      "label": "Pincus Mark",
+      "tier": "Funders",
+      "total": 1085746.83,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,085,747)"
+    },
+    {
+      "id": "REED ANDREW PHILLIPS",
+      "label": "Andrew Phillips Reed",
+      "tier": "Funders",
+      "total": 2074114.3,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($1,074,114); California Back to Basics ($1,000,000)"
+    },
+    {
+      "id": "TANEJA HEMANT",
+      "label": "Hemant Taneja",
+      "tier": "Funders",
+      "total": 1047667.5,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,047,668)"
+    },
+    {
+      "id": "BYERS BLAKE",
+      "label": "Blake Byers",
+      "tier": "Funders",
+      "total": 1200000,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,000,000); Deliver for California ($200,000)"
+    },
+    {
+      "id": "1483808",
+      "label": "Grow California",
+      "tier": "PACs",
+      "total": 54318568.89,
+      "n_connections": 20,
+      "detail": "Raised: $54,318,569 | Spent on IEs: $20,479,423 | Candidates/measures targeted: 16"
+    },
+    {
+      "id": "1478581",
+      "label": "California Leads",
+      "tier": "PACs",
+      "total": 28262079.14,
+      "n_connections": 16,
+      "detail": "Raised: $28,262,079 | Spent on IEs: $14,805,427 | Candidates/measures targeted: 14"
+    },
+    {
+      "id": "1486767",
+      "label": "Building a Better California",
+      "tier": "PACs",
+      "total": 434821489.66,
+      "n_connections": 43,
+      "detail": "Raised: $434,821,490 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
+    },
+    {
+      "id": "1483390",
+      "label": "META California",
+      "tier": "PACs",
+      "total": 17000000,
+      "n_connections": 6,
+      "detail": "Raised: $17,000,000 | Spent on IEs: $2,621,655 | Candidates/measures targeted: 5"
+    },
+    {
+      "id": "1487425",
+      "label": "California Back to Basics",
+      "tier": "PACs",
+      "total": 54571558.58,
+      "n_connections": 22,
+      "detail": "Raised: $54,571,559 | Spent on IEs: $19,506,423 | Candidates/measures targeted: 1"
+    },
+    {
+      "id": "1488176",
+      "label": "Deliver for California",
+      "tier": "PACs",
+      "total": 6505063.21,
+      "n_connections": 5,
+      "detail": "Raised: $6,505,063 | Spent on IEs: $2,764,437 | Candidates/measures targeted: 1"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 42",
+      "label": "Measure: Proposition 42",
+      "tier": "Candidates",
+      "total": 127800000,
+      "n_connections": 1,
+      "detail": "Support IE: $127,800,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 40",
+      "label": "Measure: Proposition 40",
+      "tier": "Candidates",
+      "total": 118500000,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $118,500,000"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 41",
+      "label": "Measure: Proposition 41",
+      "tier": "Candidates",
+      "total": 58350000,
+      "n_connections": 1,
+      "detail": "Support IE: $58,350,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|MATT MAHAN",
+      "label": "Matt Mahan",
+      "tier": "Candidates",
+      "total": 22270860.74,
+      "n_connections": 2,
+      "detail": "Support IE: $22,270,861 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 45",
+      "label": "Measure: Proposition 45",
+      "tier": "Candidates",
+      "total": 10000000,
+      "n_connections": 1,
+      "detail": "Support IE: $10,000,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 37",
+      "label": "Measure: Proposition 37",
+      "tier": "Candidates",
+      "total": 6000000,
+      "n_connections": 1,
+      "detail": "Support IE: $6,000,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
+      "label": "Measure: Prohibit Exceptions To School Funding Guarantee",
+      "tier": "Candidates",
+      "total": 3100000,
+      "n_connections": 1,
+      "detail": "Support IE: $3,100,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|SARA HERNANDEZ",
+      "label": "Sara Hernandez",
+      "tier": "Candidates",
+      "total": 3376429.31,
+      "n_connections": 2,
+      "detail": "Support IE: $3,032,509 | Oppose IE: $343,920"
+    },
+    {
+      "id": "CAND|David Penaloza",
+      "label": "David Penaloza",
+      "tier": "Candidates",
+      "total": 2711914.61,
+      "n_connections": 1,
+      "detail": "Support IE: $2,711,915 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|MARK PULIDO",
+      "label": "Mark Pulido",
+      "tier": "Candidates",
+      "total": 2594121.47,
+      "n_connections": 1,
+      "detail": "Support IE: $2,594,121 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Andrae Gonzales",
+      "label": "Andrae Gonzales",
+      "tier": "Candidates",
+      "total": 2906794.07,
+      "n_connections": 2,
+      "detail": "Support IE: $2,906,794 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|JOHN ERICKSON",
+      "label": "John Erickson",
+      "tier": "Candidates",
+      "total": 2242027.65,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $2,242,028"
+    },
+    {
+      "id": "CAND|DAVID PENALOZA",
+      "label": "David Penaloza",
+      "tier": "Candidates",
+      "total": 2217167.45,
+      "n_connections": 1,
+      "detail": "Support IE: $2,217,167 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|ERIC LUCAN",
+      "label": "Eric Lucan",
+      "tier": "Candidates",
+      "total": 2141756.25,
+      "n_connections": 1,
+      "detail": "Support IE: $2,141,756 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|ADA BRICENO",
+      "label": "Ada Briceno",
+      "tier": "Candidates",
+      "total": 1490766.53,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $1,490,767"
+    },
+    {
+      "id": "CAND|AYANNA DAVIS",
+      "label": "Ayanna Davis",
+      "tier": "Candidates",
+      "total": 1475309.71,
+      "n_connections": 1,
+      "detail": "Support IE: $1,475,310 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Scott Sakakihara",
+      "label": "Scott Sakakihara",
+      "tier": "Candidates",
+      "total": 1335520.32,
+      "n_connections": 1,
+      "detail": "Support IE: $1,335,520 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Ed Musgrove",
+      "label": "Ed Musgrove",
+      "tier": "Candidates",
+      "total": 1302055,
+      "n_connections": 1,
+      "detail": "Support IE: $1,302,055 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Mark Pulido",
+      "label": "Mark Pulido",
+      "tier": "Candidates",
+      "total": 1260592.27,
+      "n_connections": 1,
+      "detail": "Support IE: $1,260,592 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|JESSIE LOPEZ",
+      "label": "Jessie Lopez",
+      "tier": "Candidates",
+      "total": 1169065.5,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $1,169,066"
+    },
+    {
+      "id": "CAND|Greg Wallis",
+      "label": "Greg Wallis",
+      "tier": "Candidates",
+      "total": 1078618,
+      "n_connections": 1,
+      "detail": "Support IE: $1,078,618 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Brian Goldsmith",
+      "label": "Brian Goldsmith",
+      "tier": "Candidates",
+      "total": 1057109.5,
+      "n_connections": 1,
+      "detail": "Support IE: $1,057,110 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|SCOTT SAKAKIHARA",
+      "label": "Scott Sakakihara",
+      "tier": "Candidates",
+      "total": 1039940,
+      "n_connections": 1,
+      "detail": "Support IE: $1,039,940 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Ayanna Davis",
+      "label": "Ayanna Davis",
+      "tier": "Candidates",
+      "total": 1010362.04,
+      "n_connections": 1,
+      "detail": "Support IE: $1,010,362 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Measure: PROPOSITION 1",
+      "label": "Measure: Proposition 1",
+      "tier": "Candidates",
+      "total": 1000000,
+      "n_connections": 1,
+      "detail": "Support IE: $1,000,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Annalisa Perea",
+      "label": "Annalisa Perea",
+      "tier": "Candidates",
+      "total": 1339921.31,
+      "n_connections": 2,
+      "detail": "Support IE: $1,339,921 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Darshana Patel",
+      "label": "Darshana Patel",
+      "tier": "Candidates",
+      "total": 870807,
+      "n_connections": 1,
+      "detail": "Support IE: $870,807 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Sara Hernandez",
+      "label": "Sara Hernandez",
+      "tier": "Candidates",
+      "total": 828919.44,
+      "n_connections": 1,
+      "detail": "Support IE: $828,919 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|IDA OBESO-MARTINEZ",
+      "label": "Ida Obeso-Martinez",
+      "tier": "Candidates",
+      "total": 818333,
+      "n_connections": 1,
+      "detail": "Support IE: $818,333 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|JACKIE ELWARD",
+      "label": "Jackie Elward",
+      "tier": "Candidates",
+      "total": 753605.38,
+      "n_connections": 2,
+      "detail": "Support IE: $11,424 | Oppose IE: $742,182"
+    },
+    {
+      "id": "CAND|FATIMA IQBAL-ZUBAIR",
+      "label": "Fatima Iqbal-Zubair",
+      "tier": "Candidates",
+      "total": 638751.32,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $638,751"
+    },
+    {
+      "id": "CAND|Tony Strickland",
+      "label": "Tony Strickland",
+      "tier": "Candidates",
+      "total": 622570,
+      "n_connections": 1,
+      "detail": "Support IE: $622,570 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Laurie Davies",
+      "label": "Laurie Davies",
+      "tier": "Candidates",
+      "total": 356035,
+      "n_connections": 1,
+      "detail": "Support IE: $356,035 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Rick Chavez Zbur",
+      "label": "Rick Chavez Zbur",
+      "tier": "Candidates",
+      "total": 281763.48,
+      "n_connections": 1,
+      "detail": "Support IE: $281,763 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|David Alvarez",
+      "label": "David Alvarez",
+      "tier": "Candidates",
+      "total": 276485.27,
+      "n_connections": 1,
+      "detail": "Support IE: $276,485 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|ANDRAE GONZALES",
+      "label": "Andrae Gonzales",
+      "tier": "Candidates",
+      "total": 251074.74,
+      "n_connections": 1,
+      "detail": "Support IE: $251,075 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|DEBORAH KLEIN LOPEZ",
+      "label": "Deborah Klein Lopez",
+      "tier": "Candidates",
+      "total": 251074.74,
+      "n_connections": 1,
+      "detail": "Support IE: $251,075 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Esmeralda Soria",
+      "label": "Esmeralda Soria",
+      "tier": "Candidates",
+      "total": 115045,
+      "n_connections": 1,
+      "detail": "Support IE: $115,045 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|Avelino Valencia",
+      "label": "Avelino Valencia",
+      "tier": "Candidates",
+      "total": 72570,
+      "n_connections": 1,
+      "detail": "Support IE: $72,570 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE",
+      "label": "Uber Innovation Political Action Committee",
+      "tier": "Candidates",
+      "total": 12000,
+      "n_connections": 1,
+      "detail": "Support IE: $12,000 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC",
+      "label": "California State Council Of Laborers Independent Expenditure Pac",
+      "tier": "Candidates",
+      "total": 8000,
+      "n_connections": 1,
+      "detail": "Support IE: $8,000 | Oppose IE: $0"
+    }
+  ],
+  "edges": [
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 42",
+      "amount": 127800000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $127,800,000"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 40",
+      "amount": 118500000,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $118,500,000"
+    },
+    {
+      "source": "BRIN SERGEY",
+      "target": "1486767",
+      "amount": 102000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $102,000,000"
+    },
+    {
+      "source": "MORGAN STANLEY",
+      "target": "1486767",
+      "amount": 101501869.05,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $101,501,869"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 41",
+      "amount": 58350000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $58,350,000"
+    },
+    {
+      "source": "SCHMIDT ERIC",
+      "target": "1486767",
+      "amount": 40236457.01,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $40,236,457"
+    },
+    {
+      "source": "DOERR III L JOHN",
+      "target": "1486767",
+      "amount": 40000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $40,000,000"
+    },
+    {
+      "source": "LARSEN CHRISTIAN",
+      "target": "1483808",
+      "amount": 36865749.36,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $36,865,749"
+    },
+    {
+      "source": "COLLISON PATRICK",
+      "target": "1486767",
+      "amount": 33169793.76,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $33,169,794"
+    },
+    {
+      "source": "Google LLC",
+      "target": "1478581",
+      "amount": 21000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $21,000,000"
+    },
+    {
+      "source": "1487425",
+      "target": "CAND|MATT MAHAN",
+      "amount": 19506423.49,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $19,506,423"
+    },
+    {
+      "source": "DRAPER TIMOTHY",
+      "target": "1483808",
+      "amount": 17000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $17,000,000"
+    },
+    {
+      "source": "Meta Platforms",
+      "target": "1483390",
+      "amount": 17000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $17,000,000"
+    },
+    {
+      "source": "KHOSLA VINOD",
+      "target": "1486767",
+      "amount": 12561504,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $12,561,504"
+    },
+    {
+      "source": "LARSEN CHRIS",
+      "target": "1486767",
+      "amount": 12511844.8,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $12,511,845"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 45",
+      "amount": 10000000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $10,000,000"
+    },
+    {
+      "source": "MORITZ MICHAEL",
+      "target": "1486767",
+      "amount": 7500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $7,500,000"
+    },
+    {
+      "source": "Meta Platforms",
+      "target": "1478581",
+      "amount": 7050000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $7,050,000"
+    },
+    {
+      "source": "MORITZ MICHAEL",
+      "target": "1487425",
+      "amount": 6000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $6,000,000"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 37",
+      "amount": 6000000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $6,000,000"
+    },
+    {
+      "source": "SHRIRAM KAVITARK RAM",
+      "target": "1486767",
+      "amount": 5005599.45,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $5,005,599"
+    },
+    {
+      "source": "SLOOTMAN FRANK",
+      "target": "1486767",
+      "amount": 5000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $5,000,000"
+    },
+    {
+      "source": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
+      "target": "1486767",
+      "amount": 4968061.28,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $4,968,061"
+    },
+    {
+      "source": "RESNICK STEWART",
+      "target": "1486767",
+      "amount": 4500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $4,500,000"
+    },
+    {
+      "source": "HERING JOHN",
+      "target": "1486767",
+      "amount": 3921960.75,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,921,961"
+    },
+    {
+      "source": "XU TONY",
+      "target": "1486767",
+      "amount": 3493982.02,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,493,982"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
+      "amount": 3100000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $3,100,000"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|SARA HERNANDEZ",
+      "amount": 3032509.31,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $3,032,509"
+    },
+    {
+      "source": "LEVCHIN MAKSIM RAFAEL",
+      "target": "1486767",
+      "amount": 3021883.55,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,021,884"
+    },
+    {
+      "source": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
+      "target": "1487425",
+      "amount": 3000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,000,000"
+    },
+    {
+      "source": "KARAM ANDREW",
+      "target": "1486767",
+      "amount": 3000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,000,000"
+    },
+    {
+      "source": "LIN ALFRED",
+      "target": "1486767",
+      "amount": 3000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,000,000"
+    },
+    {
+      "source": "RICK CARUSO AND AFFILIATED ENTITIES",
+      "target": "1487425",
+      "amount": 3000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,000,000"
+    },
+    {
+      "source": "MALKA MEYER",
+      "target": "1486767",
+      "amount": 2986173.77,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,986,174"
+    },
+    {
+      "source": "COLLISON PATRICK",
+      "target": "1487425",
+      "amount": 2980000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,980,000"
+    },
+    {
+      "source": "1488176",
+      "target": "CAND|MATT MAHAN",
+      "amount": 2764437.25,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,764,437"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|David Penaloza",
+      "amount": 2711914.61,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,711,915"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|MARK PULIDO",
+      "amount": 2594121.47,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,594,121"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Andrae Gonzales",
+      "amount": 2556406.14,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,556,406"
+    },
+    {
+      "source": "COULTER JAMES",
+      "target": "1486767",
+      "amount": 2527189.16,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,527,189"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|JOHN ERICKSON",
+      "amount": 2242027.65,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $2,242,028"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|DAVID PENALOZA",
+      "amount": 2217167.45,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,217,167"
+    },
+    {
+      "source": "KHOSLA VINOD",
+      "target": "1487425",
+      "amount": 2200000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,200,000"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|ERIC LUCAN",
+      "amount": 2141756.25,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,141,756"
+    },
+    {
+      "source": "DUNLEVIE BRUCE",
+      "target": "1486767",
+      "amount": 2110000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,110,000"
+    },
+    {
+      "source": "MERRILL ASHLEY",
+      "target": "1487425",
+      "amount": 2040000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,040,000"
+    },
+    {
+      "source": "BRIN SERGEY",
+      "target": "1488176",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "BUCHHEIT PAUL",
+      "target": "1488176",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "DOERR III L JOHN",
+      "target": "1487425",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "HASTINGS REED",
+      "target": "1487425",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "MARCUS GEORGE",
+      "target": "1486767",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "SEIBEL MICHAEL",
+      "target": "1487425",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "HUFFMAN STEVE",
+      "target": "1487425",
+      "amount": 1999998,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,999,998"
+    },
+    {
+      "source": "MEHTA NEIL",
+      "target": "1487425",
+      "amount": 1999998,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,999,998"
+    },
+    {
+      "source": "SLAVIK JAMES",
+      "target": "1486767",
+      "amount": 1998899.14,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,998,899"
+    },
+    {
+      "source": "SLAVIK PAUL",
+      "target": "1486767",
+      "amount": 1998899.14,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,998,899"
+    },
+    {
+      "source": "HERING JOHN",
+      "target": "1487425",
+      "amount": 1990000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,990,000"
+    },
+    {
+      "source": "EHRSAM III FREDERICK E",
+      "target": "1486767",
+      "amount": 1979907.76,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,979,908"
+    },
+    {
+      "source": "OBERNDORF WILLIAM E",
+      "target": "1487425",
+      "amount": 1686400,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,686,400"
+    },
+    {
+      "source": "LAFFONT PHILIPPE",
+      "target": "1486767",
+      "amount": 1500076.6,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,500,077"
+    },
+    {
+      "source": "LAFFONT THOMAS",
+      "target": "1486767",
+      "amount": 1500076.6,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,500,077"
+    },
+    {
+      "source": "BASZUCKI DAVID",
+      "target": "1486767",
+      "amount": 1500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,500,000"
+    },
+    {
+      "source": "MAKAN DIVESH",
+      "target": "1487425",
+      "amount": 1500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,500,000"
+    },
+    {
+      "source": "SINGERMAN BRIAN",
+      "target": "1487425",
+      "amount": 1500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,500,000"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|ADA BRICENO",
+      "amount": 1490766.53,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $1,490,767"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|AYANNA DAVIS",
+      "amount": 1475309.71,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,475,310"
+    },
+    {
+      "source": "1483390",
+      "target": "CAND|Scott Sakakihara",
+      "amount": 1335520.32,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,335,520"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Ed Musgrove",
+      "amount": 1302055,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,302,055"
+    },
+    {
+      "source": "BAKER JR G LEONARD",
+      "target": "1487425",
+      "amount": 1300000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,300,000"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Mark Pulido",
+      "amount": 1260592.27,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,260,592"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|JESSIE LOPEZ",
+      "amount": 1169065.5,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $1,169,066"
+    },
+    {
+      "source": "BYERS BROOK",
+      "target": "1487425",
+      "amount": 1100000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,100,000"
+    },
+    {
+      "source": "PINCUS MARK",
+      "target": "1486767",
+      "amount": 1085746.83,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,085,747"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Greg Wallis",
+      "amount": 1078618,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,078,618"
+    },
+    {
+      "source": "REED ANDREW PHILLIPS",
+      "target": "1486767",
+      "amount": 1074114.3,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,074,114"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Brian Goldsmith",
+      "amount": 1057109.5,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,057,110"
+    },
+    {
+      "source": "TANEJA HEMANT",
+      "target": "1486767",
+      "amount": 1047667.5,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,047,668"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|SCOTT SAKAKIHARA",
+      "amount": 1039940,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,039,940"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Ayanna Davis",
+      "amount": 1010362.04,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,010,362"
+    },
+    {
+      "source": "BYERS BROOK",
+      "target": "1486767",
+      "amount": 1004393.67,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,004,394"
+    },
+    {
+      "source": "BYERS BLAKE",
+      "target": "1487425",
+      "amount": 1000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,000,000"
+    },
+    {
+      "source": "MEHTA NEIL",
+      "target": "1486767",
+      "amount": 1000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,000,000"
+    },
+    {
+      "source": "REED ANDREW PHILLIPS",
+      "target": "1487425",
+      "amount": 1000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,000,000"
+    },
+    {
+      "source": "1486767",
+      "target": "CAND|Measure: PROPOSITION 1",
+      "amount": 1000000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $1,000,000"
+    },
+    {
+      "source": "MAKAN DIVESH",
+      "target": "1486767",
+      "amount": 990479.52,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $990,480"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Annalisa Perea",
+      "amount": 962422.97,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $962,423"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Darshana Patel",
+      "amount": 870807,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $870,807"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Sara Hernandez",
+      "amount": 828919.44,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $828,919"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|IDA OBESO-MARTINEZ",
+      "amount": 818333,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $818,333"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|JACKIE ELWARD",
+      "amount": 742181.68,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $742,182"
+    },
+    {
+      "source": "SINGERMAN BRIAN",
+      "target": "1486767",
+      "amount": 720818,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $720,818"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|FATIMA IQBAL-ZUBAIR",
+      "amount": 638751.32,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $638,751"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Tony Strickland",
+      "amount": 622570,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $622,570"
+    },
+    {
+      "source": "1487425",
+      "target": "1488176",
+      "amount": 565310.92,
+      "type": "pac_pac",
+      "sup_opp": "",
+      "edge_kind": "PAC to PAC",
+      "label": "Transfer: $565,311"
+    },
+    {
+      "source": "MALKA MEYER",
+      "target": "1487425",
+      "amount": 500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $500,000"
+    },
+    {
+      "source": "SINGERMAN BRIAN",
+      "target": "1488176",
+      "amount": 500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $500,000"
+    },
+    {
+      "source": "XU TONY",
+      "target": "1487425",
+      "amount": 500000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $500,000"
+    },
+    {
+      "source": "BAKER JR G LEONARD",
+      "target": "1486767",
+      "amount": 395829.84,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $395,830"
+    },
+    {
+      "source": "1483390",
+      "target": "CAND|Annalisa Perea",
+      "amount": 377498.34,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $377,498"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Laurie Davies",
+      "amount": 356035,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $356,035"
+    },
+    {
+      "source": "1483390",
+      "target": "CAND|Andrae Gonzales",
+      "amount": 350387.93,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $350,388"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|SARA HERNANDEZ",
+      "amount": 343920,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $343,920"
+    },
+    {
+      "source": "1483390",
+      "target": "CAND|Rick Chavez Zbur",
+      "amount": 281763.48,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $281,763"
+    },
+    {
+      "source": "1483390",
+      "target": "CAND|David Alvarez",
+      "amount": 276485.27,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $276,485"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|ANDRAE GONZALES",
+      "amount": 251074.74,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $251,075"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|DEBORAH KLEIN LOPEZ",
+      "amount": 251074.74,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $251,075"
+    },
+    {
+      "source": "BYERS BLAKE",
+      "target": "1488176",
+      "amount": 200000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $200,000"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Esmeralda Soria",
+      "amount": 115045,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $115,045"
+    },
+    {
+      "source": "HUFFMAN STEVE",
+      "target": "1486767",
+      "amount": 101802.64,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $101,803"
+    },
+    {
+      "source": "1488176",
+      "target": "1487425",
+      "amount": 96131.1,
+      "type": "pac_pac",
+      "sup_opp": "",
+      "edge_kind": "PAC to PAC",
+      "label": "Transfer: $96,131"
+    },
+    {
+      "source": "1478581",
+      "target": "CAND|Avelino Valencia",
+      "amount": 72570,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $72,570"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE",
+      "amount": 12000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $12,000"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|JACKIE ELWARD",
+      "amount": 11423.7,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $11,424"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC",
+      "amount": 8000,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $8,000"
+    }
+  ]
+}

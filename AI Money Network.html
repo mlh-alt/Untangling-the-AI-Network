@@ -1,0 +1,789 @@
+<meta charset="utf-8">
+<title>AI Money Network</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+
+<style>
+/* ── tokens ── three-tier investigative palette, dark-first */
+:root {
+  --bg:          #0e1117;
+  --bg2:         #161c27;
+  --bg3:         #1e2635;
+  --border:      #2a3347;
+  --fg:          #e8ecf4;
+  --fg2:         #8a95a8;
+  --fg3:         #4a5568;
+  --funder:      #4ade80;   /* green — money source */
+  --pac:         #f59e0b;   /* amber — PAC nodes */
+  --cand-sup:    #60a5fa;   /* blue — supported */
+  --cand-opp:    #f87171;   /* red — opposed */
+  --cand-mixed:  #a78bfa;   /* purple — both */
+  --edge-fund:   rgba(74,222,128,.35);
+  --edge-pac:    rgba(245,158,11,.45);
+  --edge-sup:    rgba(96,165,250,.5);
+  --edge-opp:    rgba(248,113,113,.5);
+  --orb-bg:      rgba(14,17,23,.94);
+  --font-display: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', monospace;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg:    #f4f6fb;
+    --bg2:   #ffffff;
+    --bg3:   #eaeff8;
+    --border:#c8d3e8;
+    --fg:    #111827;
+    --fg2:   #4a5568;
+    --fg3:   #9ca3af;
+    --funder:#16a34a;
+    --pac:   #d97706;
+    --cand-sup:#2563eb;
+    --cand-opp:#dc2626;
+    --cand-mixed:#7c3aed;
+    --edge-fund: rgba(22,163,74,.3);
+    --edge-pac:  rgba(217,119,6,.35);
+    --edge-sup:  rgba(37,99,235,.4);
+    --edge-opp:  rgba(220,38,38,.4);
+    --orb-bg:    rgba(244,246,251,.96);
+    color-scheme: light;
+  }
+}
+:root[data-theme="light"] {
+  --bg:    #f4f6fb;
+  --bg2:   #ffffff;
+  --bg3:   #eaeff8;
+  --border:#c8d3e8;
+  --fg:    #111827;
+  --fg2:   #4a5568;
+  --fg3:   #9ca3af;
+  --funder:#16a34a;
+  --pac:   #d97706;
+  --cand-sup:#2563eb;
+  --cand-opp:#dc2626;
+  --cand-mixed:#7c3aed;
+  --edge-fund: rgba(22,163,74,.3);
+  --edge-pac:  rgba(217,119,6,.35);
+  --edge-sup:  rgba(37,99,235,.4);
+  --edge-opp:  rgba(220,38,38,.4);
+  --orb-bg:    rgba(244,246,251,.96);
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-display);
+  overflow: hidden;
+}
+
+/* ── header ── */
+#header {
+  position: fixed;
+  top: env(safe-area-inset-top, 0px);
+  left: 0; right: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px max(16px, env(safe-area-inset-left, 0px)) 10px max(16px, env(safe-area-inset-right, 0px));
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+#header h1 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--fg);
+  white-space: nowrap;
+}
+#header .sub {
+  font-size: 11px;
+  color: var(--fg2);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#header-spacer { flex: 1; }
+
+/* legend pills */
+#legend {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.leg {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: var(--fg2);
+  white-space: nowrap;
+}
+.leg-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* reset button */
+#reset-btn {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  color: var(--fg2);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color .15s, border-color .15s;
+}
+#reset-btn:hover { color: var(--fg); border-color: var(--fg2); }
+
+/* ── canvas area ── */
+#canvas-wrap {
+  position: fixed;
+  inset: 0;
+  padding-top: calc(env(safe-area-inset-top, 0px) + 45px);
+}
+#canvas-wrap svg {
+  width: 100%; height: 100%;
+  display: block;
+}
+
+/* ── tier labels ── */
+.tier-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  fill: var(--fg3);
+  pointer-events: none;
+}
+
+/* ── edges ── */
+.edge {
+  fill: none;
+  stroke-linecap: round;
+  cursor: pointer;
+  transition: stroke-opacity .2s;
+}
+.edge:hover { stroke-opacity: 1 !important; }
+
+/* ── nodes ── */
+.node { cursor: pointer; }
+.node circle {
+  stroke-width: 1.5px;
+  transition: r .2s, stroke-width .2s;
+}
+.node:hover circle { stroke-width: 2.5px; }
+.node-label {
+  font-family: var(--font-display);
+  font-size: 8px;
+  fill: var(--fg2);
+  pointer-events: none;
+  text-anchor: middle;
+}
+.node-label.dense {
+  font-size: 7px;
+  fill: var(--fg3);
+}
+
+/* ── orb panel ── */
+#orb-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#orb {
+  pointer-events: all;
+  width: min(480px, 92vw);
+  background: var(--orb-bg);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  gap: 10px;
+  box-shadow: 0 0 0 8px var(--bg), 0 0 60px rgba(0,0,0,.4);
+  opacity: 0;
+  transform: scale(.5);
+  transition: opacity .3s cubic-bezier(.34,1.56,.64,1), transform .3s cubic-bezier(.34,1.56,.64,1);
+  overflow: hidden;
+}
+#orb.open {
+  opacity: 1;
+  transform: scale(1);
+}
+#orb-tier {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: var(--fg3);
+}
+#orb-name {
+  font-size: clamp(14px, 3.5vw, 22px);
+  font-weight: 600;
+  color: var(--fg);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+#orb-total {
+  font-family: var(--font-mono);
+  font-size: clamp(20px, 5vw, 32px);
+  font-weight: 500;
+  letter-spacing: -.01em;
+}
+#orb-detail {
+  font-size: 11px;
+  color: var(--fg2);
+  line-height: 1.55;
+  white-space: pre-wrap;
+  max-width: 280px;
+}
+#orb-profile {
+  font-size: 11px;
+  color: var(--fg2);
+  line-height: 1.6;
+  max-width: 290px;
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  font-style: italic;
+}
+#orb-close {
+  position: absolute;
+  top: 22%;
+  right: 22%;
+  background: none;
+  border: none;
+  color: var(--fg3);
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+  transition: color .15s;
+}
+#orb-close:hover { color: var(--fg); }
+
+/* ── edge tooltip ── */
+#edge-tip {
+  position: fixed;
+  z-index: 25;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--fg);
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity .15s;
+}
+#edge-tip.show { opacity: 1; }
+
+/* ── section stats panel ── */
+#stats-panel {
+  position: fixed;
+  bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  right: max(16px, env(safe-area-inset-right, 0px));
+  z-index: 20;
+  width: 220px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 11px;
+  transition: opacity .2s;
+}
+#stats-panel h3 {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--fg3);
+  margin-bottom: 10px;
+}
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--fg2);
+}
+.stat-row:last-child { border-bottom: none; }
+.stat-val {
+  font-family: var(--font-mono);
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ── loading / error ── */
+#loading {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: var(--bg);
+  z-index: 50;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--fg2);
+}
+#loading .spinner {
+  width: 32px; height: 32px;
+  border: 2px solid var(--border);
+  border-top-color: var(--pac);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+#load-instructions {
+  margin-top: 12px;
+  font-size: 11px;
+  color: var(--fg3);
+  max-width: 340px;
+  text-align: center;
+  line-height: 1.7;
+}
+#load-instructions code {
+  background: var(--bg3);
+  padding: 1px 5px;
+  border-radius: 3px;
+  color: var(--funder);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+
+<div id="header">
+  <div>
+    <h1>AI Money Network</h1>
+    <div class="sub" id="header-sub">California Independent Expenditures · 2025–2026</div>
+  </div>
+  <div id="header-spacer"></div>
+  <div id="legend">
+    <div class="leg"><div class="leg-dot" style="background:var(--funder)"></div>Funders</div>
+    <div class="leg"><div class="leg-dot" style="background:var(--pac)"></div>PACs</div>
+    <div class="leg"><div class="leg-dot" style="background:var(--cand-sup)"></div>Supported</div>
+    <div class="leg"><div class="leg-dot" style="background:var(--cand-opp)"></div>Opposed</div>
+  </div>
+  <button id="reset-btn">Reset view</button>
+</div>
+
+<div id="canvas-wrap">
+  <svg id="svg"></svg>
+</div>
+
+<div id="orb-overlay">
+  <div id="orb">
+    <button id="orb-close">×</button>
+    <div id="orb-tier"></div>
+    <div id="orb-name"></div>
+    <div id="orb-total"></div>
+    <div id="orb-detail"></div>
+    <div id="orb-profile" hidden></div>
+  </div>
+</div>
+
+<div id="edge-tip"></div>
+
+<div id="stats-panel">
+  <h3>Network overview</h3>
+  <div class="stat-row"><span>Total funded</span><span class="stat-val" id="st-funded">—</span></div>
+  <div class="stat-row"><span>Total IE spent</span><span class="stat-val" id="st-spent">—</span></div>
+  <div class="stat-row"><span>Funders</span><span class="stat-val" id="st-funders">—</span></div>
+  <div class="stat-row"><span>Candidates / measures</span><span class="stat-val" id="st-cands">—</span></div>
+  <div class="stat-row"><span>Period</span><span class="stat-val" id="st-period" style="font-size:9px">—</span></div>
+</div>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <div>Loading network data…</div>
+  <div id="load-instructions">
+    Place <code>network.json</code> in the same folder as this HTML file,
+    then open the file through a local server or use the <em>Open with Live Server</em>
+    option in VS Code. The viewer cannot load local files directly due to browser security rules.
+    <br><br>
+    Or run: <code>cd output && python3 -m http.server 8000</code>
+    then open <code>localhost:8000/ai_ie_network.html</code>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  // ── helpers ──
+  const fmt = v => {
+    if (v >= 1e6) return '$' + (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return '$' + (v / 1e3).toFixed(0) + 'K';
+    return '$' + Math.round(v).toLocaleString();
+  };
+
+  // ── state ──
+  let network = null;
+  let profiles = {};
+  let svg, g, zoom;
+  let orbOpen = false;
+
+  // ── load data ──
+  async function loadData() {
+    try {
+      const res = await fetch('network.json');
+      if (!res.ok) throw new Error('network.json not found');
+      network = await res.json();
+      // try profiles (optional)
+      try {
+        const pr = await fetch('node_profiles.csv');
+        if (pr.ok) {
+          const txt = await pr.text();
+          parseProfiles(txt);
+        }
+      } catch (_) {}
+      document.getElementById('loading').hidden = true;
+      try {
+        init();
+      } catch (initErr) {
+        document.getElementById('loading').hidden = false;
+        const el = document.getElementById('loading');
+        el.querySelector('.spinner').hidden = true;
+        el.querySelector('div:nth-child(2)').textContent = 'Error: ' + initErr.message + ' — ' + initErr.stack;
+      }
+    } catch (e) {
+      const el = document.getElementById('loading');
+      el.querySelector('.spinner').hidden = true;
+      el.querySelector('div:nth-child(2)').textContent = 'Could not load network.json: ' + e.message;
+    }
+  }
+
+  function parseProfiles(csv) {
+    const lines = csv.trim().split('\n');
+    // skip header
+    for (let i = 1; i < lines.length; i++) {
+      const cols = lines[i].split(',');
+      // id, label, tier, profile_text (profile_text may contain commas — rejoin)
+      if (cols.length >= 4) {
+        const id = cols[0].replace(/^"|"$/g, '');
+        const text = cols.slice(3).join(',').replace(/^"|"$/g, '').trim();
+        if (text) profiles[id] = text;
+      }
+    }
+  }
+
+  // ── init viz ──
+  function init() {
+    // fill stats panel
+    const m = network.meta || {};
+    document.getElementById('st-funded').textContent  = m.total_funded   || '—';
+    document.getElementById('st-spent').textContent   = m.total_spent_ie || '—';
+    document.getElementById('st-funders').textContent = m.n_funders != null ? m.n_funders : '—';
+    document.getElementById('st-cands').textContent   = m.n_candidates != null ? m.n_candidates : '—';
+    document.getElementById('st-period').textContent  = m.date_range || '—';
+
+    const wrap = document.getElementById('canvas-wrap');
+    const W = wrap.clientWidth, H = wrap.clientHeight;
+
+    svg = d3.select('#svg');
+    g = svg.append('g');
+
+    zoom = d3.zoom()
+      .scaleExtent([0.2, 8])
+      .on('zoom', e => g.attr('transform', e.transform));
+    svg.call(zoom);
+    svg.on('click', function (e) {
+      if (e.target === this || e.target.tagName === 'svg') closeOrb();
+    });
+
+    document.getElementById('reset-btn').addEventListener('click', resetView);
+
+    buildGraph(W, H);
+    resetView(false);
+  }
+
+  function buildGraph(W, H) {
+    const nodes = network.nodes;
+    const edges = network.edges;
+
+    // ── layout: three horizontal tiers ──
+    const MARGIN = 0.05;
+    const tiers = { Funders: 0.15, PACs: 0.5, Candidates: 0.85 };
+
+    // group by tier — Measures share the Candidates row
+    const byTier = { Funders: [], PACs: [], Candidates: [] };
+    nodes.forEach(n => {
+      const row = n.tier === 'Measures' ? 'Candidates' : n.tier;
+      if (byTier[row]) byTier[row].push(n);
+    });
+
+    // sort: PACs by total, others by total desc
+    Object.keys(byTier).forEach(t => {
+      byTier[t].sort((a, b) => b.total - a.total);
+    });
+
+    // x positions
+    const PAC_SPREAD = 0.5;
+    const ARC = 0.18; // vertical arc for outer tiers
+    const nodePos = {};
+
+    Object.keys(byTier).forEach(tier => {
+      const arr = byTier[tier];
+      const n = arr.length;
+      const isPAC = tier === 'PACs';
+      const ml = isPAC ? (1 - PAC_SPREAD) / 2 : MARGIN;
+      const mr = isPAC ? 1 - ml : 1 - MARGIN;
+      const yBase = tiers[tier];
+
+      // for candidates, put ballot measures on the left
+      if (tier === 'Candidates') {
+        const measures = arr.filter(d => d.id.includes('Measure:') || /proposition/i.test(d.label));
+        const people   = arr.filter(d => !measures.includes(d));
+        arr.length = 0;
+        arr.push(...measures, ...people);
+      }
+
+      arr.forEach((nd, i) => {
+        const t  = n === 1 ? 0 : (i / (n - 1)) * 2 - 1; // -1..1
+        const x  = (n === 1 ? 0.5 : ml + (i / (n - 1)) * (mr - ml)) * W;
+        const dy = isPAC ? 0 : Math.pow(t, 2) * ARC * H * (tier === 'Funders' ? -1 : 1);
+        const y  = yBase * H + dy;
+        nodePos[nd.id] = { x, y };
+        nd.x = x; nd.y = y;
+      });
+    });
+
+    // ── draw tier labels ──
+    const labelY = { Funders: 0.93, PACs: 0.53, Candidates: 0.06 };
+    Object.keys(labelY).forEach(t => {
+      g.append('text')
+        .attr('class', 'tier-label')
+        .attr('x', W / 2)
+        .attr('y', labelY[t] * H)
+        .attr('text-anchor', 'middle')
+        .text(t.toUpperCase());
+    });
+
+    // ── size scale ──
+    const maxTotal = d3.max(nodes, d => d.total) || 1;
+    const rScale = d3.scaleSqrt().domain([0, maxTotal]).range([4, 22]);
+
+    // ── draw edges ──
+    const edgeColors = {
+      'Funder to PAC':       'var(--edge-fund)',
+      'PAC to PAC':          'var(--edge-pac)',
+      'Supports candidate':  'var(--edge-sup)',
+      'Opposes candidate':   'var(--edge-opp)'
+    };
+    const maxAmt = d3.max(edges, e => e.amount) || 1;
+    const wScale = d3.scaleSqrt().domain([0, maxAmt]).range([0.6, 5]);
+
+    const tip = document.getElementById('edge-tip');
+
+    edges.forEach(e => {
+      const s = nodePos[e.source], t2 = nodePos[e.target];
+      if (!s || !t2) return;
+
+      const isPacPac = e.type === 'pac_pac';
+      let path;
+
+      if (isPacPac) {
+        // curve upward for PAC-PAC
+        const mx = (s.x + t2.x) / 2;
+        const my = Math.min(s.y, t2.y) - 60;
+        path = g.append('path')
+          .attr('d', `M${s.x},${s.y} Q${mx},${my} ${t2.x},${t2.y}`);
+      } else {
+        path = g.append('line')
+          .attr('x1', s.x).attr('y1', s.y)
+          .attr('x2', t2.x).attr('y2', t2.y);
+      }
+
+      path.attr('class', 'edge')
+        .attr('stroke', edgeColors[e.edge_kind] || 'var(--edge-fund)')
+        .attr('stroke-width', wScale(e.amount))
+        .attr('stroke-opacity', 0.6)
+        .on('mouseenter', function (ev) {
+          tip.textContent = e.label;
+          tip.classList.add('show');
+          moveTip(ev);
+        })
+        .on('mousemove', moveTip)
+        .on('mouseleave', () => tip.classList.remove('show'))
+        .on('click', function (ev) {
+          ev.stopPropagation();
+          tip.textContent = e.label;
+          tip.classList.add('show');
+          moveTip(ev);
+          setTimeout(() => tip.classList.remove('show'), 2200);
+        });
+    });
+
+    function moveTip(ev) {
+      const x = ev.clientX + 12, y = ev.clientY - 28;
+      tip.style.left = Math.min(x, window.innerWidth - 200) + 'px';
+      tip.style.top  = y + 'px';
+    }
+
+    // ── draw nodes ──
+    const nodeColors = {
+      Funders:    'var(--funder)',
+      PACs:       'var(--pac)',
+      Candidates: nd => {
+        // determine if supported, opposed, or both
+        const outEdges = edges.filter(e => e.target === nd.id);
+        const hasS = outEdges.some(e => e.sup_opp === 'S');
+        const hasO = outEdges.some(e => e.sup_opp === 'O');
+        // incoming sup_opp from pac_candidate
+        const incoming = edges.filter(e => e.target === nd.id && e.type === 'pac_candidate');
+        const sums = { S: 0, O: 0 };
+        incoming.forEach(e => { sums[e.sup_opp] = (sums[e.sup_opp] || 0) + e.amount; });
+        if (sums.S > 0 && sums.O > 0) return 'var(--cand-mixed)';
+        if (sums.O > 0) return 'var(--cand-opp)';
+        return 'var(--cand-sup)';
+      }
+    };
+
+    // build per-tier index for stagger
+    const tierIndex = {};
+    nodes.forEach(nd => {
+      if (tierIndex[nd.tier] === undefined) tierIndex[nd.tier] = 0;
+      nd._tierIdx = tierIndex[nd.tier]++;
+    });
+
+    nodes.forEach(nd => {
+      const pos = nodePos[nd.id];
+      if (!pos) return;
+      const r = rScale(nd.total);
+      const col = typeof nodeColors[nd.tier] === 'function'
+        ? nodeColors[nd.tier](nd)
+        : nodeColors[nd.tier];
+
+      const grp = g.append('g')
+        .attr('class', 'node')
+        .attr('transform', `translate(${pos.x},${pos.y})`)
+        .on('click', ev => { ev.stopPropagation(); openOrb(nd, col, edges); });
+
+      grp.append('circle')
+        .attr('r', r)
+        .attr('fill', col)
+        .attr('fill-opacity', 0.15)
+        .attr('stroke', col);
+
+      // label — stagger: even index below node, odd index above node
+      // dense tiers (many nodes) get shorter labels and smaller font
+      const tierCount = (byTier[nd.tier] || byTier['Candidates'] || []).length;
+      const isDense = tierCount > 20;
+      const maxChars = isDense ? 10 : 14;
+      const labelText = nd.label || nd.id;
+      const lines = wrapLabel(labelText, maxChars);
+      const labelGrp = grp.append('text')
+        .attr('class', isDense ? 'node-label dense' : 'node-label');
+      const above = nd._tierIdx % 2 === 1;
+      const lineH = isDense ? 9 : 11;
+      const baseOff = above ? -(r + 5 + (lines.length - 1) * lineH) : r + 9;
+      lines.forEach((ln, i) => {
+        labelGrp.append('tspan')
+          .attr('x', 0)
+          .attr('dy', i === 0 ? baseOff : '1.2em')
+          .text(ln);
+      });
+    });
+  }
+
+  function wrapLabel(text, maxLen) {
+    if (text.length <= maxLen) return [text];
+    const words = text.split(' ');
+    const lines = [];
+    let cur = '';
+    words.forEach(w => {
+      if ((cur + ' ' + w).trim().length > maxLen && cur) {
+        lines.push(cur); cur = w;
+      } else {
+        cur = (cur + ' ' + w).trim();
+      }
+    });
+    if (cur) lines.push(cur);
+    return lines.slice(0, 3);
+  }
+
+  // ── orb ──
+  function openOrb(nd, col, edges) {
+    const orb = document.getElementById('orb');
+    document.getElementById('orb-tier').textContent = nd.tier.toUpperCase();
+    document.getElementById('orb-name').textContent = nd.label || nd.id;
+    document.getElementById('orb-name').style.color = col;
+    document.getElementById('orb-total').textContent = nd.total > 0 ? fmt(nd.total) : '—';
+    document.getElementById('orb-total').style.color = col;
+    document.getElementById('orb-detail').textContent = nd.detail || '';
+
+    const profEl = document.getElementById('orb-profile');
+    const profText = profiles[nd.id] || '';
+    if (profText) {
+      profEl.textContent = profText;
+      profEl.hidden = false;
+    } else {
+      profEl.hidden = true;
+    }
+
+    orb.classList.add('open');
+    orbOpen = true;
+
+    // zoom camera toward this node
+    zoomToNode(nd);
+  }
+
+  function closeOrb() {
+    document.getElementById('orb').classList.remove('open');
+    orbOpen = false;
+  }
+
+  document.getElementById('orb-close').addEventListener('click', closeOrb);
+  document.getElementById('orb').addEventListener('click', e => e.stopPropagation());
+
+  function zoomToNode(nd) {
+    const wrap = document.getElementById('canvas-wrap');
+    const W = wrap.clientWidth, H = wrap.clientHeight;
+    const scale = 2.2;
+    const tx = W / 2 - scale * nd.x;
+    const ty = H / 2 - scale * nd.y;
+    svg.transition().duration(500).ease(d3.easeCubicInOut)
+      .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+  }
+
+  function resetView(animate = true) {
+    const wrap = document.getElementById('canvas-wrap');
+    const W = wrap.clientWidth, H = wrap.clientHeight;
+    const t = svg.transition().duration(animate ? 450 : 0).ease(d3.easeCubicInOut);
+    t.call(zoom.transform, d3.zoomIdentity.translate(0, 0).scale(1));
+    if (orbOpen) closeOrb();
+  }
+
+  // ── start ──
+  loadData();
+})();
+</script>
