@@ -1,9 +1,9 @@
 {
   "meta": {
     "total_funded": "$594,817,317",
-    "total_spent_ie": "$384,927,366",
+    "total_spent_ie": "$389,362,100",
     "n_funders": 144,
-    "n_candidates": 41,
+    "n_candidates": 44,
     "date_range": "Jan 01, 2025 – Oct 30, 2026"
   },
   "pacs": [
@@ -11,13 +11,13 @@
       "id": "1483808",
       "label": "Grow California",
       "raised": "$54,318,569",
-      "spent_ie": "$20,479,423"
+      "spent_ie": "$23,760,591"
     },
     {
       "id": "1478581",
       "label": "California Leads",
       "raised": "$28,262,079",
-      "spent_ie": "$14,805,427"
+      "spent_ie": "$14,959,927"
     },
     {
       "id": "1486767",
@@ -29,7 +29,7 @@
       "id": "1483390",
       "label": "META California",
       "raised": "$17,000,000",
-      "spent_ie": "$2,621,655"
+      "spent_ie": "$3,620,721"
     },
     {
       "id": "1487425",
@@ -434,8 +434,8 @@
       "label": "Grow California",
       "tier": "PACs",
       "total": 54318568.89,
-      "n_connections": 20,
-      "detail": "Raised: $54,318,569 | Spent on IEs: $20,479,423 | Candidates/measures targeted: 16"
+      "n_connections": 22,
+      "detail": "Raised: $54,318,569 | Spent on IEs: $23,760,591 | Candidates/measures targeted: 18"
     },
     {
       "id": "1478581",
@@ -443,7 +443,7 @@
       "tier": "PACs",
       "total": 28262079.14,
       "n_connections": 16,
-      "detail": "Raised: $28,262,079 | Spent on IEs: $14,805,427 | Candidates/measures targeted: 14"
+      "detail": "Raised: $28,262,079 | Spent on IEs: $14,959,927 | Candidates/measures targeted: 14"
     },
     {
       "id": "1486767",
@@ -458,8 +458,8 @@
       "label": "META California",
       "tier": "PACs",
       "total": 17000000,
-      "n_connections": 6,
-      "detail": "Raised: $17,000,000 | Spent on IEs: $2,621,655 | Candidates/measures targeted: 5"
+      "n_connections": 7,
+      "detail": "Raised: $17,000,000 | Spent on IEs: $3,620,721 | Candidates/measures targeted: 6"
     },
     {
       "id": "1487425",
@@ -526,6 +526,14 @@
       "detail": "Support IE: $6,000,000 | Oppose IE: $0"
     },
     {
+      "id": "CAND|SARA HERNANDEZ",
+      "label": "Sara Hernandez",
+      "tier": "Candidates",
+      "total": 4611095.56,
+      "n_connections": 2,
+      "detail": "Support IE: $4,267,176 | Oppose IE: $343,920"
+    },
+    {
       "id": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
       "label": "Measure: Prohibit Exceptions To School Funding Guarantee",
       "tier": "Candidates",
@@ -534,20 +542,28 @@
       "detail": "Support IE: $3,100,000 | Oppose IE: $0"
     },
     {
-      "id": "CAND|SARA HERNANDEZ",
-      "label": "Sara Hernandez",
-      "tier": "Candidates",
-      "total": 3376429.31,
-      "n_connections": 2,
-      "detail": "Support IE: $3,032,509 | Oppose IE: $343,920"
-    },
-    {
       "id": "CAND|David Penaloza",
       "label": "David Penaloza",
       "tier": "Candidates",
-      "total": 2711914.61,
+      "total": 2866414.61,
       "n_connections": 1,
-      "detail": "Support IE: $2,711,915 | Oppose IE: $0"
+      "detail": "Support IE: $2,866,415 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|DAVID PENALOZA",
+      "label": "David Penaloza",
+      "tier": "Candidates",
+      "total": 2821826.3,
+      "n_connections": 1,
+      "detail": "Support IE: $2,821,826 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|ERIC LUCAN",
+      "label": "Eric Lucan",
+      "tier": "Candidates",
+      "total": 2817225.31,
+      "n_connections": 1,
+      "detail": "Support IE: $2,817,225 | Oppose IE: $0"
     },
     {
       "id": "CAND|MARK PULIDO",
@@ -574,22 +590,6 @@
       "detail": "Support IE: $0 | Oppose IE: $2,242,028"
     },
     {
-      "id": "CAND|DAVID PENALOZA",
-      "label": "David Penaloza",
-      "tier": "Candidates",
-      "total": 2217167.45,
-      "n_connections": 1,
-      "detail": "Support IE: $2,217,167 | Oppose IE: $0"
-    },
-    {
-      "id": "CAND|ERIC LUCAN",
-      "label": "Eric Lucan",
-      "tier": "Candidates",
-      "total": 2141756.25,
-      "n_connections": 1,
-      "detail": "Support IE: $2,141,756 | Oppose IE: $0"
-    },
-    {
       "id": "CAND|ADA BRICENO",
       "label": "Ada Briceno",
       "tier": "Candidates",
@@ -614,6 +614,14 @@
       "detail": "Support IE: $1,335,520 | Oppose IE: $0"
     },
     {
+      "id": "CAND|JESSIE LOPEZ",
+      "label": "Jessie Lopez",
+      "tier": "Candidates",
+      "total": 1333222.45,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $1,333,222"
+    },
+    {
       "id": "CAND|Ed Musgrove",
       "label": "Ed Musgrove",
       "tier": "Candidates",
@@ -628,14 +636,6 @@
       "total": 1260592.27,
       "n_connections": 1,
       "detail": "Support IE: $1,260,592 | Oppose IE: $0"
-    },
-    {
-      "id": "CAND|JESSIE LOPEZ",
-      "label": "Jessie Lopez",
-      "tier": "Candidates",
-      "total": 1169065.5,
-      "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $1,169,066"
     },
     {
       "id": "CAND|Greg Wallis",
@@ -678,6 +678,14 @@
       "detail": "Support IE: $1,000,000 | Oppose IE: $0"
     },
     {
+      "id": "CAND|Xavier Becerra",
+      "label": "Xavier Becerra",
+      "tier": "Candidates",
+      "total": 999066,
+      "n_connections": 1,
+      "detail": "Support IE: $999,066 | Oppose IE: $0"
+    },
+    {
       "id": "CAND|Annalisa Perea",
       "label": "Annalisa Perea",
       "tier": "Candidates",
@@ -694,6 +702,14 @@
       "detail": "Support IE: $870,807 | Oppose IE: $0"
     },
     {
+      "id": "CAND|JACKIE ELWARD",
+      "label": "Jackie Elward",
+      "tier": "Candidates",
+      "total": 949256.31,
+      "n_connections": 2,
+      "detail": "Support IE: $102,963 | Oppose IE: $846,293"
+    },
+    {
       "id": "CAND|Sara Hernandez",
       "label": "Sara Hernandez",
       "tier": "Candidates",
@@ -708,14 +724,6 @@
       "total": 818333,
       "n_connections": 1,
       "detail": "Support IE: $818,333 | Oppose IE: $0"
-    },
-    {
-      "id": "CAND|JACKIE ELWARD",
-      "label": "Jackie Elward",
-      "tier": "Candidates",
-      "total": 753605.38,
-      "n_connections": 2,
-      "detail": "Support IE: $11,424 | Oppose IE: $742,182"
     },
     {
       "id": "CAND|FATIMA IQBAL-ZUBAIR",
@@ -761,17 +769,33 @@
       "id": "CAND|ANDRAE GONZALES",
       "label": "Andrae Gonzales",
       "tier": "Candidates",
-      "total": 251074.74,
+      "total": 272439.34,
       "n_connections": 1,
-      "detail": "Support IE: $251,075 | Oppose IE: $0"
+      "detail": "Support IE: $272,439 | Oppose IE: $0"
     },
     {
       "id": "CAND|DEBORAH KLEIN LOPEZ",
       "label": "Deborah Klein Lopez",
       "tier": "Candidates",
-      "total": 251074.74,
+      "total": 272439.34,
       "n_connections": 1,
-      "detail": "Support IE: $251,075 | Oppose IE: $0"
+      "detail": "Support IE: $272,439 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|RHODESIA RANSOM",
+      "label": "Rhodesia Ransom",
+      "tier": "Candidates",
+      "total": 181918.32,
+      "n_connections": 1,
+      "detail": "Support IE: $181,918 | Oppose IE: $0"
+    },
+    {
+      "id": "CAND|TOM PATTI",
+      "label": "Tom Patti",
+      "tier": "Candidates",
+      "total": 181918.31,
+      "n_connections": 1,
+      "detail": "Support IE: $0 | Oppose IE: $181,918"
     },
     {
       "id": "CAND|Esmeralda Soria",
@@ -1024,6 +1048,15 @@
       "label": "Contribution: $4,500,000"
     },
     {
+      "source": "1483808",
+      "target": "CAND|SARA HERNANDEZ",
+      "amount": 4267175.56,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $4,267,176"
+    },
+    {
       "source": "HERING JOHN",
       "target": "1486767",
       "amount": 3921960.75,
@@ -1049,15 +1082,6 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $3,100,000"
-    },
-    {
-      "source": "1483808",
-      "target": "CAND|SARA HERNANDEZ",
-      "amount": 3032509.31,
-      "type": "pac_candidate",
-      "sup_opp": "S",
-      "edge_kind": "Supports candidate",
-      "label": "Supports: $3,032,509"
     },
     {
       "source": "LEVCHIN MAKSIM RAFAEL",
@@ -1123,6 +1147,33 @@
       "label": "Contribution: $2,980,000"
     },
     {
+      "source": "1478581",
+      "target": "CAND|David Penaloza",
+      "amount": 2866414.61,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,866,415"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|DAVID PENALOZA",
+      "amount": 2821826.3,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,821,826"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|ERIC LUCAN",
+      "amount": 2817225.31,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $2,817,225"
+    },
+    {
       "source": "1488176",
       "target": "CAND|MATT MAHAN",
       "amount": 2764437.25,
@@ -1130,15 +1181,6 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $2,764,437"
-    },
-    {
-      "source": "1478581",
-      "target": "CAND|David Penaloza",
-      "amount": 2711914.61,
-      "type": "pac_candidate",
-      "sup_opp": "S",
-      "edge_kind": "Supports candidate",
-      "label": "Supports: $2,711,915"
     },
     {
       "source": "1483808",
@@ -1177,15 +1219,6 @@
       "label": "Opposes: $2,242,028"
     },
     {
-      "source": "1483808",
-      "target": "CAND|DAVID PENALOZA",
-      "amount": 2217167.45,
-      "type": "pac_candidate",
-      "sup_opp": "S",
-      "edge_kind": "Supports candidate",
-      "label": "Supports: $2,217,167"
-    },
-    {
       "source": "KHOSLA VINOD",
       "target": "1487425",
       "amount": 2200000,
@@ -1193,15 +1226,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $2,200,000"
-    },
-    {
-      "source": "1483808",
-      "target": "CAND|ERIC LUCAN",
-      "amount": 2141756.25,
-      "type": "pac_candidate",
-      "sup_opp": "S",
-      "edge_kind": "Supports candidate",
-      "label": "Supports: $2,141,756"
     },
     {
       "source": "DUNLEVIE BRUCE",
@@ -1411,6 +1435,15 @@
       "label": "Supports: $1,335,520"
     },
     {
+      "source": "1483808",
+      "target": "CAND|JESSIE LOPEZ",
+      "amount": 1333222.45,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $1,333,222"
+    },
+    {
       "source": "1478581",
       "target": "CAND|Ed Musgrove",
       "amount": 1302055,
@@ -1436,15 +1469,6 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $1,260,592"
-    },
-    {
-      "source": "1483808",
-      "target": "CAND|JESSIE LOPEZ",
-      "amount": 1169065.5,
-      "type": "pac_candidate",
-      "sup_opp": "O",
-      "edge_kind": "Opposes candidate",
-      "label": "Opposes: $1,169,066"
     },
     {
       "source": "BYERS BROOK",
@@ -1564,6 +1588,15 @@
       "label": "Supports: $1,000,000"
     },
     {
+      "source": "1483390",
+      "target": "CAND|Xavier Becerra",
+      "amount": 999066,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $999,066"
+    },
+    {
       "source": "MAKAN DIVESH",
       "target": "1486767",
       "amount": 990479.52,
@@ -1591,6 +1624,15 @@
       "label": "Supports: $870,807"
     },
     {
+      "source": "1483808",
+      "target": "CAND|JACKIE ELWARD",
+      "amount": 846293.45,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $846,293"
+    },
+    {
       "source": "1478581",
       "target": "CAND|Sara Hernandez",
       "amount": 828919.44,
@@ -1607,15 +1649,6 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $818,333"
-    },
-    {
-      "source": "1483808",
-      "target": "CAND|JACKIE ELWARD",
-      "amount": 742181.68,
-      "type": "pac_candidate",
-      "sup_opp": "O",
-      "edge_kind": "Opposes candidate",
-      "label": "Opposes: $742,182"
     },
     {
       "source": "SINGERMAN BRIAN",
@@ -1746,20 +1779,20 @@
     {
       "source": "1483808",
       "target": "CAND|ANDRAE GONZALES",
-      "amount": 251074.74,
+      "amount": 272439.34,
       "type": "pac_candidate",
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
-      "label": "Supports: $251,075"
+      "label": "Supports: $272,439"
     },
     {
       "source": "1483808",
       "target": "CAND|DEBORAH KLEIN LOPEZ",
-      "amount": 251074.74,
+      "amount": 272439.34,
       "type": "pac_candidate",
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
-      "label": "Supports: $251,075"
+      "label": "Supports: $272,439"
     },
     {
       "source": "BYERS BLAKE",
@@ -1771,6 +1804,24 @@
       "label": "Contribution: $200,000"
     },
     {
+      "source": "1483808",
+      "target": "CAND|RHODESIA RANSOM",
+      "amount": 181918.32,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $181,918"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|TOM PATTI",
+      "amount": 181918.31,
+      "type": "pac_candidate",
+      "sup_opp": "O",
+      "edge_kind": "Opposes candidate",
+      "label": "Opposes: $181,918"
+    },
+    {
       "source": "1478581",
       "target": "CAND|Esmeralda Soria",
       "amount": 115045,
@@ -1778,6 +1829,15 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $115,045"
+    },
+    {
+      "source": "1483808",
+      "target": "CAND|JACKIE ELWARD",
+      "amount": 102962.86,
+      "type": "pac_candidate",
+      "sup_opp": "S",
+      "edge_kind": "Supports candidate",
+      "label": "Supports: $102,963"
     },
     {
       "source": "HUFFMAN STEVE",
@@ -1814,15 +1874,6 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $12,000"
-    },
-    {
-      "source": "1483808",
-      "target": "CAND|JACKIE ELWARD",
-      "amount": 11423.7,
-      "type": "pac_candidate",
-      "sup_opp": "S",
-      "edge_kind": "Supports candidate",
-      "label": "Supports: $11,424"
     },
     {
       "source": "1483808",
