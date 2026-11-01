@@ -507,7 +507,8 @@
       "tier": "Candidates",
       "total": 22270860.74,
       "n_connections": 2,
-      "detail": "Support IE: $22,270,861 | Oppose IE: $0"
+      "detail": "Support IE: $22,270,861 | Oppose IE: $0",
+      "race": "Governor's Race"
     },
     {
       "id": "CAND|Measure: PROPOSITION 45",
@@ -531,7 +532,8 @@
       "tier": "Candidates",
       "total": 4611095.56,
       "n_connections": 2,
-      "detail": "Support IE: $4,267,176 | Oppose IE: $343,920"
+      "detail": "Support IE: $4,267,176 | Oppose IE: $343,920",
+      "race": "SD26"
     },
     {
       "id": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
@@ -547,7 +549,8 @@
       "tier": "Candidates",
       "total": 2866414.61,
       "n_connections": 1,
-      "detail": "Support IE: $2,866,415 | Oppose IE: $0"
+      "detail": "Support IE: $2,866,415 | Oppose IE: $0",
+      "race": "AD68"
     },
     {
       "id": "CAND|DAVID PENALOZA",
@@ -555,7 +558,8 @@
       "tier": "Candidates",
       "total": 2821826.3,
       "n_connections": 1,
-      "detail": "Support IE: $2,821,826 | Oppose IE: $0"
+      "detail": "Support IE: $2,821,826 | Oppose IE: $0",
+      "race": "AD68"
     },
     {
       "id": "CAND|ERIC LUCAN",
@@ -563,7 +567,8 @@
       "tier": "Candidates",
       "total": 2817225.31,
       "n_connections": 1,
-      "detail": "Support IE: $2,817,225 | Oppose IE: $0"
+      "detail": "Support IE: $2,817,225 | Oppose IE: $0",
+      "race": "AD12"
     },
     {
       "id": "CAND|MARK PULIDO",
@@ -571,7 +576,8 @@
       "tier": "Candidates",
       "total": 2594121.47,
       "n_connections": 1,
-      "detail": "Support IE: $2,594,121 | Oppose IE: $0"
+      "detail": "Support IE: $2,594,121 | Oppose IE: $0",
+      "race": "AD67"
     },
     {
       "id": "CAND|Andrae Gonzales",
@@ -579,7 +585,8 @@
       "tier": "Candidates",
       "total": 2906794.07,
       "n_connections": 2,
-      "detail": "Support IE: $2,906,794 | Oppose IE: $0"
+      "detail": "Support IE: $2,906,794 | Oppose IE: $0",
+      "race": "AD35"
     },
     {
       "id": "CAND|JOHN ERICKSON",
@@ -587,7 +594,8 @@
       "tier": "Candidates",
       "total": 2242027.65,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $2,242,028"
+      "detail": "Support IE: $0 | Oppose IE: $2,242,028",
+      "race": "SD24"
     },
     {
       "id": "CAND|ADA BRICENO",
@@ -595,7 +603,8 @@
       "tier": "Candidates",
       "total": 1490766.53,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $1,490,767"
+      "detail": "Support IE: $0 | Oppose IE: $1,490,767",
+      "race": "AD67"
     },
     {
       "id": "CAND|AYANNA DAVIS",
@@ -603,7 +612,8 @@
       "tier": "Candidates",
       "total": 1475309.71,
       "n_connections": 1,
-      "detail": "Support IE: $1,475,310 | Oppose IE: $0"
+      "detail": "Support IE: $1,475,310 | Oppose IE: $0",
+      "race": "AD65"
     },
     {
       "id": "CAND|Scott Sakakihara",
@@ -611,7 +621,8 @@
       "tier": "Candidates",
       "total": 1335520.32,
       "n_connections": 1,
-      "detail": "Support IE: $1,335,520 | Oppose IE: $0"
+      "detail": "Support IE: $1,335,520 | Oppose IE: $0",
+      "race": "SD10"
     },
     {
       "id": "CAND|JESSIE LOPEZ",
@@ -619,7 +630,8 @@
       "tier": "Candidates",
       "total": 1333222.45,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $1,333,222"
+      "detail": "Support IE: $0 | Oppose IE: $1,333,222",
+      "race": "AD68"
     },
     {
       "id": "CAND|Ed Musgrove",
@@ -627,7 +639,8 @@
       "tier": "Candidates",
       "total": 1302055,
       "n_connections": 1,
-      "detail": "Support IE: $1,302,055 | Oppose IE: $0"
+      "detail": "Support IE: $1,302,055 | Oppose IE: $0",
+      "race": "SD40"
     },
     {
       "id": "CAND|Mark Pulido",
@@ -635,7 +648,8 @@
       "tier": "Candidates",
       "total": 1260592.27,
       "n_connections": 1,
-      "detail": "Support IE: $1,260,592 | Oppose IE: $0"
+      "detail": "Support IE: $1,260,592 | Oppose IE: $0",
+      "race": "AD67"
     },
     {
       "id": "CAND|Greg Wallis",
@@ -643,7 +657,8 @@
       "tier": "Candidates",
       "total": 1078618,
       "n_connections": 1,
-      "detail": "Support IE: $1,078,618 | Oppose IE: $0"
+      "detail": "Support IE: $1,078,618 | Oppose IE: $0",
+      "race": "AD47"
     },
     {
       "id": "CAND|Brian Goldsmith",
@@ -651,7 +666,8 @@
       "tier": "Candidates",
       "total": 1057109.5,
       "n_connections": 1,
-      "detail": "Support IE: $1,057,110 | Oppose IE: $0"
+      "detail": "Support IE: $1,057,110 | Oppose IE: $0",
+      "race": "SD24"
     },
     {
       "id": "CAND|SCOTT SAKAKIHARA",
@@ -659,7 +675,8 @@
       "tier": "Candidates",
       "total": 1039940,
       "n_connections": 1,
-      "detail": "Support IE: $1,039,940 | Oppose IE: $0"
+      "detail": "Support IE: $1,039,940 | Oppose IE: $0",
+      "race": "SD10"
     },
     {
       "id": "CAND|Ayanna Davis",
@@ -667,7 +684,8 @@
       "tier": "Candidates",
       "total": 1010362.04,
       "n_connections": 1,
-      "detail": "Support IE: $1,010,362 | Oppose IE: $0"
+      "detail": "Support IE: $1,010,362 | Oppose IE: $0",
+      "race": "AD65"
     },
     {
       "id": "CAND|Measure: PROPOSITION 1",
@@ -683,7 +701,8 @@
       "tier": "Candidates",
       "total": 999066,
       "n_connections": 1,
-      "detail": "Support IE: $999,066 | Oppose IE: $0"
+      "detail": "Support IE: $999,066 | Oppose IE: $0",
+      "race": "Governor's Race"
     },
     {
       "id": "CAND|Annalisa Perea",
@@ -691,7 +710,8 @@
       "tier": "Candidates",
       "total": 1339921.31,
       "n_connections": 2,
-      "detail": "Support IE: $1,339,921 | Oppose IE: $0"
+      "detail": "Support IE: $1,339,921 | Oppose IE: $0",
+      "race": "AD31"
     },
     {
       "id": "CAND|Darshana Patel",
@@ -699,7 +719,8 @@
       "tier": "Candidates",
       "total": 870807,
       "n_connections": 1,
-      "detail": "Support IE: $870,807 | Oppose IE: $0"
+      "detail": "Support IE: $870,807 | Oppose IE: $0",
+      "race": "AD76"
     },
     {
       "id": "CAND|JACKIE ELWARD",
@@ -707,7 +728,8 @@
       "tier": "Candidates",
       "total": 949256.31,
       "n_connections": 2,
-      "detail": "Support IE: $102,963 | Oppose IE: $846,293"
+      "detail": "Support IE: $102,963 | Oppose IE: $846,293",
+      "race": "AD12"
     },
     {
       "id": "CAND|Sara Hernandez",
@@ -715,7 +737,8 @@
       "tier": "Candidates",
       "total": 828919.44,
       "n_connections": 1,
-      "detail": "Support IE: $828,919 | Oppose IE: $0"
+      "detail": "Support IE: $828,919 | Oppose IE: $0",
+      "race": "SD26"
     },
     {
       "id": "CAND|IDA OBESO-MARTINEZ",
@@ -723,7 +746,8 @@
       "tier": "Candidates",
       "total": 818333,
       "n_connections": 1,
-      "detail": "Support IE: $818,333 | Oppose IE: $0"
+      "detail": "Support IE: $818,333 | Oppose IE: $0",
+      "race": "AD36"
     },
     {
       "id": "CAND|FATIMA IQBAL-ZUBAIR",
@@ -731,7 +755,8 @@
       "tier": "Candidates",
       "total": 638751.32,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $638,751"
+      "detail": "Support IE: $0 | Oppose IE: $638,751",
+      "race": "AD65"
     },
     {
       "id": "CAND|Tony Strickland",
@@ -739,7 +764,8 @@
       "tier": "Candidates",
       "total": 622570,
       "n_connections": 1,
-      "detail": "Support IE: $622,570 | Oppose IE: $0"
+      "detail": "Support IE: $622,570 | Oppose IE: $0",
+      "race": "SD36"
     },
     {
       "id": "CAND|Laurie Davies",
@@ -747,7 +773,8 @@
       "tier": "Candidates",
       "total": 356035,
       "n_connections": 1,
-      "detail": "Support IE: $356,035 | Oppose IE: $0"
+      "detail": "Support IE: $356,035 | Oppose IE: $0",
+      "race": "AD74"
     },
     {
       "id": "CAND|Rick Chavez Zbur",
@@ -755,7 +782,8 @@
       "tier": "Candidates",
       "total": 281763.48,
       "n_connections": 1,
-      "detail": "Support IE: $281,763 | Oppose IE: $0"
+      "detail": "Support IE: $281,763 | Oppose IE: $0",
+      "race": "AD51"
     },
     {
       "id": "CAND|David Alvarez",
@@ -763,7 +791,8 @@
       "tier": "Candidates",
       "total": 276485.27,
       "n_connections": 1,
-      "detail": "Support IE: $276,485 | Oppose IE: $0"
+      "detail": "Support IE: $276,485 | Oppose IE: $0",
+      "race": "AD80"
     },
     {
       "id": "CAND|ANDRAE GONZALES",
@@ -771,7 +800,8 @@
       "tier": "Candidates",
       "total": 272439.34,
       "n_connections": 1,
-      "detail": "Support IE: $272,439 | Oppose IE: $0"
+      "detail": "Support IE: $272,439 | Oppose IE: $0",
+      "race": "AD35"
     },
     {
       "id": "CAND|DEBORAH KLEIN LOPEZ",
@@ -779,7 +809,8 @@
       "tier": "Candidates",
       "total": 272439.34,
       "n_connections": 1,
-      "detail": "Support IE: $272,439 | Oppose IE: $0"
+      "detail": "Support IE: $272,439 | Oppose IE: $0",
+      "race": "AD42"
     },
     {
       "id": "CAND|RHODESIA RANSOM",
@@ -787,7 +818,8 @@
       "tier": "Candidates",
       "total": 181918.32,
       "n_connections": 1,
-      "detail": "Support IE: $181,918 | Oppose IE: $0"
+      "detail": "Support IE: $181,918 | Oppose IE: $0",
+      "race": "AD13"
     },
     {
       "id": "CAND|TOM PATTI",
@@ -795,7 +827,8 @@
       "tier": "Candidates",
       "total": 181918.31,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $181,918"
+      "detail": "Support IE: $0 | Oppose IE: $181,918",
+      "race": "AD13"
     },
     {
       "id": "CAND|Esmeralda Soria",
@@ -803,7 +836,8 @@
       "tier": "Candidates",
       "total": 115045,
       "n_connections": 1,
-      "detail": "Support IE: $115,045 | Oppose IE: $0"
+      "detail": "Support IE: $115,045 | Oppose IE: $0",
+      "race": "SD14"
     },
     {
       "id": "CAND|Avelino Valencia",
@@ -811,7 +845,8 @@
       "tier": "Candidates",
       "total": 72570,
       "n_connections": 1,
-      "detail": "Support IE: $72,570 | Oppose IE: $0"
+      "detail": "Support IE: $72,570 | Oppose IE: $0",
+      "race": "SD34"
     },
     {
       "id": "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE",
@@ -819,7 +854,8 @@
       "tier": "Candidates",
       "total": 12000,
       "n_connections": 1,
-      "detail": "Support IE: $12,000 | Oppose IE: $0"
+      "detail": "Support IE: $12,000 | Oppose IE: $0",
+      "race": "General Purpose Committee"
     },
     {
       "id": "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC",
@@ -827,7 +863,8 @@
       "tier": "Candidates",
       "total": 8000,
       "n_connections": 1,
-      "detail": "Support IE: $8,000 | Oppose IE: $0"
+      "detail": "Support IE: $8,000 | Oppose IE: $0",
+      "race": "General Purpose Committee"
     }
   ],
   "edges": [
