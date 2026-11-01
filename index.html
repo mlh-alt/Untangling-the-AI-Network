@@ -222,7 +222,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     "total_spent_ie": "$389,362,100",
     "n_funders": 144,
     "n_candidates": 44,
-    "date_range": "Jan 01, 2025 – Oct 30, 2026"
+    "date_range": "Jan 01, 2025 – Oct 31, 2026"
   },
   "pacs": [
     {
@@ -2295,7 +2295,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       const tierCount = (byTier[tierKey] || []).length;
       const isDense = tierCount > 20;
       const maxChars = isDense ? 10 : 14;
-      const labelText = nd.label || nd.id;
+      const labelText = displayLabel(nd);
       const lines = wrapLabel(labelText, maxChars);
       const labelGrp = grp.append('text').attr('class', isDense ? 'node-label dense' : 'node-label');
       const above = nd._tierIdx % 2 === 1;
@@ -2305,6 +2305,15 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
         labelGrp.append('tspan').attr('x', 0).attr('dy', i === 0 ? baseOff : '1.2em').text(ln);
       });
     });
+  }
+
+  // ballot measures are stored as candidates with a "Measure: " prefix
+  function isMeasure(nd) {
+    return /^CAND\|Measure:/i.test(nd.id) || /^Measure:/i.test(nd.label || '');
+  }
+  // node + orb label: drop the "Measure: " prefix, so props show as "Proposition 41"
+  function displayLabel(nd) {
+    return (nd.label || nd.id).replace(/^Measure:\s*/i, '');
   }
 
   function wrapLabel(text, maxLen) {
@@ -2322,8 +2331,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 
   function openOrb(nd, col, edges) {
     const orb = document.getElementById('orb');
-    document.getElementById('orb-tier').textContent = nd.tier.toUpperCase();
-    document.getElementById('orb-name').textContent = nd.label || nd.id;
+    document.getElementById('orb-tier').textContent = isMeasure(nd) ? 'MEASURES' : nd.tier.toUpperCase();
+    document.getElementById('orb-name').textContent = displayLabel(nd);
     document.getElementById('orb-name').style.color = col;
     document.getElementById('orb-total').textContent = nd.total > 0 ? fmt(nd.total) : '—';
     document.getElementById('orb-total').style.color = col;
