@@ -4,7 +4,7 @@
     "total_spent_ie": "$389,362,100",
     "n_funders": 144,
     "n_candidates": 44,
-    "date_range": "Jan 01, 2025 – Oct 31, 2026"
+    "date_range": "Jan 01, 2025 – Nov 01, 2026"
   },
   "pacs": [
     {
@@ -508,6 +508,7 @@
       "total": 22270860.74,
       "n_connections": 2,
       "detail": "Support IE: $22,270,861 | Oppose IE: $0",
+      "party": "D",
       "race": "Governor's Race"
     },
     {
@@ -533,6 +534,7 @@
       "total": 4611095.56,
       "n_connections": 2,
       "detail": "Support IE: $4,267,176 | Oppose IE: $343,920",
+      "party": "D",
       "race": "SD26"
     },
     {
@@ -550,6 +552,7 @@
       "total": 2866414.61,
       "n_connections": 1,
       "detail": "Support IE: $2,866,415 | Oppose IE: $0",
+      "party": "D",
       "race": "AD68"
     },
     {
@@ -559,6 +562,7 @@
       "total": 2821826.3,
       "n_connections": 1,
       "detail": "Support IE: $2,821,826 | Oppose IE: $0",
+      "party": "D",
       "race": "AD68"
     },
     {
@@ -568,6 +572,7 @@
       "total": 2817225.31,
       "n_connections": 1,
       "detail": "Support IE: $2,817,225 | Oppose IE: $0",
+      "party": "D",
       "race": "AD12"
     },
     {
@@ -577,6 +582,7 @@
       "total": 2594121.47,
       "n_connections": 1,
       "detail": "Support IE: $2,594,121 | Oppose IE: $0",
+      "party": "D",
       "race": "AD67"
     },
     {
@@ -586,6 +592,7 @@
       "total": 2906794.07,
       "n_connections": 2,
       "detail": "Support IE: $2,906,794 | Oppose IE: $0",
+      "party": "D",
       "race": "AD35"
     },
     {
@@ -595,6 +602,7 @@
       "total": 2242027.65,
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $2,242,028",
+      "party": "D",
       "race": "SD24"
     },
     {
@@ -604,6 +612,7 @@
       "total": 1490766.53,
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $1,490,767",
+      "party": "D",
       "race": "AD67"
     },
     {
@@ -613,6 +622,7 @@
       "total": 1475309.71,
       "n_connections": 1,
       "detail": "Support IE: $1,475,310 | Oppose IE: $0",
+      "party": "D",
       "race": "AD65"
     },
     {
@@ -622,6 +632,7 @@
       "total": 1335520.32,
       "n_connections": 1,
       "detail": "Support IE: $1,335,520 | Oppose IE: $0",
+      "party": "D",
       "race": "SD10"
     },
     {
@@ -631,6 +642,7 @@
       "total": 1333222.45,
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $1,333,222",
+      "party": "D",
       "race": "AD68"
     },
     {
@@ -640,6 +652,7 @@
       "total": 1302055,
       "n_connections": 1,
       "detail": "Support IE: $1,302,055 | Oppose IE: $0",
+      "party": "R",
       "race": "SD40"
     },
     {
@@ -649,6 +662,7 @@
       "total": 1260592.27,
       "n_connections": 1,
       "detail": "Support IE: $1,260,592 | Oppose IE: $0",
+      "party": "D",
       "race": "AD67"
     },
     {
@@ -658,6 +672,7 @@
       "total": 1078618,
       "n_connections": 1,
       "detail": "Support IE: $1,078,618 | Oppose IE: $0",
+      "party": "R",
       "race": "AD47"
     },
     {
@@ -667,6 +682,7 @@
       "total": 1057109.5,
       "n_connections": 1,
       "detail": "Support IE: $1,057,110 | Oppose IE: $0",
+      "party": "D",
       "race": "SD24"
     },
     {
@@ -676,6 +692,7 @@
       "total": 1039940,
       "n_connections": 1,
       "detail": "Support IE: $1,039,940 | Oppose IE: $0",
+      "party": "D",
       "race": "SD10"
     },
     {
@@ -685,6 +702,7 @@
       "total": 1010362.04,
       "n_connections": 1,
       "detail": "Support IE: $1,010,362 | Oppose IE: $0",
+      "party": "D",
       "race": "AD65"
     },
     {
@@ -702,6 +720,7 @@
       "total": 999066,
       "n_connections": 1,
       "detail": "Support IE: $999,066 | Oppose IE: $0",
+      "party": "D",
       "race": "Governor's Race"
     },
     {
@@ -711,6 +730,7 @@
       "total": 1339921.31,
       "n_connections": 2,
       "detail": "Support IE: $1,339,921 | Oppose IE: $0",
+      "party": "D",
       "race": "AD31"
     },
     {
@@ -720,6 +740,7 @@
       "total": 870807,
       "n_connections": 1,
       "detail": "Support IE: $870,807 | Oppose IE: $0",
+      "party": "D",
       "race": "AD76"
     },
     {
@@ -729,6 +750,7 @@
       "total": 949256.31,
       "n_connections": 2,
       "detail": "Support IE: $102,963 | Oppose IE: $846,293",
+      "party": "D",
       "race": "AD12"
     },
     {
@@ -738,6 +760,7 @@
       "total": 828919.44,
       "n_connections": 1,
       "detail": "Support IE: $828,919 | Oppose IE: $0",
+      "party": "D",
       "race": "SD26"
     },
     {
@@ -747,6 +770,7 @@
       "total": 818333,
       "n_connections": 1,
       "detail": "Support IE: $818,333 | Oppose IE: $0",
+      "party": "D",
       "race": "AD36"
     },
     {
@@ -756,6 +780,7 @@
       "total": 638751.32,
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $638,751",
+      "party": "D",
       "race": "AD65"
     },
     {
@@ -765,6 +790,7 @@
       "total": 622570,
       "n_connections": 1,
       "detail": "Support IE: $622,570 | Oppose IE: $0",
+      "party": "R",
       "race": "SD36"
     },
     {
@@ -774,6 +800,7 @@
       "total": 356035,
       "n_connections": 1,
       "detail": "Support IE: $356,035 | Oppose IE: $0",
+      "party": "R",
       "race": "AD74"
     },
     {
@@ -783,6 +810,7 @@
       "total": 281763.48,
       "n_connections": 1,
       "detail": "Support IE: $281,763 | Oppose IE: $0",
+      "party": "D",
       "race": "AD51"
     },
     {
@@ -792,6 +820,7 @@
       "total": 276485.27,
       "n_connections": 1,
       "detail": "Support IE: $276,485 | Oppose IE: $0",
+      "party": "D",
       "race": "AD80"
     },
     {
@@ -801,6 +830,7 @@
       "total": 272439.34,
       "n_connections": 1,
       "detail": "Support IE: $272,439 | Oppose IE: $0",
+      "party": "D",
       "race": "AD35"
     },
     {
@@ -810,6 +840,7 @@
       "total": 272439.34,
       "n_connections": 1,
       "detail": "Support IE: $272,439 | Oppose IE: $0",
+      "party": "D",
       "race": "AD42"
     },
     {
@@ -819,6 +850,7 @@
       "total": 181918.32,
       "n_connections": 1,
       "detail": "Support IE: $181,918 | Oppose IE: $0",
+      "party": "D",
       "race": "AD13"
     },
     {
@@ -828,6 +860,7 @@
       "total": 181918.31,
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $181,918",
+      "party": "R",
       "race": "AD13"
     },
     {
@@ -837,6 +870,7 @@
       "total": 115045,
       "n_connections": 1,
       "detail": "Support IE: $115,045 | Oppose IE: $0",
+      "party": "D",
       "race": "SD14"
     },
     {
@@ -846,6 +880,7 @@
       "total": 72570,
       "n_connections": 1,
       "detail": "Support IE: $72,570 | Oppose IE: $0",
+      "party": "D",
       "race": "SD34"
     },
     {
