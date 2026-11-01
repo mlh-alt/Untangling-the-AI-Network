@@ -273,8 +273,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "detail": "Gave to: Building a Better California ($102,000,000); Deliver for California ($2,000,000)"
     },
     {
-      "id": "MORGAN STANLEY",
-      "label": "Stanley Morgan",
+      "id": "Morgan Stanley",
+      "label": "Morgan Stanley",
       "tier": "Funders",
       "total": 101501869.05,
       "n_connections": 1,
@@ -1109,7 +1109,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "total": 12000,
       "n_connections": 1,
       "detail": "Support IE: $12,000 | Oppose IE: $0",
-      "race": "General Purpose Committee"
+      "race": "General Purpose Committee",
+      "kind": "committee",
+      "supports": "Eric Swalwell ($2.0M); California Democratic Party ($1.8M); Scott Sakakihara ($1.0M); Xavier Becerra ($1.0M); Working Californians, Sponsored By International Brotherhood Of Electrical Workers Local Union 18 ($550K); and 24 more"
     },
     {
       "id": "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC",
@@ -1118,7 +1120,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "total": 8000,
       "n_connections": 1,
       "detail": "Support IE: $8,000 | Oppose IE: $0",
-      "race": "General Purpose Committee"
+      "race": "General Purpose Committee",
+      "kind": "committee",
+      "supports": "Latinos For An Affordable California 2026 ($100K)"
     }
   ],
   "edges": [
@@ -1150,7 +1154,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "label": "Contribution: $102,000,000"
     },
     {
-      "source": "MORGAN STANLEY",
+      "source": "Morgan Stanley",
       "target": "1486767",
       "amount": 101501869.05,
       "type": "funder_pac",
@@ -2384,6 +2388,11 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   function isMeasure(nd) {
     return /^CAND\|Measure:/i.test(nd.id) || /^Measure:/i.test(nd.label || '');
   }
+  // committees (e.g. Uber Innovation PAC) that appear in the candidate row
+  function isCommittee(nd) {
+    return nd.kind === 'committee' ||
+      (/^CAND\|/.test(nd.id) && /\b(PAC|COMMITTEE|POLITICAL ACTION|INDEPENDENT EXPENDITURE)\b/i.test(nd.label || ''));
+  }
   // node + orb label: drop the "Measure: " prefix, so props show as "Proposition 41"
   function displayLabel(nd) {
     return (nd.label || nd.id).replace(/^Measure:\s*/i, '');
@@ -2404,7 +2413,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 
   function openOrb(nd, col, edges) {
     const orb = document.getElementById('orb');
-    document.getElementById('orb-tier').textContent = isMeasure(nd) ? 'MEASURES' : nd.tier.toUpperCase();
+    document.getElementById('orb-tier').textContent = isMeasure(nd) ? 'MEASURES'
+      : isCommittee(nd) ? 'GENERAL PURPOSE COMMITTEE' : nd.tier.toUpperCase();
     // name line: "Annalisa Perea (D) | AD31" (party and race come from candidate_info.csv)
     const nameEl = document.getElementById('orb-name');
     nameEl.textContent = displayLabel(nd) + (nd.party ? ' (' + nd.party + ')' : '');
@@ -2417,7 +2427,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     document.getElementById('orb-name').style.color = col;
     document.getElementById('orb-total').textContent = nd.total > 0 ? fmt(nd.total) : '—';
     document.getElementById('orb-total').style.color = col;
-    document.getElementById('orb-detail').textContent = nd.detail || '';
+    // committees: add the candidates they support (from committee_support.csv)
+    document.getElementById('orb-detail').textContent = (nd.detail || '') +
+      (isCommittee(nd) ? '\n\nSupports: ' + (nd.supports || 'no candidates found in its Cal-Access filings') : '');
     document.getElementById('orb-profile').hidden = true;
     orb.classList.add('open');
     orbOpen = true;
