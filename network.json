@@ -1958,5 +1958,4622 @@
       "edge_kind": "Supports candidate",
       "label": "Supports: $8,000"
     }
-  ]
+  ],
+  "sheets": {
+    "1483808": {
+      "type": "pac",
+      "name": "Grow California",
+      "raised": 54318568.89,
+      "spent": 23760590.92,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|SARA HERNANDEZ",
+          "name": "Sara Hernandez",
+          "amount": 4267175.56,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|DAVID PENALOZA",
+          "name": "David Penaloza",
+          "amount": 2821826.3,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|ERIC LUCAN",
+          "name": "Eric Lucan",
+          "amount": 2817225.31,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|MARK PULIDO",
+          "name": "Mark Pulido",
+          "amount": 2594121.47,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|JOHN ERICKSON",
+          "name": "John Erickson",
+          "amount": 2242027.65,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|ADA BRICENO",
+          "name": "Ada Briceno",
+          "amount": 1490766.53,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|AYANNA DAVIS",
+          "name": "Ayanna Davis",
+          "amount": 1475309.71,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|JESSIE LOPEZ",
+          "name": "Jessie Lopez",
+          "amount": 1333222.45,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|SCOTT SAKAKIHARA",
+          "name": "Scott Sakakihara",
+          "amount": 1039940,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|JACKIE ELWARD",
+          "name": "Jackie Elward",
+          "amount": 846293.45,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|IDA OBESO-MARTINEZ",
+          "name": "Ida Obeso-Martinez",
+          "amount": 818333,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|FATIMA IQBAL-ZUBAIR",
+          "name": "Fatima Iqbal-Zubair",
+          "amount": 638751.32,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|SARA HERNANDEZ",
+          "name": "Sara Hernandez",
+          "amount": 343920,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|ANDRAE GONZALES",
+          "name": "Andrae Gonzales",
+          "amount": 272439.34,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|DEBORAH KLEIN LOPEZ",
+          "name": "Deborah Klein Lopez",
+          "amount": 272439.34,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|RHODESIA RANSOM",
+          "name": "Rhodesia Ransom",
+          "amount": 181918.32,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|TOM PATTI",
+          "name": "Tom Patti",
+          "amount": 181918.31,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|JACKIE ELWARD",
+          "name": "Jackie Elward",
+          "amount": 102962.86,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE",
+          "name": "Uber Innovation Political Action Committee",
+          "amount": 12000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC",
+          "name": "California State Council Of Laborers Independent Expenditure Pac",
+          "amount": 8000,
+          "dir": "support"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "LARSEN CHRISTIAN",
+          "name": "Christian Larsen",
+          "amount": 36865749.36,
+          "dir": ""
+        },
+        {
+          "id": "DRAPER TIMOTHY",
+          "name": "Timothy Draper",
+          "amount": 17000000,
+          "dir": ""
+        },
+        {
+          "id": "BANK OF MARIN",
+          "name": "Of Marin Bank",
+          "amount": 325397.83,
+          "dir": ""
+        },
+        {
+          "id": "742855",
+          "name": "742855",
+          "amount": 106108.72,
+          "dir": ""
+        },
+        {
+          "id": "GARY'S LIST ACTION",
+          "name": "Gary's List Action",
+          "amount": 35000,
+          "dir": ""
+        },
+        {
+          "id": "GROW CALIFORNIA INC",
+          "name": "Grow California Inc.",
+          "amount": 0,
+          "dir": ""
+        },
+        {
+          "id": "COINBASE INC",
+          "name": "Coinbase Inc.",
+          "amount": -13687.02,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "LARSEN CHRISTIAN",
+          "name": "Christian Larsen",
+          "amount": 36865749.36,
+          "industry": ""
+        },
+        {
+          "id": "DRAPER TIMOTHY",
+          "name": "Timothy Draper",
+          "amount": 17000000,
+          "industry": ""
+        },
+        {
+          "id": "BANK OF MARIN",
+          "name": "Of Marin Bank",
+          "amount": 325397.83,
+          "industry": ""
+        },
+        {
+          "id": "742855",
+          "name": "742855",
+          "amount": 106108.72,
+          "industry": ""
+        },
+        {
+          "id": "GARY'S LIST ACTION",
+          "name": "Gary's List Action",
+          "amount": 35000,
+          "industry": ""
+        }
+      ]
+    },
+    "1478581": {
+      "type": "pac",
+      "name": "California Leads",
+      "raised": 28262079.14,
+      "spent": 14959926.97,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|David Penaloza",
+          "name": "David Penaloza",
+          "amount": 2866414.61,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Andrae Gonzales",
+          "name": "Andrae Gonzales",
+          "amount": 2556406.14,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Ed Musgrove",
+          "name": "Ed Musgrove",
+          "amount": 1302055,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Mark Pulido",
+          "name": "Mark Pulido",
+          "amount": 1260592.27,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Greg Wallis",
+          "name": "Greg Wallis",
+          "amount": 1078618,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Brian Goldsmith",
+          "name": "Brian Goldsmith",
+          "amount": 1057109.5,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Ayanna Davis",
+          "name": "Ayanna Davis",
+          "amount": 1010362.04,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Annalisa Perea",
+          "name": "Annalisa Perea",
+          "amount": 962422.97,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Darshana Patel",
+          "name": "Darshana Patel",
+          "amount": 870807,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Sara Hernandez",
+          "name": "Sara Hernandez",
+          "amount": 828919.44,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Tony Strickland",
+          "name": "Tony Strickland",
+          "amount": 622570,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Laurie Davies",
+          "name": "Laurie Davies",
+          "amount": 356035,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Esmeralda Soria",
+          "name": "Esmeralda Soria",
+          "amount": 115045,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Avelino Valencia",
+          "name": "Avelino Valencia",
+          "amount": 72570,
+          "dir": "support"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "Google LLC",
+          "name": "Google LLC",
+          "amount": 21000000,
+          "dir": ""
+        },
+        {
+          "id": "Meta Platforms",
+          "name": "Meta Platforms",
+          "amount": 7050000,
+          "dir": ""
+        },
+        {
+          "id": "SV ANGEL MANAGEMENT LLC ZACH MILLER",
+          "name": "Sv Angel Management LLC Zach Miller",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
+          "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
+          "amount": 58876.96,
+          "dir": ""
+        },
+        {
+          "id": "KEEP CALIFORNIA GOLDEN",
+          "name": "California Golden Keep",
+          "amount": 41402.18,
+          "dir": ""
+        },
+        {
+          "id": "UPTOWN STRATEGIES LLC",
+          "name": "Uptown Strategies LLC",
+          "amount": 11800,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "Google LLC",
+          "name": "Google LLC",
+          "amount": 21000000,
+          "industry": ""
+        },
+        {
+          "id": "Meta Platforms",
+          "name": "Meta Platforms",
+          "amount": 7050000,
+          "industry": ""
+        },
+        {
+          "id": "SV ANGEL MANAGEMENT LLC ZACH MILLER",
+          "name": "Sv Angel Management LLC Zach Miller",
+          "amount": 100000,
+          "industry": ""
+        },
+        {
+          "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
+          "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
+          "amount": 58876.96,
+          "industry": ""
+        },
+        {
+          "id": "KEEP CALIFORNIA GOLDEN",
+          "name": "California Golden Keep",
+          "amount": 41402.18,
+          "industry": ""
+        }
+      ]
+    },
+    "1486767": {
+      "type": "pac",
+      "name": "Building a Better California",
+      "raised": 434821489.66,
+      "spent": 324750000,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|Measure: PROPOSITION 42",
+          "name": "Proposition 42",
+          "amount": 127800000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Measure: PROPOSITION 40",
+          "name": "Proposition 40",
+          "amount": 118500000,
+          "dir": "against"
+        },
+        {
+          "id": "CAND|Measure: PROPOSITION 41",
+          "name": "Proposition 41",
+          "amount": 58350000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Measure: PROPOSITION 45",
+          "name": "Proposition 45",
+          "amount": 10000000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Measure: PROPOSITION 37",
+          "name": "Proposition 37",
+          "amount": 6000000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
+          "name": "Prohibit Exceptions To School Funding Guarantee",
+          "amount": 3100000,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Measure: PROPOSITION 1",
+          "name": "Proposition 1",
+          "amount": 1000000,
+          "dir": "support"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "BRIN SERGEY",
+          "name": "Sergey Brin",
+          "amount": 102000000,
+          "dir": ""
+        },
+        {
+          "id": "Morgan Stanley",
+          "name": "Morgan Stanley",
+          "amount": 101501869.05,
+          "dir": ""
+        },
+        {
+          "id": "SCHMIDT ERIC",
+          "name": "Eric Schmidt",
+          "amount": 40236457.01,
+          "dir": ""
+        },
+        {
+          "id": "DOERR III L JOHN",
+          "name": "L John Doerr III",
+          "amount": 40000000,
+          "dir": ""
+        },
+        {
+          "id": "COLLISON PATRICK",
+          "name": "Patrick Collison",
+          "amount": 33169793.76,
+          "dir": ""
+        },
+        {
+          "id": "KHOSLA VINOD",
+          "name": "Vinod Khosla",
+          "amount": 12561504,
+          "dir": ""
+        },
+        {
+          "id": "LARSEN CHRIS",
+          "name": "Chris Larsen",
+          "amount": 12511844.8,
+          "dir": ""
+        },
+        {
+          "id": "MORITZ MICHAEL",
+          "name": "Michael Moritz",
+          "amount": 7500000,
+          "dir": ""
+        },
+        {
+          "id": "SHRIRAM KAVITARK RAM",
+          "name": "Kavitark Ram Shriram",
+          "amount": 5005599.45,
+          "dir": ""
+        },
+        {
+          "id": "SLOOTMAN FRANK",
+          "name": "Frank Slootman",
+          "amount": 5000000,
+          "dir": ""
+        },
+        {
+          "id": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
+          "name": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+          "amount": 4968061.28,
+          "dir": ""
+        },
+        {
+          "id": "RESNICK STEWART",
+          "name": "Stewart Resnick",
+          "amount": 4500000,
+          "dir": ""
+        },
+        {
+          "id": "HERING JOHN",
+          "name": "John Hering",
+          "amount": 3921960.75,
+          "dir": ""
+        },
+        {
+          "id": "XU TONY",
+          "name": "Tony Xu",
+          "amount": 3493982.02,
+          "dir": ""
+        },
+        {
+          "id": "LEVCHIN MAKSIM RAFAEL",
+          "name": "Maksim Rafael Levchin",
+          "amount": 3021883.55,
+          "dir": ""
+        },
+        {
+          "id": "KARAM ANDREW",
+          "name": "Andrew Karam",
+          "amount": 3000000,
+          "dir": ""
+        },
+        {
+          "id": "LIN ALFRED",
+          "name": "Alfred Lin",
+          "amount": 3000000,
+          "dir": ""
+        },
+        {
+          "id": "MALKA MEYER",
+          "name": "Meyer Malka",
+          "amount": 2986173.77,
+          "dir": ""
+        },
+        {
+          "id": "COULTER JAMES",
+          "name": "James Coulter",
+          "amount": 2527189.16,
+          "dir": ""
+        },
+        {
+          "id": "DUNLEVIE BRUCE",
+          "name": "Bruce Dunlevie",
+          "amount": 2110000,
+          "dir": ""
+        },
+        {
+          "id": "MARCUS GEORGE",
+          "name": "George Marcus",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "SLAVIK JAMES",
+          "name": "James Slavik",
+          "amount": 1998899.14,
+          "dir": ""
+        },
+        {
+          "id": "SLAVIK PAUL",
+          "name": "Paul Slavik",
+          "amount": 1998899.14,
+          "dir": ""
+        },
+        {
+          "id": "EHRSAM III FREDERICK E",
+          "name": "Frederick E Ehrsam III",
+          "amount": 1979907.76,
+          "dir": ""
+        },
+        {
+          "id": "LAFFONT PHILIPPE",
+          "name": "Philippe Laffont",
+          "amount": 1500076.6,
+          "dir": ""
+        },
+        {
+          "id": "LAFFONT THOMAS",
+          "name": "Thomas Laffont",
+          "amount": 1500076.6,
+          "dir": ""
+        },
+        {
+          "id": "BASZUCKI DAVID",
+          "name": "David Baszucki",
+          "amount": 1500000,
+          "dir": ""
+        },
+        {
+          "id": "PINCUS MARK",
+          "name": "Pincus Mark",
+          "amount": 1085746.83,
+          "dir": ""
+        },
+        {
+          "id": "REED ANDREW PHILLIPS",
+          "name": "Andrew Phillips Reed",
+          "amount": 1074114.3,
+          "dir": ""
+        },
+        {
+          "id": "TANEJA HEMANT",
+          "name": "Hemant Taneja",
+          "amount": 1047667.5,
+          "dir": ""
+        },
+        {
+          "id": "FISHER ROBERT",
+          "name": "Robert Fisher",
+          "amount": 1018105,
+          "dir": ""
+        },
+        {
+          "id": "BYERS BROOK",
+          "name": "Brook Byers",
+          "amount": 1004393.67,
+          "dir": ""
+        },
+        {
+          "id": "MAGUIRE SHAUN",
+          "name": "Shaun Maguire",
+          "amount": 1003329.11,
+          "dir": ""
+        },
+        {
+          "id": "JURVETSON STEVE",
+          "name": "Steve Jurvetson",
+          "amount": 1001607.8,
+          "dir": ""
+        },
+        {
+          "id": "TENEV VLADIMIR",
+          "name": "Vladimir Tenev",
+          "amount": 1001053.37,
+          "dir": ""
+        },
+        {
+          "id": "KLEINER PERKINS",
+          "name": "Perkins Kleiner",
+          "amount": 1000001.34,
+          "dir": ""
+        },
+        {
+          "id": "BHATT BAIJU",
+          "name": "Baiju Bhatt",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "COATES THOMAS",
+          "name": "Thomas Coates",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "HEISING MARK",
+          "name": "Mark Heising",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "HUANG MATTHEW",
+          "name": "Matthew Huang",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "KELLY KEVIN",
+          "name": "Kevin Kelly",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "MCCALEB JED",
+          "name": "Jed Mccaleb",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "MEHTA NEIL",
+          "name": "Neil Mehta",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "RAMPELL ALASTAIR",
+          "name": "Alastair Rampell",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "GERSTNER BRAD",
+          "name": "Brad Gerstner",
+          "amount": 991930.73,
+          "dir": ""
+        },
+        {
+          "id": "MAKAN DIVESH",
+          "name": "Divesh Makan",
+          "amount": 990479.52,
+          "dir": ""
+        },
+        {
+          "id": "SHALEK NICK",
+          "name": "Nick Shalek",
+          "amount": 971600.76,
+          "dir": ""
+        },
+        {
+          "id": "SINGERMAN BRIAN",
+          "name": "Brian Singerman",
+          "amount": 720818,
+          "dir": ""
+        },
+        {
+          "id": "PEETS CHAD",
+          "name": "Chad Peets",
+          "amount": 513270,
+          "dir": ""
+        },
+        {
+          "id": "FISHER WILLIAM",
+          "name": "William Fisher",
+          "amount": 509052.5,
+          "dir": ""
+        },
+        {
+          "id": "GRADY PATRICK",
+          "name": "Patrick Grady",
+          "amount": 507763.89,
+          "dir": ""
+        },
+        {
+          "id": "GUO SARAH",
+          "name": "Sarah Guo",
+          "amount": 507763.89,
+          "dir": ""
+        },
+        {
+          "id": "DEGEORGE KIM",
+          "name": "Kim Degeorge",
+          "amount": 500112.73,
+          "dir": ""
+        },
+        {
+          "id": "GANDHI SAMEER",
+          "name": "Sameer Gandhi",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "TIERNEY DANIEL",
+          "name": "Daniel Tierney",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "FENTON PETER",
+          "name": "Peter Fenton",
+          "amount": 496988.37,
+          "dir": ""
+        },
+        {
+          "id": "RAVIKANT NAVAL",
+          "name": "Naval Ravikant",
+          "amount": 493398.51,
+          "dir": ""
+        },
+        {
+          "id": "TANG STANLEY",
+          "name": "Stanley Tang",
+          "amount": 491014.85,
+          "dir": ""
+        },
+        {
+          "id": "FIELD DYLAN",
+          "name": "Dylan Field",
+          "amount": 471329.76,
+          "dir": ""
+        },
+        {
+          "id": "BAKER JR G LEONARD",
+          "name": "G Leonard Baker JR",
+          "amount": 395829.84,
+          "dir": ""
+        },
+        {
+          "id": "VERNAL MICHAEL",
+          "name": "Michael Vernal",
+          "amount": 391500,
+          "dir": ""
+        },
+        {
+          "id": "BASZUCKI GREGORY",
+          "name": "Gregory Baszucki",
+          "amount": 274892.11,
+          "dir": ""
+        },
+        {
+          "id": "PRITZKER JOHN A",
+          "name": "John A Pritzker",
+          "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "ROSENTHAL BENNETT",
+          "name": "Bennett Rosenthal",
+          "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "MEEKER MARY",
+          "name": "Mary Meeker",
+          "amount": 202663.8,
+          "dir": ""
+        },
+        {
+          "id": "BANK OF MARIN",
+          "name": "Of Marin Bank",
+          "amount": 124663.66,
+          "dir": ""
+        },
+        {
+          "id": "HUFFMAN STEVE",
+          "name": "Steve Huffman",
+          "amount": 101802.64,
+          "dir": ""
+        },
+        {
+          "id": "MURPHY MATTHEW",
+          "name": "Matthew Murphy",
+          "amount": 101796.96,
+          "dir": ""
+        },
+        {
+          "id": "CONRAD PARKER",
+          "name": "Parker Conrad",
+          "amount": 101272.96,
+          "dir": ""
+        },
+        {
+          "id": "CLARK JAMES RYAN",
+          "name": "James Ryan Clark",
+          "amount": 101018.34,
+          "dir": ""
+        },
+        {
+          "id": "DAYTON SKY",
+          "name": "Sky Dayton",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "DEETER BYRON",
+          "name": "Byron Deeter",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "HARTZ KEVIN",
+          "name": "Kevin Hartz",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "MCCABE EOGHAN",
+          "name": "Eoghan Mccabe",
+          "amount": 99885.52,
+          "dir": ""
+        },
+        {
+          "id": "KATZ AARON",
+          "name": "Aaron Katz",
+          "amount": 96851.1,
+          "dir": ""
+        },
+        {
+          "id": "MOSELEY NOELLE",
+          "name": "Noelle Moseley",
+          "amount": 50112.4,
+          "dir": ""
+        },
+        {
+          "id": "CAROLAN SHAWN",
+          "name": "Shawn Carolan",
+          "amount": 49875.68,
+          "dir": ""
+        },
+        {
+          "id": "LONSDALE JOSEPH",
+          "name": "Joseph Lonsdale",
+          "amount": 49870,
+          "dir": ""
+        },
+        {
+          "id": "ALTMAN JACK",
+          "name": "Jack Altman",
+          "amount": 24819.76,
+          "dir": ""
+        },
+        {
+          "id": "GOLDMAN KEN",
+          "name": "Ken Goldman",
+          "amount": 11847,
+          "dir": ""
+        },
+        {
+          "id": "BUILDING A BETTER CALIFORNIA INCORPORATED NON REPORTABLE ACCOUNT",
+          "name": "Building A Better California Incorporated Non Reportable Account",
+          "amount": 0,
+          "dir": ""
+        },
+        {
+          "id": "COINBASE INC FBO ITS CUSTOMERS",
+          "name": "Coinbase Inc. Fbo Its Customers",
+          "amount": -52932.38,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "BRIN SERGEY",
+          "name": "Sergey Brin",
+          "amount": 102000000,
+          "industry": ""
+        },
+        {
+          "id": "Morgan Stanley",
+          "name": "Morgan Stanley",
+          "amount": 101501869.05,
+          "industry": ""
+        },
+        {
+          "id": "SCHMIDT ERIC",
+          "name": "Eric Schmidt",
+          "amount": 40236457.01,
+          "industry": ""
+        },
+        {
+          "id": "DOERR III L JOHN",
+          "name": "L John Doerr III",
+          "amount": 40000000,
+          "industry": ""
+        },
+        {
+          "id": "COLLISON PATRICK",
+          "name": "Patrick Collison",
+          "amount": 33169793.76,
+          "industry": ""
+        }
+      ]
+    },
+    "1483390": {
+      "type": "pac",
+      "name": "META California",
+      "raised": 17000000,
+      "spent": 3620721.34,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|Scott Sakakihara",
+          "name": "Scott Sakakihara",
+          "amount": 1335520.32,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Xavier Becerra",
+          "name": "Xavier Becerra",
+          "amount": 999066,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Annalisa Perea",
+          "name": "Annalisa Perea",
+          "amount": 377498.34,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Andrae Gonzales",
+          "name": "Andrae Gonzales",
+          "amount": 350387.93,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|Rick Chavez Zbur",
+          "name": "Rick Chavez Zbur",
+          "amount": 281763.48,
+          "dir": "support"
+        },
+        {
+          "id": "CAND|David Alvarez",
+          "name": "David Alvarez",
+          "amount": 276485.27,
+          "dir": "support"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "Meta Platforms",
+          "name": "Meta Platforms",
+          "amount": 17000000,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "Meta Platforms",
+          "name": "Meta Platforms",
+          "amount": 17000000,
+          "industry": ""
+        }
+      ]
+    },
+    "1487425": {
+      "type": "pac",
+      "name": "California Back to Basics",
+      "raised": 54571558.58,
+      "spent": 19506423.49,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|MATT MAHAN",
+          "name": "Matt Mahan",
+          "amount": 19506423.49,
+          "dir": "support"
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 565310.92,
+          "dir": "transfer"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "MORITZ MICHAEL",
+          "name": "Michael Moritz",
+          "amount": 6000000,
+          "dir": ""
+        },
+        {
+          "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
+          "name": "Govern For California Action Committee",
+          "amount": 3000000,
+          "dir": ""
+        },
+        {
+          "id": "RICK CARUSO AND AFFILIATED ENTITIES",
+          "name": "Rick Caruso And Affiliated Entities",
+          "amount": 3000000,
+          "dir": ""
+        },
+        {
+          "id": "COLLISON PATRICK",
+          "name": "Patrick Collison",
+          "amount": 2980000,
+          "dir": ""
+        },
+        {
+          "id": "KHOSLA VINOD",
+          "name": "Vinod Khosla",
+          "amount": 2200000,
+          "dir": ""
+        },
+        {
+          "id": "MERRILL ASHLEY",
+          "name": "Ashley Merrill",
+          "amount": 2040000,
+          "dir": ""
+        },
+        {
+          "id": "DOERR III L JOHN",
+          "name": "L John Doerr III",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "HASTINGS REED",
+          "name": "Reed Hastings",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "SEIBEL MICHAEL",
+          "name": "Michael Seibel",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "HUFFMAN STEVE",
+          "name": "Steve Huffman",
+          "amount": 1999998,
+          "dir": ""
+        },
+        {
+          "id": "MEHTA NEIL",
+          "name": "Neil Mehta",
+          "amount": 1999998,
+          "dir": ""
+        },
+        {
+          "id": "HERING JOHN",
+          "name": "John Hering",
+          "amount": 1990000,
+          "dir": ""
+        },
+        {
+          "id": "OBERNDORF WILLIAM E",
+          "name": "William E Oberndorf",
+          "amount": 1686400,
+          "dir": ""
+        },
+        {
+          "id": "MAKAN DIVESH",
+          "name": "Divesh Makan",
+          "amount": 1500000,
+          "dir": ""
+        },
+        {
+          "id": "SINGERMAN BRIAN",
+          "name": "Brian Singerman",
+          "amount": 1500000,
+          "dir": ""
+        },
+        {
+          "id": "BAKER JR G LEONARD",
+          "name": "G Leonard Baker JR",
+          "amount": 1300000,
+          "dir": ""
+        },
+        {
+          "id": "BYERS BROOK",
+          "name": "Brook Byers",
+          "amount": 1100000,
+          "dir": ""
+        },
+        {
+          "id": "ARMSTRONG BRIAN",
+          "name": "Brian Armstrong",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "BYERS BLAKE",
+          "name": "Blake Byers",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "COOK DAVID SCOTT",
+          "name": "David Scott Cook",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "HARSH V GRIFFITH RUTHERFORD",
+          "name": "Griffith Rutherford Harsh V",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "OSTBY HELEN SIGNE",
+          "name": "Helen Signe Ostby",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "PRITZKER JOHN",
+          "name": "John Pritzker",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "REED ANDREW PHILLIPS",
+          "name": "Andrew Phillips Reed",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "WANSTRATH CHRIS",
+          "name": "Chris Wanstrath",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "WANSTRATH NINA",
+          "name": "Nina Wanstrath",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "WARREN E SPIEKER JR INCLUDING SPIEKER REALTY INVESTMENTS",
+          "name": "Warren E Spieker Jr Including Spieker Realty Investments",
+          "amount": 600000,
+          "dir": ""
+        },
+        {
+          "id": "BOYERS MICHELLE",
+          "name": "Michelle Boyers",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "DOORDASH INC",
+          "name": "Doordash Inc.",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "FUSHMAN ILYA",
+          "name": "Ilya Fushman",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "MALKA MEYER",
+          "name": "Meyer Malka",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "NICHOLAS PRITZKER AND AFFILIATED ENTITY DEMOCRACY RISING TRUST",
+          "name": "Nicholas Pritzker And Affiliated Entity Democracy Rising Trust",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "WALSH DIANA RUTH",
+          "name": "Diana Ruth Walsh",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "WOLF RICHARD",
+          "name": "Richard Wolf",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "XU TONY",
+          "name": "Tony Xu",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "MARQUARDT DAVID",
+          "name": "David Marquardt",
+          "amount": 400000,
+          "dir": ""
+        },
+        {
+          "id": "TINSLEY RICHARD",
+          "name": "Richard Tinsley",
+          "amount": 400000,
+          "dir": ""
+        },
+        {
+          "id": "WACHTER PAUL",
+          "name": "Paul Wachter",
+          "amount": 300000,
+          "dir": ""
+        },
+        {
+          "id": "LIEW JEREMY",
+          "name": "Jeremy Liew",
+          "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "ATWATER JOHN",
+          "name": "John Atwater",
+          "amount": 200000,
+          "dir": ""
+        },
+        {
+          "id": "RESNICK JOSHUA",
+          "name": "Joshua Resnick",
+          "amount": 200000,
+          "dir": ""
+        },
+        {
+          "id": "RODAN AMNON",
+          "name": "Amnon Rodan",
+          "amount": 150000,
+          "dir": ""
+        },
+        {
+          "id": "BUTCHER C PRESTON",
+          "name": "C Preston Butcher",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "HOCKEY WILLIAM",
+          "name": "William Hockey",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "PATTERSON ARTHUR",
+          "name": "Arthur Patterson",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "RAVITCH JOSEPH",
+          "name": "Joseph Ravitch",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "RAVITCH SONYA",
+          "name": "Sonya Ravitch",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "VAN KONYNENBURG DERK MICHAEL",
+          "name": "Konynenburg Derk Michael Van",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 96131.1,
+          "dir": "transfer"
+        },
+        {
+          "id": "MAPLEBEAR INC DBA INSTACART",
+          "name": "Maplebear Inc. Dba Instacart",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "BANK OF MARIN",
+          "name": "Of Marin Bank",
+          "amount": 14831.48,
+          "dir": ""
+        },
+        {
+          "id": "CONTE JEAN PIERRE",
+          "name": "Jean Pierre Conte",
+          "amount": 14000,
+          "dir": ""
+        },
+        {
+          "id": "KINNEY ANNA",
+          "name": "Anna Kinney",
+          "amount": 200,
+          "dir": ""
+        },
+        {
+          "id": "MERRILL KATIE",
+          "name": "Katie Merrill",
+          "amount": 0,
+          "dir": ""
+        },
+        {
+          "id": "MERRILL STEVEN",
+          "name": "Steven Merrill",
+          "amount": 0,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "MORITZ MICHAEL",
+          "name": "Michael Moritz",
+          "amount": 6000000,
+          "industry": ""
+        },
+        {
+          "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
+          "name": "Govern For California Action Committee",
+          "amount": 3000000,
+          "industry": ""
+        },
+        {
+          "id": "RICK CARUSO AND AFFILIATED ENTITIES",
+          "name": "Rick Caruso And Affiliated Entities",
+          "amount": 3000000,
+          "industry": ""
+        },
+        {
+          "id": "COLLISON PATRICK",
+          "name": "Patrick Collison",
+          "amount": 2980000,
+          "industry": ""
+        },
+        {
+          "id": "KHOSLA VINOD",
+          "name": "Vinod Khosla",
+          "amount": 2200000,
+          "industry": ""
+        }
+      ]
+    },
+    "1488176": {
+      "type": "pac",
+      "name": "Deliver for California",
+      "raised": 6505063.21,
+      "spent": 2764437.25,
+      "mission": "",
+      "spending": [
+        {
+          "id": "CAND|MATT MAHAN",
+          "name": "Matt Mahan",
+          "amount": 2764437.25,
+          "dir": "support"
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 96131.1,
+          "dir": "transfer"
+        }
+      ],
+      "fundraising": [
+        {
+          "id": "BRIN SERGEY",
+          "name": "Sergey Brin",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "BUCHHEIT PAUL",
+          "name": "Paul Buchheit",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 565310.92,
+          "dir": "transfer"
+        },
+        {
+          "id": "SINGERMAN BRIAN",
+          "name": "Brian Singerman",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "GARY FILIZETTI",
+          "name": "Filizetti Gary",
+          "amount": 480000,
+          "dir": ""
+        },
+        {
+          "id": "BOYERS MICHELLE",
+          "name": "Michelle Boyers",
+          "amount": 200000,
+          "dir": ""
+        },
+        {
+          "id": "BYERS BLAKE",
+          "name": "Blake Byers",
+          "amount": 200000,
+          "dir": ""
+        },
+        {
+          "id": "PRITZKER NICHOLAS",
+          "name": "Nicholas Pritzker",
+          "amount": 200000,
+          "dir": ""
+        },
+        {
+          "id": "FRANTZ EUGENE",
+          "name": "Eugene Frantz",
+          "amount": 100000,
+          "dir": ""
+        },
+        {
+          "id": "TED SCHLEIN",
+          "name": "Schlein Ted",
+          "amount": 90000,
+          "dir": ""
+        },
+        {
+          "id": "CRAWFORD GORDON",
+          "name": "Gordon Crawford",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "RODAN AMNON",
+          "name": "Amnon Rodan",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "CLARK JAMES RYAN",
+          "name": "James Ryan Clark",
+          "amount": 25000,
+          "dir": ""
+        },
+        {
+          "id": "WEISS ELI",
+          "name": "Eli Weiss",
+          "amount": 25000,
+          "dir": ""
+        },
+        {
+          "id": "MILLS PATRICIA",
+          "name": "Patricia Mills",
+          "amount": 10000,
+          "dir": ""
+        },
+        {
+          "id": "THEMATIC CAMPAIGNS LLC",
+          "name": "Thematic Campaigns LLC",
+          "amount": 8882.5,
+          "dir": ""
+        },
+        {
+          "id": "BANK OF MARIN",
+          "name": "Of Marin Bank",
+          "amount": 669.79,
+          "dir": ""
+        },
+        {
+          "id": "BAUM ANNELLE",
+          "name": "Annelle Baum",
+          "amount": 100,
+          "dir": ""
+        },
+        {
+          "id": "NEWMAN BARBARA",
+          "name": "Barbara Newman",
+          "amount": 100,
+          "dir": ""
+        }
+      ],
+      "top_funders": [
+        {
+          "id": "BRIN SERGEY",
+          "name": "Sergey Brin",
+          "amount": 2000000,
+          "industry": ""
+        },
+        {
+          "id": "BUCHHEIT PAUL",
+          "name": "Paul Buchheit",
+          "amount": 2000000,
+          "industry": ""
+        },
+        {
+          "id": "SINGERMAN BRIAN",
+          "name": "Brian Singerman",
+          "amount": 500000,
+          "industry": ""
+        },
+        {
+          "id": "GARY FILIZETTI",
+          "name": "Filizetti Gary",
+          "amount": 480000,
+          "industry": ""
+        },
+        {
+          "id": "BOYERS MICHELLE",
+          "name": "Michelle Boyers",
+          "amount": 200000,
+          "industry": ""
+        }
+      ]
+    },
+    "BRIN SERGEY": {
+      "type": "funder",
+      "name": "Sergey Brin",
+      "total": 104000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 102000000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "Morgan Stanley": {
+      "type": "funder",
+      "name": "Morgan Stanley",
+      "total": 101501869.05,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101501869.05,
+          "dir": ""
+        }
+      ]
+    },
+    "SCHMIDT ERIC": {
+      "type": "funder",
+      "name": "Eric Schmidt",
+      "total": 40236457.01,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 40236457.01,
+          "dir": ""
+        }
+      ]
+    },
+    "DOERR III L JOHN": {
+      "type": "funder",
+      "name": "L John Doerr III",
+      "total": 42000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 40000000,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "LARSEN CHRISTIAN": {
+      "type": "funder",
+      "name": "Christian Larsen",
+      "total": 36865749.36,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 36865749.36,
+          "dir": ""
+        }
+      ]
+    },
+    "COLLISON PATRICK": {
+      "type": "funder",
+      "name": "Patrick Collison",
+      "total": 36149793.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 33169793.76,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2980000,
+          "dir": ""
+        }
+      ]
+    },
+    "Google LLC": {
+      "type": "funder",
+      "name": "Google LLC",
+      "total": 21000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 21000000,
+          "dir": ""
+        }
+      ]
+    },
+    "DRAPER TIMOTHY": {
+      "type": "funder",
+      "name": "Timothy Draper",
+      "total": 17000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 17000000,
+          "dir": ""
+        }
+      ]
+    },
+    "Meta Platforms": {
+      "type": "funder",
+      "name": "Meta Platforms",
+      "total": 24050000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 17000000,
+          "dir": ""
+        },
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 7050000,
+          "dir": ""
+        }
+      ]
+    },
+    "KHOSLA VINOD": {
+      "type": "funder",
+      "name": "Vinod Khosla",
+      "total": 14761504,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 12561504,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2200000,
+          "dir": ""
+        }
+      ]
+    },
+    "LARSEN CHRIS": {
+      "type": "funder",
+      "name": "Chris Larsen",
+      "total": 12511844.8,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 12511844.8,
+          "dir": ""
+        }
+      ]
+    },
+    "MORITZ MICHAEL": {
+      "type": "funder",
+      "name": "Michael Moritz",
+      "total": 13500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 7500000,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 6000000,
+          "dir": ""
+        }
+      ]
+    },
+    "SHRIRAM KAVITARK RAM": {
+      "type": "funder",
+      "name": "Kavitark Ram Shriram",
+      "total": 5005599.45,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 5005599.45,
+          "dir": ""
+        }
+      ]
+    },
+    "SLOOTMAN FRANK": {
+      "type": "funder",
+      "name": "Frank Slootman",
+      "total": 5000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 5000000,
+          "dir": ""
+        }
+      ]
+    },
+    "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER": {
+      "type": "funder",
+      "name": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+      "total": 4968061.28,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 4968061.28,
+          "dir": ""
+        }
+      ]
+    },
+    "RESNICK STEWART": {
+      "type": "funder",
+      "name": "Stewart Resnick",
+      "total": 4500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 4500000,
+          "dir": ""
+        }
+      ]
+    },
+    "HERING JOHN": {
+      "type": "funder",
+      "name": "John Hering",
+      "total": 5911960.75,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3921960.75,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1990000,
+          "dir": ""
+        }
+      ]
+    },
+    "XU TONY": {
+      "type": "funder",
+      "name": "Tony Xu",
+      "total": 3993982.02,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3493982.02,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "LEVCHIN MAKSIM RAFAEL": {
+      "type": "funder",
+      "name": "Maksim Rafael Levchin",
+      "total": 3021883.55,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3021883.55,
+          "dir": ""
+        }
+      ]
+    },
+    "GOVERN FOR CALIFORNIA ACTION COMMITTEE": {
+      "type": "funder",
+      "name": "Govern For California Action Committee",
+      "total": 3000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 3000000,
+          "dir": ""
+        }
+      ]
+    },
+    "KARAM ANDREW": {
+      "type": "funder",
+      "name": "Andrew Karam",
+      "total": 3000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3000000,
+          "dir": ""
+        }
+      ]
+    },
+    "LIN ALFRED": {
+      "type": "funder",
+      "name": "Alfred Lin",
+      "total": 3000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3000000,
+          "dir": ""
+        }
+      ]
+    },
+    "RICK CARUSO AND AFFILIATED ENTITIES": {
+      "type": "funder",
+      "name": "Rick Caruso And Affiliated Entities",
+      "total": 3000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 3000000,
+          "dir": ""
+        }
+      ]
+    },
+    "MALKA MEYER": {
+      "type": "funder",
+      "name": "Meyer Malka",
+      "total": 3486173.77,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2986173.77,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "COULTER JAMES": {
+      "type": "funder",
+      "name": "James Coulter",
+      "total": 2527189.16,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2527189.16,
+          "dir": ""
+        }
+      ]
+    },
+    "DUNLEVIE BRUCE": {
+      "type": "funder",
+      "name": "Bruce Dunlevie",
+      "total": 2110000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2110000,
+          "dir": ""
+        }
+      ]
+    },
+    "MERRILL ASHLEY": {
+      "type": "funder",
+      "name": "Ashley Merrill",
+      "total": 2040000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2040000,
+          "dir": ""
+        }
+      ]
+    },
+    "BUCHHEIT PAUL": {
+      "type": "funder",
+      "name": "Paul Buchheit",
+      "total": 2000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "HASTINGS REED": {
+      "type": "funder",
+      "name": "Reed Hastings",
+      "total": 2000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "MARCUS GEORGE": {
+      "type": "funder",
+      "name": "George Marcus",
+      "total": 2000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "SEIBEL MICHAEL": {
+      "type": "funder",
+      "name": "Michael Seibel",
+      "total": 2000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
+    "HUFFMAN STEVE": {
+      "type": "funder",
+      "name": "Steve Huffman",
+      "total": 2101800.64,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1999998,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101802.64,
+          "dir": ""
+        }
+      ]
+    },
+    "MEHTA NEIL": {
+      "type": "funder",
+      "name": "Neil Mehta",
+      "total": 2999998,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1999998,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "SLAVIK JAMES": {
+      "type": "funder",
+      "name": "James Slavik",
+      "total": 1998899.14,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1998899.14,
+          "dir": ""
+        }
+      ]
+    },
+    "SLAVIK PAUL": {
+      "type": "funder",
+      "name": "Paul Slavik",
+      "total": 1998899.14,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1998899.14,
+          "dir": ""
+        }
+      ]
+    },
+    "EHRSAM III FREDERICK E": {
+      "type": "funder",
+      "name": "Frederick E Ehrsam III",
+      "total": 1979907.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1979907.76,
+          "dir": ""
+        }
+      ]
+    },
+    "OBERNDORF WILLIAM E": {
+      "type": "funder",
+      "name": "William E Oberndorf",
+      "total": 1686400,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1686400,
+          "dir": ""
+        }
+      ]
+    },
+    "LAFFONT PHILIPPE": {
+      "type": "funder",
+      "name": "Philippe Laffont",
+      "total": 1500076.6,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1500076.6,
+          "dir": ""
+        }
+      ]
+    },
+    "LAFFONT THOMAS": {
+      "type": "funder",
+      "name": "Thomas Laffont",
+      "total": 1500076.6,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1500076.6,
+          "dir": ""
+        }
+      ]
+    },
+    "BASZUCKI DAVID": {
+      "type": "funder",
+      "name": "David Baszucki",
+      "total": 1500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1500000,
+          "dir": ""
+        }
+      ]
+    },
+    "MAKAN DIVESH": {
+      "type": "funder",
+      "name": "Divesh Makan",
+      "total": 2490479.52,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1500000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 990479.52,
+          "dir": ""
+        }
+      ]
+    },
+    "SINGERMAN BRIAN": {
+      "type": "funder",
+      "name": "Brian Singerman",
+      "total": 2720818,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1500000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 720818,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "BAKER JR G LEONARD": {
+      "type": "funder",
+      "name": "G Leonard Baker JR",
+      "total": 1695829.84,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1300000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 395829.84,
+          "dir": ""
+        }
+      ]
+    },
+    "BYERS BROOK": {
+      "type": "funder",
+      "name": "Brook Byers",
+      "total": 2104393.67,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1100000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1004393.67,
+          "dir": ""
+        }
+      ]
+    },
+    "PINCUS MARK": {
+      "type": "funder",
+      "name": "Pincus Mark",
+      "total": 1085746.83,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1085746.83,
+          "dir": ""
+        }
+      ]
+    },
+    "REED ANDREW PHILLIPS": {
+      "type": "funder",
+      "name": "Andrew Phillips Reed",
+      "total": 2074114.3,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1074114.3,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "TANEJA HEMANT": {
+      "type": "funder",
+      "name": "Hemant Taneja",
+      "total": 1047667.5,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1047667.5,
+          "dir": ""
+        }
+      ]
+    },
+    "FISHER ROBERT": {
+      "type": "funder",
+      "name": "Robert Fisher",
+      "total": 1018105,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1018105,
+          "dir": ""
+        }
+      ]
+    },
+    "MAGUIRE SHAUN": {
+      "type": "funder",
+      "name": "Shaun Maguire",
+      "total": 1003329.11,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1003329.11,
+          "dir": ""
+        }
+      ]
+    },
+    "JURVETSON STEVE": {
+      "type": "funder",
+      "name": "Steve Jurvetson",
+      "total": 1001607.8,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1001607.8,
+          "dir": ""
+        }
+      ]
+    },
+    "TENEV VLADIMIR": {
+      "type": "funder",
+      "name": "Vladimir Tenev",
+      "total": 1001053.37,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1001053.37,
+          "dir": ""
+        }
+      ]
+    },
+    "KLEINER PERKINS": {
+      "type": "funder",
+      "name": "Perkins Kleiner",
+      "total": 1000001.34,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000001.34,
+          "dir": ""
+        }
+      ]
+    },
+    "ARMSTRONG BRIAN": {
+      "type": "funder",
+      "name": "Brian Armstrong",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "BHATT BAIJU": {
+      "type": "funder",
+      "name": "Baiju Bhatt",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "BYERS BLAKE": {
+      "type": "funder",
+      "name": "Blake Byers",
+      "total": 1200000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "COATES THOMAS": {
+      "type": "funder",
+      "name": "Thomas Coates",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "COOK DAVID SCOTT": {
+      "type": "funder",
+      "name": "David Scott Cook",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "HARSH V GRIFFITH RUTHERFORD": {
+      "type": "funder",
+      "name": "Griffith Rutherford Harsh V",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "HEISING MARK": {
+      "type": "funder",
+      "name": "Mark Heising",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "HUANG MATTHEW": {
+      "type": "funder",
+      "name": "Matthew Huang",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "KELLY KEVIN": {
+      "type": "funder",
+      "name": "Kevin Kelly",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "MCCALEB JED": {
+      "type": "funder",
+      "name": "Jed Mccaleb",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "OSTBY HELEN SIGNE": {
+      "type": "funder",
+      "name": "Helen Signe Ostby",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "PRITZKER JOHN": {
+      "type": "funder",
+      "name": "John Pritzker",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "RAMPELL ALASTAIR": {
+      "type": "funder",
+      "name": "Alastair Rampell",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "WANSTRATH CHRIS": {
+      "type": "funder",
+      "name": "Chris Wanstrath",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "WANSTRATH NINA": {
+      "type": "funder",
+      "name": "Nina Wanstrath",
+      "total": 1000000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "GERSTNER BRAD": {
+      "type": "funder",
+      "name": "Brad Gerstner",
+      "total": 991930.73,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 991930.73,
+          "dir": ""
+        }
+      ]
+    },
+    "SHALEK NICK": {
+      "type": "funder",
+      "name": "Nick Shalek",
+      "total": 971600.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 971600.76,
+          "dir": ""
+        }
+      ]
+    },
+    "WARREN E SPIEKER JR INCLUDING SPIEKER REALTY INVESTMENTS": {
+      "type": "funder",
+      "name": "Warren E Spieker Jr Including Spieker Realty Investments",
+      "total": 600000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 600000,
+          "dir": ""
+        }
+      ]
+    },
+    "PEETS CHAD": {
+      "type": "funder",
+      "name": "Chad Peets",
+      "total": 513270,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 513270,
+          "dir": ""
+        }
+      ]
+    },
+    "FISHER WILLIAM": {
+      "type": "funder",
+      "name": "William Fisher",
+      "total": 509052.5,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 509052.5,
+          "dir": ""
+        }
+      ]
+    },
+    "GRADY PATRICK": {
+      "type": "funder",
+      "name": "Patrick Grady",
+      "total": 507763.89,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 507763.89,
+          "dir": ""
+        }
+      ]
+    },
+    "GUO SARAH": {
+      "type": "funder",
+      "name": "Sarah Guo",
+      "total": 507763.89,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 507763.89,
+          "dir": ""
+        }
+      ]
+    },
+    "DEGEORGE KIM": {
+      "type": "funder",
+      "name": "Kim Degeorge",
+      "total": 500112.73,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 500112.73,
+          "dir": ""
+        }
+      ]
+    },
+    "BOYERS MICHELLE": {
+      "type": "funder",
+      "name": "Michelle Boyers",
+      "total": 700000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "DOORDASH INC": {
+      "type": "funder",
+      "name": "Doordash Inc.",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "FUSHMAN ILYA": {
+      "type": "funder",
+      "name": "Ilya Fushman",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "GANDHI SAMEER": {
+      "type": "funder",
+      "name": "Sameer Gandhi",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "NICHOLAS PRITZKER AND AFFILIATED ENTITY DEMOCRACY RISING TRUST": {
+      "type": "funder",
+      "name": "Nicholas Pritzker And Affiliated Entity Democracy Rising Trust",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "TIERNEY DANIEL": {
+      "type": "funder",
+      "name": "Daniel Tierney",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "WALSH DIANA RUTH": {
+      "type": "funder",
+      "name": "Diana Ruth Walsh",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "WOLF RICHARD": {
+      "type": "funder",
+      "name": "Richard Wolf",
+      "total": 500000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "FENTON PETER": {
+      "type": "funder",
+      "name": "Peter Fenton",
+      "total": 496988.37,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 496988.37,
+          "dir": ""
+        }
+      ]
+    },
+    "RAVIKANT NAVAL": {
+      "type": "funder",
+      "name": "Naval Ravikant",
+      "total": 493398.51,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 493398.51,
+          "dir": ""
+        }
+      ]
+    },
+    "TANG STANLEY": {
+      "type": "funder",
+      "name": "Stanley Tang",
+      "total": 491014.85,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 491014.85,
+          "dir": ""
+        }
+      ]
+    },
+    "GARY FILIZETTI": {
+      "type": "funder",
+      "name": "Filizetti Gary",
+      "total": 480000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 480000,
+          "dir": ""
+        }
+      ]
+    },
+    "FIELD DYLAN": {
+      "type": "funder",
+      "name": "Dylan Field",
+      "total": 471329.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 471329.76,
+          "dir": ""
+        }
+      ]
+    },
+    "MARQUARDT DAVID": {
+      "type": "funder",
+      "name": "David Marquardt",
+      "total": 400000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 400000,
+          "dir": ""
+        }
+      ]
+    },
+    "TINSLEY RICHARD": {
+      "type": "funder",
+      "name": "Richard Tinsley",
+      "total": 400000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 400000,
+          "dir": ""
+        }
+      ]
+    },
+    "VERNAL MICHAEL": {
+      "type": "funder",
+      "name": "Michael Vernal",
+      "total": 391500,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 391500,
+          "dir": ""
+        }
+      ]
+    },
+    "BANK OF MARIN": {
+      "type": "funder",
+      "name": "Of Marin Bank",
+      "total": 465562.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 325397.83,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 124663.66,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 14831.48,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 669.79,
+          "dir": ""
+        }
+      ]
+    },
+    "WACHTER PAUL": {
+      "type": "funder",
+      "name": "Paul Wachter",
+      "total": 300000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 300000,
+          "dir": ""
+        }
+      ]
+    },
+    "BASZUCKI GREGORY": {
+      "type": "funder",
+      "name": "Gregory Baszucki",
+      "total": 274892.11,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 274892.11,
+          "dir": ""
+        }
+      ]
+    },
+    "LIEW JEREMY": {
+      "type": "funder",
+      "name": "Jeremy Liew",
+      "total": 250000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "PRITZKER JOHN A": {
+      "type": "funder",
+      "name": "John A Pritzker",
+      "total": 250000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "ROSENTHAL BENNETT": {
+      "type": "funder",
+      "name": "Bennett Rosenthal",
+      "total": 250000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "MEEKER MARY": {
+      "type": "funder",
+      "name": "Mary Meeker",
+      "total": 202663.8,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 202663.8,
+          "dir": ""
+        }
+      ]
+    },
+    "ATWATER JOHN": {
+      "type": "funder",
+      "name": "John Atwater",
+      "total": 200000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "PRITZKER NICHOLAS": {
+      "type": "funder",
+      "name": "Nicholas Pritzker",
+      "total": 200000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "RESNICK JOSHUA": {
+      "type": "funder",
+      "name": "Joshua Resnick",
+      "total": 200000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "RODAN AMNON": {
+      "type": "funder",
+      "name": "Amnon Rodan",
+      "total": 200000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 150000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "742855": {
+      "type": "funder",
+      "name": "742855",
+      "total": 106108.72,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 106108.72,
+          "dir": ""
+        }
+      ]
+    },
+    "MURPHY MATTHEW": {
+      "type": "funder",
+      "name": "Matthew Murphy",
+      "total": 101796.96,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101796.96,
+          "dir": ""
+        }
+      ]
+    },
+    "CONRAD PARKER": {
+      "type": "funder",
+      "name": "Parker Conrad",
+      "total": 101272.96,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101272.96,
+          "dir": ""
+        }
+      ]
+    },
+    "CLARK JAMES RYAN": {
+      "type": "funder",
+      "name": "James Ryan Clark",
+      "total": 126018.34,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101018.34,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 25000,
+          "dir": ""
+        }
+      ]
+    },
+    "BUTCHER C PRESTON": {
+      "type": "funder",
+      "name": "C Preston Butcher",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "DAYTON SKY": {
+      "type": "funder",
+      "name": "Sky Dayton",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "DEETER BYRON": {
+      "type": "funder",
+      "name": "Byron Deeter",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "FRANTZ EUGENE": {
+      "type": "funder",
+      "name": "Eugene Frantz",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "HARTZ KEVIN": {
+      "type": "funder",
+      "name": "Kevin Hartz",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "HOCKEY WILLIAM": {
+      "type": "funder",
+      "name": "William Hockey",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "PATTERSON ARTHUR": {
+      "type": "funder",
+      "name": "Arthur Patterson",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "RAVITCH JOSEPH": {
+      "type": "funder",
+      "name": "Joseph Ravitch",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "RAVITCH SONYA": {
+      "type": "funder",
+      "name": "Sonya Ravitch",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "SV ANGEL MANAGEMENT LLC ZACH MILLER": {
+      "type": "funder",
+      "name": "Sv Angel Management LLC Zach Miller",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "VAN KONYNENBURG DERK MICHAEL": {
+      "type": "funder",
+      "name": "Konynenburg Derk Michael Van",
+      "total": 100000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "MCCABE EOGHAN": {
+      "type": "funder",
+      "name": "Eoghan Mccabe",
+      "total": 99885.52,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 99885.52,
+          "dir": ""
+        }
+      ]
+    },
+    "KATZ AARON": {
+      "type": "funder",
+      "name": "Aaron Katz",
+      "total": 96851.1,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 96851.1,
+          "dir": ""
+        }
+      ]
+    },
+    "TED SCHLEIN": {
+      "type": "funder",
+      "name": "Schlein Ted",
+      "total": 90000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 90000,
+          "dir": ""
+        }
+      ]
+    },
+    "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS": {
+      "type": "funder",
+      "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
+      "total": 58876.96,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 58876.96,
+          "dir": ""
+        }
+      ]
+    },
+    "MOSELEY NOELLE": {
+      "type": "funder",
+      "name": "Noelle Moseley",
+      "total": 50112.4,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 50112.4,
+          "dir": ""
+        }
+      ]
+    },
+    "CRAWFORD GORDON": {
+      "type": "funder",
+      "name": "Gordon Crawford",
+      "total": 50000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "MAPLEBEAR INC DBA INSTACART": {
+      "type": "funder",
+      "name": "Maplebear Inc. Dba Instacart",
+      "total": 50000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "CAROLAN SHAWN": {
+      "type": "funder",
+      "name": "Shawn Carolan",
+      "total": 49875.68,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 49875.68,
+          "dir": ""
+        }
+      ]
+    },
+    "LONSDALE JOSEPH": {
+      "type": "funder",
+      "name": "Joseph Lonsdale",
+      "total": 49870,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 49870,
+          "dir": ""
+        }
+      ]
+    },
+    "KEEP CALIFORNIA GOLDEN": {
+      "type": "funder",
+      "name": "California Golden Keep",
+      "total": 41402.18,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 41402.18,
+          "dir": ""
+        }
+      ]
+    },
+    "GARY'S LIST ACTION": {
+      "type": "funder",
+      "name": "Gary's List Action",
+      "total": 35000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 35000,
+          "dir": ""
+        }
+      ]
+    },
+    "WEISS ELI": {
+      "type": "funder",
+      "name": "Eli Weiss",
+      "total": 25000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 25000,
+          "dir": ""
+        }
+      ]
+    },
+    "ALTMAN JACK": {
+      "type": "funder",
+      "name": "Jack Altman",
+      "total": 24819.76,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 24819.76,
+          "dir": ""
+        }
+      ]
+    },
+    "CONTE JEAN PIERRE": {
+      "type": "funder",
+      "name": "Jean Pierre Conte",
+      "total": 14000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 14000,
+          "dir": ""
+        }
+      ]
+    },
+    "GOLDMAN KEN": {
+      "type": "funder",
+      "name": "Ken Goldman",
+      "total": 11847,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 11847,
+          "dir": ""
+        }
+      ]
+    },
+    "UPTOWN STRATEGIES LLC": {
+      "type": "funder",
+      "name": "Uptown Strategies LLC",
+      "total": 11800,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 11800,
+          "dir": ""
+        }
+      ]
+    },
+    "MILLS PATRICIA": {
+      "type": "funder",
+      "name": "Patricia Mills",
+      "total": 10000,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 10000,
+          "dir": ""
+        }
+      ]
+    },
+    "THEMATIC CAMPAIGNS LLC": {
+      "type": "funder",
+      "name": "Thematic Campaigns LLC",
+      "total": 8882.5,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 8882.5,
+          "dir": ""
+        }
+      ]
+    },
+    "KINNEY ANNA": {
+      "type": "funder",
+      "name": "Anna Kinney",
+      "total": 200,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 200,
+          "dir": ""
+        }
+      ]
+    },
+    "BAUM ANNELLE": {
+      "type": "funder",
+      "name": "Annelle Baum",
+      "total": 100,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 100,
+          "dir": ""
+        }
+      ]
+    },
+    "NEWMAN BARBARA": {
+      "type": "funder",
+      "name": "Barbara Newman",
+      "total": 100,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 100,
+          "dir": ""
+        }
+      ]
+    },
+    "BUILDING A BETTER CALIFORNIA INCORPORATED NON REPORTABLE ACCOUNT": {
+      "type": "funder",
+      "name": "Building A Better California Incorporated Non Reportable Account",
+      "total": 0,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 0,
+          "dir": ""
+        }
+      ]
+    },
+    "GROW CALIFORNIA INC": {
+      "type": "funder",
+      "name": "Grow California Inc.",
+      "total": 0,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 0,
+          "dir": ""
+        }
+      ]
+    },
+    "MERRILL KATIE": {
+      "type": "funder",
+      "name": "Katie Merrill",
+      "total": 0,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 0,
+          "dir": ""
+        }
+      ]
+    },
+    "MERRILL STEVEN": {
+      "type": "funder",
+      "name": "Steven Merrill",
+      "total": 0,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 0,
+          "dir": ""
+        }
+      ]
+    },
+    "COINBASE INC": {
+      "type": "funder",
+      "name": "Coinbase Inc.",
+      "total": -13687.02,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": -13687.02,
+          "dir": ""
+        }
+      ]
+    },
+    "COINBASE INC FBO ITS CUSTOMERS": {
+      "type": "funder",
+      "name": "Coinbase Inc. Fbo Its Customers",
+      "total": -52932.38,
+      "industry": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": -52932.38,
+          "dir": ""
+        }
+      ]
+    },
+    "CAND|Measure: PROPOSITION 42": {
+      "type": "measure",
+      "name": "Proposition 42",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 127800000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|Measure: PROPOSITION 40": {
+      "type": "measure",
+      "name": "Proposition 40",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 118500000,
+          "dir": "against"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|Measure: PROPOSITION 41": {
+      "type": "measure",
+      "name": "Proposition 41",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 58350000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|MATT MAHAN": {
+      "type": "candidate",
+      "name": "Matt Mahan",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 19506423.49,
+          "dir": "support"
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 2764437.25,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "Governor's Race",
+      "support": 22270860.74,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Measure: PROPOSITION 45": {
+      "type": "measure",
+      "name": "Proposition 45",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 10000000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|Measure: PROPOSITION 37": {
+      "type": "measure",
+      "name": "Proposition 37",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 6000000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|SARA HERNANDEZ": {
+      "type": "candidate",
+      "name": "Sara Hernandez",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 4267175.56,
+          "dir": "support"
+        },
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 343920,
+          "dir": "against"
+        }
+      ],
+      "party": "D",
+      "race": "SD26",
+      "support": 4267175.56,
+      "against": 343920,
+      "policy_platform": ""
+    },
+    "CAND|Measure: Prohibit Exceptions to School Funding Guarantee": {
+      "type": "measure",
+      "name": "Prohibit Exceptions To School Funding Guarantee",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3100000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|David Penaloza": {
+      "type": "candidate",
+      "name": "David Penaloza",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 2866414.61,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD68",
+      "support": 2866414.61,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|DAVID PENALOZA": {
+      "type": "candidate",
+      "name": "David Penaloza",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 2821826.3,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD68",
+      "support": 2821826.3,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|ERIC LUCAN": {
+      "type": "candidate",
+      "name": "Eric Lucan",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 2817225.31,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD12",
+      "support": 2817225.31,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|MARK PULIDO": {
+      "type": "candidate",
+      "name": "Mark Pulido",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 2594121.47,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD67",
+      "support": 2594121.47,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Andrae Gonzales": {
+      "type": "candidate",
+      "name": "Andrae Gonzales",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 2556406.14,
+          "dir": "support"
+        },
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 350387.93,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD35",
+      "support": 2906794.07,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|JOHN ERICKSON": {
+      "type": "candidate",
+      "name": "John Erickson",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 2242027.65,
+          "dir": "against"
+        }
+      ],
+      "party": "D",
+      "race": "SD24",
+      "support": 0,
+      "against": 2242027.65,
+      "policy_platform": ""
+    },
+    "CAND|ADA BRICENO": {
+      "type": "candidate",
+      "name": "Ada Briceno",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 1490766.53,
+          "dir": "against"
+        }
+      ],
+      "party": "D",
+      "race": "AD67",
+      "support": 0,
+      "against": 1490766.53,
+      "policy_platform": ""
+    },
+    "CAND|AYANNA DAVIS": {
+      "type": "candidate",
+      "name": "Ayanna Davis",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 1475309.71,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD65",
+      "support": 1475309.71,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Scott Sakakihara": {
+      "type": "candidate",
+      "name": "Scott Sakakihara",
+      "spending": [
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 1335520.32,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD10",
+      "support": 1335520.32,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|JESSIE LOPEZ": {
+      "type": "candidate",
+      "name": "Jessie Lopez",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 1333222.45,
+          "dir": "against"
+        }
+      ],
+      "party": "D",
+      "race": "AD68",
+      "support": 0,
+      "against": 1333222.45,
+      "policy_platform": ""
+    },
+    "CAND|Ed Musgrove": {
+      "type": "candidate",
+      "name": "Ed Musgrove",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1302055,
+          "dir": "support"
+        }
+      ],
+      "party": "R",
+      "race": "SD40",
+      "support": 1302055,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Mark Pulido": {
+      "type": "candidate",
+      "name": "Mark Pulido",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1260592.27,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD67",
+      "support": 1260592.27,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Greg Wallis": {
+      "type": "candidate",
+      "name": "Greg Wallis",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1078618,
+          "dir": "support"
+        }
+      ],
+      "party": "R",
+      "race": "AD47",
+      "support": 1078618,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Brian Goldsmith": {
+      "type": "candidate",
+      "name": "Brian Goldsmith",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1057109.5,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD24",
+      "support": 1057109.5,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|SCOTT SAKAKIHARA": {
+      "type": "candidate",
+      "name": "Scott Sakakihara",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 1039940,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD10",
+      "support": 1039940,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Ayanna Davis": {
+      "type": "candidate",
+      "name": "Ayanna Davis",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1010362.04,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD65",
+      "support": 1010362.04,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Measure: PROPOSITION 1": {
+      "type": "measure",
+      "name": "Proposition 1",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": "support"
+        }
+      ],
+      "what_it_does": ""
+    },
+    "CAND|Xavier Becerra": {
+      "type": "candidate",
+      "name": "Xavier Becerra",
+      "spending": [
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 999066,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "Governor's Race",
+      "support": 999066,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Annalisa Perea": {
+      "type": "candidate",
+      "name": "Annalisa Perea",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 962422.97,
+          "dir": "support"
+        },
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 377498.34,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD31",
+      "support": 1339921.31,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Darshana Patel": {
+      "type": "candidate",
+      "name": "Darshana Patel",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 870807,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD76",
+      "support": 870807,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|JACKIE ELWARD": {
+      "type": "candidate",
+      "name": "Jackie Elward",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 846293.45,
+          "dir": "against"
+        },
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 102962.86,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD12",
+      "support": 102962.86,
+      "against": 846293.45,
+      "policy_platform": ""
+    },
+    "CAND|Sara Hernandez": {
+      "type": "candidate",
+      "name": "Sara Hernandez",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 828919.44,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD26",
+      "support": 828919.44,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|IDA OBESO-MARTINEZ": {
+      "type": "candidate",
+      "name": "Ida Obeso-Martinez",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 818333,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD36",
+      "support": 818333,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|FATIMA IQBAL-ZUBAIR": {
+      "type": "candidate",
+      "name": "Fatima Iqbal-Zubair",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 638751.32,
+          "dir": "against"
+        }
+      ],
+      "party": "D",
+      "race": "AD65",
+      "support": 0,
+      "against": 638751.32,
+      "policy_platform": ""
+    },
+    "CAND|Tony Strickland": {
+      "type": "candidate",
+      "name": "Tony Strickland",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 622570,
+          "dir": "support"
+        }
+      ],
+      "party": "R",
+      "race": "SD36",
+      "support": 622570,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Laurie Davies": {
+      "type": "candidate",
+      "name": "Laurie Davies",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 356035,
+          "dir": "support"
+        }
+      ],
+      "party": "R",
+      "race": "AD74",
+      "support": 356035,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Rick Chavez Zbur": {
+      "type": "candidate",
+      "name": "Rick Chavez Zbur",
+      "spending": [
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 281763.48,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD51",
+      "support": 281763.48,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|David Alvarez": {
+      "type": "candidate",
+      "name": "David Alvarez",
+      "spending": [
+        {
+          "id": "1483390",
+          "name": "META California",
+          "amount": 276485.27,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD80",
+      "support": 276485.27,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|ANDRAE GONZALES": {
+      "type": "candidate",
+      "name": "Andrae Gonzales",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 272439.34,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD35",
+      "support": 272439.34,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|DEBORAH KLEIN LOPEZ": {
+      "type": "candidate",
+      "name": "Deborah Klein Lopez",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 272439.34,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD42",
+      "support": 272439.34,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|RHODESIA RANSOM": {
+      "type": "candidate",
+      "name": "Rhodesia Ransom",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 181918.32,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "AD13",
+      "support": 181918.32,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|TOM PATTI": {
+      "type": "candidate",
+      "name": "Tom Patti",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 181918.31,
+          "dir": "against"
+        }
+      ],
+      "party": "R",
+      "race": "AD13",
+      "support": 0,
+      "against": 181918.31,
+      "policy_platform": ""
+    },
+    "CAND|Esmeralda Soria": {
+      "type": "candidate",
+      "name": "Esmeralda Soria",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 115045,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD14",
+      "support": 115045,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|Avelino Valencia": {
+      "type": "candidate",
+      "name": "Avelino Valencia",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 72570,
+          "dir": "support"
+        }
+      ],
+      "party": "D",
+      "race": "SD34",
+      "support": 72570,
+      "against": 0,
+      "policy_platform": ""
+    },
+    "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE": {
+      "type": "committee",
+      "name": "Uber Innovation Political Action Committee",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 12000,
+          "dir": "support"
+        }
+      ],
+      "supports": [
+        "Eric Swalwell ($2.0M)",
+        "California Democratic Party ($1.8M)",
+        "Scott Sakakihara ($1.0M)",
+        "Xavier Becerra ($1.0M)",
+        "Working Californians, Sponsored By International Brotherhood Of Electrical Workers Local Union 18 ($550K)",
+        "and 24 more"
+      ]
+    },
+    "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC": {
+      "type": "committee",
+      "name": "California State Council Of Laborers Independent Expenditure Pac",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 8000,
+          "dir": "support"
+        }
+      ],
+      "supports": [
+        "Latinos For An Affordable California 2026 ($100K)"
+      ]
+    }
+  }
 }
