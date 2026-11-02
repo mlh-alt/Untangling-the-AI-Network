@@ -164,8 +164,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 
 
 /* ── info sheet (opens when the name in the pop-up is clicked) ── */
-#orb-name.has-sheet { cursor: pointer; text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-#orb-name.has-sheet:hover, #orb-name.has-sheet:focus-visible { text-decoration-style: solid; outline: none; }
+/* clickable names: no underline at rest, underline on hover / keyboard focus */
+#orb-name.has-sheet { cursor: pointer; text-decoration: none; text-decoration-thickness: 2px; text-underline-offset: 5px; }
+#orb-name.has-sheet:hover, #orb-name.has-sheet:focus-visible { text-decoration: underline; text-decoration-thickness: 2px; outline: none; }
 #orb-hint { font-family: var(--font-mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); }
 #sheet {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 40;
@@ -199,8 +200,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 .sh-tag.support { color: var(--cand-sup); }
 .sh-tag.against { color: var(--cand-opp); }
 .sh-tag.transfer { color: var(--pac); }
-.sh-link { background: none; border: none; padding: 0; font: inherit; color: var(--cand-sup); cursor: pointer; text-align: left; text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
-.sh-link:hover, .sh-link:focus-visible { color: var(--fg); outline: none; }
+.sh-link { background: none; border: none; padding: 0; font: inherit; color: var(--cand-sup); cursor: pointer; text-align: left; text-decoration: none; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.sh-link:hover, .sh-link:focus-visible { text-decoration: underline; outline: none; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 @media (max-width: 600px) {
