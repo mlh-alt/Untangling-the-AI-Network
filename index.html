@@ -167,7 +167,15 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 /* clickable names: no underline at rest, underline on hover / keyboard focus */
 #orb-name.has-sheet { cursor: pointer; text-decoration: none; text-decoration-thickness: 2px; text-underline-offset: 5px; }
 #orb-name.has-sheet:hover, #orb-name.has-sheet:focus-visible { text-decoration: underline; text-decoration-thickness: 2px; outline: none; }
-#orb-hint { font-family: var(--font-mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); }
+/* "i" button next to the map title: how to use the map */
+#title-row { display: flex; align-items: center; gap: 8px; }
+#header > div:first-child { min-width: 0; }   /* lets the subtitle shorten so Reset view stays on screen */
+#info-btn { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--fg3); background: none; color: var(--fg2); font-family: var(--font-mono); font-size: 11px; font-weight: 500; line-height: 1; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; padding: 0; flex-shrink: 0; }
+#info-btn:hover, #info-btn:focus-visible, #info-btn[aria-expanded="true"] { color: var(--fg); border-color: var(--fg); outline: none; }
+#info-pop { position: fixed; z-index: 45; top: calc(env(safe-area-inset-top, 0px) + 52px); left: max(16px, env(safe-area-inset-left, 0px)); width: min(320px, calc(100vw - 32px)); background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; box-shadow: 0 10px 30px rgba(0,0,0,.35); font-size: 12px; line-height: 1.55; color: var(--fg); }
+#info-pop h2 { font-family: var(--font-mono); font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); margin-bottom: 8px; }
+#info-pop ul { list-style: none; display: grid; gap: 6px; }
+#info-pop li::before { content: "\2022"; color: var(--fg3); margin-right: 8px; }
 #sheet {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 40;
   width: min(460px, 100vw);
@@ -214,7 +222,10 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 
 <div id="header">
   <div>
-    <h1>AI Money Network</h1>
+    <div id="title-row">
+      <h1>AI Money Network</h1>
+      <button id="info-btn" aria-label="How to use this map" aria-expanded="false" aria-controls="info-pop">i</button>
+    </div>
     <div class="sub" id="header-sub">California Independent Expenditures · 2025–2026</div>
   </div>
   <div id="header-spacer"></div>
@@ -227,6 +238,16 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   <button id="reset-btn">Reset view</button>
 </div>
 
+<div id="info-pop" hidden role="dialog" aria-label="How to use this map">
+  <h2>How to use this map</h2>
+  <ul>
+    <li>Click a circle to see a summary of that funder, PAC, candidate or measure.</li>
+    <li>In the summary, click the name to open its full info sheet. Names in the sheet link to other sheets.</li>
+    <li>Hover over or tap a line to see the amount.</li>
+    <li>Scroll or pinch to zoom, drag to move around, and use Reset view to start over.</li>
+  </ul>
+</div>
+
 <div id="canvas-wrap">
   <svg id="svg"></svg>
 </div>
@@ -236,7 +257,6 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     <button id="orb-close">×</button>
     <div id="orb-tier"></div>
     <div id="orb-name"></div>
-    <div id="orb-hint" hidden>Click the name for the info sheet</div>
     <div id="orb-total"></div>
     <div id="orb-detail"></div>
     <div id="orb-profile" hidden></div>
@@ -7108,7 +7128,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     nameEl.setAttribute('role', hasSheet ? 'button' : '');
     nameEl.onclick = hasSheet ? (() => openSheet(nd.id, true)) : null;
     nameEl.onkeydown = hasSheet ? (e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openSheet(nd.id, true); } }) : null;
-    document.getElementById('orb-hint').hidden = !hasSheet;
+
     zoomToNode(nd);
   }
 
@@ -7233,6 +7253,18 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   });
   document.getElementById('sheet').addEventListener('click', e => e.stopPropagation());
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !document.getElementById('sheet').hidden) closeSheet(); });
+
+
+  // ── "i" button: how to use the map ──
+  const infoBtn = document.getElementById('info-btn');
+  const infoPop = document.getElementById('info-pop');
+  function setInfo(open) { infoPop.hidden = !open; infoBtn.setAttribute('aria-expanded', String(open)); }
+  infoBtn.addEventListener('click', e => { e.stopPropagation(); setInfo(infoPop.hidden); });
+  // close on any press outside the popover (pointerdown, since the map stops some click events)
+  document.addEventListener('pointerdown', e => {
+    if (!infoPop.hidden && !infoPop.contains(e.target) && !infoBtn.contains(e.target)) setInfo(false);
+  }, true);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setInfo(false); });
 
   document.getElementById('orb-close').addEventListener('click', closeOrb);
   document.getElementById('orb').addEventListener('click', e => e.stopPropagation());
