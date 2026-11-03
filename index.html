@@ -198,6 +198,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 .sh-section { margin-top: 22px; }
 .sh-h { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); padding-bottom: 6px; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
 .sh-text { font-size: 13px; line-height: 1.6; color: var(--fg); white-space: pre-wrap; }
+.sh-text a.sh-src { color: var(--fg); text-decoration: underline; text-decoration-color: var(--fg3); text-underline-offset: 2px; overflow-wrap: anywhere; }
+.sh-text a.sh-src:hover, .sh-text a.sh-src:focus-visible { text-decoration-color: var(--fg); }
 .sh-empty { font-size: 12px; color: var(--fg3); font-style: italic; }
 .sh-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 12.5px; }
 .sh-row:last-child { border-bottom: none; }
@@ -294,7 +296,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     "total_spent_ie": "$389,362,100",
     "n_funders": 144,
     "n_candidates": 44,
-    "date_range": "Jan 01, 2025 – Nov 01, 2026"
+    "date_range": "Jan 01, 2025 – Nov 02, 2026"
   },
   "pacs": [
     {
@@ -7169,9 +7171,27 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     body.appendChild(sec);
     return sec;
   }
+  // Text from additional_info.csv: URLs become links (labelled by site) so each sheet keeps its sources
+  const URL_RE = /https?:\/\/[^\s;,)]+[^\s;,.)]/g;
+  function linkedText(cls, value) {
+    const box = el('div', cls);
+    let last = 0, m;
+    URL_RE.lastIndex = 0;
+    while ((m = URL_RE.exec(value)) !== null) {
+      if (m.index > last) box.appendChild(document.createTextNode(value.slice(last, m.index)));
+      const a = el('a', 'sh-src');
+      a.href = m[0]; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      try { a.textContent = new URL(m[0]).hostname.replace(/^www\./, ''); } catch (e) { a.textContent = m[0]; }
+      a.title = m[0];
+      box.appendChild(a);
+      last = m.index + m[0].length;
+    }
+    if (last < value.length) box.appendChild(document.createTextNode(value.slice(last)));
+    return box;
+  }
   function textField(body, title, value) {
     const sec = section(body, title);
-    sec.appendChild(value ? el('div', 'sh-text', value) : el('div', 'sh-empty', 'Not yet added'));
+    sec.appendChild(value ? linkedText('sh-text', value) : el('div', 'sh-empty', 'Not yet added'));
   }
   function stats(body, pairs) {
     const g = el('div', 'sh-stats');
