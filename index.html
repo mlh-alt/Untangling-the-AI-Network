@@ -198,8 +198,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 .sh-section { margin-top: 22px; }
 .sh-h { font-family: var(--font-mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); padding-bottom: 6px; border-bottom: 1px solid var(--border); margin-bottom: 6px; }
 .sh-text { font-size: 13px; line-height: 1.6; color: var(--fg); white-space: pre-wrap; }
-.sh-text a.sh-src { color: var(--fg); text-decoration: underline; text-decoration-color: var(--fg3); text-underline-offset: 2px; overflow-wrap: anywhere; }
-.sh-text a.sh-src:hover, .sh-text a.sh-src:focus-visible { text-decoration-color: var(--fg); }
+.sh-text a.sh-src { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
+.sh-text a.sh-src:hover, .sh-text a.sh-src:focus-visible { text-decoration-color: currentColor; }
 .sh-empty { font-size: 12px; color: var(--fg3); font-style: italic; }
 .sh-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 12.5px; }
 .sh-row:last-child { border-bottom: none; }
@@ -2429,31 +2429,31 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "LARSEN CHRISTIAN",
           "name": "Christian Larsen",
           "amount": 36865749.36,
-          "industry": "Ripple cofounder (crypto payments); same person as LARSEN CHRIS. Tech tie: Yes. Net worth: $8.4B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/chris-larsen/"
+          "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)"
         },
         {
           "id": "DRAPER TIMOTHY",
           "name": "Timothy Draper",
           "amount": 17000000,
-          "industry": "Venture capitalist (Draper Associates; cofounded Draper Fisher Jurvetson); crypto investor. Tech tie: Yes. Net worth: $2.3B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/tim-draper/"
+          "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor"
         },
         {
           "id": "BANK OF MARIN",
           "name": "Of Marin Bank",
           "amount": 325397.83,
-          "industry": "Bank of Marin, Bay Area community bank; amounts to all four PACs suggest interest, fees or account transfers, not donations. Confirm on the filings. Tech tie: No. Net worth: Not applicable (organization)."
+          "industry": ""
         },
         {
           "id": "742855",
           "name": "742855",
           "amount": 106108.72,
-          "industry": "A Cal-Access ID in the name field, not a named donor; look up filer 742855. Tech tie: Unknown. Net worth: Not applicable (organization)."
+          "industry": ""
         },
         {
           "id": "GARY'S LIST ACTION",
           "name": "Gary's List Action",
           "amount": 35000,
-          "industry": "Political committee; not researched (search limit). Tech tie: Unknown. Net worth: Not applicable (organization)."
+          "industry": "[Political arm of Y Combinator CEO Garry Tan's Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/)"
         }
       ]
     },
@@ -2592,31 +2592,31 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "Google LLC",
           "name": "Google LLC",
           "amount": 21000000,
-          "industry": "Google (Alphabet): search, ads, cloud, Gemini AI. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://en.wikipedia.org/wiki/Google"
+          "industry": "[Alphabet subsidiary behind Google Search](https://en.wikipedia.org/wiki/Google), ads, cloud and Gemini AI"
         },
         {
           "id": "Meta Platforms",
           "name": "Meta Platforms",
           "amount": 7050000,
-          "industry": "Meta (Facebook, Instagram, WhatsApp, Llama AI models); sponsor of META California. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://techcrunch.com/?p=3039993"
+          "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models"
         },
         {
           "id": "SV ANGEL MANAGEMENT LLC ZACH MILLER",
           "name": "Sv Angel Management LLC Zach Miller",
           "amount": 100000,
-          "industry": "SV Angel, the seed fund founded by Ron Conway; Zach Miller listed on the filing. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://en.wikipedia.org/wiki/SV_Angel"
+          "industry": "[SV Angel, Ron Conway's seed fund](https://en.wikipedia.org/wiki/SV_Angel)"
         },
         {
           "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
           "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
           "amount": 58876.96,
-          "industry": "Landlord/housing-provider sponsored committee; not researched further. Tech tie: Unknown. Net worth: Not applicable (organization)."
+          "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)"
         },
         {
           "id": "KEEP CALIFORNIA GOLDEN",
           "name": "California Golden Keep",
           "amount": 41402.18,
-          "industry": "Political committee; not researched (search limit). Tech tie: Unknown. Net worth: Not applicable (organization)."
+          "industry": ""
         }
       ]
     },
@@ -3169,31 +3169,31 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
           "amount": 102000000,
-          "industry": "Google cofounder; Alphabet board member. Tech tie: Yes. Net worth: $217.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/sergey-brin/"
+          "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
         },
         {
           "id": "Morgan Stanley",
           "name": "Morgan Stanley",
           "amount": 101501869.05,
-          "industry": "Wall Street bank and brokerage. Likely the custodian on stock gifts rather than a corporate donor: over two-thirds of Building a Better California's recent receipts came in stock (GV Wire). Tech tie: No. Net worth: Not applicable (organization). Sources: https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/"
+          "industry": "Wall Street bank and brokerage, [likely the custodian on donors' stock gifts](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) rather than a donor itself"
         },
         {
           "id": "SCHMIDT ERIC",
           "name": "Eric Schmidt",
           "amount": 40236457.01,
-          "industry": "Google CEO 2001-2011. Tech tie: Yes. Net worth: $32.9B (Forbes real-time, Oct 30, 2026). Sources: https://www.forbes.com/profile/eric-schmidt/"
+          "industry": "[Former Google CEO](https://www.forbes.com/profile/eric-schmidt/) (2001 to 2011)"
         },
         {
           "id": "DOERR III L JOHN",
           "name": "L John Doerr III",
           "amount": 40000000,
-          "industry": "Chairman of venture firm Kleiner Perkins. Tech tie: Yes. Net worth: $21.6B (Forbes real-time, Oct 26, 2026). Sources: https://www.forbes.com/profile/john-doerr/"
+          "industry": "[Chairman of venture firm Kleiner Perkins](https://www.forbes.com/profile/john-doerr/)"
         },
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
           "amount": 33169793.76,
-          "industry": "Cofounder and CEO of Stripe (payments). Tech tie: Yes. Net worth: $17.5B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/patrick-collison/"
+          "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)"
         }
       ]
     },
@@ -3202,7 +3202,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "name": "META California",
       "raised": 17000000,
       "spent": 3620721.34,
-      "mission": "Meta's California super PAC. Backs candidates \"regardless of party who recognize California's vital role in AI development\" and \"embrace policies that will keep the state at the forefront of the global tech ecosystem\" (Meta spokesperson). Meta VP Brian Rice: Sacramento's regulatory environment \"could stifle innovation, block AI progress, and put California's technology leadership at risk.\" Spent $1.3M backing Scott Sakakihara in 2026. Sources: https://www.foxbusiness.com/politics/meta-launches-california-super-pac-support-pro-ai-policy-candidates-amid-regulatory-concerns ; https://techcrunch.com/?p=3039993 ; https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/",
+      "mission": "Meta's California super PAC. It backs candidates \"regardless of party who recognize California's vital role in AI development\" and who \"embrace policies that will keep the state at the forefront of the global tech ecosystem,\" [a Meta spokesperson said at launch](https://www.foxbusiness.com/politics/meta-launches-california-super-pac-support-pro-ai-policy-candidates-amid-regulatory-concerns). Brian Rice, Meta's vice president of public policy, [said](https://techcrunch.com/?p=3039993) Sacramento's regulatory environment \"could stifle innovation, block AI progress, and put California's technology leadership at risk.\" It [spent $1.3 million backing Scott Sakakihara](https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/) in 2026.",
       "spending": [
         {
           "id": "CAND|Scott Sakakihara",
@@ -3254,7 +3254,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "Meta Platforms",
           "name": "Meta Platforms",
           "amount": 17000000,
-          "industry": "Meta (Facebook, Instagram, WhatsApp, Llama AI models); sponsor of META California. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://techcrunch.com/?p=3039993"
+          "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models"
         }
       ]
     },
@@ -3263,7 +3263,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "name": "California Back to Basics",
       "raised": 54571558.58,
       "spent": 19506423.49,
-      "mission": "Independent expenditure committee supporting Matt Mahan for governor; no published mission statement could be read. Its ads push Mahan's \"back to basics\" message: affordable homes, safe neighborhoods, good schools. Govern for California's David Crane ($3M donor): \"We are 100% focused on getting more Californians to know Matt, because if Californians get to know him, he wins.\" Sources: https://www.cabacktobasics.com/ ; https://www.sanjoseinside.com/news/california-back-to-basics-aired-this-pro-mahan-super-bowl-ad/ ; https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/",
+      "mission": "Independent expenditure committee [supporting Matt Mahan for governor](https://www.sanjoseinside.com/news/california-back-to-basics-aired-this-pro-mahan-super-bowl-ad/). Its namesake group, launched by veterans of Mahan's San Jose mayoral campaign, [says it exists](https://backtobasicssj.com/about-us/) to \"support a back-to-basics agenda\": addressing homelessness, \"getting smarter about fighting crime,\" cleaner streets and an economy that works for everyone, and to balance budgets \"by growing our tax base, rather than simply increasing taxes.\" David Crane, president of $3 million donor Govern for California, [said](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/): \"We are 100% focused on getting more Californians to know Matt, because if Californians get to know him, he wins.\"",
       "spending": [
         {
           "id": "CAND|MATT MAHAN",
@@ -3615,31 +3615,31 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "MORITZ MICHAEL",
           "name": "Michael Moritz",
           "amount": 6000000,
-          "industry": "Venture capitalist (Sequoia Capital). Tech tie: Yes. Net worth: $7.5B (Forbes real-time, Oct 24, 2026). Sources: https://www.forbes.com/profile/michael-moritz/"
+          "industry": "[Venture capitalist](https://www.forbes.com/profile/michael-moritz/) and longtime Sequoia Capital partner"
         },
         {
           "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
           "name": "Govern For California Action Committee",
           "amount": 3000000,
-          "industry": "David Crane's donor network, funded by tech leaders and financiers to counter union influence in Sacramento. Tech tie: Indirect (funded largely by tech leaders and financiers). Net worth: Not applicable (organization). Sources: https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/"
+          "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers"
         },
         {
           "id": "RICK CARUSO AND AFFILIATED ENTITIES",
           "name": "Rick Caruso And Affiliated Entities",
           "amount": 3000000,
-          "industry": "Los Angeles real estate developer (Caruso). Tech tie: No. Net worth: $7.1B (Forbes real-time, Oct 30, 2026). Sources: https://www.forbes.com/profile/rick-caruso/"
+          "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)"
         },
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
           "amount": 2980000,
-          "industry": "Cofounder and CEO of Stripe (payments). Tech tie: Yes. Net worth: $17.5B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/patrick-collison/"
+          "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)"
         },
         {
           "id": "KHOSLA VINOD",
           "name": "Vinod Khosla",
           "amount": 2200000,
-          "industry": "Founder of Khosla Ventures; Sun Microsystems cofounder. Tech tie: Yes. Net worth: $11.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/vinod-khosla/"
+          "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder"
         }
       ]
     },
@@ -3648,7 +3648,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "name": "Deliver for California",
       "raised": 6505063.21,
       "spent": 2764437.25,
-      "mission": "Registered as \"Deliver for California - Matt Mahan for Governor 2026\"; no published statement of priorities found. Largest donors are Sergey Brin and Paul Buchheit. Sources: https://fullertonobserver.com/2026/05/05/follow-money-ca-governors-race-2026/ ; https://www.aol.com/articles/google-sergey-brin-backs-rival-185150884.html",
+      "mission": "Registered as [\"Deliver for California - Matt Mahan for Governor 2026\"](https://fullertonobserver.com/2026/05/05/follow-money-ca-governors-race-2026/); no statement of priorities has been published. Its largest donors are Sergey Brin, who [gave $1 million to back Mahan](https://www.aol.com/articles/google-sergey-brin-backs-rival-185150884.html) in March 2026, and Paul Buchheit.",
       "spending": [
         {
           "id": "CAND|MATT MAHAN",
@@ -3784,31 +3784,31 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
           "amount": 2000000,
-          "industry": "Google cofounder; Alphabet board member. Tech tie: Yes. Net worth: $217.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/sergey-brin/"
+          "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
         },
         {
           "id": "BUCHHEIT PAUL",
           "name": "Paul Buchheit",
           "amount": 2000000,
-          "industry": "Created Gmail at Google; FriendFeed cofounder; Y Combinator partner. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Paul_Buchheit"
+          "industry": "[Creator of Gmail](https://en.wikipedia.org/wiki/Paul_Buchheit), FriendFeed cofounder and Y Combinator partner"
         },
         {
           "id": "SINGERMAN BRIAN",
           "name": "Brian Singerman",
           "amount": 500000,
-          "industry": "Partner (now emeritus) at Founders Fund, Peter Thiel's VC firm. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://foundersfund.com/team/brian-singerman"
+          "industry": "[Silicon Valley venture capitalist](https://foundersfund.com/team/brian-singerman) and partner emeritus at Peter Thiel's Founders Fund"
         },
         {
           "id": "GARY FILIZETTI",
           "name": "Filizetti Gary",
           "amount": 480000,
-          "industry": "Not confirmed in this search. Tech tie: Unknown. Net worth: No Forbes figure located."
+          "industry": "[President of Devcon Construction](https://www.devcon-const.com/management/gary-filizetti), a Silicon Valley design-build contractor"
         },
         {
           "id": "BOYERS MICHELLE",
           "name": "Michelle Boyers",
           "amount": 200000,
-          "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located."
+          "industry": ""
         }
       ]
     },
@@ -3816,8 +3816,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sergey Brin",
       "total": 104000000,
-      "industry": "Google cofounder; Alphabet board member. Tech tie: Yes. Net worth: $217.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/sergey-brin/",
-      "politics": "Little political activity before 2026, then the largest single funder against the billionaire tax: about $102M to Building a Better California. Gave $3M to the CalChamber-backed Jobspac (which spent over $15M against Tom Steyer), $1M to a committee backing Matt Mahan for governor, $39,200 each to Republicans Steve Hilton and Chad Bianco, and $500K against San Francisco's CEO tax. Moved his residence and businesses to Nevada in late 2025. Quote: \"I don't want California to end up in the same place.\" Sources: https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/ ; https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/",
+      "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member",
+      "net_worth": "[$217.2 billion](https://www.forbes.com/profile/sergey-brin/), Forbes real-time estimate as of Oct. 29, 2026",
+      "politics": "Had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. Spent [$500,000 against San Francisco's CEO tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/). [Moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025, saying: \"I don't want California to end up in the same place.\"",
       "spending": [
         {
           "id": "1486767",
@@ -3837,8 +3838,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Morgan Stanley",
       "total": 101501869.05,
-      "industry": "Wall Street bank and brokerage. Likely the custodian on stock gifts rather than a corporate donor: over two-thirds of Building a Better California's recent receipts came in stock (GV Wire). Tech tie: No. Net worth: Not applicable (organization). Sources: https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/",
-      "politics": "None found in this search.",
+      "industry": "Wall Street bank and brokerage, [likely the custodian on donors' stock gifts](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) rather than a donor itself",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -3852,8 +3854,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Eric Schmidt",
       "total": 40236457.01,
-      "industry": "Google CEO 2001-2011. Tech tie: Yes. Net worth: $32.9B (Forbes real-time, Oct 30, 2026). Sources: https://www.forbes.com/profile/eric-schmidt/",
-      "politics": "Adviser and donor to Obama's 2008 campaign, then PCAST member. Chaired the Pentagon's Defense Innovation Board (2016-2020) and co-chaired the National Security Commission on AI (2019-2021). In 2026: $40.2M to Building a Better California and $2.6M to the California Business Roundtable Issues PAC (which opposed Prop 40 and backed Prop 43). Opposed the 2021 Newsom recall ($195K). Sources: https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://en.wikipedia.org/wiki/Eric_Schmidt ; https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/",
+      "industry": "[Former Google CEO](https://www.forbes.com/profile/eric-schmidt/) (2001 to 2011)",
+      "net_worth": "[$32.9 billion](https://www.forbes.com/profile/eric-schmidt/), Forbes real-time estimate as of Oct. 30, 2026",
+      "politics": "[Advised and funded Obama's 2008 campaign](https://en.wikipedia.org/wiki/Eric_Schmidt), then chaired the Pentagon's Defense Innovation Board (2016 to 2020) and co-chaired the National Security Commission on AI (2019 to 2021). In 2026 gave [$40.2 million to Building a Better California and $2.6 million to the California Business Roundtable Issues PAC](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), which opposed Prop 40 and backed Prop 43. Gave [$195,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1486767",
@@ -3867,8 +3870,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "L John Doerr III",
       "total": 42000000,
-      "industry": "Chairman of venture firm Kleiner Perkins. Tech tie: Yes. Net worth: $21.6B (Forbes real-time, Oct 26, 2026). Sources: https://www.forbes.com/profile/john-doerr/",
-      "politics": "Longtime Democratic fundraiser: over $8M to federal candidates and PACs since 1982, about $420K to Biden's 2024 campaign. Served on Obama's Economic Recovery Advisory Board. Co-chaired California Props 39 and 71, opposed Prop 211. In 2026: $40M to Building a Better California and nearly $1M to Mahan's campaign. Sources: https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/ ; https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://www.influencewatch.org/person/john-doerr/",
+      "industry": "[Chairman of venture firm Kleiner Perkins](https://www.forbes.com/profile/john-doerr/)",
+      "net_worth": "[$21.6 billion](https://www.forbes.com/profile/john-doerr/), Forbes real-time estimate as of Oct. 26, 2026",
+      "politics": "Longtime Democratic fundraiser who has given [over $8 million to federal candidates and PACs](https://www.influencewatch.org/person/john-doerr/) since 1982 and served on President Obama's Economic Recovery Advisory Board. Co-chaired California's Prop 39 and Prop 71 campaigns. In 2026 gave [$40 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/).",
       "spending": [
         {
           "id": "1486767",
@@ -3888,8 +3892,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Christian Larsen",
       "total": 36865749.36,
-      "industry": "Ripple cofounder (crypto payments); same person as LARSEN CHRIS. Tech tie: Yes. Net worth: $8.4B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/chris-larsen/",
-      "politics": "Ripple cofounder and longtime Democratic donor. Gave $5M with Tim Draper to launch Grow California (Sept 2025) to counter union influence and back moderate, business-friendly legislators; gave about $28M personally to state and local races in 2026, including backing Scott Sakakihara through Grow California. Gave $5M to Golden State Promise (anti wealth tax); with Ripple, $65.7M in federal 2026 giving, much of Ripple's to the crypto PAC Fairshake. Opposed San Francisco's Prop D with Michael Moritz. Sources: https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions ; https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/ ; https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/",
+      "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)",
+      "net_worth": "[$8.4 billion](https://www.forbes.com/profile/chris-larsen/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Longtime Democratic donor. Gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. Gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, much of Ripple's share to the crypto super PAC Fairshake.",
       "spending": [
         {
           "id": "1483808",
@@ -3903,8 +3908,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Patrick Collison",
       "total": 36149793.76,
-      "industry": "Cofounder and CEO of Stripe (payments). Tech tie: Yes. Net worth: $17.5B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/patrick-collison/",
-      "politics": "Gave about $33M to Building a Better California and nearly $1.5M to Mahan's campaign in 2026; has voiced frustration with the billionaire tax. Named by Forbes among the wealth tax's billionaire opponents. Sources: https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/ ; https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/",
+      "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)",
+      "net_worth": "[$17.5 billion](https://www.forbes.com/profile/patrick-collison/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
       "spending": [
         {
           "id": "1486767",
@@ -3924,8 +3930,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Google LLC",
       "total": 21000000,
-      "industry": "Google (Alphabet): search, ads, cloud, Gemini AI. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://en.wikipedia.org/wiki/Google",
-      "politics": "None found in this search.",
+      "industry": "[Alphabet subsidiary behind Google Search](https://en.wikipedia.org/wiki/Google), ads, cloud and Gemini AI",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1478581",
@@ -3939,8 +3946,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Timothy Draper",
       "total": 17000000,
-      "industry": "Venture capitalist (Draper Associates; cofounded Draper Fisher Jurvetson); crypto investor. Tech tie: Yes. Net worth: $2.3B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/tim-draper/",
-      "politics": "Sponsored the 2018 \"Cal 3\" initiative to split California into three states (qualified, later removed by the state Supreme Court). Gave $5M with Chris Larsen to launch Grow California. Backed Nikki Haley for president in 2024. Sources: https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions ; https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html ; https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/",
+      "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor",
+      "net_worth": "[$2.3 billion](https://www.forbes.com/profile/tim-draper/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Sponsored the 2018 [\"Cal 3\" initiative](https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html) to split California into three states, which qualified before the state Supreme Court removed it. Gave $5 million with Chris Larsen to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions). [Backed Nikki Haley](https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/) for president in 2024.",
       "spending": [
         {
           "id": "1483808",
@@ -3954,8 +3962,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Meta Platforms",
       "total": 24050000,
-      "industry": "Meta (Facebook, Instagram, WhatsApp, Llama AI models); sponsor of META California. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://techcrunch.com/?p=3039993",
-      "politics": "Created META California in 2025 to back candidates who support AI development; Meta's Brian Rice said Sacramento regulation \"could stifle innovation, block AI progress.\"",
+      "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models",
+      "net_worth": "",
+      "politics": "[Created META California](https://techcrunch.com/?p=3039993) in 2025 to back candidates who support AI development.",
       "spending": [
         {
           "id": "1483390",
@@ -3975,8 +3984,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Vinod Khosla",
       "total": 14761504,
-      "industry": "Founder of Khosla Ventures; Sun Microsystems cofounder. Tech tie: Yes. Net worth: $11.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/vinod-khosla/",
-      "politics": "Gave $12.6M to Building a Better California and $1.1M to Mahan's campaign in 2026. Publicly attacked the billionaire tax (called it a \"junkie fix\") while saying he will not leave California. Has opposed Trump and called for higher taxes in the past. Sources: https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://fortune.com/2026/03/05/vinod-khosla-interview-california-billionaire-tax-not-leaving-the-state ; https://www.yakimaherald.com/news/northwest/seahawks-buyer-vinod-khosla-s-politics-include-opposing-trump-calling-for-higher-taxes/article_ceaac18c-8f1a-5b84-bef3-dffa9b6a5b36.html",
+      "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder",
+      "net_worth": "[$11.2 billion](https://www.forbes.com/profile/vinod-khosla/), Forbes real-time estimate as of Oct. 29, 2026",
+      "politics": "Gave [$12.6 million to Building a Better California and $1.1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026. [Called the billionaire tax a \"junkie fix\"](https://fortune.com/2026/03/05/vinod-khosla-interview-california-billionaire-tax-not-leaving-the-state) while saying he will not leave California. Has [opposed Trump and called for higher taxes](https://www.yakimaherald.com/news/northwest/seahawks-buyer-vinod-khosla-s-politics-include-opposing-trump-calling-for-higher-taxes/article_ceaac18c-8f1a-5b84-bef3-dffa9b6a5b36.html) in the past.",
       "spending": [
         {
           "id": "1486767",
@@ -3996,8 +4006,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Chris Larsen",
       "total": 12511844.8,
-      "industry": "Ripple cofounder (crypto payments); same person as LARSEN CHRISTIAN. Tech tie: Yes. Net worth: $8.4B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/chris-larsen/",
-      "politics": "Ripple cofounder and longtime Democratic donor. Gave $5M with Tim Draper to launch Grow California (Sept 2025) to counter union influence and back moderate, business-friendly legislators; gave about $28M personally to state and local races in 2026, including backing Scott Sakakihara through Grow California. Gave $5M to Golden State Promise (anti wealth tax); with Ripple, $65.7M in federal 2026 giving, much of Ripple's to the crypto PAC Fairshake. Opposed San Francisco's Prop D with Michael Moritz. Sources: https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions ; https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/ ; https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/",
+      "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)",
+      "net_worth": "[$8.4 billion](https://www.forbes.com/profile/chris-larsen/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Longtime Democratic donor. Gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. Gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, much of Ripple's share to the crypto super PAC Fairshake.",
       "spending": [
         {
           "id": "1486767",
@@ -4011,8 +4022,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Michael Moritz",
       "total": 13500000,
-      "industry": "Venture capitalist (Sequoia Capital). Tech tie: Yes. Net worth: $7.5B (Forbes real-time, Oct 24, 2026). Sources: https://www.forbes.com/profile/michael-moritz/",
-      "politics": "Major funder of San Francisco's moderate political groups (TogetherSF and allies); spent millions in the 2024 SF election and opposed SF's Prop D with Chris Larsen. Backed a 2016 measure to clear homeless tents. Sources: https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/ ; https://www.sfexaminer.com/news/politics/billionaire-venture-capitalist-michael-moritz-looms-big-in-coming-election/article_35865582-98a6-11ef-9bfd-2bcbb0d62747.html ; https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/",
+      "industry": "[Venture capitalist](https://www.forbes.com/profile/michael-moritz/) and longtime Sequoia Capital partner",
+      "net_worth": "[$7.5 billion](https://www.forbes.com/profile/michael-moritz/), Forbes real-time estimate as of Oct. 24, 2026",
+      "politics": "Major funder of San Francisco's moderate political groups, including TogetherSF; [spent millions in the 2024 San Francisco election](https://www.sfexaminer.com/news/politics/billionaire-venture-capitalist-michael-moritz-looms-big-in-coming-election/article_35865582-98a6-11ef-9bfd-2bcbb0d62747.html) and [opposed San Francisco's Prop D](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) with Chris Larsen. [Backed a 2016 measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/) to clear homeless tents.",
       "spending": [
         {
           "id": "1486767",
@@ -4032,8 +4044,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Kavitark Ram Shriram",
       "total": 5005599.45,
-      "industry": "Early Google investor, Sherpalo Ventures. Tech tie: Yes. Net worth: $4B (Forbes real-time, Oct 23, 2026). Sources: https://www.forbes.com/profile/kavitark-ram-shriram/",
-      "politics": "None found in this search.",
+      "industry": "[Early Google investor](https://www.forbes.com/profile/kavitark-ram-shriram/) and founder of Sherpalo Ventures",
+      "net_worth": "[$4 billion](https://www.forbes.com/profile/kavitark-ram-shriram/), Forbes real-time estimate as of Oct. 23, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4047,8 +4060,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Frank Slootman",
       "total": 5000000,
-      "industry": "Former CEO of Snowflake (cloud data software). Tech tie: Yes. Net worth: $3.7B (Forbes real-time, Oct 26, 2026). Sources: https://www.forbes.com/profile/frank-slootman/",
-      "politics": "None found in this search.",
+      "industry": "[Former CEO of Snowflake](https://www.forbes.com/profile/frank-slootman/) (cloud data software)",
+      "net_worth": "[$3.7 billion](https://www.forbes.com/profile/frank-slootman/), Forbes real-time estimate as of Oct. 26, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4062,8 +4076,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
       "total": 4968061.28,
-      "industry": "Heir and owner of In-N-Out Burger. Tech tie: No. Net worth: $7.3B (Forbes real-time, Oct 23, 2026). Sources: https://www.forbes.com/profile/lynsi-snyder/",
-      "politics": "In-N-Out gave $25,000 to the California Republican Party in 2018, prompting boycott calls; the company is moving its headquarters to Tennessee. Sources: https://fortune.com/2018/08/30/in-n-out-burger-republican-donation/ ; https://www.deseret.com/politics/2025/07/21/in-n-out-is-moving-its-hq-out-of-california",
+      "industry": "[Owner of In-N-Out Burger](https://www.forbes.com/profile/lynsi-snyder/)",
+      "net_worth": "[$7.3 billion](https://www.forbes.com/profile/lynsi-snyder/), Forbes real-time estimate as of Oct. 23, 2026",
+      "politics": "In-N-Out [gave $25,000 to the California Republican Party](https://fortune.com/2018/08/30/in-n-out-burger-republican-donation/) in 2018, prompting boycott calls. The company is [moving its headquarters to Tennessee](https://www.deseret.com/politics/2025/07/21/in-n-out-is-moving-its-hq-out-of-california).",
       "spending": [
         {
           "id": "1486767",
@@ -4077,8 +4092,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Stewart Resnick",
       "total": 4500000,
-      "industry": "Cofounder/co-owner of The Wonderful Company (agribusiness: Pom, Fiji Water, Wonderful Pistachios). Tech tie: No. Net worth: $5.4B (Forbes real-time, Oct 24, 2026); couple about $11.6B. Sources: https://www.forbes.com/profile/stewart-resnick/",
-      "politics": "In 2026: $4.5M to Building a Better California, $78,400 to Eric Swalwell's governor bid, $70,600 to Xavier Becerra, $25K to Mahan. Opposed the 2021 Newsom recall ($250K). Long active in California water politics. Sources: https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/ ; https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/ ; https://www.forbes.com/sites/michelatindera/2021/11/21/how-much-is-water-worth-why-a-billionaire-owned-stake-in-a-california-water-bank-could-be-worth-more-than-1-billion/",
+      "industry": "[Cofounder and co-owner of The Wonderful Company (Pom, Fiji Water, Wonderful Pistachios)](https://www.forbes.com/profile/stewart-resnick/)",
+      "net_worth": "[$5.4 billion](https://www.forbes.com/profile/stewart-resnick/), Forbes real-time estimate as of Oct. 24, 2026",
+      "politics": "In 2026 gave [$4.5 million to Building a Better California, $78,400 to Eric Swalwell's governor campaign, $70,600 to Xavier Becerra and $25,000 to Mahan](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Gave [$250,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/). A major player in [California water politics](https://www.forbes.com/sites/michelatindera/2021/11/21/how-much-is-water-worth-why-a-billionaire-owned-stake-in-a-california-water-bank-could-be-worth-more-than-1-billion/).",
       "spending": [
         {
           "id": "1486767",
@@ -4092,8 +4108,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "John Hering",
       "total": 5911960.75,
-      "industry": "Cofounder and executive chair of Lookout (mobile security); investor via Vy Capital. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/",
-      "politics": "Spent over $1.25M in the 2026 LA city attorney race to defeat Marissa Roy and elect John McKinney; also spent to boost Spencer Pratt for LA mayor. Gave $41,300 to the RNC and $500K to Elon Musk's America PAC in 2024; his firm Vy Capital put $700M into Musk's Twitter takeover.",
+      "industry": "[Cofounder and executive chair of mobile security company Lookout](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/)",
+      "net_worth": "",
+      "politics": "Spent [over $1.25 million in the 2026 Los Angeles city attorney race](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) to defeat Marissa Roy and elect John McKinney, and spent to boost Spencer Pratt for LA mayor. Gave $41,300 to the Republican National Committee and $500,000 to Elon Musk's America PAC in 2024.",
       "spending": [
         {
           "id": "1486767",
@@ -4113,8 +4130,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Tony Xu",
       "total": 3993982.02,
-      "industry": "Cofounder and CEO of DoorDash. Tech tie: Yes. Net worth: $1.7B (Forbes real-time, Nov 1, 2026). Sources: https://www.forbes.com/profile/tony-xu/",
-      "politics": "In 2026: $3.5M to Building a Better California, $250K to a committee backing Mahan plus $39,200 to Mahan directly, and $39,200 to Becerra. On Meta's board since 2022. Sources: https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/",
+      "industry": "[Cofounder and CEO of DoorDash](https://www.forbes.com/profile/tony-xu/)",
+      "net_worth": "[$1.7 billion](https://www.forbes.com/profile/tony-xu/), Forbes real-time estimate as of Nov. 1, 2026",
+      "politics": "In 2026 gave [$3.5 million to Building a Better California, $250,000 to a committee backing Mahan, $39,200 to Mahan directly and $39,200 to Becerra](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Has sat on Meta's board since 2022.",
       "spending": [
         {
           "id": "1486767",
@@ -4134,8 +4152,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Maksim Rafael Levchin",
       "total": 3021883.55,
-      "industry": "Cofounder and CEO of Affirm; PayPal cofounder. Tech tie: Yes. Net worth: $2.2B (Forbes real-time, Oct 21, 2026). Sources: https://www.forbes.com/profile/max-levchin/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Affirm and PayPal cofounder](https://www.forbes.com/profile/max-levchin/)",
+      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/max-levchin/), Forbes real-time estimate as of Oct. 21, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4149,8 +4168,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Govern For California Action Committee",
       "total": 3000000,
-      "industry": "David Crane's donor network, funded by tech leaders and financiers to counter union influence in Sacramento. Tech tie: Indirect (funded largely by tech leaders and financiers). Net worth: Not applicable (organization). Sources: https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/",
-      "politics": "David Crane's network of donor chapters, which coordinates giving to moderate legislators to counter unions; its president said of Mahan, \"if Californians get to know him, he wins.\" Sources: https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/",
+      "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers",
+      "net_worth": "",
+      "politics": "[David Crane's network of donor chapters](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/) that coordinates giving to moderate legislators to counter unions. Crane on Mahan: [\"if Californians get to know him, he wins.\"](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/)",
       "spending": [
         {
           "id": "1487425",
@@ -4164,8 +4184,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Andrew Karam",
       "total": 3000000,
-      "industry": "AppLovin cofounder (mobile ad tech). Tech tie: Yes. Net worth: $3.9B (Forbes real-time, Aug 8, 2026). Sources: https://www.forbes.com/profile/andrew-karam/ ; https://en.wikipedia.org/wiki/Andrew_Karam",
-      "politics": "None found in this search.",
+      "industry": "[AppLovin cofounder](https://www.forbes.com/profile/andrew-karam/) (AI-powered ad tech)",
+      "net_worth": "[$3.9 billion](https://www.forbes.com/profile/andrew-karam/), Forbes real-time estimate as of Aug. 8, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4179,8 +4200,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Alfred Lin",
       "total": 3000000,
-      "industry": "Partner at Sequoia Capital; Airbnb board; former Zappos COO. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://fortune.com/2021/05/18/alfred-lin-sequoia-partner-ipo-airbnb-doordash",
-      "politics": "None found in this search.",
+      "industry": "[Partner at Sequoia Capital](https://fortune.com/2021/05/18/alfred-lin-sequoia-partner-ipo-airbnb-doordash), Airbnb board and former Zappos COO",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4194,8 +4216,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Rick Caruso And Affiliated Entities",
       "total": 3000000,
-      "industry": "Los Angeles real estate developer (Caruso). Tech tie: No. Net worth: $7.1B (Forbes real-time, Oct 30, 2026). Sources: https://www.forbes.com/profile/rick-caruso/",
-      "politics": "Ran for Los Angeles mayor in 2022, spending a record amount of his own money (about $160 per vote) and losing to Karen Bass. Funds the 2026 pro-John McKinney group in the LA city attorney race. Sources: https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/ ; https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/ ; https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/",
+      "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)",
+      "net_worth": "[$7.1 billion](https://www.forbes.com/profile/rick-caruso/), Forbes real-time estimate as of Oct. 30, 2026",
+      "politics": "[Ran for Los Angeles mayor in 2022](https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/) and lost to Karen Bass after spending a record [$160 per vote](https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/) of his own money. [Funds the group backing John McKinney](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) in the 2026 LA city attorney race.",
       "spending": [
         {
           "id": "1487425",
@@ -4209,8 +4232,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Meyer Malka",
       "total": 3486173.77,
-      "industry": "Founder of Ribbit Capital (fintech VC); Robinhood board member. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://investors.robinhood.com/board-member/meyer-malka",
-      "politics": "None found in this search.",
+      "industry": "[Founder of fintech venture firm Ribbit Capital](https://investors.robinhood.com/board-member/meyer-malka) and Robinhood board member",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4230,8 +4254,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "James Coulter",
       "total": 2527189.16,
-      "industry": "Private equity: cofounder and executive chairman of TPG. Tech tie: Indirect (TPG is a large tech investor). Net worth: $4.8B (Forbes real-time, Nov 2, 2026). Sources: http://www.forbes.com/profile/james-coulter/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and executive chairman of private equity firm TPG](https://www.forbes.com/profile/james-coulter/)",
+      "net_worth": "[$4.8 billion](https://www.forbes.com/profile/james-coulter/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4245,8 +4270,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Bruce Dunlevie",
       "total": 2110000,
-      "industry": "Cofounder of Benchmark (VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Benchmark_(venture_capital_firm)",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of venture firm Benchmark](https://en.wikipedia.org/wiki/Benchmark_%28venture_capital_firm%29)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4260,8 +4286,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Ashley Merrill",
       "total": 2040000,
-      "industry": "Founder of sleepwear brand Lunya; former Outdoor Voices chair (identity match to confirm against the filing). Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.businessoffashion.com/articles/retail/tyler-haney-outdoor-voices-lunya-ashley-merrill",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4275,8 +4302,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Paul Buchheit",
       "total": 2000000,
-      "industry": "Created Gmail at Google; FriendFeed cofounder; Y Combinator partner. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Paul_Buchheit",
-      "politics": "None found in this search.",
+      "industry": "[Creator of Gmail](https://en.wikipedia.org/wiki/Paul_Buchheit), FriendFeed cofounder and Y Combinator partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -4290,8 +4318,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Reed Hastings",
       "total": 2000000,
-      "industry": "Cofounder and chairman of Netflix. Tech tie: Yes. Net worth: $4.1B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/reed-hastings/",
-      "politics": "Major charter school backer who funds school board candidates; gave $3M to oppose the 2021 Newsom recall; donor to Senate Majority PAC this cycle. Sources: https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/ ; https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/ ; https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280",
+      "industry": "[Cofounder and chairman of Netflix](https://www.forbes.com/profile/reed-hastings/)",
+      "net_worth": "[$4.1 billion](https://www.forbes.com/profile/reed-hastings/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Major [charter school backer](https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280) who funds school board candidates. Gave [$3 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/) and is a [Senate Majority PAC donor](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
       "spending": [
         {
           "id": "1487425",
@@ -4305,8 +4334,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "George Marcus",
       "total": 2000000,
-      "industry": "Founder of Marcus & Millichap (real estate brokerage); Essex Property Trust. Tech tie: No. Net worth: $1.5B (Forbes real-time, Oct 6, 2026). Sources: https://www.forbes.com/profile/george-marcus/",
-      "politics": "Democratic megadonor: gave $1M to oppose the 2021 Newsom recall; donor to Senate Majority PAC and House Majority PAC this cycle; backed Biden in 2020. Sources: https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/ ; https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/ ; https://www.forbes.com/sites/michelatindera/2021/02/17/here-are-the-billionaires-who-donated-to-joe-bidens-2020-presidential-campaign/",
+      "industry": "[Founder of real estate brokerage Marcus & Millichap](https://www.forbes.com/profile/george-marcus/)",
+      "net_worth": "[$1.5 billion](https://www.forbes.com/profile/george-marcus/), Forbes real-time estimate as of Oct. 6, 2026",
+      "politics": "Democratic megadonor: gave [$1 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/), backed [Biden in 2020](https://www.forbes.com/sites/michelatindera/2021/02/17/here-are-the-billionaires-who-donated-to-joe-bidens-2020-presidential-campaign/), and gives to [Senate Majority PAC and House Majority PAC](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
       "spending": [
         {
           "id": "1486767",
@@ -4320,8 +4350,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Michael Seibel",
       "total": 2000000,
-      "industry": "Twitch/Justin.tv cofounder; former Y Combinator CEO and managing director. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://mastersofscale.com/people/michael-seibel",
-      "politics": "None found in this search.",
+      "industry": "[Twitch cofounder](https://mastersofscale.com/people/michael-seibel) and former Y Combinator CEO",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4335,8 +4366,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Steve Huffman",
       "total": 2101800.64,
-      "industry": "Cofounder and CEO of Reddit. Tech tie: Yes. Net worth: Billionaire per Forbes (Nov 2025); profile shows no figure. Sources: https://www.forbes.com/profile/steve-huffman/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Reddit](https://www.forbes.com/profile/steve-huffman/)",
+      "net_worth": "[Billionaire](https://www.forbes.com/sites/monicahunter-hart/2025/11/02/reddits-ceo-debuts-as-a-steve-huffman-billionaire-20-years-after-cofounding-the-company/) per Forbes (November 2025); no current figure published",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4356,8 +4388,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Neil Mehta",
       "total": 2999998,
-      "industry": "Founder and managing partner of Greenoaks (venture). Tech tie: Yes. Net worth: Forbes profile, no figure shown. Sources: https://www.forbes.com/profile/neil-mehta/",
-      "politics": "None found in this search.",
+      "industry": "[Founder and managing partner of venture firm Greenoaks](https://www.forbes.com/profile/neil-mehta/)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4377,8 +4410,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "James Slavik",
       "total": 1998899.14,
-      "industry": "Founder of Mark IV Capital, Newport Beach commercial real estate investor. Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.ocbj.com/oc-homepage/evan-slavik-takes-reins-of-mark-iv-capital/",
-      "politics": "None found in this search.",
+      "industry": "[Founder of Mark IV Capital](https://www.ocbj.com/oc-homepage/evan-slavik-takes-reins-of-mark-iv-capital/), a Newport Beach commercial real estate investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4392,8 +4426,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Paul Slavik",
       "total": 1998899.14,
-      "industry": "Slavik family, Mark IV Capital (Newport Beach real estate); exact role not confirmed. Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.ocbj.com/oc-homepage/evan-slavik-takes-reins-of-mark-iv-capital/",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4407,8 +4442,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Frederick E Ehrsam III",
       "total": 1979907.76,
-      "industry": "Coinbase cofounder; cofounder of crypto investor Paradigm. Tech tie: Yes. Net worth: $2.2B (Forbes real-time, Nov 1, 2026). Sources: https://www.forbes.com/profile/fred-ehrsam/",
-      "politics": "None found in this search.",
+      "industry": "[Coinbase cofounder](https://www.forbes.com/profile/fred-ehrsam/) and cofounder of crypto investor Paradigm",
+      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/fred-ehrsam/), Forbes real-time estimate as of Nov. 1, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4422,8 +4458,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "William E Oberndorf",
       "total": 1686400,
-      "industry": "Investor (cofounder of SPO Partners); school choice philanthropist. Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/",
-      "politics": "Leading school choice funder and Republican donor (Simon-DeVos Prize, 2021); described as a \"never-Trump Republican\" funding primaries outside California. Sources: https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/",
+      "industry": "[Investor (cofounder of SPO Partners) and school choice philanthropist](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/)",
+      "net_worth": "",
+      "politics": "Leading [school choice funder](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/) and Republican donor, described as a [\"never-Trump Republican\"](https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/) funding primaries outside California.",
       "spending": [
         {
           "id": "1487425",
@@ -4437,8 +4474,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Philippe Laffont",
       "total": 1500076.6,
-      "industry": "Founder of Coatue Management (tech hedge fund and VC). Tech tie: Yes. Net worth: $9.5B (Forbes real-time, Oct 22, 2026). Sources: https://www.forbes.com/profile/philippe-laffont/",
-      "politics": "None found in this search.",
+      "industry": "[Founder of Coatue Management](https://www.forbes.com/profile/philippe-laffont/) (tech hedge fund and venture investor)",
+      "net_worth": "[$9.5 billion](https://www.forbes.com/profile/philippe-laffont/), Forbes real-time estimate as of Oct. 22, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4452,8 +4490,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Thomas Laffont",
       "total": 1500076.6,
-      "industry": "Cofounder of Coatue Management. Tech tie: Yes. Net worth: Forbes profile, no figure. Sources: https://www.forbes.com/profile/thomas-laffont/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of Coatue Management](https://www.forbes.com/profile/thomas-laffont/) (tech hedge fund and venture investor)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4467,8 +4506,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "David Baszucki",
       "total": 1500000,
-      "industry": "Cofounder and CEO of Roblox (online games). Tech tie: Yes. Net worth: $3.5B (Forbes real-time, Sep 24, 2026). Sources: https://www.forbes.com/profile/david-baszucki/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Roblox (online games)](https://www.forbes.com/profile/david-baszucki/)",
+      "net_worth": "[$3.5 billion](https://www.forbes.com/profile/david-baszucki/), Forbes real-time estimate as of Sept. 24, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4482,8 +4522,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Divesh Makan",
       "total": 2490479.52,
-      "industry": "Founder and CEO of ICONIQ (wealth manager for tech billionaires; ICONIQ Growth VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Iconiq_Capital",
-      "politics": "None found in this search.",
+      "industry": "[Founder and CEO of ICONIQ, wealth manager to tech billionaires and growth investor](https://en.wikipedia.org/wiki/Iconiq_Capital)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4503,8 +4544,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Brian Singerman",
       "total": 2720818,
-      "industry": "Partner (now emeritus) at Founders Fund, Peter Thiel's VC firm. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://foundersfund.com/team/brian-singerman",
-      "politics": "None found in this search.",
+      "industry": "[Silicon Valley venture capitalist](https://foundersfund.com/team/brian-singerman) and partner emeritus at Peter Thiel's Founders Fund",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4530,8 +4572,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "G Leonard Baker JR",
       "total": 1695829.84,
-      "industry": "Longtime partner at Sutter Hill Ventures (VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Sutter_Hill_Ventures",
-      "politics": "None found in this search.",
+      "industry": "[Silicon Valley venture capitalist](https://en.wikipedia.org/wiki/Sutter_Hill_Ventures) and longtime Sutter Hill Ventures partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4551,8 +4594,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Brook Byers",
       "total": 2104393.67,
-      "industry": "Partner at Kleiner Perkins since 1977; led its life sciences practice. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://www.sourcewatch.org/index.php/Brook_Byers",
-      "politics": "None found in this search.",
+      "industry": "[Silicon Valley venture capitalist](https://www.sourcewatch.org/index.php/Brook_Byers) and Kleiner Perkins partner since 1977",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4572,8 +4616,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Pincus Mark",
       "total": 1085746.83,
-      "industry": "Zynga cofounder (online games). Tech tie: Yes. Net worth: $1.4B (Forbes real-time, Oct 25, 2026). Sources: https://www.forbes.com/profile/mark-pincus/",
-      "politics": "None found in this search.",
+      "industry": "[Zynga cofounder](https://www.forbes.com/profile/mark-pincus/) (online games)",
+      "net_worth": "[$1.4 billion](https://www.forbes.com/profile/mark-pincus/), Forbes real-time estimate as of Oct. 25, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4587,8 +4632,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Andrew Phillips Reed",
       "total": 2074114.3,
-      "industry": "Partner at Sequoia Capital. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://crunchbase.com/person/andrew-reed",
-      "politics": "None found in this search.",
+      "industry": "[Partner at Sequoia Capital](https://crunchbase.com/person/andrew-reed)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4608,8 +4654,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Hemant Taneja",
       "total": 1047667.5,
-      "industry": "CEO of General Catalyst (VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://generalcatalyst.com/team/hemant-taneja",
-      "politics": "None found in this search.",
+      "industry": "[CEO of General Catalyst](https://generalcatalyst.com/team/hemant-taneja) (VC)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4623,8 +4670,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Robert Fisher",
       "total": 1018105,
-      "industry": "Gap Inc. heir (son of Gap founders). Tech tie: No. Net worth: $1.9B (Forbes real-time, Nov 2, 2026). Sources: https://www.forbes.com/profile/robert-fisher/",
-      "politics": "None found in this search.",
+      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/robert-fisher/)",
+      "net_worth": "[$1.9 billion](https://www.forbes.com/profile/robert-fisher/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4638,8 +4686,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Shaun Maguire",
       "total": 1003329.11,
-      "industry": "Partner at Sequoia Capital. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Shaun_Maguire",
-      "politics": "Publicly backed Trump in 2024; drew backlash in 2025 for calling NYC mayoral candidate Zohran Mamdani an \"Islamist.\" Sources: https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html",
+      "industry": "[Partner at Sequoia Capital](https://en.wikipedia.org/wiki/Shaun_Maguire)",
+      "net_worth": "",
+      "politics": "[Publicly backed Trump in 2024](https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html) and drew backlash in 2025 for calling NYC mayoral candidate Zohran Mamdani an \"Islamist.\"",
       "spending": [
         {
           "id": "1486767",
@@ -4653,8 +4702,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Steve Jurvetson",
       "total": 1001607.8,
-      "industry": "Cofounder of Future Ventures; cofounded Draper Fisher Jurvetson; early SpaceX/Tesla investor. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://future.ventures/bio",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of Future Ventures](https://future.ventures/bio), cofounded Draper Fisher Jurvetson and early SpaceX/Tesla investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4668,8 +4718,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Vladimir Tenev",
       "total": 1001053.37,
-      "industry": "Cofounder and CEO of Robinhood. Tech tie: Yes. Net worth: $5.7B (Forbes real-time, Oct 28, 2026). Sources: https://www.forbes.com/profile/vlad-tenev/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Robinhood](https://www.forbes.com/profile/vlad-tenev/)",
+      "net_worth": "[$5.7 billion](https://www.forbes.com/profile/vlad-tenev/), Forbes real-time estimate as of Oct. 28, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4683,8 +4734,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Perkins Kleiner",
       "total": 1000001.34,
-      "industry": "Kleiner Perkins, Silicon Valley VC firm chaired by John Doerr. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://www.forbes.com/profile/john-doerr/",
-      "politics": "None found in this search.",
+      "industry": "[Silicon Valley venture firm chaired by John Doerr](https://www.forbes.com/profile/john-doerr/)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4698,8 +4750,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Brian Armstrong",
       "total": 1000000,
-      "industry": "Cofounder and CEO of Coinbase. Tech tie: Yes. Net worth: $7.2B (Forbes real-time, Nov 1, 2026). Sources: https://www.forbes.com/profile/brian-armstrong/",
-      "politics": "Coinbase and Armstrong are top funders of the crypto super PAC Fairshake, including a $25M Coinbase pledge for the 2026 midterms. Sources: https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms",
+      "industry": "[Cofounder and CEO of Coinbase](https://www.forbes.com/profile/brian-armstrong/)",
+      "net_worth": "[$7.2 billion](https://www.forbes.com/profile/brian-armstrong/), Forbes real-time estimate as of Nov. 1, 2026",
+      "politics": "Coinbase is a [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
       "spending": [
         {
           "id": "1487425",
@@ -4713,8 +4766,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Baiju Bhatt",
       "total": 1000000,
-      "industry": "Robinhood cofounder. Tech tie: Yes. Net worth: $6.4B (Forbes real-time, Oct 25, 2026). Sources: https://www.forbes.com/profile/baiju-bhatt/",
-      "politics": "None found in this search.",
+      "industry": "[Robinhood cofounder](https://www.forbes.com/profile/baiju-bhatt/)",
+      "net_worth": "[$6.4 billion](https://www.forbes.com/profile/baiju-bhatt/), Forbes real-time estimate as of Oct. 25, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4728,8 +4782,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Blake Byers",
       "total": 1200000,
-      "industry": "Founder of Byers Capital (VC); formerly at GV (Google Ventures); son of Brook Byers. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://globalventuring.com/blake-byers-exits-gv",
-      "politics": "None found in this search.",
+      "industry": "[Silicon Valley venture capitalist](https://globalventuring.com/blake-byers-exits-gv), founder of Byers Capital and former GV (Google Ventures) investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4749,8 +4804,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Thomas Coates",
       "total": 1000000,
-      "industry": "President of Jackson Square Properties (real estate; about 19,000 homes). Tech tie: No. Net worth: No Forbes figure located. Sources: https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/",
-      "politics": "Major Republican donor: nearly $1M to the failed 2008 statewide rent control repeal; six figures for SF's 2016 tent ban (Prop Q); $500K with his wife to Mark Farrell's 2024 TogetherSF measure; at least $2.1M to SF elections since 1998 and about $892K federal, roughly 85% to Republicans.",
+      "industry": "[President of real estate company Jackson Square Properties](https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/)",
+      "net_worth": "",
+      "politics": "Major Republican donor. Gave [nearly $1 million to a failed 2008 statewide rent control repeal](https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/), six figures for San Francisco's 2016 tent ban and $500,000 with his wife to Mark Farrell's 2024 TogetherSF measure; about 85% of his $892,000 in federal giving went to Republicans.",
       "spending": [
         {
           "id": "1486767",
@@ -4764,8 +4820,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "David Scott Cook",
       "total": 1000000,
-      "industry": "Intuit cofounder (TurboTax, QuickBooks). Tech tie: Yes. Net worth: $5.1B (Forbes real-time, Sep 20, 2026). Sources: https://www.forbes.com/profile/scott-cook/",
-      "politics": "None found in this search.",
+      "industry": "[Intuit cofounder](https://www.forbes.com/profile/scott-cook/) (TurboTax, QuickBooks)",
+      "net_worth": "[$5.1 billion](https://www.forbes.com/profile/scott-cook/), Forbes real-time estimate as of Sept. 20, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4779,8 +4836,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Griffith Rutherford Harsh V",
       "total": 1000000,
-      "industry": "Neurosurgeon; husband of former eBay/HP CEO Meg Whitman. Tech tie: Indirect (spouse is former eBay and HP CEO). Net worth: Not on Forbes; spouse Meg Whitman $4.5B (Oct 24, 2026). Sources: https://www.forbes.com/profile/meg-whitman/",
-      "politics": "Husband of Meg Whitman, who ran for California governor as a Republican in 2010 (about $140M of her own money) and was U.S. ambassador to Kenya (2022-2024); the couple gave $200K to Romney's super PAC in 2012. Sources: https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/",
+      "industry": "[Neurosurgeon](https://www.forbes.com/profile/meg-whitman/) and husband of former eBay and HP CEO Meg Whitman",
+      "net_worth": "",
+      "politics": "Husband of Meg Whitman, who [ran for California governor as a Republican in 2010](https://www.forbes.com/profile/meg-whitman/) and was U.S. ambassador to Kenya. The couple [gave $200,000 to Romney's super PAC](https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/) in 2012.",
       "spending": [
         {
           "id": "1487425",
@@ -4794,8 +4852,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Mark Heising",
       "total": 1000000,
-      "industry": "Founder of Medley Partners (investment firm); Heising-Simons Foundation; son-in-law of Renaissance founder Jim Simons. Tech tie: Indirect (engineer; founded a cryptographic chip company). Net worth: No Forbes figure located. Sources: https://www.influencewatch.org/person/mark-heising/",
-      "politics": "Major Democratic donor: about $6.1M via the Heising-Simons Action Fund (2018-2020) to Democratic committees, $1.3M-$1.5M personally in 2020, and a 2018 DCCC fundraiser with Obama and Pelosi that raised $2.5M. Chairs the Environmental Defense Fund board.",
+      "industry": "[Founder of investment firm Medley Partners](https://www.influencewatch.org/person/mark-heising/) and cofounder of the Heising-Simons Foundation",
+      "net_worth": "",
+      "politics": "Major Democratic donor: about [$6.1 million through the Heising-Simons Action Fund](https://www.influencewatch.org/person/mark-heising/) to Democratic committees in 2018 and 2020, and host of a 2018 DCCC fundraiser with Barack Obama and Nancy Pelosi that raised $2.5 million. Chairs the Environmental Defense Fund board.",
       "spending": [
         {
           "id": "1486767",
@@ -4809,8 +4868,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Matthew Huang",
       "total": 1000000,
-      "industry": "Cofounder and managing partner of Paradigm (crypto VC); Stripe board; CEO of Tempo blockchain. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Matt_Huang",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and managing partner of crypto investor Paradigm and Stripe board member](https://en.wikipedia.org/wiki/Matt_Huang)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4824,8 +4884,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Kevin Kelly",
       "total": 1000000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4839,8 +4900,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Jed Mccaleb",
       "total": 1000000,
-      "industry": "Crypto: cofounded Ripple, Stellar; Mt. Gox founder. Tech tie: Yes. Net worth: $3.9B (Forbes real-time, Oct 27, 2026). Sources: https://www.forbes.com/profile/jed-mccaleb/",
-      "politics": "None found in this search.",
+      "industry": "[Crypto entrepreneur who cofounded Ripple](https://www.forbes.com/profile/jed-mccaleb/) and Stellar and founded Mt. Gox",
+      "net_worth": "[$3.9 billion](https://www.forbes.com/profile/jed-mccaleb/), Forbes real-time estimate as of Oct. 27, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4854,8 +4916,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Helen Signe Ostby",
       "total": 1000000,
-      "industry": "Philanthropist; wife of Intuit cofounder Scott Cook; Valhalla Foundation cofounder. Tech tie: Indirect (spouse cofounded Intuit). Net worth: No Forbes figure located. Sources: https://valhalla.org/people/signe-ostby/",
-      "politics": "None found in this search.",
+      "industry": "[Philanthropist](https://valhalla.org/people/signe-ostby/), cofounder of the Valhalla Foundation and wife of Intuit cofounder Scott Cook",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4869,8 +4932,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "John Pritzker",
       "total": 1000000,
-      "industry": "Hyatt heir; hotels and investments (Geolo Capital). Tech tie: Indirect (invests through Geolo Capital). Net worth: $3.2B (Forbes real-time, Oct 23, 2026). Sources: https://www.forbes.com/profile/john-pritzker/",
-      "politics": "Gave $50,000 to oppose the 2021 Newsom recall. Cousin of Illinois Gov. J.B. Pritzker. Sources: https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/",
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
+      "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
+      "politics": "Gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1487425",
@@ -4884,8 +4948,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Alastair Rampell",
       "total": 1000000,
-      "industry": "General partner at Andreessen Horowitz (a16z), fintech. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://a16z.com/2015/08/19/alexrampell",
-      "politics": "None found in this search.",
+      "industry": "[General partner at Andreessen Horowitz](https://a16z.com/2015/08/19/alexrampell) (a16z), focused on fintech",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4899,8 +4964,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Chris Wanstrath",
       "total": 1000000,
-      "industry": "GitHub cofounder. Tech tie: Yes. Net worth: $1.3B (Forbes real-time, Oct 21, 2026). Sources: https://www.forbes.com/profile/chris-wanstrath/",
-      "politics": "None found in this search.",
+      "industry": "[GitHub cofounder](https://www.forbes.com/profile/chris-wanstrath/)",
+      "net_worth": "[$1.3 billion](https://www.forbes.com/profile/chris-wanstrath/), Forbes real-time estimate as of Oct. 21, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4914,8 +4980,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Nina Wanstrath",
       "total": 1000000,
-      "industry": "Spouse of GitHub cofounder Chris Wanstrath. Tech tie: Indirect (spouse cofounded GitHub). Net worth: Not on Forbes; spouse Chris Wanstrath $1.3B (Oct 21, 2026). Sources: https://www.forbes.com/profile/chris-wanstrath/",
-      "politics": "None found in this search.",
+      "industry": "[Wife of GitHub cofounder Chris Wanstrath](https://www.forbes.com/profile/chris-wanstrath/)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4929,8 +4996,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Brad Gerstner",
       "total": 991930.73,
-      "industry": "Founder and CEO of Altimeter Capital (tech investor: Snowflake, OpenAI). Tech tie: Yes. Net worth: Forbes profile, no personal figure. Sources: https://www.forbes.com/profile/brad-gerstner/",
-      "politics": "Founded the nonprofit Invest America, which helped advance federal child investment (\"Trump\") accounts.",
+      "industry": "[Founder and CEO of Altimeter Capital, a tech investor (Snowflake, OpenAI)](https://www.forbes.com/profile/brad-gerstner/)",
+      "net_worth": "",
+      "politics": "[Founded Invest America](https://www.forbes.com/profile/brad-gerstner/), a nonprofit that helped create federal child investment (\"Trump\") accounts.",
       "spending": [
         {
           "id": "1486767",
@@ -4944,8 +5012,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Nick Shalek",
       "total": 971600.76,
-      "industry": "Partner at Ribbit Capital (fintech VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://www.thetwentyminutevc.com/nick-shalek",
-      "politics": "None found in this search.",
+      "industry": "[Partner at Ribbit Capital](https://www.thetwentyminutevc.com/nick-shalek) (fintech VC)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4959,8 +5028,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Warren E Spieker Jr Including Spieker Realty Investments",
       "total": 600000,
-      "industry": "Founder of Spieker Properties (Bay Area commercial real estate). Tech tie: No. Net worth: No Forbes figure located. Sources: https://littlesis.org/org/91685-Spieker_Properties_LP/giving",
-      "politics": "None found in this search (giving record: LittleSis).",
+      "industry": "[Founder of Spieker Properties](https://littlesis.org/org/91685-Spieker_Properties_LP/giving) (Bay Area commercial real estate)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -4974,8 +5044,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Chad Peets",
       "total": 513270,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -4989,8 +5060,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "William Fisher",
       "total": 509052.5,
-      "industry": "Gap Inc. heir. Tech tie: No. Net worth: $1.6B (Forbes real-time, Oct 5, 2026). Sources: https://www.forbes.com/profile/william-fisher/",
-      "politics": "None found in this search.",
+      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/william-fisher/)",
+      "net_worth": "[$1.6 billion](https://www.forbes.com/profile/william-fisher/), Forbes real-time estimate as of Oct. 5, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5004,8 +5076,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Patrick Grady",
       "total": 507763.89,
-      "industry": "Partner at Sequoia Capital (growth/AI investing). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://signal.nfx.com/investors/pat-grady",
-      "politics": "None found in this search.",
+      "industry": "[Partner at Sequoia Capital](https://signal.nfx.com/investors/pat-grady) (growth/AI investing)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5019,8 +5092,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sarah Guo",
       "total": 507763.89,
-      "industry": "Founder of Conviction (AI-focused VC); ex-Greylock partner. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Sarah_Guo",
-      "politics": "None found in this search.",
+      "industry": "[Founder of AI-focused venture firm Conviction](https://en.wikipedia.org/wiki/Sarah_Guo) and former Greylock partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5034,8 +5108,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Kim Degeorge",
       "total": 500112.73,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5049,8 +5124,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Michelle Boyers",
       "total": 700000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5070,8 +5146,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Doordash Inc.",
       "total": 500000,
-      "industry": "DoorDash, food and grocery delivery app. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://www.forbes.com/companies/doordash/",
-      "politics": "None found in this search.",
+      "industry": "[Food and grocery delivery app](https://www.forbes.com/companies/doordash/)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5085,8 +5162,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Ilya Fushman",
       "total": 500000,
-      "industry": "General partner at Kleiner Perkins; former Dropbox executive. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://kleinerperkins.com/people/ilya-fushman",
-      "politics": "None found in this search.",
+      "industry": "[Kleiner Perkins general partner](https://kleinerperkins.com/people/ilya-fushman) and former Dropbox executive",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5100,8 +5178,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sameer Gandhi",
       "total": 500000,
-      "industry": "Partner at Accel (VC); CrowdStrike board. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://www.accel.com/people/sameer-gandhi",
-      "politics": "None found in this search.",
+      "industry": "[Accel partner](https://www.accel.com/people/sameer-gandhi) and CrowdStrike board member",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5115,8 +5194,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Nicholas Pritzker And Affiliated Entity Democracy Rising Trust",
       "total": 500000,
-      "industry": "Hyatt heir; hotels, investments (Tao Capital). Tech tie: Indirect (Tao Capital invests in tech). Net worth: $2.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/nicholas-pritzker/",
-      "politics": "Backed California's 2016 marijuana legalization measure (Prop 64); directs giving and investment to clean energy, legalization and criminal justice reform.",
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
+      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
+      "politics": "[Backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
       "spending": [
         {
           "id": "1487425",
@@ -5130,8 +5210,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Daniel Tierney",
       "total": 500000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5145,8 +5226,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Diana Ruth Walsh",
       "total": 500000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5160,8 +5242,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Richard Wolf",
       "total": 500000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5175,8 +5258,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Peter Fenton",
       "total": 496988.37,
-      "industry": "General partner at Benchmark (VC); early Twitter investor. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Peter_Fenton_(venture_capitalist)",
-      "politics": "None found in this search.",
+      "industry": "[Benchmark general partner](https://en.wikipedia.org/wiki/Peter_Fenton_%28venture_capitalist%29) and early Twitter investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5190,8 +5274,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Naval Ravikant",
       "total": 493398.51,
-      "industry": "AngelList cofounder; angel investor. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Naval_Ravikant",
-      "politics": "None found in this search.",
+      "industry": "[AngelList cofounder](https://en.wikipedia.org/wiki/Naval_Ravikant) and angel investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5205,8 +5290,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Stanley Tang",
       "total": 491014.85,
-      "industry": "DoorDash cofounder. Tech tie: Yes. Net worth: $1.1B (Forbes real-time, Oct 9, 2026). Sources: https://www.forbes.com/profile/stanley-tang/",
-      "politics": "Gave $166,666 to oppose the 2021 Newsom recall. Sources: https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/",
+      "industry": "[DoorDash cofounder](https://www.forbes.com/profile/stanley-tang/)",
+      "net_worth": "[$1.1 billion](https://www.forbes.com/profile/stanley-tang/), Forbes real-time estimate as of Oct. 9, 2026",
+      "politics": "Gave [$166,666 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1486767",
@@ -5220,8 +5306,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Filizetti Gary",
       "total": 480000,
-      "industry": "Not confirmed in this search. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "[President of Devcon Construction](https://www.devcon-const.com/management/gary-filizetti), a Silicon Valley design-build contractor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5235,8 +5322,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Dylan Field",
       "total": 471329.76,
-      "industry": "Cofounder and CEO of Figma. Tech tie: Yes. Net worth: $1.3B (Forbes real-time, Oct 22, 2026). Sources: https://www.forbes.com/profile/dylan-field/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Figma](https://www.forbes.com/profile/dylan-field/)",
+      "net_worth": "[$1.3 billion](https://www.forbes.com/profile/dylan-field/), Forbes real-time estimate as of Oct. 22, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5250,8 +5338,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "David Marquardt",
       "total": 400000,
-      "industry": "Founding partner of August Capital (VC); early Microsoft investor and board member. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/David_Marquardt",
-      "politics": "None found in this search.",
+      "industry": "[Founding partner of August Capital](https://en.wikipedia.org/wiki/David_Marquardt) and early Microsoft investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5265,8 +5354,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Richard Tinsley",
       "total": 400000,
-      "industry": "Rick Tinsley, Silicon Valley tech executive; board member of Silicon Valley Urban Debate League (identity match not confirmed). Tech tie: Indirect (likely; identity not confirmed). Net worth: No Forbes figure located. Sources: https://svudl.org/all-the-latest-blog/svudl-welcomes-our-newest-board-member-rick-tinsley",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5280,8 +5370,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Michael Vernal",
       "total": 391500,
-      "industry": "Former Sequoia Capital partner; former Facebook VP of engineering. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://techcrunch.com/2016/04/18/longtime-facebook-vp-mike-vernal-joins-sequoia-capital",
-      "politics": "None found in this search.",
+      "industry": "[Former Sequoia Capital partner](https://techcrunch.com/2016/04/18/longtime-facebook-vp-mike-vernal-joins-sequoia-capital) and former Facebook vice president of engineering",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5295,8 +5386,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Of Marin Bank",
       "total": 465562.76,
-      "industry": "Bank of Marin, Bay Area community bank; amounts to all four PACs suggest interest, fees or account transfers, not donations. Confirm on the filings. Tech tie: No. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1483808",
@@ -5328,8 +5420,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Paul Wachter",
       "total": 300000,
-      "industry": "Founder and CEO of Main Street Advisors (investment advisory; clients include Arnold Schwarzenegger); UTA chairman. Tech tie: Indirect (advises on media and tech deals). Net worth: No Forbes figure located. Sources: https://www.mainstreetadvisors.com/team/paul-wachter",
-      "politics": "None found in this search.",
+      "industry": "[Founder and CEO of Main Street Advisors (investment advisory) and UTA chairman](https://www.mainstreetadvisors.com/team/paul-wachter)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5343,8 +5436,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Gregory Baszucki",
       "total": 274892.11,
-      "industry": "Roblox insider/early executive; brother of Roblox CEO David Baszucki (exact current role not confirmed). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://uk.marketscreener.com/insider/GREGORY-BASZUCKI-A08M5E/",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5358,8 +5452,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Jeremy Liew",
       "total": 250000,
-      "industry": "Partner at Lightspeed Venture Partners; first Snap investor. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Jeremy_Liew",
-      "politics": "None found in this search.",
+      "industry": "[Lightspeed Venture Partners partner](https://en.wikipedia.org/wiki/Jeremy_Liew) and Snap's first investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5373,8 +5468,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "John A Pritzker",
       "total": 250000,
-      "industry": "Hyatt heir; hotels and investments (Geolo Capital). Tech tie: Indirect (invests through Geolo Capital). Net worth: $3.2B (Forbes real-time, Oct 23, 2026). Sources: https://www.forbes.com/profile/john-pritzker/",
-      "politics": "Gave $50,000 to oppose the 2021 Newsom recall. Cousin of Illinois Gov. J.B. Pritzker. Sources: https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/",
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
+      "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
+      "politics": "Gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1486767",
@@ -5388,8 +5484,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Bennett Rosenthal",
       "total": 250000,
-      "industry": "Cofounder and chairman of Ares Management (private credit/PE), Los Angeles. Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.ares.com/us/who-we-are/our-people/bennett-rosenthal-2298",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and chairman of Ares Management (private credit and private equity)](https://www.forbes.com/profile/bennett-rosenthal/)",
+      "net_worth": "[$2 billion](https://www.forbes.com/profile/bennett-rosenthal/), Forbes real-time estimate as of Sept. 23, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5403,8 +5500,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Mary Meeker",
       "total": 202663.8,
-      "industry": "Founder and general partner of BOND (growth-stage tech investor); ex-Kleiner Perkins. Tech tie: Yes. Net worth: Forbes profile, no figure. Sources: https://www.forbes.com/profile/mary-meeker/",
-      "politics": "None found in this search.",
+      "industry": "[Founder of growth-stage tech investor BOND](https://www.forbes.com/profile/mary-meeker/) and former Kleiner Perkins partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5418,8 +5516,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "John Atwater",
       "total": 200000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5433,8 +5532,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Nicholas Pritzker",
       "total": 200000,
-      "industry": "Hyatt heir; hotels, investments (Tao Capital). Tech tie: Indirect (Tao Capital invests in tech (e.g., Tesla, Uber)). Net worth: $2.2B (Forbes real-time, Oct 29, 2026). Sources: https://www.forbes.com/profile/nicholas-pritzker/",
-      "politics": "Backed California's 2016 marijuana legalization measure (Prop 64); directs giving and investment to clean energy, legalization and criminal justice reform.",
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
+      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
+      "politics": "[Backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
       "spending": [
         {
           "id": "1488176",
@@ -5448,8 +5548,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Joshua Resnick",
       "total": 200000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5463,8 +5564,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Amnon Rodan",
       "total": 200000,
-      "industry": "Investor per LittleSis profile (identity match to confirm). Tech tie: Unknown. Net worth: No Forbes figure located. Sources: https://littlesis.org/person/93189-Amnon_Rodan",
-      "politics": "None found in this search.",
+      "industry": "[Husband of Rodan + Fields cofounder Katie Rodan](https://en.wikipedia.org/wiki/Katie_Rodan) and former Guthy-Renker board member",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5484,8 +5586,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "742855",
       "total": 106108.72,
-      "industry": "A Cal-Access ID in the name field, not a named donor; look up filer 742855. Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1483808",
@@ -5499,8 +5602,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Matthew Murphy",
       "total": 101796.96,
-      "industry": "Partner at Menlo Ventures (AI investor; Anthropic backer). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://menlovc.com/team/matt-murphy",
-      "politics": "None found in this search.",
+      "industry": "[Menlo Ventures partner](https://menlovc.com/team/matt-murphy)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5514,8 +5618,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Parker Conrad",
       "total": 101272.96,
-      "industry": "Cofounder and CEO of Rippling (HR software); Zenefits founder. Tech tie: Yes. Net worth: $3.4B (Forbes real-time, Oct 1, 2026). Sources: https://www.forbes.com/profile/parker-conrad/",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of Rippling (HR software) and Zenefits founder](https://www.forbes.com/profile/parker-conrad/)",
+      "net_worth": "[$3.4 billion](https://www.forbes.com/profile/parker-conrad/), Forbes real-time estimate as of Oct. 1, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5529,8 +5634,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "James Ryan Clark",
       "total": 126018.34,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5550,8 +5656,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "C Preston Butcher",
       "total": 100000,
-      "industry": "Founder of Legacy Partners (real estate). Tech tie: No. Net worth: No Forbes figure located. Sources: https://knowledge.uli.org/en/people/b/p/preston-butcher-7e3d",
-      "politics": "None found in this search.",
+      "industry": "[Founder of real estate firm Legacy Partners](https://knowledge.uli.org/en/people/b/p/preston-butcher-7e3d)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5565,8 +5672,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sky Dayton",
       "total": 100000,
-      "industry": "EarthLink founder; serial internet entrepreneur. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Sky_Dayton",
-      "politics": "None found in this search.",
+      "industry": "[EarthLink founder](https://en.wikipedia.org/wiki/Sky_Dayton) and internet entrepreneur",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5580,8 +5688,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Byron Deeter",
       "total": 100000,
-      "industry": "Partner at Bessemer Venture Partners (cloud software); Twilio board. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://investors.Twilio.com/board-member/byron-deeter",
-      "politics": "None found in this search.",
+      "industry": "[Bessemer Venture Partners partner](https://investors.twilio.com/board-member/byron-deeter) and Twilio board member",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5595,8 +5704,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Eugene Frantz",
       "total": 100000,
-      "industry": "General partner at CapitalG (Alphabet's growth fund); formerly TPG. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://crunchbase.com/person/gene-frantz",
-      "politics": "None found in this search.",
+      "industry": "[General partner at CapitalG](https://crunchbase.com/person/gene-frantz), Alphabet's growth fund, and former TPG partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5610,8 +5720,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Kevin Hartz",
       "total": 100000,
-      "industry": "Eventbrite cofounder; cofounder of A* (A-Star) venture fund. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://techcrunch.com/?p=3059043",
-      "politics": "None found in this search.",
+      "industry": "[Eventbrite cofounder](https://techcrunch.com/?p=3059043) and cofounder of venture fund A*",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5625,8 +5736,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "William Hockey",
       "total": 100000,
-      "industry": "Plaid cofounder; cofounder of Column (bank for fintechs). Tech tie: Yes. Net worth: $3.3B (Forbes real-time, Oct 28, 2026). Sources: https://www.forbes.com/profile/william-hockey/",
-      "politics": "None found in this search.",
+      "industry": "[Plaid cofounder](https://www.forbes.com/profile/william-hockey/) and cofounder of Column, a bank for fintechs",
+      "net_worth": "[$3.3 billion](https://www.forbes.com/profile/william-hockey/), Forbes real-time estimate as of Oct. 28, 2026",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5640,8 +5752,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Arthur Patterson",
       "total": 100000,
-      "industry": "Cofounder of Accel (VC). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://accel.com/team/arthur-patterson",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of Accel](https://accel.com/team/arthur-patterson) (VC)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5655,8 +5768,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Joseph Ravitch",
       "total": 100000,
-      "industry": "Cofounder and partner of The Raine Group (media/tech merchant bank). Tech tie: Indirect (Raine advises on media and tech deals). Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/The_Raine_Group",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of The Raine Group](https://en.wikipedia.org/wiki/The_Raine_Group) (media and tech merchant bank)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5670,8 +5784,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sonya Ravitch",
       "total": 100000,
-      "industry": "Spouse of Raine Group cofounder Joseph Ravitch (own occupation not confirmed). Tech tie: Indirect (spouse's firm advises on tech deals). Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/The_Raine_Group",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5685,8 +5800,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Sv Angel Management LLC Zach Miller",
       "total": 100000,
-      "industry": "SV Angel, the seed fund founded by Ron Conway; Zach Miller listed on the filing. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://en.wikipedia.org/wiki/SV_Angel",
-      "politics": "SV Angel founder Ron Conway is a longtime San Francisco political power broker; he and Moritz backed SF's 2016 tent-clearing measure. Sources: https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/",
+      "industry": "[SV Angel, Ron Conway's seed fund](https://en.wikipedia.org/wiki/SV_Angel)",
+      "net_worth": "",
+      "politics": "SV Angel founder Ron Conway is a longtime San Francisco political power broker who, with Michael Moritz, [backed the city's 2016 tent-clearing measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/).",
       "spending": [
         {
           "id": "1478581",
@@ -5700,8 +5816,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Konynenburg Derk Michael Van",
       "total": 100000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5715,8 +5832,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Eoghan Mccabe",
       "total": 99885.52,
-      "industry": "Cofounder and CEO of Intercom/Fin (AI customer service software). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Intercom,_Inc.",
-      "politics": "Profiled by the Irish Times (2026) for moving from political centrist to Trump supporter. Sources: https://www.irishtimes.com/business/2026/06/15/eoghan-mccabe-tech-moguls-journey-from-shy-kid-to-political-centrist-to-trump-supporter/",
+      "industry": "[Cofounder and CEO of Intercom (AI customer service software)](https://en.wikipedia.org/wiki/Intercom,_Inc.)",
+      "net_worth": "",
+      "politics": "[Moved from political centrist to Trump supporter](https://www.irishtimes.com/business/2026/06/15/eoghan-mccabe-tech-moguls-journey-from-shy-kid-to-political-centrist-to-trump-supporter/), per a 2026 Irish Times profile.",
       "spending": [
         {
           "id": "1486767",
@@ -5730,8 +5848,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Aaron Katz",
       "total": 96851.1,
-      "industry": "Cofounder and CEO of ClickHouse (database software). Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://clickhouse.com/videos/circle-sessions-aaron-katz",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder and CEO of ClickHouse (database software)](https://clickhouse.com/videos/circle-sessions-aaron-katz)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5745,8 +5864,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Schlein Ted",
       "total": 90000,
-      "industry": "Cofounder of Ballistic Ventures (cybersecurity VC); general partner at Kleiner Perkins. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://techcrunch.com/2024/03/14/ted-schlein-ballistic-ventures-venture-capital-fundraising",
-      "politics": "None found in this search.",
+      "industry": "[Cofounder of cybersecurity investor Ballistic Ventures](https://techcrunch.com/2024/03/14/ted-schlein-ballistic-ventures-venture-capital-fundraising) and Kleiner Perkins general partner",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5760,8 +5880,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
       "total": 58876.96,
-      "industry": "Landlord/housing-provider sponsored committee; not researched further. Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)",
+      "net_worth": "",
+      "politics": "Landlord-sponsored committee that has made [about $3 million in independent expenditures](https://calmatters.digitaldemocracy.org/organizations/-19963) in legislative races.",
       "spending": [
         {
           "id": "1478581",
@@ -5775,8 +5896,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Noelle Moseley",
       "total": 50112.4,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5790,8 +5912,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Gordon Crawford",
       "total": 50000,
-      "industry": "Retired Capital Group media investment manager; USOPC board. Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.nexttv.com/news/gordon-crawford-retire-326668",
-      "politics": "None found in this search.",
+      "industry": "[Retired Capital Group media investor](https://www.nexttv.com/news/gordon-crawford-retire-326668)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5805,8 +5928,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Maplebear Inc. Dba Instacart",
       "total": 50000,
-      "industry": "Instacart, grocery delivery app. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://www.forbes.com/pictures/eimh45ehhhf/instacart/amp/",
-      "politics": "None found in this search.",
+      "industry": "[Instacart, the grocery delivery app](https://www.forbes.com/pictures/eimh45ehhhf/instacart/)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5820,8 +5944,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Shawn Carolan",
       "total": 49875.68,
-      "industry": "Partner at Menlo Ventures; early Uber investor. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://menlovc.com/team/shawn-carolan/",
-      "politics": "None found in this search.",
+      "industry": "[Menlo Ventures partner](https://menlovc.com/team/shawn-carolan/) and early Uber investor",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5835,8 +5960,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Joseph Lonsdale",
       "total": 49870,
-      "industry": "Managing partner of 8VC; Palantir cofounder. Tech tie: Yes. Net worth: $3.8B (Forbes real-time, Oct 25, 2026). Sources: https://www.forbes.com/profile/joe-lonsdale/",
-      "politics": "Founded the Cicero Institute (2018), a conservative think tank that pushes entrepreneur-friendly policy.",
+      "industry": "[Palantir cofounder](https://www.forbes.com/profile/joe-lonsdale/) and managing partner of venture firm 8VC",
+      "net_worth": "[$3.8 billion](https://www.forbes.com/profile/joe-lonsdale/), Forbes real-time estimate as of Oct. 25, 2026",
+      "politics": "[Founded the Cicero Institute](https://www.forbes.com/profile/joe-lonsdale/) in 2018, a conservative think tank that pushes entrepreneur-friendly policy.",
       "spending": [
         {
           "id": "1486767",
@@ -5850,8 +5976,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "California Golden Keep",
       "total": 41402.18,
-      "industry": "Political committee; not researched (search limit). Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1478581",
@@ -5865,8 +5992,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Gary's List Action",
       "total": 35000,
-      "industry": "Political committee; not researched (search limit). Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "[Political arm of Y Combinator CEO Garry Tan's Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/)",
+      "net_worth": "",
+      "politics": "Political arm of [Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/), Y Combinator CEO Garry Tan's 2026 nonprofit to take San Francisco's moderate playbook statewide; its early content attacked public-sector unions and the billionaire tax.",
       "spending": [
         {
           "id": "1483808",
@@ -5880,8 +6008,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Eli Weiss",
       "total": 25000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5895,8 +6024,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Jack Altman",
       "total": 24819.76,
-      "industry": "Founder of Alt Capital (VC); Lattice cofounder; brother of OpenAI CEO Sam Altman. Tech tie: Yes. Net worth: No Forbes figure located. Sources: https://en.wikipedia.org/wiki/Jack_Altman_(entrepreneur)",
-      "politics": "None found in this search.",
+      "industry": "[Founder of venture firm Alt Capital](https://en.wikipedia.org/wiki/Jack_Altman_%28entrepreneur%29), Lattice cofounder and brother of OpenAI CEO Sam Altman",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5910,8 +6040,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Jean Pierre Conte",
       "total": 14000,
-      "industry": "Chairman of Genstar Capital (San Francisco private equity). Tech tie: No. Net worth: No Forbes figure located. Sources: https://www.sec.gov/Archives/edgar/data/0001374535/000095013507002295/b65030dfdef14a.htm",
-      "politics": "None found in this search.",
+      "industry": "[Chairman of San Francisco private equity firm Genstar Capital](https://www.sec.gov/Archives/edgar/data/0001374535/000095013507002295/b65030dfdef14a.htm)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -5925,8 +6056,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Ken Goldman",
       "total": 11847,
-      "industry": "President of Hillspire (Eric Schmidt's family office); former Yahoo CFO. Tech tie: Indirect (runs Eric Schmidt's family office; tech company boards). Net worth: No Forbes figure located. Sources: https://www.cnbc.com/kenneth-goldman-hillspire/",
-      "politics": "None found in this search.",
+      "industry": "[President of Hillspire](https://www.cnbc.com/kenneth-goldman-hillspire/), Eric Schmidt's family office, and former Yahoo CFO",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -5940,8 +6072,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Uptown Strategies LLC",
       "total": 11800,
-      "industry": "Likely a political consulting firm (refund or in-kind); not confirmed. Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1478581",
@@ -5955,8 +6088,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Patricia Mills",
       "total": 10000,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5970,8 +6104,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Thematic Campaigns LLC",
       "total": 8882.5,
-      "industry": "Likely a political consulting firm (refund or in-kind); not confirmed. Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "[Political media firm](https://careers.arena.run/companies/thematic-campaigns)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -5985,8 +6120,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Anna Kinney",
       "total": 200,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -6000,8 +6136,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Annelle Baum",
       "total": 100,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -6015,8 +6152,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Barbara Newman",
       "total": 100,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1488176",
@@ -6030,8 +6168,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Building A Better California Incorporated Non Reportable Account",
       "total": 0,
-      "industry": "Building a Better California's own non-reportable account; internal transfer, $0 net. Tech tie: Unknown. Net worth: Not applicable (organization).",
-      "politics": "None found in this search.",
+      "industry": "Building a Better California's own non-reportable account (internal transfer, $0 net)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -6045,8 +6184,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Grow California Inc.",
       "total": 0,
-      "industry": "Grow California's affiliated nonprofit; $0 net in the data (internal transfer). Tech tie: Unknown. Net worth: Not applicable (organization). Sources: https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions",
-      "politics": "None found in this search.",
+      "industry": "[Affiliated nonprofit of Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) (internal transfer, $0 net)",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1483808",
@@ -6060,8 +6200,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Katie Merrill",
       "total": 0,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -6075,8 +6216,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Steven Merrill",
       "total": 0,
-      "industry": "Not identified; check the occupation and employer fields on the Cal-Access filing. Tech tie: Unknown. Net worth: No Forbes figure located.",
-      "politics": "None found in this search.",
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1487425",
@@ -6090,8 +6232,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Coinbase Inc.",
       "total": -13687.02,
-      "industry": "Coinbase, largest US crypto exchange. Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://www.forbes.com/companies/coinbase/?sh=1d55b82c699f",
-      "politics": "Top funder of the crypto super PAC Fairshake ($25M pledged for 2026). Sources: https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms",
+      "industry": "[Largest U.S. crypto exchange](https://www.forbes.com/companies/coinbase/)",
+      "net_worth": "",
+      "politics": "A [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
       "spending": [
         {
           "id": "1483808",
@@ -6105,8 +6248,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "type": "funder",
       "name": "Coinbase Inc. Fbo Its Customers",
       "total": -52932.38,
-      "industry": "Coinbase account held for customers; likely a crypto-funded contribution or refund passed through Coinbase (negative net in data). Tech tie: Yes. Net worth: Not applicable (organization). Sources: https://www.forbes.com/companies/coinbase/?sh=1d55b82c699f",
-      "politics": "None found in this search.",
+      "industry": "Account held by [Coinbase](https://www.forbes.com/companies/coinbase/) on behalf of its customers",
+      "net_worth": "",
+      "politics": "",
       "spending": [
         {
           "id": "1486767",
@@ -6127,7 +6271,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Bars new state taxes on holding personal property (anything other than real estate, including financial investments) and certain retroactive taxes; nullifies conflicting taxes enacted after January 1, 2026. Backed by Building a Better California as a counter to Prop 40. Voter guide: https://voterguide.sos.ca.gov/propositions/42/index.htm"
+      "what_it_does": "[Bars new state taxes on holding personal property](https://voterguide.sos.ca.gov/propositions/42/index.htm), meaning anything other than real estate, including financial investments, as well as certain retroactive taxes; nullifies conflicting taxes enacted after January 1, 2026. [Backed by Building a Better California](https://news.ballotpedia.org/2026/06/18/california-billionaires-tax-qualifies-for-the-november-ballot-competing-measures-pending-signature-verification/) as a counter to Prop 40."
     },
     "CAND|Measure: PROPOSITION 40": {
       "type": "measure",
@@ -6140,7 +6284,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "against"
         }
       ],
-      "what_it_does": "The \"billionaire tax\": a one-time 5% tax on the wealth of taxpayers with assets over $1 billion, with revenue mainly for health care. Exempts that revenue from school funding and spending limit rules. Voter guide: https://voterguide.sos.ca.gov/propositions/40/index.htm"
+      "what_it_does": "The [\"billionaire tax\"](https://voterguide.sos.ca.gov/propositions/40/index.htm): a one-time 5% tax on the wealth of taxpayers with assets over $1 billion, with revenue mainly for health care. Exempts that revenue from school funding and spending limit rules."
     },
     "CAND|Measure: PROPOSITION 41": {
       "type": "measure",
@@ -6153,7 +6297,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Nullifies state taxes enacted after January 1, 2026 whose revenue is exempted from the state spending limit, and requires audits of programs funded by new special taxes. Backed by Building a Better California as a counter to Prop 40. Voter guide: https://voterguide.sos.ca.gov/propositions/41/index.htm"
+      "what_it_does": "[Nullifies state taxes enacted after January 1, 2026](https://voterguide.sos.ca.gov/propositions/41/index.htm) whose revenue is exempt from the state spending limit, and requires audits of programs funded by new special taxes. [Backed by Building a Better California](https://news.ballotpedia.org/2026/06/18/california-billionaires-tax-qualifies-for-the-november-ballot-competing-measures-pending-signature-verification/) as a counter to Prop 40."
     },
     "CAND|MATT MAHAN": {
       "type": "candidate",
@@ -6176,7 +6320,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "Governor's Race",
       "support": 22270860.74,
       "against": 0,
-      "policy_platform": "Did not advance from the June 2 governor primary. Affordability, accountability, San Jose results on homelessness and public safety. Tech, AI and billionaire tax: Opposes the billionaire tax: \"I'm all for taxing billionaires, but I think this is the wrong way to do it.\" May 2026 tech plan: social media only at 16+ without parental consent, school phone ban, a \"shared prosperity fund\" from data center and robotics taxes for AI-displaced workers, more human oversight of AI, data centers cover their power costs. \"I am not afraid to regulate Big Tech.\" Sources: https://www.cbsnews.com/amp/sacramento/news/california-billionaires-tax-silicon-valley-san-jose-mayor-matt-mahan-opposed ; https://sfstandard.com/2026/05/15/tech-titans-built-mahan-s-bid-governor-s-plan-regulate-their-companies/"
+      "policy_platform": "Did not advance from the June 2 governor primary. His [campaign site](https://web.archive.org/web/20260511185544/https://www.mahanforcalifornia.com/) focused on \"making life more affordable for working families, on accountability in government,\" housing, public safety and ending street homelessness, and said he \"won't ask Californians to pay more in taxes without results.\" [Opposes the billionaire tax](https://www.cbsnews.com/sacramento/news/california-billionaires-tax-silicon-valley-san-jose-mayor-matt-mahan-opposed): \"I'm all for taxing billionaires, but I think this is the wrong way to do it.\" His [May 2026 tech plan](https://sfstandard.com/2026/05/15/tech-titans-built-mahan-s-bid-governor-s-plan-regulate-their-companies/) would bar social media accounts for under-16s without parental consent, ban phones in schools, fund AI-displaced workers through a \"shared prosperity fund\" from data center and robotics taxes, require more human oversight of AI and make data centers cover their power costs. \"I am not afraid to regulate Big Tech.\""
     },
     "CAND|Measure: PROPOSITION 45": {
       "type": "measure",
@@ -6189,7 +6333,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Amends CEQA to speed environmental review of most housing, transportation, water and health projects, with deadlines for reviews and court challenges. Voter guide: https://voterguide.sos.ca.gov/propositions/45/index.htm"
+      "what_it_does": "[Amends CEQA to speed environmental review](https://voterguide.sos.ca.gov/propositions/45/index.htm) of most housing, transportation, water and health projects, with deadlines for reviews and court challenges."
     },
     "CAND|Measure: PROPOSITION 37": {
       "type": "measure",
@@ -6202,7 +6346,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Creates a loan program for middle-income buyers of newly built homes, funded by up to $25 billion in revenue bonds. Loans cover up to 17% of a home priced under about $1.5 million; buyers repay them, not the state. Voter guide: https://voterguide.sos.ca.gov/propositions/37/index.htm"
+      "what_it_does": "[Creates a loan program for middle-income buyers](https://voterguide.sos.ca.gov/propositions/37/index.htm) of newly built homes, funded by up to $25 billion in revenue bonds. Loans cover up to 17% of a home priced under about $1.5 million, and buyers repay them, not the state."
     },
     "CAND|SARA HERNANDEZ": {
       "type": "candidate",
@@ -6225,7 +6369,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD26",
       "support": 4267175.56,
       "against": 343920,
-      "policy_platform": "SD 26, vs. Sarah Rascon (D). LA Community College trustee; housing and environmental attorney. Tech, AI and billionaire tax: Campaign site pledges to \"fight for strict rules with real enforcement\" on Big Tech profits (per CalMatters). Sources: https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/ ; https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html"
+      "policy_platform": "[Los Angeles Community College trustee](https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html) and housing and environmental attorney. Her campaign site [pledges to \"fight for strict rules with real enforcement\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/) on Big Tech profits."
     },
     "CAND|Measure: Prohibit Exceptions to School Funding Guarantee": {
       "type": "measure",
@@ -6238,7 +6382,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Would have required all new state taxes, including those enacted on or after January 1, 2026, to count toward the Prop 98 school funding requirement and the state spending limit. Circulated from February 11, 2026; not on the November ballot. Sources: https://lao.ca.gov/BallotAnalysis/Initiative/2025-038 ; https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures"
+      "what_it_does": "[Would have required all new state taxes](https://lao.ca.gov/BallotAnalysis/Initiative/2025-038), including those enacted on or after January 1, 2026, to count toward the Prop 98 school funding requirement and the state spending limit. It circulated from February 11, 2026 but [did not qualify for the November ballot](https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures)."
     },
     "CAND|David Penaloza": {
       "type": "candidate",
@@ -6255,7 +6399,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD68",
       "support": 2866414.61,
       "against": 0,
-      "policy_platform": "AD 68, vs. Jessie Lopez (D). Middle-class housing, 911 response times, universal pre-K, local business; pledges to \"prevent tax increases.\" Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://davidpenaloza.com/candidate-statement/"
+      "policy_platform": "[Campaigns on](https://davidpenaloza.com/candidate-statement/) middle-class housing, 911 response times, universal pre-K and local business, and pledges to \"prevent tax increases.\""
     },
     "CAND|DAVID PENALOZA": {
       "type": "candidate",
@@ -6272,7 +6416,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD68",
       "support": 2821826.3,
       "against": 0,
-      "policy_platform": "AD 68, vs. Jessie Lopez (D). Middle-class housing, 911 response times, universal pre-K, local business; pledges to \"prevent tax increases.\" Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://davidpenaloza.com/candidate-statement/"
+      "policy_platform": "[Campaigns on](https://davidpenaloza.com/candidate-statement/) middle-class housing, 911 response times, universal pre-K and local business, and pledges to \"prevent tax increases.\""
     },
     "CAND|ERIC LUCAN": {
       "type": "candidate",
@@ -6289,7 +6433,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD12",
       "support": 2817225.31,
       "against": 0,
-      "policy_platform": "AD 12, vs. Jackie Elward (D). Affordability (housing, childcare, health care), free SMART fares for youth and seniors, water and wildfire resilience. Tech, AI and billionaire tax: No AI or Prop 40 position found. Called on PACs funded by \"tech billionaires... crypto, AI, labor\" to stop spending in the race. Sources: https://www.ericlucan.com/ ; https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out"
+      "policy_platform": "[Campaigns on](https://www.ericlucan.com/) affordability (housing, childcare and health care), free SMART train fares for youth and seniors, and water and wildfire resilience. [Called on PACs](https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out) funded by \"tech billionaires... crypto, AI, labor\" to stop spending in the race."
     },
     "CAND|MARK PULIDO": {
       "type": "candidate",
@@ -6306,7 +6450,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD67",
       "support": 2594121.47,
       "against": 0,
-      "policy_platform": "AD 67. Cerritos councilmember; public safety, economic development, parks. Tech, AI and billionaire tax: No statement found. Sources: https://en.wikipedia.org/wiki/Mark_Pulido ; https://voiceofoc.org/2026/05/political-action-committee/"
+      "policy_platform": "[Cerritos councilmember](https://en.wikipedia.org/wiki/Mark_Pulido) campaigning on public safety, economic development and parks."
     },
     "CAND|Andrae Gonzales": {
       "type": "candidate",
@@ -6329,7 +6473,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD35",
       "support": 2906794.07,
       "against": 0,
-      "policy_platform": "AD 35, vs. Saul Ayon (R). Resources for Kern County, jobs and apprenticeships, health access; wants consumer protection \"without blocking innovation.\" Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/amp/"
+      "policy_platform": "[Campaigns on](https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/) more resources for Kern County, jobs and apprenticeships and health access, and wants consumer protection \"without blocking innovation.\""
     },
     "CAND|JOHN ERICKSON": {
       "type": "candidate",
@@ -6346,7 +6490,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD24",
       "support": 0,
       "against": 2242027.65,
-      "policy_platform": "SD 24, vs. Brian Goldsmith (D). Repeal Costa-Hawkins and the Ellis Act, statewide rent control, break up PG&E. Tech, AI and billionaire tax: Would not support AB 2564 (surveillance pricing ban) as described, citing corporate surveillance concerns. Sources: https://smchamber.com/santa-monica-focused-senate-debate-summary-the-takeaways-that-matter-to-sm-businesses/ ; https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/"
+      "policy_platform": "[Supports](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/) repealing Costa-Hawkins and the Ellis Act, statewide rent control and breaking up PG&E. [Would not support AB 2564](https://smchamber.com/santa-monica-focused-senate-debate-summary-the-takeaways-that-matter-to-sm-businesses/), a surveillance pricing ban, as described, citing corporate surveillance concerns."
     },
     "CAND|ADA BRICENO": {
       "type": "candidate",
@@ -6363,7 +6507,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD67",
       "support": 0,
       "against": 1490766.53,
-      "policy_platform": "AD 67 primary. Former OC Democratic Party chair; co-president of UNITE HERE Local 11. On PAC spending against her: \"They're obviously trying to buy our seat.\" Tech, AI and billionaire tax: No statement found. Sources: https://voiceofoc.org/2026/05/political-action-committee/"
+      "policy_platform": "[Former Orange County Democratic Party chair and co-president of UNITE HERE Local 11](https://voiceofoc.org/2026/05/political-action-committee/). On PAC spending against her: \"They're obviously trying to buy our seat.\""
     },
     "CAND|AYANNA DAVIS": {
       "type": "candidate",
@@ -6380,7 +6524,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD65",
       "support": 1475309.71,
       "against": 0,
-      "policy_platform": "AD 65, vs. Lydia Gutierrez (R). Full school funding and STEM, housing and homelessness, civil rights, climate resilience. Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://ballotpedia.org/Ayanna_Davis ; https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/"
+      "policy_platform": "[Campaigns on](https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/) full school funding and STEM, housing and homelessness, civil rights and climate resilience."
     },
     "CAND|Scott Sakakihara": {
       "type": "candidate",
@@ -6397,7 +6541,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD10",
       "support": 1335520.32,
       "against": 0,
-      "policy_platform": "SD 10, vs. Linda Price (R). Union City councilmember; former Palantir executive; housing, public safety, small business, climate. Tech, AI and billionaire tax: To CalMatters: tech \"has both created incredible economic growth and serious consequences across society\"; described as seeing a need for regulation and strong oversight. Sources: https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/ ; https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/"
+      "policy_platform": "[Union City councilmember and former Palantir executive](https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/) campaigning on housing, public safety, small business and climate. [Told CalMatters](https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/) that tech \"has both created incredible economic growth and serious consequences across society\" and needs regulation and strong oversight."
     },
     "CAND|JESSIE LOPEZ": {
       "type": "candidate",
@@ -6414,7 +6558,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD68",
       "support": 0,
       "against": 1333222.45,
-      "policy_platform": "AD 68, vs. David Penaloza (D). 3% rent cap, wages, Medicare for All, stop corporations buying single-family homes. Tech, AI and billionaire tax: Voted against expanded surveillance technology; no AI or Prop 40 statement found. Sources: https://www.votejessielopez.com/candidate-statement/ ; https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/"
+      "policy_platform": "[Campaigns on](https://www.votejessielopez.com/candidate-statement/) a 3% rent cap, wages, Medicare for All and stopping corporations from buying single-family homes. [Voted against expanded surveillance technology](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/)."
     },
     "CAND|Ed Musgrove": {
       "type": "candidate",
@@ -6431,7 +6575,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD40",
       "support": 1302055,
       "against": 0,
-      "policy_platform": "SD 40 primary; finished third. Retired sheriff's captain; state funding for local police, prosecuting repeat violent offenders. Tech, AI and billionaire tax: No statement found. Sources: https://eastcountymagazine.org/elliott-leads-in-40th-two-republicans-battling-for-second-spot/ ; https://musgrove4senate.com"
+      "policy_platform": "[Retired sheriff's captain](https://eastcountymagazine.org/elliott-leads-in-40th-two-republicans-battling-for-second-spot/) who finished third in the SD 40 primary, campaigning on state funding for local police and prosecuting repeat violent offenders."
     },
     "CAND|Mark Pulido": {
       "type": "candidate",
@@ -6448,7 +6592,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD67",
       "support": 1260592.27,
       "against": 0,
-      "policy_platform": "AD 67. Cerritos councilmember; public safety, economic development, parks. Tech, AI and billionaire tax: No statement found. Sources: https://en.wikipedia.org/wiki/Mark_Pulido ; https://voiceofoc.org/2026/05/political-action-committee/"
+      "policy_platform": "[Cerritos councilmember](https://en.wikipedia.org/wiki/Mark_Pulido) campaigning on public safety, economic development and parks."
     },
     "CAND|Greg Wallis": {
       "type": "candidate",
@@ -6465,7 +6609,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD47",
       "support": 1078618,
       "against": 0,
-      "policy_platform": "AD 47 incumbent, vs. Leila Namvar (D). Affordability, public safety, education; \"We have a spending problem.\" Tech, AI and billionaire tax: No statement found. Sources: https://www.nbcpalmsprings.com/ca-us-and-world/2026/10/29/candidates-in-californias-47th-assembly-district-race-focus-on-affordability-public-safety"
+      "policy_platform": "[Incumbent](https://www.nbcpalmsprings.com/ca-us-and-world/2026/10/29/candidates-in-californias-47th-assembly-district-race-focus-on-affordability-public-safety) focused on affordability, public safety and education: \"We have a spending problem.\""
     },
     "CAND|Brian Goldsmith": {
       "type": "candidate",
@@ -6482,7 +6626,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD24",
       "support": 1057109.5,
       "against": 0,
-      "policy_platform": "SD 24, vs. John Erickson (D). Open to updating parts of Costa-Hawkins; shelter plus anti-camping enforcement; supported Prop 36. Tech, AI and billionaire tax: Could support AB 2564 if narrowed to protect loyalty programs. Sources: https://smchamber.com/santa-monica-focused-senate-debate-summary-the-takeaways-that-matter-to-sm-businesses/"
+      "policy_platform": "[Open to updating parts of Costa-Hawkins](https://smchamber.com/santa-monica-focused-senate-debate-summary-the-takeaways-that-matter-to-sm-businesses/), favors shelter paired with anti-camping enforcement and supported Prop 36. Could support AB 2564, a surveillance pricing ban, if narrowed to protect loyalty programs."
     },
     "CAND|SCOTT SAKAKIHARA": {
       "type": "candidate",
@@ -6499,7 +6643,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD10",
       "support": 1039940,
       "against": 0,
-      "policy_platform": "SD 10, vs. Linda Price (R). Union City councilmember; former Palantir executive; housing, public safety, small business, climate. Tech, AI and billionaire tax: To CalMatters: tech \"has both created incredible economic growth and serious consequences across society\"; described as seeing a need for regulation and strong oversight. Sources: https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/ ; https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/"
+      "policy_platform": "[Union City councilmember and former Palantir executive](https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/) campaigning on housing, public safety, small business and climate. [Told CalMatters](https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/) that tech \"has both created incredible economic growth and serious consequences across society\" and needs regulation and strong oversight."
     },
     "CAND|Ayanna Davis": {
       "type": "candidate",
@@ -6516,7 +6660,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD65",
       "support": 1010362.04,
       "against": 0,
-      "policy_platform": "AD 65, vs. Lydia Gutierrez (R). Full school funding and STEM, housing and homelessness, civil rights, climate resilience. Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://ballotpedia.org/Ayanna_Davis ; https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/"
+      "policy_platform": "[Campaigns on](https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/) full school funding and STEM, housing and homelessness, civil rights and climate resilience."
     },
     "CAND|Measure: PROPOSITION 1": {
       "type": "measure",
@@ -6529,7 +6673,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
           "dir": "support"
         }
       ],
-      "what_it_does": "Authorizes $11.25 billion in state general obligation bonds for housing affordability: rental housing, veterans' mortgages, supportive housing, preservation and down payment help. Repayment costs $500-600 million a year for about 25 years. Voter guide: https://voterguide.sos.ca.gov/propositions/1/index.htm"
+      "what_it_does": "[Authorizes $11.25 billion in state bonds](https://voterguide.sos.ca.gov/propositions/1/index.htm) for housing affordability: rental housing, veterans' mortgages, supportive housing, preservation and down payment help. Repayment costs $500 million to $600 million a year for about 25 years."
     },
     "CAND|Xavier Becerra": {
       "type": "candidate",
@@ -6546,7 +6690,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "Governor's Race",
       "support": 999066,
       "against": 0,
-      "policy_platform": "Governor, vs. Steve Hilton (R). Emergency freeze on insurance and utility rates, fund 40,000 approved affordable units, expand health coverage. Tech, AI and billionaire tax: Opposes Prop 40. Supports an under-16 social media ban, tracking AI's workforce impact and transparency on AI in hiring; said in the Sept 30 debate he would restrict data centers. Sources: https://calmatters.org/california-voter-guide-2026/governor/ ; https://www.artiverse.ca/californias-governor-race-turns-into-a-high-stakes-fight-over-ai-and-power/"
+      "policy_platform": "Running against Steve Hilton (R). [Proposes](https://calmatters.org/california-voter-guide-2026/governor/) an emergency freeze on insurance and utility rates, funding for 40,000 approved affordable units and expanded health coverage. Opposes Prop 40 and supports an under-16 social media ban, tracking AI's effect on jobs and transparency on AI in hiring. [Said in the Sept. 30 debate](https://www.artiverse.ca/californias-governor-race-turns-into-a-high-stakes-fight-over-ai-and-power/) he would restrict data centers."
     },
     "CAND|Annalisa Perea": {
       "type": "candidate",
@@ -6569,7 +6713,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD31",
       "support": 1339921.31,
       "against": 0,
-      "policy_platform": "AD 31, vs. Jim Polsgrove (R). Housing costs, working families, schools, public safety. Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://pereaforassembly.com/"
+      "policy_platform": "[Campaigns on](https://pereaforassembly.com/) housing costs, working families, schools and public safety."
     },
     "CAND|Darshana Patel": {
       "type": "candidate",
@@ -6586,7 +6730,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD76",
       "support": 870807,
       "against": 0,
-      "policy_platform": "AD 76 incumbent. Housing supply, cost of living, wildfire insurance. Tech, AI and billionaire tax: No statement found. Sources: https://www.kpbs.org/news/politics/2026/10/02/conoce-a-los-candidatos-para-la-asamblea-estatal-california-eleccion-general-de-2026-guia-de-las-contiendas-distritos-74-75-76-77-78-79-80"
+      "policy_platform": "[Incumbent](https://www.kpbs.org/news/politics/2026/10/02/conoce-a-los-candidatos-para-la-asamblea-estatal-california-eleccion-general-de-2026-guia-de-las-contiendas-distritos-74-75-76-77-78-79-80) focused on housing supply, cost of living and wildfire insurance."
     },
     "CAND|JACKIE ELWARD": {
       "type": "candidate",
@@ -6609,7 +6753,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD12",
       "support": 102962.86,
       "against": 846293.45,
-      "policy_platform": "AD 12, vs. Eric Lucan (D). Wildfire and drought, housing and homelessness, North Bay's share of state funding; labor-backed. Tech, AI and billionaire tax: Backed moratoriums on \"all things AI,\" including data centers (KQED questionnaire); listed as a Yes on 40 endorser. On outside money: \"We are not going to allow a billionaire to take over what we have built.\" Sources: https://www.jackie4assembly.com/ ; https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/ ; https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out ; https://yeson40.com/endorsements/"
+      "policy_platform": "[Campaigns on](https://www.jackie4assembly.com/) wildfire and drought, housing and homelessness and the North Bay's share of state funding; labor-backed. [Backed moratoriums on \"all things AI,\"](https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out) including data centers, saying \"protecting workers is the priority,\" and is a [Yes on 40 endorser](https://yeson40.com/endorsements/). On outside money: [\"We are not going to allow a billionaire to take over what we have built.\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/)"
     },
     "CAND|Sara Hernandez": {
       "type": "candidate",
@@ -6626,7 +6770,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD26",
       "support": 828919.44,
       "against": 0,
-      "policy_platform": "SD 26, vs. Sarah Rascon (D). LA Community College trustee; housing and environmental attorney. Tech, AI and billionaire tax: Campaign site pledges to \"fight for strict rules with real enforcement\" on Big Tech profits (per CalMatters). Sources: https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/ ; https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html"
+      "policy_platform": "[Los Angeles Community College trustee](https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html) and housing and environmental attorney. Her campaign site [pledges to \"fight for strict rules with real enforcement\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/) on Big Tech profits."
     },
     "CAND|IDA OBESO-MARTINEZ": {
       "type": "candidate",
@@ -6643,7 +6787,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD36",
       "support": 818333,
       "against": 0,
-      "policy_platform": "AD 36, vs. Jeff Gonzalez (R). Nurse practitioner; health care, schools, infrastructure, public safety. Tech, AI and billionaire tax: No statement found. Sources: https://www.nbcpalmsprings.com/2026/05/14/candidates-outline-priorities-in-californias-36th-assembly-district-race"
+      "policy_platform": "[Nurse practitioner](https://www.nbcpalmsprings.com/2026/05/14/candidates-outline-priorities-in-californias-36th-assembly-district-race) campaigning on health care, schools, infrastructure and public safety."
     },
     "CAND|FATIMA IQBAL-ZUBAIR": {
       "type": "candidate",
@@ -6660,7 +6804,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD65",
       "support": 0,
       "against": 638751.32,
-      "policy_platform": "AD 65 primary. Progressive teacher; corporations paying their \"fair share,\" environmental justice, public schools. Tech, AI and billionaire tax: Opposed corporate campaign money (2022); no 2026 AI or Prop 40 statement found. Sources: https://forthe.org/journalism/iqbal-zubair-qa/"
+      "policy_platform": "Teacher whose [campaign site](https://web.archive.org/web/20260411160149/https://www.fatimaforassembly.com/) focused on bringing down housing costs, fixing health care so \"one surprise bill\" can't \"undo a year of savings,\" and keeping good union jobs in South LA. The campaign said it accepts \"$0 from corporate special interests,\" and she has [long opposed corporate campaign money](https://forthe.org/journalism/iqbal-zubair-qa/)."
     },
     "CAND|Tony Strickland": {
       "type": "candidate",
@@ -6677,7 +6821,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD36",
       "support": 622570,
       "against": 0,
-      "policy_platform": "SD 36 incumbent, vs. Chris Duncan (D). Public safety and Prop 36 funding, accountability for boards like the Coastal Commission, affordability. Tech, AI and billionaire tax: Spoke against the billionaire tax (April 2026). Sources: https://www.picketfencemedia.com/sanclementetimes/eye-on-sc/strickland-plans-re-election-bid-make-california-golden-again/article_48fdc6aa-7f6f-4ee5-b550-0412323da275.html ; https://player.thecentersquare.com/videos/1804411/ca-sen-tony-strickland-pushes-prop-36-funding-slam-1AG3y7daLF"
+      "policy_platform": "[Incumbent](https://www.picketfencemedia.com/sanclementetimes/eye-on-sc/strickland-plans-re-election-bid-make-california-golden-again/article_48fdc6aa-7f6f-4ee5-b550-0412323da275.html) focused on public safety and Prop 36 funding, accountability for boards like the Coastal Commission, and affordability. [Spoke against the billionaire tax](https://player.thecentersquare.com/videos/1804411/ca-sen-tony-strickland-pushes-prop-36-funding-slam-1AG3y7daLF) in April 2026."
     },
     "CAND|Laurie Davies": {
       "type": "candidate",
@@ -6694,7 +6838,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD74",
       "support": 356035,
       "against": 0,
-      "policy_platform": "AD 74 incumbent. RHNA housing reform, audits of state programs, energy costs. Tech, AI and billionaire tax: No statement found. Sources: https://my.lwv.org/node/71263"
+      "policy_platform": "[Incumbent](https://my.lwv.org/node/71263) focused on regional housing needs reform, audits of state programs and energy costs."
     },
     "CAND|Rick Chavez Zbur": {
       "type": "candidate",
@@ -6711,7 +6855,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD51",
       "support": 281763.48,
       "against": 0,
-      "policy_platform": "AD 51 incumbent. Housing near transit, alternatives to arrest, workforce training. Tech, AI and billionaire tax: 2026 bills: AB 2383 makes large energy users including AI data centers pay their share of power costs; AB 1609 requires disclosure when AI handles customer service. Sources: https://zbur.asmdc.org/newsletters/catching-rick-2026-legislative-bill-package"
+      "policy_platform": "[Incumbent](https://zbur.asmdc.org/newsletters/catching-rick-2026-legislative-bill-package) focused on housing near transit, alternatives to arrest and workforce training. His 2026 bills include AB 2383, which makes large energy users including AI data centers pay their share of power costs, and AB 1609, which requires disclosure when AI handles customer service."
     },
     "CAND|David Alvarez": {
       "type": "candidate",
@@ -6728,7 +6872,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD80",
       "support": 276485.27,
       "against": 0,
-      "policy_platform": "AD 80 incumbent. Cost of living and housing, border infrastructure and environment. Tech, AI and billionaire tax: No statement found. Sources: https://www.kpbs.org/news/politics/2026/10/02/conoce-a-los-candidatos-para-la-asamblea-estatal-california-eleccion-general-de-2026-guia-de-las-contiendas-distritos-74-75-76-77-78-79-80"
+      "policy_platform": "[Incumbent](https://www.kpbs.org/news/politics/2026/10/02/conoce-a-los-candidatos-para-la-asamblea-estatal-california-eleccion-general-de-2026-guia-de-las-contiendas-distritos-74-75-76-77-78-79-80) focused on cost of living and housing, and border infrastructure and environment."
     },
     "CAND|ANDRAE GONZALES": {
       "type": "candidate",
@@ -6745,7 +6889,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD35",
       "support": 272439.34,
       "against": 0,
-      "policy_platform": "AD 35, vs. Saul Ayon (R). Resources for Kern County, jobs and apprenticeships, health access; wants consumer protection \"without blocking innovation.\" Tech, AI and billionaire tax: No AI or Prop 40 statement found. Sources: https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/amp/"
+      "policy_platform": "[Campaigns on](https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/) more resources for Kern County, jobs and apprenticeships and health access, and wants consumer protection \"without blocking innovation.\""
     },
     "CAND|DEBORAH KLEIN LOPEZ": {
       "type": "candidate",
@@ -6762,7 +6906,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD42",
       "support": 272439.34,
       "against": 0,
-      "policy_platform": "AD 42, vs. Ted Nordblum (R). Agoura Hills Mayor Pro Tem; disaster recovery, Palisades rebuilding, local control on housing density. Tech, AI and billionaire tax: Supports workforce and apprenticeship programs to move workers into AI-related roles. Sources: https://palisadesdemclub.org/summary-of-3-21-26-state-sen-assembly-candidates-forum/"
+      "policy_platform": "[Agoura Hills mayor pro tem](https://palisadesdemclub.org/summary-of-3-21-26-state-sen-assembly-candidates-forum/) campaigning on disaster recovery, Palisades rebuilding and local control over housing density. Supports workforce and apprenticeship programs to move workers into AI-related jobs."
     },
     "CAND|RHODESIA RANSOM": {
       "type": "candidate",
@@ -6779,7 +6923,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD13",
       "support": 181918.32,
       "against": 0,
-      "policy_platform": "AD 13 incumbent, vs. Tom Patti (R). Constituent services. Tech, AI and billionaire tax: No statement found. Sources: https://stocktonia.org/news/politics/2026/05/31/state-assembly-incumbents-wil-vie-with-challengers-for-shot-at-general-election/"
+      "policy_platform": "[Incumbent](https://stocktonia.org/news/politics/2026/05/31/state-assembly-incumbents-wil-vie-with-challengers-for-shot-at-general-election/) running on constituent services."
     },
     "CAND|TOM PATTI": {
       "type": "candidate",
@@ -6796,7 +6940,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "AD13",
       "support": 0,
       "against": 181918.31,
-      "policy_platform": "AD 13, vs. Rhodesia Ransom (D). Former San Joaquin supervisor; cut regulation on local business. Tech, AI and billionaire tax: No statement found. Sources: https://stocktonia.org/news/politics/2026/05/31/state-assembly-incumbents-wil-vie-with-challengers-for-shot-at-general-election/"
+      "policy_platform": "[Former San Joaquin County supervisor](https://stocktonia.org/news/politics/2026/05/31/state-assembly-incumbents-wil-vie-with-challengers-for-shot-at-general-election/) who wants to cut regulation on local business."
     },
     "CAND|Esmeralda Soria": {
       "type": "candidate",
@@ -6813,7 +6957,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD14",
       "support": 115045,
       "against": 0,
-      "policy_platform": "SD 14, vs. Darin DuPont (R). Central Valley working families, farmers, veterans, affordable housing. Tech, AI and billionaire tax: No statement found. Sources: https://sjvsun.com/news/politics/soria-launches-campaign-for-state-senate/ ; https://soriaforcalifornia.com/news/"
+      "policy_platform": "[Campaigns on](https://sjvsun.com/news/politics/soria-launches-campaign-for-state-senate/) Central Valley working families, farmers, veterans and affordable housing."
     },
     "CAND|Avelino Valencia": {
       "type": "candidate",
@@ -6830,7 +6974,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "race": "SD34",
       "support": 72570,
       "against": 0,
-      "policy_platform": "SD 34, vs. Rhonda Shader (R). Assemblymember (AD 68). Tech, AI and billionaire tax: No statement found. Sources: https://en.wikipedia.org/wiki/2026_California_State_Senate_election"
+      "policy_platform": "[Assemblymember](https://en.wikipedia.org/wiki/2026_California_State_Senate_election) running for the state Senate."
     },
     "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE": {
       "type": "committee",
@@ -7171,27 +7315,29 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     body.appendChild(sec);
     return sec;
   }
-  // Text from additional_info.csv: URLs become links (labelled by site) so each sheet keeps its sources
-  const URL_RE = /https?:\/\/[^\s;,)]+[^\s;,.)]/g;
+  // Text from additional_info.csv: links are written as [words](url) and render as underlined links
+  const MD_LINK = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g;
   function linkedText(cls, value) {
     const box = el('div', cls);
     let last = 0, m;
-    URL_RE.lastIndex = 0;
-    while ((m = URL_RE.exec(value)) !== null) {
+    MD_LINK.lastIndex = 0;
+    while ((m = MD_LINK.exec(value)) !== null) {
       if (m.index > last) box.appendChild(document.createTextNode(value.slice(last, m.index)));
-      const a = el('a', 'sh-src');
-      a.href = m[0]; a.target = '_blank'; a.rel = 'noopener noreferrer';
-      try { a.textContent = new URL(m[0]).hostname.replace(/^www\./, ''); } catch (e) { a.textContent = m[0]; }
-      a.title = m[0];
+      const a = el('a', 'sh-src', m[1]);
+      a.href = m[2]; a.target = '_blank'; a.rel = 'noopener noreferrer';
       box.appendChild(a);
       last = m.index + m[0].length;
     }
     if (last < value.length) box.appendChild(document.createTextNode(value.slice(last)));
     return box;
   }
+  // Same text without the links (for one-line summaries)
+  function plainText(value) { return (value || '').replace(MD_LINK, '$1'); }
+  // Sections from additional_info.csv appear only when filled in
   function textField(body, title, value) {
+    if (!value || !String(value).trim()) return;
     const sec = section(body, title);
-    sec.appendChild(value ? linkedText('sh-text', value) : el('div', 'sh-empty', 'Not yet added'));
+    sec.appendChild(linkedText('sh-text', value));
   }
   function stats(body, pairs) {
     const g = el('div', 'sh-stats');
@@ -7208,7 +7354,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       if (r.dir) left.appendChild(el('span', 'sh-tag ' + r.dir, r.dir));
       row.appendChild(left);
       row.appendChild(el('div', 'sh-amt', fmtFull(r.amount)));
-      if (opts.meta) row.appendChild(el('div', 'sh-row-meta', opts.meta(r)));
+      if (opts.meta && opts.meta(r)) row.appendChild(el('div', 'sh-row-meta', opts.meta(r)));
       sec.appendChild(row);
     });
   }
@@ -7231,12 +7377,13 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     } else if (S.type === 'funder') {
       stats(body, [['Given to tracked PACs', fmtFull(S.total)]]);
       textField(body, 'Industry', S.industry);
+      textField(body, 'Net worth', S.net_worth);
       textField(body, 'Politics', S.politics);
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
     } else if (S.type === 'pac') {
       stats(body, [['Raised', fmtFull(S.raised)], ['Spent on IEs', fmtFull(S.spent)]]);
       textField(body, 'Mission', S.mission);
-      list(body, 'Top funders', S.top_funders, { meta: r => 'Industry: ' + (r.industry || 'not yet added') });
+      list(body, 'Top funders', S.top_funders, { meta: r => plainText(r.industry) });
       list(body, 'Spending breakdown', S.spending);
       list(body, 'Fundraising breakdown', S.fundraising);
     } else if (S.type === 'measure') {
