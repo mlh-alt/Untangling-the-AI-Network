@@ -144,6 +144,13 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 #orb-total { font-family: var(--font-mono); font-size: clamp(20px, 5vw, 32px); font-weight: 500; letter-spacing: -.01em; }
 #orb-detail { font-size: 11px; color: var(--fg2); line-height: 1.55; white-space: pre-wrap; max-width: 280px; }
 #orb-profile { font-size: 11px; color: var(--fg2); line-height: 1.6; max-width: 290px; border-top: 1px solid var(--border); padding-top: 10px; font-style: italic; }
+/* election result tag (orb and info sheet): from output/results.csv */
+.result-tag { display: inline-block; font-family: var(--font-mono); font-size: 10px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; border: 1px solid currentColor; background: color-mix(in srgb, currentColor 12%, transparent); }
+.result-tag.won, .result-tag.passed { color: var(--funder); }
+.result-tag.lost, .result-tag.not-passed { color: var(--cand-opp); }
+.result-tag.indeterminate { color: var(--pac); }
+#orb-result:empty { display: none; }
+.sh-result { margin-top: 10px; }
 #orb-close { position: absolute; top: 22%; right: 22%; background: none; border: none; color: var(--fg3); font-size: 18px; cursor: pointer; line-height: 1; padding: 4px; transition: color .15s; }
 #orb-close:hover { color: var(--fg); }
 
@@ -273,6 +280,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     <div id="orb-name"></div>
     <div id="orb-total"></div>
     <div id="orb-detail"></div>
+    <div id="orb-result"></div>
     <div id="orb-profile" hidden></div>
   </div>
 </div>
@@ -787,7 +795,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 127800000,
       "n_connections": 1,
-      "detail": "Support IE: $127,800,000 | Oppose IE: $0"
+      "detail": "Support IE: $127,800,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|Measure: PROPOSITION 40",
@@ -795,7 +804,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 118500000,
       "n_connections": 1,
-      "detail": "Support IE: $0 | Oppose IE: $118,500,000"
+      "detail": "Support IE: $0 | Oppose IE: $118,500,000",
+      "result": ""
     },
     {
       "id": "CAND|Measure: PROPOSITION 41",
@@ -803,7 +813,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 58350000,
       "n_connections": 1,
-      "detail": "Support IE: $58,350,000 | Oppose IE: $0"
+      "detail": "Support IE: $58,350,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|MATT MAHAN",
@@ -813,7 +824,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 2,
       "detail": "Support IE: $22,270,861 | Oppose IE: $0",
       "party": "D",
-      "race": "Governor's Race"
+      "race": "Governor's Race",
+      "result": ""
     },
     {
       "id": "CAND|Measure: PROPOSITION 45",
@@ -821,7 +833,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 10000000,
       "n_connections": 1,
-      "detail": "Support IE: $10,000,000 | Oppose IE: $0"
+      "detail": "Support IE: $10,000,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|Measure: PROPOSITION 37",
@@ -829,7 +842,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 6000000,
       "n_connections": 1,
-      "detail": "Support IE: $6,000,000 | Oppose IE: $0"
+      "detail": "Support IE: $6,000,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|SARA HERNANDEZ",
@@ -839,7 +853,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 2,
       "detail": "Support IE: $4,267,176 | Oppose IE: $343,920",
       "party": "D",
-      "race": "SD26"
+      "race": "SD26",
+      "result": ""
     },
     {
       "id": "CAND|Measure: Prohibit Exceptions to School Funding Guarantee",
@@ -847,7 +862,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 3100000,
       "n_connections": 1,
-      "detail": "Support IE: $3,100,000 | Oppose IE: $0"
+      "detail": "Support IE: $3,100,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|David Penaloza",
@@ -857,7 +873,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $2,866,415 | Oppose IE: $0",
       "party": "D",
-      "race": "AD68"
+      "race": "AD68",
+      "result": ""
     },
     {
       "id": "CAND|DAVID PENALOZA",
@@ -867,7 +884,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $2,821,826 | Oppose IE: $0",
       "party": "D",
-      "race": "AD68"
+      "race": "AD68",
+      "result": ""
     },
     {
       "id": "CAND|ERIC LUCAN",
@@ -877,7 +895,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $2,817,225 | Oppose IE: $0",
       "party": "D",
-      "race": "AD12"
+      "race": "AD12",
+      "result": ""
     },
     {
       "id": "CAND|MARK PULIDO",
@@ -887,7 +906,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $2,594,121 | Oppose IE: $0",
       "party": "D",
-      "race": "AD67"
+      "race": "AD67",
+      "result": ""
     },
     {
       "id": "CAND|Andrae Gonzales",
@@ -897,7 +917,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 2,
       "detail": "Support IE: $2,906,794 | Oppose IE: $0",
       "party": "D",
-      "race": "AD35"
+      "race": "AD35",
+      "result": ""
     },
     {
       "id": "CAND|JOHN ERICKSON",
@@ -907,7 +928,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $2,242,028",
       "party": "D",
-      "race": "SD24"
+      "race": "SD24",
+      "result": ""
     },
     {
       "id": "CAND|ADA BRICENO",
@@ -917,7 +939,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $1,490,767",
       "party": "D",
-      "race": "AD67"
+      "race": "AD67",
+      "result": ""
     },
     {
       "id": "CAND|AYANNA DAVIS",
@@ -927,7 +950,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,475,310 | Oppose IE: $0",
       "party": "D",
-      "race": "AD65"
+      "race": "AD65",
+      "result": ""
     },
     {
       "id": "CAND|Scott Sakakihara",
@@ -937,7 +961,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,335,520 | Oppose IE: $0",
       "party": "D",
-      "race": "SD10"
+      "race": "SD10",
+      "result": ""
     },
     {
       "id": "CAND|JESSIE LOPEZ",
@@ -947,7 +972,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $1,333,222",
       "party": "D",
-      "race": "AD68"
+      "race": "AD68",
+      "result": ""
     },
     {
       "id": "CAND|Ed Musgrove",
@@ -957,7 +983,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,302,055 | Oppose IE: $0",
       "party": "R",
-      "race": "SD40"
+      "race": "SD40",
+      "result": ""
     },
     {
       "id": "CAND|Mark Pulido",
@@ -967,7 +994,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,260,592 | Oppose IE: $0",
       "party": "D",
-      "race": "AD67"
+      "race": "AD67",
+      "result": ""
     },
     {
       "id": "CAND|Greg Wallis",
@@ -977,7 +1005,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,078,618 | Oppose IE: $0",
       "party": "R",
-      "race": "AD47"
+      "race": "AD47",
+      "result": ""
     },
     {
       "id": "CAND|Brian Goldsmith",
@@ -987,7 +1016,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,057,110 | Oppose IE: $0",
       "party": "D",
-      "race": "SD24"
+      "race": "SD24",
+      "result": ""
     },
     {
       "id": "CAND|SCOTT SAKAKIHARA",
@@ -997,7 +1027,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,039,940 | Oppose IE: $0",
       "party": "D",
-      "race": "SD10"
+      "race": "SD10",
+      "result": ""
     },
     {
       "id": "CAND|Ayanna Davis",
@@ -1007,7 +1038,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $1,010,362 | Oppose IE: $0",
       "party": "D",
-      "race": "AD65"
+      "race": "AD65",
+      "result": ""
     },
     {
       "id": "CAND|Measure: PROPOSITION 1",
@@ -1015,7 +1047,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "tier": "Candidates",
       "total": 1000000,
       "n_connections": 1,
-      "detail": "Support IE: $1,000,000 | Oppose IE: $0"
+      "detail": "Support IE: $1,000,000 | Oppose IE: $0",
+      "result": ""
     },
     {
       "id": "CAND|Xavier Becerra",
@@ -1025,7 +1058,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $999,066 | Oppose IE: $0",
       "party": "D",
-      "race": "Governor's Race"
+      "race": "Governor's Race",
+      "result": ""
     },
     {
       "id": "CAND|Annalisa Perea",
@@ -1035,7 +1069,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 2,
       "detail": "Support IE: $1,339,921 | Oppose IE: $0",
       "party": "D",
-      "race": "AD31"
+      "race": "AD31",
+      "result": ""
     },
     {
       "id": "CAND|Darshana Patel",
@@ -1045,7 +1080,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $870,807 | Oppose IE: $0",
       "party": "D",
-      "race": "AD76"
+      "race": "AD76",
+      "result": ""
     },
     {
       "id": "CAND|JACKIE ELWARD",
@@ -1055,7 +1091,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 2,
       "detail": "Support IE: $102,963 | Oppose IE: $846,293",
       "party": "D",
-      "race": "AD12"
+      "race": "AD12",
+      "result": ""
     },
     {
       "id": "CAND|Sara Hernandez",
@@ -1065,7 +1102,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $828,919 | Oppose IE: $0",
       "party": "D",
-      "race": "SD26"
+      "race": "SD26",
+      "result": ""
     },
     {
       "id": "CAND|IDA OBESO-MARTINEZ",
@@ -1075,7 +1113,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $818,333 | Oppose IE: $0",
       "party": "D",
-      "race": "AD36"
+      "race": "AD36",
+      "result": ""
     },
     {
       "id": "CAND|FATIMA IQBAL-ZUBAIR",
@@ -1085,7 +1124,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $638,751",
       "party": "D",
-      "race": "AD65"
+      "race": "AD65",
+      "result": ""
     },
     {
       "id": "CAND|Tony Strickland",
@@ -1095,7 +1135,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $622,570 | Oppose IE: $0",
       "party": "R",
-      "race": "SD36"
+      "race": "SD36",
+      "result": ""
     },
     {
       "id": "CAND|Laurie Davies",
@@ -1105,7 +1146,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $356,035 | Oppose IE: $0",
       "party": "R",
-      "race": "AD74"
+      "race": "AD74",
+      "result": ""
     },
     {
       "id": "CAND|Rick Chavez Zbur",
@@ -1115,7 +1157,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $281,763 | Oppose IE: $0",
       "party": "D",
-      "race": "AD51"
+      "race": "AD51",
+      "result": ""
     },
     {
       "id": "CAND|David Alvarez",
@@ -1125,7 +1168,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $276,485 | Oppose IE: $0",
       "party": "D",
-      "race": "AD80"
+      "race": "AD80",
+      "result": ""
     },
     {
       "id": "CAND|ANDRAE GONZALES",
@@ -1135,7 +1179,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $272,439 | Oppose IE: $0",
       "party": "D",
-      "race": "AD35"
+      "race": "AD35",
+      "result": ""
     },
     {
       "id": "CAND|DEBORAH KLEIN LOPEZ",
@@ -1145,7 +1190,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $272,439 | Oppose IE: $0",
       "party": "D",
-      "race": "AD42"
+      "race": "AD42",
+      "result": ""
     },
     {
       "id": "CAND|RHODESIA RANSOM",
@@ -1155,7 +1201,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $181,918 | Oppose IE: $0",
       "party": "D",
-      "race": "AD13"
+      "race": "AD13",
+      "result": ""
     },
     {
       "id": "CAND|TOM PATTI",
@@ -1165,7 +1212,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $0 | Oppose IE: $181,918",
       "party": "R",
-      "race": "AD13"
+      "race": "AD13",
+      "result": ""
     },
     {
       "id": "CAND|Esmeralda Soria",
@@ -1175,7 +1223,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $115,045 | Oppose IE: $0",
       "party": "D",
-      "race": "SD14"
+      "race": "SD14",
+      "result": ""
     },
     {
       "id": "CAND|Avelino Valencia",
@@ -1185,7 +1234,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "n_connections": 1,
       "detail": "Support IE: $72,570 | Oppose IE: $0",
       "party": "D",
-      "race": "SD34"
+      "race": "SD34",
+      "result": ""
     },
     {
       "id": "CAND|UBER INNOVATION POLITICAL ACTION COMMITTEE",
@@ -7255,6 +7305,19 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     return lines.slice(0, 3);
   }
 
+  // ── election results ──
+  const RESULT_LABELS = { 'won': 'Won', 'lost': 'Lost', 'passed': 'Passed', 'not passed': 'Not passed' };
+  function hasResult(nd) { return !!nd && nd.id.startsWith('CAND|') && !isCommittee(nd); }
+  function resultTag(value) {
+    const v = String(value || '').trim().toLowerCase();
+    const label = RESULT_LABELS[v] || 'Indeterminate';
+    const span = document.createElement('span');
+    span.className = 'result-tag ' + label.toLowerCase().replace(' ', '-');
+    span.textContent = label;
+    return span;
+  }
+  function nodeById(id) { return network && network.nodes ? network.nodes.find(n => n.id === id) : null; }
+
   function openOrb(nd, col, edges) {
     const orb = document.getElementById('orb');
     document.getElementById('orb-tier').textContent = isMeasure(nd) ? 'MEASURES'
@@ -7276,6 +7339,10 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     document.getElementById('orb-detail').textContent = (nd.detail || '') +
       (isCommittee(nd) ? '\n\nSupports: ' + (nd.supports || 'no candidates found in its Cal-Access filings') : '');
     document.getElementById('orb-profile').hidden = true;
+    // election result for candidates and measures (blank in results.csv = Indeterminate)
+    const resBox = document.getElementById('orb-result');
+    resBox.replaceChildren();
+    if (hasResult(nd)) resBox.appendChild(resultTag(nd.result));
     orb.classList.add('open');
     orbOpen = true;
 
@@ -7309,10 +7376,10 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   // Fill in each section's text here. Links are written as [words](url); empty sections show "To be added".
   const PAGES = {
     methodology: { title: 'Methodology', sections: [
+      { h: 'Scope', text: '' },
       { h: 'Data', text: '' },
       { h: 'Structure', text: '' },
       { h: 'Quality', text: '' },
-      { h: 'Why this covers the broader tech industry', text: '' },
     ] },
     mission: { title: 'Mission', sections: [
       { h: 'Mission', text: '' },
@@ -7403,6 +7470,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     if (S.type === 'candidate') {
       const sub = [S.party ? '(' + S.party + ')' : '', S.race || ''].filter(Boolean).join(' | ');
       if (sub) body.appendChild(el('div', 'sh-sub', sub));
+      const ndC = nodeById(id);
+      if (hasResult(ndC)) { const r = el('div', 'sh-result'); r.appendChild(resultTag(ndC.result)); body.appendChild(r); }
       stats(body, [['IEs supporting', fmtFull(S.support)], ['IEs against', fmtFull(S.against)]]);
       textField(body, 'Policy platform', S.policy_platform);
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
@@ -7419,6 +7488,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       list(body, 'Spending breakdown', S.spending);
       list(body, 'Fundraising breakdown', S.fundraising);
     } else if (S.type === 'measure') {
+      const ndM = nodeById(id);
+      if (hasResult(ndM)) { const r = el('div', 'sh-result'); r.appendChild(resultTag(ndM.result)); body.appendChild(r); }
       textField(body, 'What it does', S.what_it_does);
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
     } else if (S.type === 'page') {
