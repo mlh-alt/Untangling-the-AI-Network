@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AI Money Network</title>
+<title>The AI Outside Spending Network</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
@@ -91,7 +91,8 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
-#header h1 { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fg); white-space: nowrap; }
+#header h1 { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fg); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+@media (max-width: 520px) { #header h1 { white-space: normal; line-height: 1.25; } }   /* full title on phones, wrapped */
 #header .sub { font-size: 11px; color: var(--fg2); font-family: var(--font-mono); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 #header-spacer { flex: 1; }
 
@@ -175,7 +176,13 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 #info-pop { position: fixed; z-index: 45; top: calc(env(safe-area-inset-top, 0px) + 52px); left: max(16px, env(safe-area-inset-left, 0px)); width: min(320px, calc(100vw - 32px)); background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; box-shadow: 0 10px 30px rgba(0,0,0,.35); font-size: 12px; line-height: 1.55; color: var(--fg); }
 #info-pop h2 { font-family: var(--font-mono); font-size: 10px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--fg3); margin-bottom: 8px; }
 #info-pop ul { list-style: none; display: grid; gap: 6px; }
-#info-pop li::before { content: "\2022"; color: var(--fg3); margin-right: 8px; }
+/* hanging indent: wrapped lines line up under the first word, not under the bullet */
+#info-pop li { position: relative; padding-left: 14px; }
+#info-pop li::before { content: "\2022"; color: var(--fg3); position: absolute; left: 0; }
+#info-pop h2 + ul + h2, #info-pop .info-h2-gap { margin-top: 14px; }
+#info-pop .info-links li::before { content: "\2192"; }
+#info-pop .info-link { background: none; border: none; padding: 0; font: inherit; color: var(--fg); cursor: pointer; text-align: left; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
+#info-pop .info-link:hover, #info-pop .info-link:focus-visible { text-decoration-color: currentColor; outline: none; }
 #sheet {
   position: fixed; top: 0; right: 0; bottom: 0; z-index: 40;
   width: min(460px, 100vw);
@@ -225,7 +232,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 <div id="header">
   <div>
     <div id="title-row">
-      <h1>AI Money Network</h1>
+      <h1>The AI Outside Spending Network</h1>
       <button id="info-btn" aria-label="How to use this map" aria-expanded="false" aria-controls="info-pop">i</button>
     </div>
     <div class="sub" id="header-sub">California Independent Expenditures · 2025–2026</div>
@@ -247,6 +254,11 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     <li>In the summary, click the name to open its full info sheet. Names in the sheet link to other sheets.</li>
     <li>Hover over or tap a line to see the amount.</li>
     <li>Scroll or pinch to zoom, drag to move around, and use Reset view to start over.</li>
+  </ul>
+  <h2 class="info-h2-gap">About this map</h2>
+  <ul class="info-links">
+    <li><button class="info-link" data-page="methodology">Methodology</button></li>
+    <li><button class="info-link" data-page="mission">Mission</button></li>
   </ul>
 </div>
 
@@ -296,7 +308,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     "total_spent_ie": "$389,362,100",
     "n_funders": 144,
     "n_candidates": 44,
-    "date_range": "Jan 01, 2025 – Nov 02, 2026"
+    "date_range": "Jan 01, 2025 – Nov 03, 2026"
   },
   "pacs": [
     {
@@ -7287,13 +7299,33 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   // ── info sheets ──
   // Built in R (section 9b) and baked into the page as network.sheets, keyed by node id.
   // Manual fields (industry, politics, mission, policy platform, what it does) come from
-  // output/additional_info.csv; empty ones show "Not yet added".
+  // output/additional_info.csv; empty ones are hidden.
   const sheetHistory = [];
   const fmtFull = v => '$' + Math.round(v || 0).toLocaleString('en-US');
   const EYEBROW = { candidate: 'Candidate', measure: 'Measure', committee: 'General purpose committee',
-                    funder: 'Funder', pac: 'PAC' };
+                    funder: 'Funder', pac: 'PAC', page: 'About this map' };
 
-  function sheetFor(id) { return network && network.sheets ? network.sheets[id] : null; }
+  // ── "About this map" pages (linked from the "i" popover) ──
+  // Fill in each section's text here. Links are written as [words](url); empty sections show "To be added".
+  const PAGES = {
+    methodology: { title: 'Methodology', sections: [
+      { h: 'Data', text: '' },
+      { h: 'Structure', text: '' },
+      { h: 'Quality', text: '' },
+      { h: 'Why this covers the broader tech industry', text: '' },
+    ] },
+    mission: { title: 'Mission', sections: [
+      { h: 'Mission', text: '' },
+    ] },
+  };
+
+  function sheetFor(id) {
+    if (typeof id === 'string' && id.startsWith('page:')) {
+      const P = PAGES[id.slice(5)];
+      return P ? { type: 'page', name: P.title, sections: P.sections } : null;
+    }
+    return network && network.sheets ? network.sheets[id] : null;
+  }
 
   function el(tag, cls, text) {
     const e = document.createElement(tag);
@@ -7389,6 +7421,11 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
     } else if (S.type === 'measure') {
       textField(body, 'What it does', S.what_it_does);
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
+    } else if (S.type === 'page') {
+      S.sections.forEach(x => {
+        if (x.text && x.text.trim()) textField(body, x.h, x.text);
+        else section(body, x.h).appendChild(el('div', 'sh-empty', 'To be added'));
+      });
     } else if (S.type === 'committee') {
       list(body, 'Funding breakdown (tracked PACs)', S.spending);
       const sec = section(body, 'Who they support');
@@ -7425,13 +7462,23 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   // ── "i" button: how to use the map ──
   const infoBtn = document.getElementById('info-btn');
   const infoPop = document.getElementById('info-pop');
-  function setInfo(open) { infoPop.hidden = !open; infoBtn.setAttribute('aria-expanded', String(open)); }
+  function setInfo(open) {
+    // sit just below the header, which is taller on phones where the title wraps
+    if (open) infoPop.style.top = (document.getElementById('header').getBoundingClientRect().bottom + 8) + 'px';
+    infoPop.hidden = !open; infoBtn.setAttribute('aria-expanded', String(open));
+  }
   infoBtn.addEventListener('click', e => { e.stopPropagation(); setInfo(infoPop.hidden); });
   // close on any press outside the popover (pointerdown, since the map stops some click events)
   document.addEventListener('pointerdown', e => {
     if (!infoPop.hidden && !infoPop.contains(e.target) && !infoBtn.contains(e.target)) setInfo(false);
   }, true);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') setInfo(false); });
+  // Methodology / Mission links open their page in the info sheet panel
+  infoPop.querySelectorAll('.info-link').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    setInfo(false);
+    openSheet('page:' + b.dataset.page, true);
+  }));
 
   document.getElementById('orb-close').addEventListener('click', closeOrb);
   document.getElementById('orb').addEventListener('click', e => e.stopPropagation());
