@@ -513,7 +513,7 @@
       "detail": "Support IE: $22,270,861 | Oppose IE: $0",
       "party": "D",
       "race": "Governor's Race",
-      "result": ""
+      "result": "Lost primary"
     },
     {
       "id": "CAND|Measure: PROPOSITION 45",
@@ -551,7 +551,7 @@
       "total": 3100000,
       "n_connections": 1,
       "detail": "Support IE: $3,100,000 | Oppose IE: $0",
-      "result": ""
+      "result": "Failed to qualify"
     },
     {
       "id": "CAND|David Penaloza",
