@@ -531,7 +531,7 @@
       "total": 6000000,
       "n_connections": 1,
       "detail": "Support IE: $6,000,000 | Oppose IE: $0",
-      "result": ""
+      "result": "Passed"
     },
     {
       "id": "CAND|SARA HERNANDEZ",
@@ -650,7 +650,7 @@
       "detail": "Support IE: $1,335,520 | Oppose IE: $0",
       "party": "D",
       "race": "SD10",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|JESSIE LOPEZ",
@@ -716,7 +716,7 @@
       "detail": "Support IE: $1,039,940 | Oppose IE: $0",
       "party": "D",
       "race": "SD10",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|Ayanna Davis",
@@ -736,7 +736,7 @@
       "total": 1000000,
       "n_connections": 1,
       "detail": "Support IE: $1,000,000 | Oppose IE: $0",
-      "result": ""
+      "result": "Passed"
     },
     {
       "id": "CAND|Xavier Becerra",
@@ -747,7 +747,7 @@
       "detail": "Support IE: $999,066 | Oppose IE: $0",
       "party": "D",
       "race": "Governor's Race",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|Annalisa Perea",
@@ -923,7 +923,7 @@
       "detail": "Support IE: $72,570 | Oppose IE: $0",
       "party": "D",
       "race": "SD34",
-      "result": ""
+      "result": "Won"
     }
   ],
   "edges": [

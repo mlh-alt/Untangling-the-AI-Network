@@ -270,8 +270,9 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   <ul>
     <li>Click a circle to see a summary of that funder, PAC, candidate or measure.</li>
     <li>In the summary, click the name to open its full info sheet. Names in the sheet link to other sheets.</li>
+    <li>The bigger the bubble or thicker the line, the more money flowing to it.</li>
     <li>Hover over or tap a line to see the amount.</li>
-    <li>Scroll or pinch to zoom, drag to move around, and use Reset view to start over.</li>
+    <li>Scroll or pinch to zoom, drag to move around, and use reset view to start over.</li>
   </ul>
   <h2 class="info-h2-gap">About this map</h2>
   <ul class="info-links">
@@ -854,7 +855,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "total": 6000000,
       "n_connections": 1,
       "detail": "Support IE: $6,000,000 | Oppose IE: $0",
-      "result": ""
+      "result": "Passed"
     },
     {
       "id": "CAND|SARA HERNANDEZ",
@@ -973,7 +974,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "detail": "Support IE: $1,335,520 | Oppose IE: $0",
       "party": "D",
       "race": "SD10",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|JESSIE LOPEZ",
@@ -1039,7 +1040,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "detail": "Support IE: $1,039,940 | Oppose IE: $0",
       "party": "D",
       "race": "SD10",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|Ayanna Davis",
@@ -1059,7 +1060,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "total": 1000000,
       "n_connections": 1,
       "detail": "Support IE: $1,000,000 | Oppose IE: $0",
-      "result": ""
+      "result": "Passed"
     },
     {
       "id": "CAND|Xavier Becerra",
@@ -1070,7 +1071,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "detail": "Support IE: $999,066 | Oppose IE: $0",
       "party": "D",
       "race": "Governor's Race",
-      "result": ""
+      "result": "Won"
     },
     {
       "id": "CAND|Annalisa Perea",
@@ -1246,7 +1247,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       "detail": "Support IE: $72,570 | Oppose IE: $0",
       "party": "D",
       "race": "SD34",
-      "result": ""
+      "result": "Won"
     }
   ],
   "edges": [
@@ -7342,7 +7343,7 @@ To keep the map readable, not everyone is included:
 - Donors: only the top third are included, ranked by how much each gave to the six PACs combined. That's currently 48 of 144 donors, each of whom gave about $1 million or more. Smaller donors still count in every total and are listed in their PAC's fundraising breakdown.
 - PACs: all six are always shown.
 - Candidates and ballot measures: all 42 that these PACs spent on or gave to are shown. PAC payments to other political committees are left off the map but still listed in that PAC's spending breakdown.` },
-      { h: 'Quality assurance', text: `- No double counting:
+      { h: 'Quality', text: `- No double counting:
   - When a PAC amends a report, only the latest version counts.
   - Late reports only fill in activity after each PAC's last regular report.
   - A payment reported by both the giver and the receiver is counted once.
