@@ -149,6 +149,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 .result-tag.won, .result-tag.passed { color: var(--funder); }
 .result-tag.lost, .result-tag.not-passed { color: var(--cand-opp); }
 .result-tag.indeterminate { color: var(--pac); }
+.result-tag.not-on-ballot { color: var(--fg2); }
 #orb-result:empty { display: none; }
 .sh-result { margin-top: 10px; }
 #orb-close { position: absolute; top: 22%; right: 22%; background: none; border: none; color: var(--fg3); font-size: 18px; cursor: pointer; line-height: 1; padding: 4px; transition: color .15s; }
@@ -214,6 +215,16 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 .sh-text { font-size: 13px; line-height: 1.6; color: var(--fg); white-space: pre-wrap; }
 .sh-text a.sh-src { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
 .sh-text a.sh-src:hover, .sh-text a.sh-src:focus-visible { text-decoration-color: currentColor; }
+/* "About this map" pages: paragraphs and bullets with hanging indents */
+.sh-rich { font-size: 13px; line-height: 1.6; color: var(--fg); }
+.sh-rich .sh-p { margin: 0 0 10px; }
+.sh-rich ul { list-style: none; margin: 0 0 10px; padding: 0; display: grid; gap: 6px; }
+.sh-rich ul ul { margin: 6px 0 0; }
+.sh-rich li { position: relative; padding-left: 14px; }
+.sh-rich li::before { content: "\2022"; color: var(--fg3); position: absolute; left: 0; }
+.sh-rich ul ul li::before { content: "\2013"; }
+.sh-rich a.sh-src { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
+.sh-rich a.sh-src:hover, .sh-rich a.sh-src:focus-visible { text-decoration-color: currentColor; }
 .sh-empty { font-size: 12px; color: var(--fg3); font-style: italic; }
 .sh-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 12.5px; }
 .sh-row:last-child { border-bottom: none; }
@@ -242,7 +253,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       <h1>The AI Outside Spending Network</h1>
       <button id="info-btn" aria-label="How to use this map" aria-expanded="false" aria-controls="info-pop">i</button>
     </div>
-    <div class="sub" id="header-sub">California Independent Expenditures · 2025–2026</div>
+    <div class="sub" id="header-sub">California Independent Expenditures (IE) · 2025–2026</div>
   </div>
   <div id="header-spacer"></div>
   <div id="legend">
@@ -7233,13 +7244,13 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   }
 
   // ── election results ──
-  const RESULT_LABELS = { 'won': 'Won', 'lost': 'Lost', 'passed': 'Passed', 'not passed': 'Not passed' };
+  const RESULT_LABELS = { 'won': 'Won', 'lost': 'Lost', 'passed': 'Passed', 'not passed': 'Not passed', 'not on ballot': 'Not on ballot' };
   function hasResult(nd) { return !!nd && nd.id.startsWith('CAND|') && !isCommittee(nd); }
   function resultTag(value) {
     const v = String(value || '').trim().toLowerCase();
     const label = RESULT_LABELS[v] || 'Indeterminate';
     const span = document.createElement('span');
-    span.className = 'result-tag ' + label.toLowerCase().replace(' ', '-');
+    span.className = 'result-tag ' + label.toLowerCase().replace(/ /g, '-');
     span.textContent = label;
     return span;
   }
@@ -7300,13 +7311,43 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
                     funder: 'Funder', pac: 'PAC', page: 'About this map' };
 
   // ── "About this map" pages (linked from the "i" popover) ──
-  // Fill in each section's text here. Links are written as [words](url); empty sections show "To be added".
+  // Each section's text: paragraphs separated by a blank line, "- " starts a bullet, two spaces
+  // before "- " nests it. Links are written as [words](url). Empty sections show "To be added".
   const PAGES = {
     methodology: { title: 'Methodology', sections: [
-      { h: 'Scope', text: '' },
-      { h: 'Data', text: '' },
-      { h: 'Structure', text: '' },
-      { h: 'Quality', text: '' },
+      { h: 'Scope', text: `This map tracks funding of and outside spending by six political action committees (PACs) associated with key players in the AI industry: Building a Better California, California Back to Basics, California Leads, Deliver for California, Grow California and META California.
+
+These PACs were chosen because of their remarkably large expenditures and the extensive coverage they drew from the media. They reveal activity across three core levels of state politics (ballot measures, the state legislature and the governor's mansion), revealing a comprehensive effort to influence the future of governance in California.` },
+      { h: 'Data', text: `All outside spending data was drawn from California's official campaign finance database, [Cal-Access](https://cal-access.sos.ca.gov/). By law, most lobbyists, campaigns, candidates and political committees must report their financial activities through this system. This network map uses a variety of items from the database to track different activities:
+
+- Money coming in: most contributions to each PAC are drawn from their regular campaign reports (Form 460).
+- Money going out: most independent expenditures (IEs) by each PAC are drawn from their Form 460s as well.
+- Recent activity: Form 460s are comprehensive, periodic overviews of all campaign activity by the organization filing them, making them the ideal data source for funding and spending. But here's the catch: they're only filed on a semi-annual basis (with a few [exceptions](https://www.fppc.ca.gov/learn/campaign-rules/when-and-where-to-file-campaign-statements/state-and-local-filing-schedules/)). The most recent activity is thus drawn from election cycle reports (Forms 496 and 497), which are filed every 24 hours. They miss donations under $1,000, but are the most up-to-date data we have.
+
+Facts outside the scope of the Cal-Access data were drawn from the following sources:
+
+- Ballot measures: California's [Official Voter Information Guide](https://voterguide.sos.ca.gov/).
+- Candidates: campaign websites and news coverage.
+- PACs: their own websites and public statements by their donors.
+- Donors: Forbes for net worth, and news reporting for their political history.` },
+      { h: 'Structure', text: `The map has three layers: donors at the top, PACs in the middle, and candidates and ballot measures at the bottom. Here's how it works:
+
+- Donors, PACs, candidates and ballot measures are represented by spheres. Larger spheres represent more money received (candidates, ballot measures and PACs) or spent (donors). Click on a sphere to access summary information, and click the name in the sphere to access a detailed info sheet.
+- Lines represent total money moving from one actor to the next, with thicker lines meaning more money passing through.
+- Lines representing spending on candidates or ballot measures are coded by their intent: support (blue), oppose (red) or both (purple).
+- At the bottom, lines and circles show whether the PAC spent to support or to oppose the candidate or measure.
+
+To keep the map readable, not everyone is included:
+
+- Donors: only the top third are included, ranked by how much each gave to the six PACs combined. That's currently 48 of 144 donors, each of whom gave about $1 million or more. Smaller donors still count in every total and are listed in their PAC's fundraising breakdown.
+- PACs: all six are always shown.
+- Candidates and ballot measures: all 42 that these PACs spent on or gave to are shown. PAC payments to other political committees are left off the map but still listed in that PAC's spending breakdown.` },
+      { h: 'Quality assurance', text: `- No double counting:
+  - When a PAC amends a report, only the latest version counts.
+  - Late reports only fill in activity after each PAC's last regular report.
+  - A payment reported by both the giver and the receiver is counted once.
+- Clean data: some records in the raw state files are broken across lines. These were repaired before use.
+- Careful labeling: a donor's name sometimes appears in multiple spellings or versions in the filings (e.g. Google, google and Google LLC). These were flagged, investigated and consolidated once a duplicate was confirmed.` },
     ] },
     mission: { title: 'Mission', sections: [
       { h: 'Mission', text: '' },
@@ -7355,6 +7396,28 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       last = m.index + m[0].length;
     }
     if (last < value.length) box.appendChild(document.createTextNode(value.slice(last)));
+    return box;
+  }
+  // Page text: paragraphs (blank line), bullets ("- ") and nested bullets ("  - "), with [words](url) links
+  function richText(value) {
+    const box = el('div', 'sh-rich');
+    let list = null, sub = null;
+    value.split('\n').forEach(line => {
+      const m = line.match(/^(\s*)- (.*)$/);
+      if (!m) {
+        list = sub = null;
+        if (line.trim()) { const pEl = linkedText('sh-p', line.trim()); box.appendChild(pEl); }
+        return;
+      }
+      const item = el('li'); item.appendChild(linkedText('sh-li', m[2]));
+      if (m[1].length >= 2 && list && list.lastElementChild) {
+        if (!sub) { sub = el('ul'); list.lastElementChild.appendChild(sub); }
+        sub.appendChild(item);
+      } else {
+        if (!list) { list = el('ul'); box.appendChild(list); }
+        sub = null; list.appendChild(item);
+      }
+    });
     return box;
   }
   // Same text without the links (for one-line summaries)
@@ -7421,7 +7484,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
     } else if (S.type === 'page') {
       S.sections.forEach(x => {
-        if (x.text && x.text.trim()) textField(body, x.h, x.text);
+        if (x.text && x.text.trim()) section(body, x.h).appendChild(richText(x.text));
         else section(body, x.h).appendChild(el('div', 'sh-empty', 'To be added'));
       });
     } else if (S.type === 'committee') {
