@@ -278,6 +278,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   <ul class="info-links">
     <li><button class="info-link" data-page="mission">Mission</button></li>
     <li><button class="info-link" data-page="methodology">Methodology</button></li>
+    <li><button class="info-link" data-page="terms">What’s outside spending?</button></li>
   </ul>
 </div>
 
@@ -7344,12 +7345,21 @@ To keep the map readable, not everyone is included:
 - Donors: only the top third are included, ranked by how much each gave to the six PACs combined. That's currently 48 of 144 donors, each of whom gave about $1 million or more. Smaller donors still count in every total and are listed in their PAC's fundraising breakdown.
 - PACs: all six are always shown.
 - Candidates and ballot measures: all 42 that these PACs spent on or gave to are shown. PAC payments to other political committees are left off the map but still listed in that PAC's spending breakdown.` },
-      { h: 'Quality', text: `- No double counting:
+      { h: 'Quality', text: `The following steps were taken to ensure the quality of the data and calculations presented here:
+
+- No double counting:
   - When a PAC amends a report, only the latest version counts.
   - Late reports only fill in activity after each PAC's last regular report.
   - A payment reported by both the giver and the receiver is counted once.
 - Clean data: some records in the raw state files are broken across lines. These were repaired before use.
 - Careful labeling: a donor's name sometimes appears in multiple spellings or versions in the filings (e.g. Google, google and Google LLC). These were flagged, investigated and consolidated once a duplicate was confirmed.` },
+    ] },
+    terms: { title: 'What’s outside spending?', sections: [
+      { h: '', text: `Outside spending, also known as independent expenditures, [refers](https://www.opensecrets.org/outside-spending/summary) to spending in support or opposition to a candidate or policy conducted independently of a candidate’s official campaign committee. Spending can support a variety of activities, from television ads and canvassing to polling and analysis.
+
+Outside spenders can take many forms, from nonprofits and unions to corporations and political party committees. The most common are [Super PACs](https://ballotpedia.org/Super_PAC), which are barred from giving money directly to candidates. By law, no coordination between outside spenders and their targeted campaigns can take place.
+
+There is no legal cap on how much an actor can spend on independent expenditures, making it a hugely influential force in American politics.` },
     ] },
     mission: { title: 'Mission', sections: [
       { h: 'Mission', text: `This election season, the tech industry debuted a political machinery of breathtaking size in California.
@@ -7503,7 +7513,8 @@ It shows just one corner of the political finance world, but one poised to play 
       list(body, 'Spending breakdown (tracked PACs)', S.spending);
     } else if (S.type === 'page') {
       S.sections.forEach(x => {
-        if (x.text && x.text.trim()) section(body, x.h).appendChild(richText(x.text));
+        if (x.text && x.text.trim() && !x.h) { const d = body.appendChild(el('div')); d.style.marginTop = '16px'; d.appendChild(richText(x.text)); }   // single-topic page: no subheading
+        else if (x.text && x.text.trim()) section(body, x.h).appendChild(richText(x.text));
         else section(body, x.h).appendChild(el('div', 'sh-empty', 'To be added'));
       });
     } else if (S.type === 'committee') {
