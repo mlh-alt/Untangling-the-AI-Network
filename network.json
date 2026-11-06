@@ -2,8 +2,8 @@
   "meta": {
     "total_funded": "$594,817,317",
     "total_spent_ie": "$389,372,037",
-    "n_funders": 144,
-    "n_candidates": 42,
+    "n_funders": 141,
+    "n_candidates": 36,
     "date_range": "Jan 01, 2025 – Nov 03, 2026"
   },
   "pacs": [
@@ -78,12 +78,12 @@
       "detail": "Gave to: Building a Better California ($40,000,000); California Back to Basics ($2,000,000)"
     },
     {
-      "id": "LARSEN CHRISTIAN",
-      "label": "Christian Larsen",
+      "id": "LARSEN CHRIS",
+      "label": "Chris Larsen",
       "tier": "Funders",
-      "total": 36865749.36,
-      "n_connections": 1,
-      "detail": "Gave to: Grow California ($36,865,749)"
+      "total": 49377594.16,
+      "n_connections": 2,
+      "detail": "Gave to: Grow California ($36,865,749); Building a Better California ($12,511,845)"
     },
     {
       "id": "COLLISON PATRICK",
@@ -126,14 +126,6 @@
       "detail": "Gave to: Building a Better California ($12,561,504); California Back to Basics ($2,200,000)"
     },
     {
-      "id": "LARSEN CHRIS",
-      "label": "Chris Larsen",
-      "tier": "Funders",
-      "total": 12511844.8,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($12,511,845)"
-    },
-    {
       "id": "MORITZ MICHAEL",
       "label": "Michael Moritz",
       "tier": "Funders",
@@ -158,8 +150,8 @@
       "detail": "Gave to: Building a Better California ($5,000,000)"
     },
     {
-      "id": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
-      "label": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+      "id": "SNYDER LYNSI",
+      "label": "Lynsi Snyder",
       "tier": "Funders",
       "total": 4968061.28,
       "n_connections": 1,
@@ -414,20 +406,20 @@
       "detail": "Gave to: Building a Better California ($1,074,114); California Back to Basics ($1,000,000)"
     },
     {
-      "id": "TANEJA HEMANT",
-      "label": "Hemant Taneja",
-      "tier": "Funders",
-      "total": 1047667.5,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($1,047,668)"
-    },
-    {
       "id": "BYERS BLAKE",
       "label": "Blake Byers",
       "tier": "Funders",
       "total": 1200000,
       "n_connections": 2,
       "detail": "Gave to: California Back to Basics ($1,000,000); Deliver for California ($200,000)"
+    },
+    {
+      "id": "PRITZKER JOHN",
+      "label": "John Pritzker",
+      "tier": "Funders",
+      "total": 1250000,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($1,000,000); Building a Better California ($250,000)"
     },
     {
       "id": "1483808",
@@ -466,7 +458,7 @@
       "label": "California Back to Basics",
       "tier": "PACs",
       "total": 54571558.58,
-      "n_connections": 22,
+      "n_connections": 23,
       "detail": "Raised: $54,571,559 | Spent on IEs: $19,506,423 | Candidates/measures targeted: 1"
     },
     {
@@ -534,12 +526,12 @@
       "result": "Passed"
     },
     {
-      "id": "CAND|SARA HERNANDEZ",
+      "id": "CAND|Sara Hernandez",
       "label": "Sara Hernandez",
       "tier": "Candidates",
-      "total": 4585842.15,
-      "n_connections": 2,
-      "detail": "Support IE: $4,241,922 | Oppose IE: $343,920",
+      "total": 5414761.59,
+      "n_connections": 3,
+      "detail": "Support IE: $5,070,842 | Oppose IE: $343,920",
       "party": "D",
       "race": "SD26",
       "result": ""
@@ -557,9 +549,9 @@
       "id": "CAND|David Penaloza",
       "label": "David Penaloza",
       "tier": "Candidates",
-      "total": 2866414.61,
-      "n_connections": 1,
-      "detail": "Support IE: $2,866,415 | Oppose IE: $0",
+      "total": 5690487.5,
+      "n_connections": 2,
+      "detail": "Support IE: $5,690,488 | Oppose IE: $0",
       "party": "D",
       "race": "AD68",
       "result": ""
@@ -576,23 +568,12 @@
       "result": "Lost"
     },
     {
-      "id": "CAND|DAVID PENALOZA",
-      "label": "David Penaloza",
-      "tier": "Candidates",
-      "total": 2824072.89,
-      "n_connections": 1,
-      "detail": "Support IE: $2,824,073 | Oppose IE: $0",
-      "party": "D",
-      "race": "AD68",
-      "result": ""
-    },
-    {
-      "id": "CAND|MARK PULIDO",
+      "id": "CAND|Mark Pulido",
       "label": "Mark Pulido",
       "tier": "Candidates",
-      "total": 2594121.47,
-      "n_connections": 1,
-      "detail": "Support IE: $2,594,121 | Oppose IE: $0",
+      "total": 3854713.74,
+      "n_connections": 2,
+      "detail": "Support IE: $3,854,714 | Oppose IE: $0",
       "party": "D",
       "race": "AD67",
       "result": "Won"
@@ -601,9 +582,9 @@
       "id": "CAND|Andrae Gonzales",
       "label": "Andrae Gonzales",
       "tier": "Candidates",
-      "total": 2906794.07,
-      "n_connections": 2,
-      "detail": "Support IE: $2,906,794 | Oppose IE: $0",
+      "total": 3179233.41,
+      "n_connections": 3,
+      "detail": "Support IE: $3,179,233 | Oppose IE: $0",
       "party": "D",
       "race": "AD35",
       "result": "Won"
@@ -631,12 +612,12 @@
       "result": "Lost primary"
     },
     {
-      "id": "CAND|AYANNA DAVIS",
+      "id": "CAND|Ayanna Davis",
       "label": "Ayanna Davis",
       "tier": "Candidates",
-      "total": 1475309.71,
-      "n_connections": 1,
-      "detail": "Support IE: $1,475,310 | Oppose IE: $0",
+      "total": 2485671.75,
+      "n_connections": 2,
+      "detail": "Support IE: $2,485,672 | Oppose IE: $0",
       "party": "D",
       "race": "AD65",
       "result": "Won"
@@ -645,9 +626,9 @@
       "id": "CAND|Scott Sakakihara",
       "label": "Scott Sakakihara",
       "tier": "Candidates",
-      "total": 1335520.32,
-      "n_connections": 1,
-      "detail": "Support IE: $1,335,520 | Oppose IE: $0",
+      "total": 2375460.32,
+      "n_connections": 2,
+      "detail": "Support IE: $2,375,460 | Oppose IE: $0",
       "party": "D",
       "race": "SD10",
       "result": "Won"
@@ -675,17 +656,6 @@
       "result": "Lost primary"
     },
     {
-      "id": "CAND|Mark Pulido",
-      "label": "Mark Pulido",
-      "tier": "Candidates",
-      "total": 1260592.27,
-      "n_connections": 1,
-      "detail": "Support IE: $1,260,592 | Oppose IE: $0",
-      "party": "D",
-      "race": "AD67",
-      "result": "Won"
-    },
-    {
       "id": "CAND|Greg Wallis",
       "label": "Greg Wallis",
       "tier": "Candidates",
@@ -705,28 +675,6 @@
       "detail": "Support IE: $1,057,110 | Oppose IE: $0",
       "party": "D",
       "race": "SD24",
-      "result": "Won"
-    },
-    {
-      "id": "CAND|SCOTT SAKAKIHARA",
-      "label": "Scott Sakakihara",
-      "tier": "Candidates",
-      "total": 1039940,
-      "n_connections": 1,
-      "detail": "Support IE: $1,039,940 | Oppose IE: $0",
-      "party": "D",
-      "race": "SD10",
-      "result": "Won"
-    },
-    {
-      "id": "CAND|Ayanna Davis",
-      "label": "Ayanna Davis",
-      "tier": "Candidates",
-      "total": 1010362.04,
-      "n_connections": 1,
-      "detail": "Support IE: $1,010,362 | Oppose IE: $0",
-      "party": "D",
-      "race": "AD65",
       "result": "Won"
     },
     {
@@ -781,17 +729,6 @@
       "party": "D",
       "race": "AD12",
       "result": "Won"
-    },
-    {
-      "id": "CAND|Sara Hernandez",
-      "label": "Sara Hernandez",
-      "tier": "Candidates",
-      "total": 828919.44,
-      "n_connections": 1,
-      "detail": "Support IE: $828,919 | Oppose IE: $0",
-      "party": "D",
-      "race": "SD26",
-      "result": ""
     },
     {
       "id": "CAND|IDA OBESO-MARTINEZ",
@@ -857,17 +794,6 @@
       "detail": "Support IE: $276,485 | Oppose IE: $0",
       "party": "D",
       "race": "AD80",
-      "result": "Won"
-    },
-    {
-      "id": "CAND|ANDRAE GONZALES",
-      "label": "Andrae Gonzales",
-      "tier": "Candidates",
-      "total": 272439.34,
-      "n_connections": 1,
-      "detail": "Support IE: $272,439 | Oppose IE: $0",
-      "party": "D",
-      "race": "AD35",
       "result": "Won"
     },
     {
@@ -991,7 +917,7 @@
       "label": "Contribution: $40,000,000"
     },
     {
-      "source": "LARSEN CHRISTIAN",
+      "source": "LARSEN CHRIS",
       "target": "1483808",
       "amount": 36865749.36,
       "type": "funder_pac",
@@ -1126,7 +1052,7 @@
       "label": "Contribution: $5,000,000"
     },
     {
-      "source": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
+      "source": "SNYDER LYNSI",
       "target": "1486767",
       "amount": 4968061.28,
       "type": "funder_pac",
@@ -1145,7 +1071,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|SARA HERNANDEZ",
+      "target": "CAND|Sara Hernandez",
       "amount": 4241922.15,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1262,7 +1188,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|DAVID PENALOZA",
+      "target": "CAND|David Penaloza",
       "amount": 2824072.89,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1280,7 +1206,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|MARK PULIDO",
+      "target": "CAND|Mark Pulido",
       "amount": 2594121.47,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1514,7 +1440,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|AYANNA DAVIS",
+      "target": "CAND|Ayanna Davis",
       "amount": 1475309.71,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1612,17 +1538,8 @@
       "label": "Supports: $1,057,110"
     },
     {
-      "source": "TANEJA HEMANT",
-      "target": "1486767",
-      "amount": 1047667.5,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,047,668"
-    },
-    {
       "source": "1483808",
-      "target": "CAND|SCOTT SAKAKIHARA",
+      "target": "CAND|Scott Sakakihara",
       "amount": 1039940,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1659,6 +1576,15 @@
     {
       "source": "MEHTA NEIL",
       "target": "1486767",
+      "amount": 1000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,000,000"
+    },
+    {
+      "source": "PRITZKER JOHN",
+      "target": "1487425",
       "amount": 1000000,
       "type": "funder_pac",
       "sup_opp": "",
@@ -1847,7 +1773,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|SARA HERNANDEZ",
+      "target": "CAND|Sara Hernandez",
       "amount": 343920,
       "type": "pac_candidate",
       "sup_opp": "O",
@@ -1874,7 +1800,7 @@
     },
     {
       "source": "1483808",
-      "target": "CAND|ANDRAE GONZALES",
+      "target": "CAND|Andrae Gonzales",
       "amount": 272439.34,
       "type": "pac_candidate",
       "sup_opp": "S",
@@ -1889,6 +1815,15 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $272,439"
+    },
+    {
+      "source": "PRITZKER JOHN",
+      "target": "1486767",
+      "amount": 250000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $250,000"
     },
     {
       "source": "BYERS BLAKE",
@@ -1972,7 +1907,7 @@
       "mission": "",
       "spending": [
         {
-          "id": "CAND|SARA HERNANDEZ",
+          "id": "CAND|Sara Hernandez",
           "name": "Sara Hernandez",
           "amount": 4241922.15,
           "dir": "support"
@@ -1984,13 +1919,13 @@
           "dir": "support"
         },
         {
-          "id": "CAND|DAVID PENALOZA",
+          "id": "CAND|David Penaloza",
           "name": "David Penaloza",
           "amount": 2824072.89,
           "dir": "support"
         },
         {
-          "id": "CAND|MARK PULIDO",
+          "id": "CAND|Mark Pulido",
           "name": "Mark Pulido",
           "amount": 2594121.47,
           "dir": "support"
@@ -2008,7 +1943,7 @@
           "dir": "against"
         },
         {
-          "id": "CAND|AYANNA DAVIS",
+          "id": "CAND|Ayanna Davis",
           "name": "Ayanna Davis",
           "amount": 1475309.71,
           "dir": "support"
@@ -2020,7 +1955,7 @@
           "dir": "against"
         },
         {
-          "id": "CAND|SCOTT SAKAKIHARA",
+          "id": "CAND|Scott Sakakihara",
           "name": "Scott Sakakihara",
           "amount": 1039940,
           "dir": "support"
@@ -2044,13 +1979,13 @@
           "dir": "against"
         },
         {
-          "id": "CAND|SARA HERNANDEZ",
+          "id": "CAND|Sara Hernandez",
           "name": "Sara Hernandez",
           "amount": 343920,
           "dir": "against"
         },
         {
-          "id": "CAND|ANDRAE GONZALES",
+          "id": "CAND|Andrae Gonzales",
           "name": "Andrae Gonzales",
           "amount": 272439.34,
           "dir": "support"
@@ -2094,8 +2029,8 @@
       ],
       "fundraising": [
         {
-          "id": "LARSEN CHRISTIAN",
-          "name": "Christian Larsen",
+          "id": "LARSEN CHRIS",
+          "name": "Chris Larsen",
           "amount": 36865749.36,
           "dir": ""
         },
@@ -2138,8 +2073,8 @@
       ],
       "top_funders": [
         {
-          "id": "LARSEN CHRISTIAN",
-          "name": "Christian Larsen",
+          "id": "LARSEN CHRIS",
+          "name": "Chris Larsen",
           "amount": 36865749.36,
           "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)"
         },
@@ -2304,19 +2239,19 @@
           "id": "Google LLC",
           "name": "Google LLC",
           "amount": 21000000,
-          "industry": "[Alphabet subsidiary behind Google Search](https://en.wikipedia.org/wiki/Google), ads, cloud and Gemini AI"
+          "industry": "Alphabet subsidiary behind Google Search, ads, cloud and Gemini AI"
         },
         {
           "id": "Meta Platforms",
           "name": "Meta Platforms",
           "amount": 7050000,
-          "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models"
+          "industry": "Owner of Facebook, Instagram and WhatsApp and developer of Llama AI models"
         },
         {
           "id": "SV ANGEL MANAGEMENT LLC ZACH MILLER",
           "name": "Sv Angel Management LLC Zach Miller",
           "amount": 100000,
-          "industry": "[SV Angel, Ron Conway's seed fund](https://en.wikipedia.org/wiki/SV_Angel)"
+          "industry": "SV Angel, Ron Conway's seed fund"
         },
         {
           "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
@@ -2444,8 +2379,8 @@
           "dir": ""
         },
         {
-          "id": "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER",
-          "name": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+          "id": "SNYDER LYNSI",
+          "name": "Lynsi Snyder",
           "amount": 4968061.28,
           "dir": ""
         },
@@ -2756,8 +2691,8 @@
           "dir": ""
         },
         {
-          "id": "PRITZKER JOHN A",
-          "name": "John A Pritzker",
+          "id": "PRITZKER JOHN",
+          "name": "John Pritzker",
           "amount": 250000,
           "dir": ""
         },
@@ -2966,7 +2901,7 @@
           "id": "Meta Platforms",
           "name": "Meta Platforms",
           "amount": 17000000,
-          "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models"
+          "industry": "Owner of Facebook, Instagram and WhatsApp and developer of Llama AI models"
         }
       ]
     },
@@ -3178,8 +3113,8 @@
           "dir": ""
         },
         {
-          "id": "NICHOLAS PRITZKER AND AFFILIATED ENTITY DEMOCRACY RISING TRUST",
-          "name": "Nicholas Pritzker And Affiliated Entity Democracy Rising Trust",
+          "id": "PRITZKER NICHOLAS",
+          "name": "Nicholas Pritzker",
           "amount": 500000,
           "dir": ""
         },
@@ -3502,13 +3437,13 @@
           "id": "BUCHHEIT PAUL",
           "name": "Paul Buchheit",
           "amount": 2000000,
-          "industry": "[Creator of Gmail](https://en.wikipedia.org/wiki/Paul_Buchheit), FriendFeed cofounder and Y Combinator partner"
+          "industry": "[Creator of Gmail](https://case.edu/bicentennial/history/our-stories/paul-buchheit-cwr-98-grs-98-computer-engineering), FriendFeed cofounder and Y Combinator partner emeritus"
         },
         {
           "id": "SINGERMAN BRIAN",
           "name": "Brian Singerman",
           "amount": 500000,
-          "industry": "[Silicon Valley venture capitalist](https://foundersfund.com/team/brian-singerman) and partner emeritus at Peter Thiel's Founders Fund"
+          "industry": "[Silicon Valley venture capitalist](https://www.forbes.com/profile/brian-singerman/) and partner emeritus at Peter Thiel's Founders Fund"
         },
         {
           "id": "GARY FILIZETTI",
@@ -3530,7 +3465,7 @@
       "total": 104000000,
       "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member",
       "net_worth": "[$217.2 billion](https://www.forbes.com/profile/sergey-brin/), Forbes real-time estimate as of Oct. 29, 2026",
-      "politics": "Had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. Spent [$500,000 against San Francisco's CEO tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/). [Moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025, saying: \"I don't want California to end up in the same place.\"",
+      "politics": "Brin had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. He spent [$500,000 against San Francisco's \"Overpaid CEO\" tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/), which was rejected by voters in June 2026. He [moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025 in reaction to Prop 40. He equated the tax with the Soviet Union, where he grew up, saying, \"I don't want California to end up in the same place.\"",
       "spending": [
         {
           "id": "1486767",
@@ -3568,7 +3503,7 @@
       "total": 40236457.01,
       "industry": "[Former Google CEO](https://www.forbes.com/profile/eric-schmidt/) (2001 to 2011)",
       "net_worth": "[$32.9 billion](https://www.forbes.com/profile/eric-schmidt/), Forbes real-time estimate as of Oct. 30, 2026",
-      "politics": "[Advised and funded Obama's 2008 campaign](https://en.wikipedia.org/wiki/Eric_Schmidt), then chaired the Pentagon's Defense Innovation Board (2016 to 2020) and co-chaired the National Security Commission on AI (2019 to 2021). In 2026 gave [$40.2 million to Building a Better California and $2.6 million to the California Business Roundtable Issues PAC](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), which opposed Prop 40 and backed Prop 43. Gave [$195,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
+      "politics": "Schmidt advised and funded Obama's 2008 campaign, then chaired the Pentagon's Defense Innovation Board (2016 to 2020) and co-chaired the National Security Commission on AI (2019 to 2021). In 2026, he gave [$40.2 million to Building a Better California and $2.6 million to the California Business Roundtable Issues PAC](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), which opposed Prop 40 and backed Prop 43. He gave [$195,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1486767",
@@ -3584,7 +3519,7 @@
       "total": 42000000,
       "industry": "[Chairman of venture firm Kleiner Perkins](https://www.forbes.com/profile/john-doerr/)",
       "net_worth": "[$21.6 billion](https://www.forbes.com/profile/john-doerr/), Forbes real-time estimate as of Oct. 26, 2026",
-      "politics": "Longtime Democratic fundraiser who has given [over $8 million to federal candidates and PACs](https://www.influencewatch.org/person/john-doerr/) since 1982 and served on President Obama's Economic Recovery Advisory Board. Co-chaired California's Prop 39 and Prop 71 campaigns. In 2026 gave [$40 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/).",
+      "politics": "Doerr is a longtime Democratic fundraiser who has given [over $8 million to federal candidates and PACs](https://www.influencewatch.org/person/john-doerr/) since 1982 and served on President Obama's Economic Recovery Advisory Board. He co-chaired California's Prop 39 and Prop 71 campaigns.",
       "spending": [
         {
           "id": "1486767",
@@ -3600,18 +3535,24 @@
         }
       ]
     },
-    "LARSEN CHRISTIAN": {
+    "LARSEN CHRIS": {
       "type": "funder",
-      "name": "Christian Larsen",
-      "total": 36865749.36,
+      "name": "Chris Larsen",
+      "total": 49377594.16,
       "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)",
       "net_worth": "[$8.4 billion](https://www.forbes.com/profile/chris-larsen/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Longtime Democratic donor. Gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. Gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, much of Ripple's share to the crypto super PAC Fairshake.",
+      "politics": "Larsen is a longtime Democratic donor. He gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. He gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, he gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, with much of it going to the crypto super PAC Fairshake.",
       "spending": [
         {
           "id": "1483808",
           "name": "Grow California",
           "amount": 36865749.36,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 12511844.8,
           "dir": ""
         }
       ]
@@ -3622,7 +3563,7 @@
       "total": 36149793.76,
       "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)",
       "net_worth": "[$17.5 billion](https://www.forbes.com/profile/patrick-collison/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
+      "politics": "Collison gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
       "spending": [
         {
           "id": "1486767",
@@ -3642,7 +3583,7 @@
       "type": "funder",
       "name": "Google LLC",
       "total": 21000000,
-      "industry": "[Alphabet subsidiary behind Google Search](https://en.wikipedia.org/wiki/Google), ads, cloud and Gemini AI",
+      "industry": "Alphabet subsidiary behind Google Search, ads, cloud and Gemini AI",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -3660,7 +3601,7 @@
       "total": 17000000,
       "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor",
       "net_worth": "[$2.3 billion](https://www.forbes.com/profile/tim-draper/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Sponsored the 2018 [\"Cal 3\" initiative](https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html) to split California into three states, which qualified before the state Supreme Court removed it. Gave $5 million with Chris Larsen to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions). [Backed Nikki Haley](https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/) for president in 2024.",
+      "politics": "Draper sponsored the 2018 [\"Cal 3\" initiative](https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html) to split California into three states, which qualified before the state Supreme Court removed it. He gave $5 million with Chris Larsen to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions). He [backed Nikki Haley](https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/) for president in 2024.",
       "spending": [
         {
           "id": "1483808",
@@ -3674,9 +3615,9 @@
       "type": "funder",
       "name": "Meta Platforms",
       "total": 24050000,
-      "industry": "[Owner of Facebook](https://en.wikipedia.org/wiki/Meta_Platforms), Instagram and WhatsApp and developer of Llama AI models",
+      "industry": "Owner of Facebook, Instagram and WhatsApp and developer of Llama AI models",
       "net_worth": "",
-      "politics": "[Created META California](https://techcrunch.com/?p=3039993) in 2025 to back candidates who support AI development.",
+      "politics": "Meta [created META California](https://techcrunch.com/?p=3039993) in 2025 to back candidates who support AI development.",
       "spending": [
         {
           "id": "1483390",
@@ -3698,7 +3639,7 @@
       "total": 14761504,
       "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder",
       "net_worth": "[$11.2 billion](https://www.forbes.com/profile/vinod-khosla/), Forbes real-time estimate as of Oct. 29, 2026",
-      "politics": "Gave [$12.6 million to Building a Better California and $1.1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026. [Called the billionaire tax a \"junkie fix\"](https://fortune.com/2026/03/05/vinod-khosla-interview-california-billionaire-tax-not-leaving-the-state) while saying he will not leave California. Has [opposed Trump and called for higher taxes](https://www.yakimaherald.com/news/northwest/seahawks-buyer-vinod-khosla-s-politics-include-opposing-trump-calling-for-higher-taxes/article_ceaac18c-8f1a-5b84-bef3-dffa9b6a5b36.html) in the past.",
+      "politics": "Khosla gave [$12.6 million to Building a Better California and $1.1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026. He [called the billionaire tax a \"junkie fix\"](https://fortune.com/2026/03/05/vinod-khosla-interview-california-billionaire-tax-not-leaving-the-state) while saying he will not leave California. He has [opposed Trump and called for higher taxes](https://www.yakimaherald.com/news/northwest/seahawks-buyer-vinod-khosla-s-politics-include-opposing-trump-calling-for-higher-taxes/article_ceaac18c-8f1a-5b84-bef3-dffa9b6a5b36.html) in the past.",
       "spending": [
         {
           "id": "1486767",
@@ -3714,29 +3655,13 @@
         }
       ]
     },
-    "LARSEN CHRIS": {
-      "type": "funder",
-      "name": "Chris Larsen",
-      "total": 12511844.8,
-      "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)",
-      "net_worth": "[$8.4 billion](https://www.forbes.com/profile/chris-larsen/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Longtime Democratic donor. Gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. Gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, much of Ripple's share to the crypto super PAC Fairshake.",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 12511844.8,
-          "dir": ""
-        }
-      ]
-    },
     "MORITZ MICHAEL": {
       "type": "funder",
       "name": "Michael Moritz",
       "total": 13500000,
       "industry": "[Venture capitalist](https://www.forbes.com/profile/michael-moritz/) and longtime Sequoia Capital partner",
       "net_worth": "[$7.5 billion](https://www.forbes.com/profile/michael-moritz/), Forbes real-time estimate as of Oct. 24, 2026",
-      "politics": "Major funder of San Francisco's moderate political groups, including TogetherSF; [spent millions in the 2024 San Francisco election](https://www.sfexaminer.com/news/politics/billionaire-venture-capitalist-michael-moritz-looms-big-in-coming-election/article_35865582-98a6-11ef-9bfd-2bcbb0d62747.html) and [opposed San Francisco's Prop D](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) with Chris Larsen. [Backed a 2016 measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/) to clear homeless tents.",
+      "politics": "Moritz is a major funder of San Francisco's moderate political groups, including TogetherSF. He [spent millions in the 2024 San Francisco election](https://www.sfexaminer.com/news/politics/billionaire-venture-capitalist-michael-moritz-looms-big-in-coming-election/article_35865582-98a6-11ef-9bfd-2bcbb0d62747.html) and [opposed San Francisco's Prop D](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) with Chris Larsen. He [backed a 2016 measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/) to clear homeless tents.",
       "spending": [
         {
           "id": "1486767",
@@ -3784,13 +3709,13 @@
         }
       ]
     },
-    "ALPHAFOXTROT LLC RESPONSIBLE OFFICER LYNSI SNYDER": {
+    "SNYDER LYNSI": {
       "type": "funder",
-      "name": "Alphafoxtrot LLC Responsible Officer Lynsi Snyder",
+      "name": "Lynsi Snyder",
       "total": 4968061.28,
       "industry": "[Owner of In-N-Out Burger](https://www.forbes.com/profile/lynsi-snyder/)",
       "net_worth": "[$7.3 billion](https://www.forbes.com/profile/lynsi-snyder/), Forbes real-time estimate as of Oct. 23, 2026",
-      "politics": "In-N-Out [gave $25,000 to the California Republican Party](https://fortune.com/2018/08/30/in-n-out-burger-republican-donation/) in 2018, prompting boycott calls. The company is [moving its headquarters to Tennessee](https://www.deseret.com/politics/2025/07/21/in-n-out-is-moving-its-hq-out-of-california).",
+      "politics": "Snyder's company, In-N-Out, [gave $25,000 to the California Republican Party](https://fortune.com/2018/08/30/in-n-out-burger-republican-donation/) in 2018, prompting boycott calls. The company is [moving its headquarters to Tennessee](https://www.deseret.com/politics/2025/07/21/in-n-out-is-moving-its-hq-out-of-california).",
       "spending": [
         {
           "id": "1486767",
@@ -3806,7 +3731,7 @@
       "total": 4500000,
       "industry": "[Cofounder and co-owner of The Wonderful Company (Pom, Fiji Water, Wonderful Pistachios)](https://www.forbes.com/profile/stewart-resnick/)",
       "net_worth": "[$5.4 billion](https://www.forbes.com/profile/stewart-resnick/), Forbes real-time estimate as of Oct. 24, 2026",
-      "politics": "In 2026 gave [$4.5 million to Building a Better California, $78,400 to Eric Swalwell's governor campaign, $70,600 to Xavier Becerra and $25,000 to Mahan](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Gave [$250,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/). A major player in [California water politics](https://www.forbes.com/sites/michelatindera/2021/11/21/how-much-is-water-worth-why-a-billionaire-owned-stake-in-a-california-water-bank-could-be-worth-more-than-1-billion/).",
+      "politics": "In 2026, Resnick gave [$4.5 million to Building a Better California, $78,400 to Eric Swalwell's governor campaign, $70,600 to Xavier Becerra and $25,000 to Mahan](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He gave [$250,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/). He is a major player in [California water politics](https://www.forbes.com/sites/michelatindera/2021/11/21/how-much-is-water-worth-why-a-billionaire-owned-stake-in-a-california-water-bank-could-be-worth-more-than-1-billion/).",
       "spending": [
         {
           "id": "1486767",
@@ -3822,7 +3747,7 @@
       "total": 5911960.75,
       "industry": "[Cofounder and executive chair of mobile security company Lookout](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/)",
       "net_worth": "",
-      "politics": "Spent [over $1.25 million in the 2026 Los Angeles city attorney race](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) to defeat Marissa Roy and elect John McKinney, and spent to boost Spencer Pratt for LA mayor. Gave $41,300 to the Republican National Committee and $500,000 to Elon Musk's America PAC in 2024.",
+      "politics": "Hering spent [over $1.25 million in the 2026 Los Angeles city attorney race](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) to defeat Marissa Roy and elect John McKinney, and spent to boost Spencer Pratt for LA mayor. He gave $41,300 to the Republican National Committee and $500,000 to Elon Musk's America PAC in 2024.",
       "spending": [
         {
           "id": "1486767",
@@ -3844,7 +3769,7 @@
       "total": 3993982.02,
       "industry": "[Cofounder and CEO of DoorDash](https://www.forbes.com/profile/tony-xu/)",
       "net_worth": "[$1.7 billion](https://www.forbes.com/profile/tony-xu/), Forbes real-time estimate as of Nov. 1, 2026",
-      "politics": "In 2026 gave [$3.5 million to Building a Better California, $250,000 to a committee backing Mahan, $39,200 to Mahan directly and $39,200 to Becerra](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). Has sat on Meta's board since 2022.",
+      "politics": "In 2026, Xu gave [$3.5 million to Building a Better California, $250,000 to a committee backing Mahan, $39,200 to Mahan directly and $39,200 to Becerra](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He has sat on Meta's board since 2022.",
       "spending": [
         {
           "id": "1486767",
@@ -3882,7 +3807,7 @@
       "total": 3000000,
       "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers",
       "net_worth": "",
-      "politics": "[David Crane's network of donor chapters](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/) that coordinates giving to moderate legislators to counter unions. Crane on Mahan: [\"if Californians get to know him, he wins.\"](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/)",
+      "politics": "Govern for California is [David Crane's network of donor chapters](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/) that coordinates giving to moderate legislators to counter unions. Crane on Mahan: [\"if Californians get to know him, he wins.\"](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/)",
       "spending": [
         {
           "id": "1487425",
@@ -3930,7 +3855,7 @@
       "total": 3000000,
       "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)",
       "net_worth": "[$7.1 billion](https://www.forbes.com/profile/rick-caruso/), Forbes real-time estimate as of Oct. 30, 2026",
-      "politics": "[Ran for Los Angeles mayor in 2022](https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/) and lost to Karen Bass after spending a record [$160 per vote](https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/) of his own money. [Funds the group backing John McKinney](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) in the 2026 LA city attorney race.",
+      "politics": "Caruso [ran for Los Angeles mayor in 2022](https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/) and lost to Karen Bass after spending a record [$160 per vote](https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/) of his own money. He [funds the group backing John McKinney](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) in the 2026 LA city attorney race.",
       "spending": [
         {
           "id": "1487425",
@@ -3982,7 +3907,7 @@
       "type": "funder",
       "name": "Bruce Dunlevie",
       "total": 2110000,
-      "industry": "[Cofounder of venture firm Benchmark](https://en.wikipedia.org/wiki/Benchmark_%28venture_capital_firm%29)",
+      "industry": "[Cofounder of venture firm Benchmark](https://www.crunchbase.com/person/bruce-dunlevie)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4014,7 +3939,7 @@
       "type": "funder",
       "name": "Paul Buchheit",
       "total": 2000000,
-      "industry": "[Creator of Gmail](https://en.wikipedia.org/wiki/Paul_Buchheit), FriendFeed cofounder and Y Combinator partner",
+      "industry": "[Creator of Gmail](https://case.edu/bicentennial/history/our-stories/paul-buchheit-cwr-98-grs-98-computer-engineering), FriendFeed cofounder and Y Combinator partner emeritus",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4032,7 +3957,7 @@
       "total": 2000000,
       "industry": "[Cofounder and chairman of Netflix](https://www.forbes.com/profile/reed-hastings/)",
       "net_worth": "[$4.1 billion](https://www.forbes.com/profile/reed-hastings/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Major [charter school backer](https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280) who funds school board candidates. Gave [$3 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/) and is a [Senate Majority PAC donor](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
+      "politics": "Hastings is a major [charter school backer](https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280) who funds school board candidates. He gave [$3 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/) and is a [Senate Majority PAC donor](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
       "spending": [
         {
           "id": "1487425",
@@ -4048,7 +3973,7 @@
       "total": 2000000,
       "industry": "[Founder of real estate brokerage Marcus & Millichap](https://www.forbes.com/profile/george-marcus/)",
       "net_worth": "[$1.5 billion](https://www.forbes.com/profile/george-marcus/), Forbes real-time estimate as of Oct. 6, 2026",
-      "politics": "Democratic megadonor: gave [$1 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/), backed [Biden in 2020](https://www.forbes.com/sites/michelatindera/2021/02/17/here-are-the-billionaires-who-donated-to-joe-bidens-2020-presidential-campaign/), and gives to [Senate Majority PAC and House Majority PAC](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
+      "politics": "Marcus is a Democratic megadonor. He gave [$1 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/), backed [Biden in 2020](https://www.forbes.com/sites/michelatindera/2021/02/17/here-are-the-billionaires-who-donated-to-joe-bidens-2020-presidential-campaign/), and gives to [Senate Majority PAC and House Majority PAC](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
       "spending": [
         {
           "id": "1486767",
@@ -4172,7 +4097,7 @@
       "total": 1686400,
       "industry": "[Investor (cofounder of SPO Partners) and school choice philanthropist](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/)",
       "net_worth": "",
-      "politics": "Leading [school choice funder](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/) and Republican donor, described as a [\"never-Trump Republican\"](https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/) funding primaries outside California.",
+      "politics": "Oberndorf is a leading [school choice funder](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/) and Republican donor, described as a [\"never-Trump Republican\"](https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/) funding primaries outside California.",
       "spending": [
         {
           "id": "1487425",
@@ -4234,7 +4159,7 @@
       "type": "funder",
       "name": "Divesh Makan",
       "total": 2490479.52,
-      "industry": "[Founder and CEO of ICONIQ, wealth manager to tech billionaires and growth investor](https://en.wikipedia.org/wiki/Iconiq_Capital)",
+      "industry": "[Founder of ICONIQ, wealth manager to tech billionaires and growth investor](https://www.forbes.com/sites/briansolomon/2014/12/01/the-spider-of-silicon-valley-inside-zuck-friends-secret-billionaire-fund/)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4256,7 +4181,7 @@
       "type": "funder",
       "name": "Brian Singerman",
       "total": 2720818,
-      "industry": "[Silicon Valley venture capitalist](https://foundersfund.com/team/brian-singerman) and partner emeritus at Peter Thiel's Founders Fund",
+      "industry": "[Silicon Valley venture capitalist](https://www.forbes.com/profile/brian-singerman/) and partner emeritus at Peter Thiel's Founders Fund",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4284,7 +4209,7 @@
       "type": "funder",
       "name": "G Leonard Baker JR",
       "total": 1695829.84,
-      "industry": "[Silicon Valley venture capitalist](https://en.wikipedia.org/wiki/Sutter_Hill_Ventures) and longtime Sutter Hill Ventures partner",
+      "industry": "[Silicon Valley venture capitalist](https://carboncontainmentlab.org/who-we-are/people/len-baker) and longtime Sutter Hill Ventures partner",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4398,9 +4323,9 @@
       "type": "funder",
       "name": "Shaun Maguire",
       "total": 1003329.11,
-      "industry": "[Partner at Sequoia Capital](https://en.wikipedia.org/wiki/Shaun_Maguire)",
+      "industry": "Partner at Sequoia Capital",
       "net_worth": "",
-      "politics": "[Publicly backed Trump in 2024](https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html) and drew backlash in 2025 for calling NYC mayoral candidate Zohran Mamdani an \"Islamist.\"",
+      "politics": "Maguire [publicly backed Trump in 2024](https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html) and drew backlash in 2025 for calling NYC mayoral candidate Zohran Mamdani an \"Islamist.\"",
       "spending": [
         {
           "id": "1486767",
@@ -4518,7 +4443,7 @@
       "total": 1000000,
       "industry": "[President of real estate company Jackson Square Properties](https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/)",
       "net_worth": "",
-      "politics": "Major Republican donor. Gave [nearly $1 million to a failed 2008 statewide rent control repeal](https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/), six figures for San Francisco's 2016 tent ban and $500,000 with his wife to Mark Farrell's 2024 TogetherSF measure; about 85% of his $892,000 in federal giving went to Republicans.",
+      "politics": "Coates is a major Republican donor. He gave [nearly $1 million to a failed 2008 statewide rent control repeal](https://missionlocal.org/2024/07/un-republicano-enemigo-del-control-de-renta-dona-500-mil-dolares-al-comite-de-la-medida-electoral-de-mark-farrell/), six figures for San Francisco's 2016 tent ban and $500,000 with his wife to Mark Farrell's 2024 TogetherSF measure. About 85% of his $892,000 in federal giving went to Republicans.",
       "spending": [
         {
           "id": "1486767",
@@ -4550,7 +4475,7 @@
       "total": 1000000,
       "industry": "[Neurosurgeon](https://www.forbes.com/profile/meg-whitman/) and husband of former eBay and HP CEO Meg Whitman",
       "net_worth": "",
-      "politics": "Husband of Meg Whitman, who [ran for California governor as a Republican in 2010](https://www.forbes.com/profile/meg-whitman/) and was U.S. ambassador to Kenya. The couple [gave $200,000 to Romney's super PAC](https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/) in 2012.",
+      "politics": "Harsh is the husband of Meg Whitman, who [ran for California governor as a Republican in 2010](https://www.forbes.com/profile/meg-whitman/) and was U.S. ambassador to Kenya. The couple [gave $200,000 to Romney's super PAC](https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/) in 2012.",
       "spending": [
         {
           "id": "1487425",
@@ -4566,7 +4491,7 @@
       "total": 1000000,
       "industry": "[Founder of investment firm Medley Partners](https://www.influencewatch.org/person/mark-heising/) and cofounder of the Heising-Simons Foundation",
       "net_worth": "",
-      "politics": "Major Democratic donor: about [$6.1 million through the Heising-Simons Action Fund](https://www.influencewatch.org/person/mark-heising/) to Democratic committees in 2018 and 2020, and host of a 2018 DCCC fundraiser with Barack Obama and Nancy Pelosi that raised $2.5 million. Chairs the Environmental Defense Fund board.",
+      "politics": "Heising is a major Democratic donor. He gave about [$6.1 million through the Heising-Simons Action Fund](https://www.influencewatch.org/person/mark-heising/) to Democratic committees in 2018 and 2020, and hosted a 2018 DCCC fundraiser with Barack Obama and Nancy Pelosi that raised $2.5 million. He chairs the Environmental Defense Fund board.",
       "spending": [
         {
           "id": "1486767",
@@ -4580,7 +4505,7 @@
       "type": "funder",
       "name": "Matthew Huang",
       "total": 1000000,
-      "industry": "[Cofounder and managing partner of crypto investor Paradigm and Stripe board member](https://en.wikipedia.org/wiki/Matt_Huang)",
+      "industry": "Cofounder and managing partner of crypto investor Paradigm and Stripe board member",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4643,15 +4568,21 @@
     "PRITZKER JOHN": {
       "type": "funder",
       "name": "John Pritzker",
-      "total": 1000000,
+      "total": 1250000,
       "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
       "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
-      "politics": "Gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
+      "politics": "Pritzker gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1000000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -4710,7 +4641,7 @@
       "total": 991930.73,
       "industry": "[Founder and CEO of Altimeter Capital, a tech investor (Snowflake, OpenAI)](https://www.forbes.com/profile/brad-gerstner/)",
       "net_worth": "",
-      "politics": "[Founded Invest America](https://www.forbes.com/profile/brad-gerstner/), a nonprofit that helped create federal child investment (\"Trump\") accounts.",
+      "politics": "Gerstner [founded Invest America](https://www.forbes.com/profile/brad-gerstner/), a nonprofit that helped create federal child investment (\"Trump\") accounts.",
       "spending": [
         {
           "id": "1486767",
@@ -4804,7 +4735,7 @@
       "type": "funder",
       "name": "Sarah Guo",
       "total": 507763.89,
-      "industry": "[Founder of AI-focused venture firm Conviction](https://en.wikipedia.org/wiki/Sarah_Guo) and former Greylock partner",
+      "industry": "Founder of AI-focused venture firm Conviction and former Greylock partner",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4902,18 +4833,24 @@
         }
       ]
     },
-    "NICHOLAS PRITZKER AND AFFILIATED ENTITY DEMOCRACY RISING TRUST": {
+    "PRITZKER NICHOLAS": {
       "type": "funder",
-      "name": "Nicholas Pritzker And Affiliated Entity Democracy Rising Trust",
-      "total": 500000,
+      "name": "Nicholas Pritzker",
+      "total": 700000,
       "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
       "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
-      "politics": "[Backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
+      "politics": "Pritzker [backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 200000,
           "dir": ""
         }
       ]
@@ -4970,7 +4907,7 @@
       "type": "funder",
       "name": "Peter Fenton",
       "total": 496988.37,
-      "industry": "[Benchmark general partner](https://en.wikipedia.org/wiki/Peter_Fenton_%28venture_capitalist%29) and early Twitter investor",
+      "industry": "Benchmark general partner and early Twitter investor",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4986,7 +4923,7 @@
       "type": "funder",
       "name": "Naval Ravikant",
       "total": 493398.51,
-      "industry": "[AngelList cofounder](https://en.wikipedia.org/wiki/Naval_Ravikant) and angel investor",
+      "industry": "AngelList cofounder and angel investor",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5004,7 +4941,7 @@
       "total": 491014.85,
       "industry": "[DoorDash cofounder](https://www.forbes.com/profile/stanley-tang/)",
       "net_worth": "[$1.1 billion](https://www.forbes.com/profile/stanley-tang/), Forbes real-time estimate as of Oct. 9, 2026",
-      "politics": "Gave [$166,666 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
+      "politics": "Tang gave [$166,666 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1486767",
@@ -5050,7 +4987,7 @@
       "type": "funder",
       "name": "David Marquardt",
       "total": 400000,
-      "industry": "[Founding partner of August Capital](https://en.wikipedia.org/wiki/David_Marquardt) and early Microsoft investor",
+      "industry": "Founding partner of August Capital and early Microsoft investor",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5164,29 +5101,13 @@
       "type": "funder",
       "name": "Jeremy Liew",
       "total": 250000,
-      "industry": "[Lightspeed Venture Partners partner](https://en.wikipedia.org/wiki/Jeremy_Liew) and Snap's first investor",
+      "industry": "Lightspeed Venture Partners partner and Snap's first investor",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 250000,
-          "dir": ""
-        }
-      ]
-    },
-    "PRITZKER JOHN A": {
-      "type": "funder",
-      "name": "John A Pritzker",
-      "total": 250000,
-      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
-      "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
-      "politics": "Gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
           "amount": 250000,
           "dir": ""
         }
@@ -5240,22 +5161,6 @@
         }
       ]
     },
-    "PRITZKER NICHOLAS": {
-      "type": "funder",
-      "name": "Nicholas Pritzker",
-      "total": 200000,
-      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
-      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
-      "politics": "[Backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
-      "spending": [
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 200000,
-          "dir": ""
-        }
-      ]
-    },
     "RESNICK JOSHUA": {
       "type": "funder",
       "name": "Joshua Resnick",
@@ -5276,7 +5181,7 @@
       "type": "funder",
       "name": "Amnon Rodan",
       "total": 200000,
-      "industry": "[Husband of Rodan + Fields cofounder Katie Rodan](https://en.wikipedia.org/wiki/Katie_Rodan) and former Guthy-Renker board member",
+      "industry": "Husband of Rodan + Fields cofounder Katie Rodan and former Guthy-Renker board member",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5384,7 +5289,7 @@
       "type": "funder",
       "name": "Sky Dayton",
       "total": 100000,
-      "industry": "[EarthLink founder](https://en.wikipedia.org/wiki/Sky_Dayton) and internet entrepreneur",
+      "industry": "EarthLink founder and internet entrepreneur",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5480,7 +5385,7 @@
       "type": "funder",
       "name": "Joseph Ravitch",
       "total": 100000,
-      "industry": "[Cofounder of The Raine Group](https://en.wikipedia.org/wiki/The_Raine_Group) (media and tech merchant bank)",
+      "industry": "Cofounder of The Raine Group (media and tech merchant bank)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5512,7 +5417,7 @@
       "type": "funder",
       "name": "Sv Angel Management LLC Zach Miller",
       "total": 100000,
-      "industry": "[SV Angel, Ron Conway's seed fund](https://en.wikipedia.org/wiki/SV_Angel)",
+      "industry": "SV Angel, Ron Conway's seed fund",
       "net_worth": "",
       "politics": "SV Angel founder Ron Conway is a longtime San Francisco political power broker who, with Michael Moritz, [backed the city's 2016 tent-clearing measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/).",
       "spending": [
@@ -5544,9 +5449,9 @@
       "type": "funder",
       "name": "Eoghan Mccabe",
       "total": 99885.52,
-      "industry": "[Cofounder and CEO of Intercom (AI customer service software)](https://en.wikipedia.org/wiki/Intercom,_Inc.)",
+      "industry": "Cofounder and CEO of Intercom (AI customer service software)",
       "net_worth": "",
-      "politics": "[Moved from political centrist to Trump supporter](https://www.irishtimes.com/business/2026/06/15/eoghan-mccabe-tech-moguls-journey-from-shy-kid-to-political-centrist-to-trump-supporter/), per a 2026 Irish Times profile.",
+      "politics": "McCabe [moved from political centrist to Trump supporter](https://www.irishtimes.com/business/2026/06/15/eoghan-mccabe-tech-moguls-journey-from-shy-kid-to-political-centrist-to-trump-supporter/), per a 2026 Irish Times profile.",
       "spending": [
         {
           "id": "1486767",
@@ -5594,7 +5499,7 @@
       "total": 58876.96,
       "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)",
       "net_worth": "",
-      "politics": "Landlord-sponsored committee that has made [about $3 million in independent expenditures](https://calmatters.digitaldemocracy.org/organizations/-19963) in legislative races.",
+      "politics": "This landlord-sponsored committee has made [about $3 million in independent expenditures](https://calmatters.digitaldemocracy.org/organizations/-19963) in legislative races.",
       "spending": [
         {
           "id": "1478581",
@@ -5674,7 +5579,7 @@
       "total": 49870,
       "industry": "[Palantir cofounder](https://www.forbes.com/profile/joe-lonsdale/) and managing partner of venture firm 8VC",
       "net_worth": "[$3.8 billion](https://www.forbes.com/profile/joe-lonsdale/), Forbes real-time estimate as of Oct. 25, 2026",
-      "politics": "[Founded the Cicero Institute](https://www.forbes.com/profile/joe-lonsdale/) in 2018, a conservative think tank that pushes entrepreneur-friendly policy.",
+      "politics": "Lonsdale [founded the Cicero Institute](https://www.forbes.com/profile/joe-lonsdale/) in 2018, a conservative think tank that pushes entrepreneur-friendly policy.",
       "spending": [
         {
           "id": "1486767",
@@ -5706,7 +5611,7 @@
       "total": 35000,
       "industry": "[Political arm of Y Combinator CEO Garry Tan's Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/)",
       "net_worth": "",
-      "politics": "Political arm of [Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/), Y Combinator CEO Garry Tan's 2026 nonprofit to take San Francisco's moderate playbook statewide; its early content attacked public-sector unions and the billionaire tax.",
+      "politics": "Gary's List Action is the political arm of [Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/), Y Combinator CEO Garry Tan's 2026 nonprofit to take San Francisco's moderate playbook statewide. Its early content attacked public-sector unions and the billionaire tax.",
       "spending": [
         {
           "id": "1483808",
@@ -5736,7 +5641,7 @@
       "type": "funder",
       "name": "Jack Altman",
       "total": 24819.76,
-      "industry": "[Founder of venture firm Alt Capital](https://en.wikipedia.org/wiki/Jack_Altman_%28entrepreneur%29), Lattice cofounder and brother of OpenAI CEO Sam Altman",
+      "industry": "Founder of venture firm Alt Capital, Lattice cofounder and brother of OpenAI CEO Sam Altman",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5946,7 +5851,7 @@
       "total": -13687.02,
       "industry": "[Largest U.S. crypto exchange](https://www.forbes.com/companies/coinbase/)",
       "net_worth": "",
-      "politics": "A [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
+      "politics": "Coinbase is a [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
       "spending": [
         {
           "id": "1483808",
@@ -6060,7 +5965,7 @@
       ],
       "what_it_does": "[Creates a loan program for middle-income buyers](https://voterguide.sos.ca.gov/propositions/37/index.htm) of newly built homes, funded by up to $25 billion in revenue bonds. Loans cover up to 17% of a home priced under about $1.5 million, and buyers repay them, not the state."
     },
-    "CAND|SARA HERNANDEZ": {
+    "CAND|Sara Hernandez": {
       "type": "candidate",
       "name": "Sara Hernandez",
       "spending": [
@@ -6068,6 +5973,12 @@
           "id": "1483808",
           "name": "Grow California",
           "amount": 4241922.15,
+          "dir": "support"
+        },
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 828919.44,
           "dir": "support"
         },
         {
@@ -6079,7 +5990,7 @@
       ],
       "party": "D",
       "race": "SD26",
-      "support": 4241922.15,
+      "support": 5070841.59,
       "against": 343920,
       "policy_platform": "[Los Angeles Community College trustee](https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html) and housing and environmental attorney. Her campaign site [pledges to \"fight for strict rules with real enforcement\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/) on Big Tech profits."
     },
@@ -6105,11 +6016,17 @@
           "name": "California Leads",
           "amount": 2866414.61,
           "dir": "support"
+        },
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 2824072.89,
+          "dir": "support"
         }
       ],
       "party": "D",
       "race": "AD68",
-      "support": 2866414.61,
+      "support": 5690487.5,
       "against": 0,
       "policy_platform": "[Campaigns on](https://davidpenaloza.com/candidate-statement/) middle-class housing, 911 response times, universal pre-K and local business, and pledges to \"prevent tax increases.\""
     },
@@ -6130,24 +6047,7 @@
       "against": 0,
       "policy_platform": "[Campaigns on](https://www.ericlucan.com/) affordability (housing, childcare and health care), free SMART train fares for youth and seniors, and water and wildfire resilience. [Called on PACs](https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out) funded by \"tech billionaires... crypto, AI, labor\" to stop spending in the race."
     },
-    "CAND|DAVID PENALOZA": {
-      "type": "candidate",
-      "name": "David Penaloza",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 2824072.89,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "AD68",
-      "support": 2824072.89,
-      "against": 0,
-      "policy_platform": "[Campaigns on](https://davidpenaloza.com/candidate-statement/) middle-class housing, 911 response times, universal pre-K and local business, and pledges to \"prevent tax increases.\""
-    },
-    "CAND|MARK PULIDO": {
+    "CAND|Mark Pulido": {
       "type": "candidate",
       "name": "Mark Pulido",
       "spending": [
@@ -6156,13 +6056,19 @@
           "name": "Grow California",
           "amount": 2594121.47,
           "dir": "support"
+        },
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1260592.27,
+          "dir": "support"
         }
       ],
       "party": "D",
       "race": "AD67",
-      "support": 2594121.47,
+      "support": 3854713.74,
       "against": 0,
-      "policy_platform": "[Cerritos councilmember](https://en.wikipedia.org/wiki/Mark_Pulido) campaigning on public safety, economic development and parks."
+      "policy_platform": "Cerritos councilmember campaigning on public safety, economic development and parks."
     },
     "CAND|Andrae Gonzales": {
       "type": "candidate",
@@ -6179,11 +6085,17 @@
           "name": "META California",
           "amount": 350387.93,
           "dir": "support"
+        },
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 272439.34,
+          "dir": "support"
         }
       ],
       "party": "D",
       "race": "AD35",
-      "support": 2906794.07,
+      "support": 3179233.41,
       "against": 0,
       "policy_platform": "[Campaigns on](https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/) more resources for Kern County, jobs and apprenticeships and health access, and wants consumer protection \"without blocking innovation.\""
     },
@@ -6221,7 +6133,7 @@
       "against": 1490766.53,
       "policy_platform": "[Former Orange County Democratic Party chair and co-president of UNITE HERE Local 11](https://voiceofoc.org/2026/05/political-action-committee/). On PAC spending against her: \"They're obviously trying to buy our seat.\""
     },
-    "CAND|AYANNA DAVIS": {
+    "CAND|Ayanna Davis": {
       "type": "candidate",
       "name": "Ayanna Davis",
       "spending": [
@@ -6230,11 +6142,17 @@
           "name": "Grow California",
           "amount": 1475309.71,
           "dir": "support"
+        },
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 1010362.04,
+          "dir": "support"
         }
       ],
       "party": "D",
       "race": "AD65",
-      "support": 1475309.71,
+      "support": 2485671.75,
       "against": 0,
       "policy_platform": "[Campaigns on](https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/) full school funding and STEM, housing and homelessness, civil rights and climate resilience."
     },
@@ -6247,11 +6165,17 @@
           "name": "META California",
           "amount": 1335520.32,
           "dir": "support"
+        },
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 1039940,
+          "dir": "support"
         }
       ],
       "party": "D",
       "race": "SD10",
-      "support": 1335520.32,
+      "support": 2375460.32,
       "against": 0,
       "policy_platform": "[Union City councilmember and former Palantir executive](https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/) campaigning on housing, public safety, small business and climate. [Told CalMatters](https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/) that tech \"has both created incredible economic growth and serious consequences across society\" and needs regulation and strong oversight."
     },
@@ -6289,23 +6213,6 @@
       "against": 0,
       "policy_platform": "[Retired sheriff's captain](https://eastcountymagazine.org/elliott-leads-in-40th-two-republicans-battling-for-second-spot/) who finished third in the SD 40 primary, campaigning on state funding for local police and prosecuting repeat violent offenders."
     },
-    "CAND|Mark Pulido": {
-      "type": "candidate",
-      "name": "Mark Pulido",
-      "spending": [
-        {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 1260592.27,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "AD67",
-      "support": 1260592.27,
-      "against": 0,
-      "policy_platform": "[Cerritos councilmember](https://en.wikipedia.org/wiki/Mark_Pulido) campaigning on public safety, economic development and parks."
-    },
     "CAND|Greg Wallis": {
       "type": "candidate",
       "name": "Greg Wallis",
@@ -6339,40 +6246,6 @@
       "support": 1057109.5,
       "against": 0,
       "policy_platform": "[Open to updating parts of Costa-Hawkins](https://smchamber.com/santa-monica-focused-senate-debate-summary-the-takeaways-that-matter-to-sm-businesses/), favors shelter paired with anti-camping enforcement and supported Prop 36. Could support AB 2564, a surveillance pricing ban, if narrowed to protect loyalty programs."
-    },
-    "CAND|SCOTT SAKAKIHARA": {
-      "type": "candidate",
-      "name": "Scott Sakakihara",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 1039940,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "SD10",
-      "support": 1039940,
-      "against": 0,
-      "policy_platform": "[Union City councilmember and former Palantir executive](https://rafu.com/2026/05/scott-sakakihara-running-for-state-senate-in-bay-area/) campaigning on housing, public safety, small business and climate. [Told CalMatters](https://calmatters.org/economy/technology/2026/10/tech-interests-spend-big-on-california-election/) that tech \"has both created incredible economic growth and serious consequences across society\" and needs regulation and strong oversight."
-    },
-    "CAND|Ayanna Davis": {
-      "type": "candidate",
-      "name": "Ayanna Davis",
-      "spending": [
-        {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 1010362.04,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "AD65",
-      "support": 1010362.04,
-      "against": 0,
-      "policy_platform": "[Campaigns on](https://precinctreporter.com/2026/10/29/election-candidates-stand-on-priorities/) full school funding and STEM, housing and homelessness, civil rights and climate resilience."
     },
     "CAND|Measure: PROPOSITION 1": {
       "type": "measure",
@@ -6466,23 +6339,6 @@
       "support": 102962.86,
       "against": 846293.45,
       "policy_platform": "[Campaigns on](https://www.jackie4assembly.com/) wildfire and drought, housing and homelessness and the North Bay's share of state funding; labor-backed. [Backed moratoriums on \"all things AI,\"](https://kqed.org/news/12104544/in-this-north-bay-assembly-race-big-tech-and-labor-battle-it-out) including data centers, saying \"protecting workers is the priority,\" and is a [Yes on 40 endorser](https://yeson40.com/endorsements/). On outside money: [\"We are not going to allow a billionaire to take over what we have built.\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/)"
-    },
-    "CAND|Sara Hernandez": {
-      "type": "candidate",
-      "name": "Sara Hernandez",
-      "spending": [
-        {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 828919.44,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "SD26",
-      "support": 828919.44,
-      "against": 0,
-      "policy_platform": "[Los Angeles Community College trustee](https://www.theeastsiderla.com/news/government_and_politics/sara-hernandez-leads-crowded-state-senate-race/article_660ecc5e-a851-42c2-8cd6-4a08c6cc03ad.html) and housing and environmental attorney. Her campaign site [pledges to \"fight for strict rules with real enforcement\"](https://calmatters.org/politics/2026/10/nine-most-expensive-california-legislature/) on Big Tech profits."
     },
     "CAND|IDA OBESO-MARTINEZ": {
       "type": "candidate",
@@ -6586,23 +6442,6 @@
       "against": 0,
       "policy_platform": "[Incumbent](https://www.kpbs.org/news/politics/2026/10/02/conoce-a-los-candidatos-para-la-asamblea-estatal-california-eleccion-general-de-2026-guia-de-las-contiendas-distritos-74-75-76-77-78-79-80) focused on cost of living and housing, and border infrastructure and environment."
     },
-    "CAND|ANDRAE GONZALES": {
-      "type": "candidate",
-      "name": "Andrae Gonzales",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 272439.34,
-          "dir": "support"
-        }
-      ],
-      "party": "D",
-      "race": "AD35",
-      "support": 272439.34,
-      "against": 0,
-      "policy_platform": "[Campaigns on](https://www.kget.com/news/politics/your-local-elections/2026-california-assembly-district-35-candidate-questionnaire/) more resources for Kern County, jobs and apprenticeships and health access, and wants consumer protection \"without blocking innovation.\""
-    },
     "CAND|DEBORAH KLEIN LOPEZ": {
       "type": "candidate",
       "name": "Deborah Klein Lopez",
@@ -6686,7 +6525,7 @@
       "race": "SD34",
       "support": 72570,
       "against": 0,
-      "policy_platform": "[Assemblymember](https://en.wikipedia.org/wiki/2026_California_State_Senate_election) running for the state Senate."
+      "policy_platform": "Assemblymember running for the state Senate."
     }
   }
 }
