@@ -1,9 +1,9 @@
 {
   "meta": {
-    "total_funded": "$594,817,317",
+    "total_funded": "$627,839,963",
     "total_spent_ie": "$389,372,037",
-    "n_funders": 141,
-    "n_candidates": 36,
+    "n_funders": 150,
+    "n_candidates": 37,
     "date_range": "Jan 01, 2025 – Nov 03, 2026"
   },
   "pacs": [
@@ -22,7 +22,7 @@
     {
       "id": "1486767",
       "label": "Building a Better California",
-      "raised": "$434,821,490",
+      "raised": "$467,844,135",
       "spent_ie": "$324,750,000"
     },
     {
@@ -49,9 +49,9 @@
       "id": "BRIN SERGEY",
       "label": "Sergey Brin",
       "tier": "Funders",
-      "total": 104000000,
+      "total": 114000000,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($102,000,000); Deliver for California ($2,000,000)"
+      "detail": "Gave to: Building a Better California ($112,000,000); Deliver for California ($2,000,000)"
     },
     {
       "id": "Morgan Stanley",
@@ -78,20 +78,20 @@
       "detail": "Gave to: Building a Better California ($40,000,000); California Back to Basics ($2,000,000)"
     },
     {
+      "id": "COLLISON PATRICK",
+      "label": "Patrick Collison",
+      "tier": "Funders",
+      "total": 42967492.63,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($39,987,493); California Back to Basics ($2,980,000)"
+    },
+    {
       "id": "LARSEN CHRIS",
       "label": "Chris Larsen",
       "tier": "Funders",
       "total": 49377594.16,
       "n_connections": 2,
       "detail": "Gave to: Grow California ($36,865,749); Building a Better California ($12,511,845)"
-    },
-    {
-      "id": "COLLISON PATRICK",
-      "label": "Patrick Collison",
-      "tier": "Funders",
-      "total": 36149793.76,
-      "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($33,169,794); California Back to Basics ($2,980,000)"
     },
     {
       "id": "Google LLC",
@@ -142,6 +142,14 @@
       "detail": "Gave to: Building a Better California ($5,005,599)"
     },
     {
+      "id": "SAMUELI HENRY",
+      "label": "Henry Samueli",
+      "tier": "Funders",
+      "total": 5000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($5,000,000)"
+    },
+    {
       "id": "SLOOTMAN FRANK",
       "label": "Frank Slootman",
       "tier": "Funders",
@@ -172,6 +180,14 @@
       "total": 5911960.75,
       "n_connections": 2,
       "detail": "Gave to: Building a Better California ($3,921,961); California Back to Basics ($1,990,000)"
+    },
+    {
+      "id": "COOK SCOTT D",
+      "label": "Scott D Cook",
+      "tier": "Funders",
+      "total": 3687250,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($3,687,250)"
     },
     {
       "id": "XU TONY",
@@ -238,6 +254,22 @@
       "detail": "Gave to: Building a Better California ($2,527,189)"
     },
     {
+      "id": "SLAVIK PAUL",
+      "label": "Paul Slavik",
+      "tier": "Funders",
+      "total": 2253234.1,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,253,234)"
+    },
+    {
+      "id": "SLAVIK JAMES",
+      "label": "James Slavik",
+      "tier": "Funders",
+      "total": 2248899.14,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,248,899)"
+    },
+    {
       "id": "DUNLEVIE BRUCE",
       "label": "Bruce Dunlevie",
       "tier": "Funders",
@@ -278,6 +310,22 @@
       "detail": "Gave to: Building a Better California ($2,000,000)"
     },
     {
+      "id": "MEHTA NEIL",
+      "label": "Neil Mehta",
+      "tier": "Funders",
+      "total": 3999998,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($2,000,000); California Back to Basics ($1,999,998)"
+    },
+    {
+      "id": "PARKER SEAN",
+      "label": "Sean Parker",
+      "tier": "Funders",
+      "total": 2000000,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,000,000)"
+    },
+    {
       "id": "SEIBEL MICHAEL",
       "label": "Michael Seibel",
       "tier": "Funders",
@@ -294,30 +342,6 @@
       "detail": "Gave to: California Back to Basics ($1,999,998); Building a Better California ($101,803)"
     },
     {
-      "id": "MEHTA NEIL",
-      "label": "Neil Mehta",
-      "tier": "Funders",
-      "total": 2999998,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,999,998); Building a Better California ($1,000,000)"
-    },
-    {
-      "id": "SLAVIK JAMES",
-      "label": "James Slavik",
-      "tier": "Funders",
-      "total": 1998899.14,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($1,998,899)"
-    },
-    {
-      "id": "SLAVIK PAUL",
-      "label": "Paul Slavik",
-      "tier": "Funders",
-      "total": 1998899.14,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($1,998,899)"
-    },
-    {
       "id": "EHRSAM III FREDERICK E",
       "label": "Frederick E Ehrsam III",
       "tier": "Funders",
@@ -332,6 +356,14 @@
       "total": 1686400,
       "n_connections": 1,
       "detail": "Gave to: California Back to Basics ($1,686,400)"
+    },
+    {
+      "id": "REED ANDREW PHILLIPS",
+      "label": "Andrew Phillips Reed",
+      "tier": "Funders",
+      "total": 2575831.3,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($1,575,831); California Back to Basics ($1,000,000)"
     },
     {
       "id": "LAFFONT PHILIPPE",
@@ -398,14 +430,6 @@
       "detail": "Gave to: Building a Better California ($1,085,747)"
     },
     {
-      "id": "REED ANDREW PHILLIPS",
-      "label": "Andrew Phillips Reed",
-      "tier": "Funders",
-      "total": 2074114.3,
-      "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($1,074,114); California Back to Basics ($1,000,000)"
-    },
-    {
       "id": "BYERS BLAKE",
       "label": "Blake Byers",
       "tier": "Funders",
@@ -426,7 +450,7 @@
       "label": "Grow California",
       "tier": "PACs",
       "total": 54318568.89,
-      "n_connections": 22,
+      "n_connections": 21,
       "detail": "Raised: $54,318,569 | Spent on IEs: $23,770,528 | Candidates/measures targeted: 18"
     },
     {
@@ -441,9 +465,9 @@
       "id": "1486767",
       "label": "Building a Better California",
       "tier": "PACs",
-      "total": 434821489.66,
-      "n_connections": 43,
-      "detail": "Raised: $434,821,490 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
+      "total": 467844134.85,
+      "n_connections": 46,
+      "detail": "Raised: $467,844,135 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
     },
     {
       "id": "1483390",
@@ -874,11 +898,11 @@
     {
       "source": "BRIN SERGEY",
       "target": "1486767",
-      "amount": 102000000,
+      "amount": 112000000,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
-      "label": "Contribution: $102,000,000"
+      "label": "Contribution: $112,000,000"
     },
     {
       "source": "Morgan Stanley",
@@ -917,6 +941,15 @@
       "label": "Contribution: $40,000,000"
     },
     {
+      "source": "COLLISON PATRICK",
+      "target": "1486767",
+      "amount": 39987492.63,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $39,987,493"
+    },
+    {
       "source": "LARSEN CHRIS",
       "target": "1483808",
       "amount": 36865749.36,
@@ -924,15 +957,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $36,865,749"
-    },
-    {
-      "source": "COLLISON PATRICK",
-      "target": "1486767",
-      "amount": 33169793.76,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $33,169,794"
     },
     {
       "source": "Google LLC",
@@ -1043,6 +1067,15 @@
       "label": "Contribution: $5,005,599"
     },
     {
+      "source": "SAMUELI HENRY",
+      "target": "1486767",
+      "amount": 5000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $5,000,000"
+    },
+    {
       "source": "SLOOTMAN FRANK",
       "target": "1486767",
       "amount": 5000000,
@@ -1086,6 +1119,15 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $3,921,961"
+    },
+    {
+      "source": "COOK SCOTT D",
+      "target": "1486767",
+      "amount": 3687250,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $3,687,250"
     },
     {
       "source": "XU TONY",
@@ -1232,6 +1274,24 @@
       "label": "Contribution: $2,527,189"
     },
     {
+      "source": "SLAVIK PAUL",
+      "target": "1486767",
+      "amount": 2253234.1,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,253,234"
+    },
+    {
+      "source": "SLAVIK JAMES",
+      "target": "1486767",
+      "amount": 2248899.14,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,248,899"
+    },
+    {
       "source": "1483808",
       "target": "CAND|JOHN ERICKSON",
       "amount": 2242027.65,
@@ -1313,6 +1373,24 @@
       "label": "Contribution: $2,000,000"
     },
     {
+      "source": "MEHTA NEIL",
+      "target": "1486767",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
+      "source": "PARKER SEAN",
+      "target": "1486767",
+      "amount": 2000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,000,000"
+    },
+    {
       "source": "SEIBEL MICHAEL",
       "target": "1487425",
       "amount": 2000000,
@@ -1340,24 +1418,6 @@
       "label": "Contribution: $1,999,998"
     },
     {
-      "source": "SLAVIK JAMES",
-      "target": "1486767",
-      "amount": 1998899.14,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,998,899"
-    },
-    {
-      "source": "SLAVIK PAUL",
-      "target": "1486767",
-      "amount": 1998899.14,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,998,899"
-    },
-    {
       "source": "HERING JOHN",
       "target": "1487425",
       "amount": 1990000,
@@ -1383,6 +1443,15 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $1,686,400"
+    },
+    {
+      "source": "REED ANDREW PHILLIPS",
+      "target": "1486767",
+      "amount": 1575831.3,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,575,831"
     },
     {
       "source": "LAFFONT PHILIPPE",
@@ -1520,15 +1589,6 @@
       "label": "Supports: $1,078,618"
     },
     {
-      "source": "REED ANDREW PHILLIPS",
-      "target": "1486767",
-      "amount": 1074114.3,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,074,114"
-    },
-    {
       "source": "1478581",
       "target": "CAND|Brian Goldsmith",
       "amount": 1057109.5,
@@ -1567,15 +1627,6 @@
     {
       "source": "BYERS BLAKE",
       "target": "1487425",
-      "amount": 1000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,000,000"
-    },
-    {
-      "source": "MEHTA NEIL",
-      "target": "1486767",
       "amount": 1000000,
       "type": "funder_pac",
       "sup_opp": "",
@@ -2270,7 +2321,7 @@
     "1486767": {
       "type": "pac",
       "name": "Building a Better California",
-      "raised": 434821489.66,
+      "raised": 467844134.85,
       "spent": 324750000,
       "mission": "Building a Better California describes itself as a nonprofit whose [mission](http://buildingabetterca.org/) is \"to improve affordability and quality of life for all Californians,\" with priorities in middle-class housing, \"stable funding for public education,\" more transparency from state programs and \"protecting innovation.\" Sergey Brin [launched it](https://fortune.com/2026/01/29/sergey-brin-biggest-donation-ever-california-housing-billionaire-tax-moving-to-nevada) in January 2026 with Eric Schmidt and Michael Moritz, and nearly all of its spending went to fighting the billionaire tax. A spokesperson [said](https://missionlocal.org/2026/08/california-billionaire-tax-sergey-brin-prop-40/) Prop 40 \"will create a permanent hole in the state budget,\" leaving \"less money for schools, public safety, and healthcare.\" An adviser to Schmidt told Fortune that defeating the tax is his [\"only current involvement in politics.\"](https://fortune.com/2026/11/02/sergey-brin-political-102-million-prop-40-billionaire/)",
       "spending": [
@@ -2321,7 +2372,7 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 102000000,
+          "amount": 112000000,
           "dir": ""
         },
         {
@@ -2345,7 +2396,7 @@
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
-          "amount": 33169793.76,
+          "amount": 39987492.63,
           "dir": ""
         },
         {
@@ -2373,6 +2424,12 @@
           "dir": ""
         },
         {
+          "id": "SAMUELI HENRY",
+          "name": "Henry Samueli",
+          "amount": 5000000,
+          "dir": ""
+        },
+        {
           "id": "SLOOTMAN FRANK",
           "name": "Frank Slootman",
           "amount": 5000000,
@@ -2394,6 +2451,12 @@
           "id": "HERING JOHN",
           "name": "John Hering",
           "amount": 3921960.75,
+          "dir": ""
+        },
+        {
+          "id": "COOK SCOTT D",
+          "name": "Scott D Cook",
+          "amount": 3687250,
           "dir": ""
         },
         {
@@ -2433,6 +2496,18 @@
           "dir": ""
         },
         {
+          "id": "SLAVIK PAUL",
+          "name": "Paul Slavik",
+          "amount": 2253234.1,
+          "dir": ""
+        },
+        {
+          "id": "SLAVIK JAMES",
+          "name": "James Slavik",
+          "amount": 2248899.14,
+          "dir": ""
+        },
+        {
           "id": "DUNLEVIE BRUCE",
           "name": "Bruce Dunlevie",
           "amount": 2110000,
@@ -2445,21 +2520,27 @@
           "dir": ""
         },
         {
-          "id": "SLAVIK JAMES",
-          "name": "James Slavik",
-          "amount": 1998899.14,
+          "id": "MEHTA NEIL",
+          "name": "Neil Mehta",
+          "amount": 2000000,
           "dir": ""
         },
         {
-          "id": "SLAVIK PAUL",
-          "name": "Paul Slavik",
-          "amount": 1998899.14,
+          "id": "PARKER SEAN",
+          "name": "Sean Parker",
+          "amount": 2000000,
           "dir": ""
         },
         {
           "id": "EHRSAM III FREDERICK E",
           "name": "Frederick E Ehrsam III",
           "amount": 1979907.76,
+          "dir": ""
+        },
+        {
+          "id": "REED ANDREW PHILLIPS",
+          "name": "Andrew Phillips Reed",
+          "amount": 1575831.3,
           "dir": ""
         },
         {
@@ -2487,12 +2568,6 @@
           "dir": ""
         },
         {
-          "id": "REED ANDREW PHILLIPS",
-          "name": "Andrew Phillips Reed",
-          "amount": 1074114.3,
-          "dir": ""
-        },
-        {
           "id": "TANEJA HEMANT",
           "name": "Hemant Taneja",
           "amount": 1047667.5,
@@ -2502,6 +2577,12 @@
           "id": "FISHER ROBERT",
           "name": "Robert Fisher",
           "amount": 1018105,
+          "dir": ""
+        },
+        {
+          "id": "HOUSTON ANDREW",
+          "name": "Andrew Houston",
+          "amount": 1011644.36,
           "dir": ""
         },
         {
@@ -2571,8 +2652,8 @@
           "dir": ""
         },
         {
-          "id": "MEHTA NEIL",
-          "name": "Neil Mehta",
+          "id": "MULHERIN OLIVER",
+          "name": "Oliver Mulherin",
           "amount": 1000000,
           "dir": ""
         },
@@ -2643,6 +2724,18 @@
           "dir": ""
         },
         {
+          "id": "SANDELL SCOTT D",
+          "name": "Scott D Sandell",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "TAYLOR BRET",
+          "name": "Bret Taylor",
+          "amount": 500000,
+          "dir": ""
+        },
+        {
           "id": "TIERNEY DANIEL",
           "name": "Daniel Tierney",
           "amount": 500000,
@@ -2688,6 +2781,18 @@
           "id": "BASZUCKI GREGORY",
           "name": "Gregory Baszucki",
           "amount": 274892.11,
+          "dir": ""
+        },
+        {
+          "id": "KARSH BRUCE",
+          "name": "Bruce Karsh",
+          "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "KARSH MARTHA",
+          "name": "Martha Karsh",
+          "amount": 250000,
           "dir": ""
         },
         {
@@ -2815,7 +2920,7 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 102000000,
+          "amount": 112000000,
           "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
         },
         {
@@ -2839,7 +2944,7 @@
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
-          "amount": 33169793.76,
+          "amount": 39987492.63,
           "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)"
         }
       ]
@@ -3462,7 +3567,7 @@
     "BRIN SERGEY": {
       "type": "funder",
       "name": "Sergey Brin",
-      "total": 104000000,
+      "total": 114000000,
       "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member",
       "net_worth": "[$217.2 billion](https://www.forbes.com/profile/sergey-brin/), Forbes real-time estimate as of Oct. 29, 2026",
       "politics": "Brin had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. He spent [$500,000 against San Francisco's \"Overpaid CEO\" tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/), which was rejected by voters in June 2026. He [moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025 in reaction to Prop 40. He equated the tax with the Soviet Union, where he grew up, saying, \"I don't want California to end up in the same place.\"",
@@ -3470,7 +3575,7 @@
         {
           "id": "1486767",
           "name": "Building a Better California",
-          "amount": 102000000,
+          "amount": 112000000,
           "dir": ""
         },
         {
@@ -3535,6 +3640,28 @@
         }
       ]
     },
+    "COLLISON PATRICK": {
+      "type": "funder",
+      "name": "Patrick Collison",
+      "total": 42967492.63,
+      "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)",
+      "net_worth": "[$17.5 billion](https://www.forbes.com/profile/patrick-collison/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Collison gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 39987492.63,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 2980000,
+          "dir": ""
+        }
+      ]
+    },
     "LARSEN CHRIS": {
       "type": "funder",
       "name": "Chris Larsen",
@@ -3553,28 +3680,6 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 12511844.8,
-          "dir": ""
-        }
-      ]
-    },
-    "COLLISON PATRICK": {
-      "type": "funder",
-      "name": "Patrick Collison",
-      "total": 36149793.76,
-      "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)",
-      "net_worth": "[$17.5 billion](https://www.forbes.com/profile/patrick-collison/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Collison gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 33169793.76,
-          "dir": ""
-        },
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 2980000,
           "dir": ""
         }
       ]
@@ -3693,6 +3798,22 @@
         }
       ]
     },
+    "SAMUELI HENRY": {
+      "type": "funder",
+      "name": "Henry Samueli",
+      "total": 5000000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 5000000,
+          "dir": ""
+        }
+      ]
+    },
     "SLOOTMAN FRANK": {
       "type": "funder",
       "name": "Frank Slootman",
@@ -3759,6 +3880,22 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1990000,
+          "dir": ""
+        }
+      ]
+    },
+    "COOK SCOTT D": {
+      "type": "funder",
+      "name": "Scott D Cook",
+      "total": 3687250,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 3687250,
           "dir": ""
         }
       ]
@@ -3903,6 +4040,38 @@
         }
       ]
     },
+    "SLAVIK PAUL": {
+      "type": "funder",
+      "name": "Paul Slavik",
+      "total": 2253234.1,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2253234.1,
+          "dir": ""
+        }
+      ]
+    },
+    "SLAVIK JAMES": {
+      "type": "funder",
+      "name": "James Slavik",
+      "total": 2248899.14,
+      "industry": "[Founder of Mark IV Capital](https://www.ocbj.com/oc-homepage/evan-slavik-takes-reins-of-mark-iv-capital/), a Newport Beach commercial real estate investor",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2248899.14,
+          "dir": ""
+        }
+      ]
+    },
     "DUNLEVIE BRUCE": {
       "type": "funder",
       "name": "Bruce Dunlevie",
@@ -3983,6 +4152,44 @@
         }
       ]
     },
+    "MEHTA NEIL": {
+      "type": "funder",
+      "name": "Neil Mehta",
+      "total": 3999998,
+      "industry": "[Founder and managing partner of venture firm Greenoaks](https://www.forbes.com/profile/neil-mehta/)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2000000,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1999998,
+          "dir": ""
+        }
+      ]
+    },
+    "PARKER SEAN": {
+      "type": "funder",
+      "name": "Sean Parker",
+      "total": 2000000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2000000,
+          "dir": ""
+        }
+      ]
+    },
     "SEIBEL MICHAEL": {
       "type": "funder",
       "name": "Michael Seibel",
@@ -4021,60 +4228,6 @@
         }
       ]
     },
-    "MEHTA NEIL": {
-      "type": "funder",
-      "name": "Neil Mehta",
-      "total": 2999998,
-      "industry": "[Founder and managing partner of venture firm Greenoaks](https://www.forbes.com/profile/neil-mehta/)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1999998,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1000000,
-          "dir": ""
-        }
-      ]
-    },
-    "SLAVIK JAMES": {
-      "type": "funder",
-      "name": "James Slavik",
-      "total": 1998899.14,
-      "industry": "[Founder of Mark IV Capital](https://www.ocbj.com/oc-homepage/evan-slavik-takes-reins-of-mark-iv-capital/), a Newport Beach commercial real estate investor",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1998899.14,
-          "dir": ""
-        }
-      ]
-    },
-    "SLAVIK PAUL": {
-      "type": "funder",
-      "name": "Paul Slavik",
-      "total": 1998899.14,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1998899.14,
-          "dir": ""
-        }
-      ]
-    },
     "EHRSAM III FREDERICK E": {
       "type": "funder",
       "name": "Frederick E Ehrsam III",
@@ -4103,6 +4256,28 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1686400,
+          "dir": ""
+        }
+      ]
+    },
+    "REED ANDREW PHILLIPS": {
+      "type": "funder",
+      "name": "Andrew Phillips Reed",
+      "total": 2575831.3,
+      "industry": "[Partner at Sequoia Capital](https://crunchbase.com/person/andrew-reed)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1575831.3,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1000000,
           "dir": ""
         }
       ]
@@ -4265,28 +4440,6 @@
         }
       ]
     },
-    "REED ANDREW PHILLIPS": {
-      "type": "funder",
-      "name": "Andrew Phillips Reed",
-      "total": 2074114.3,
-      "industry": "[Partner at Sequoia Capital](https://crunchbase.com/person/andrew-reed)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1074114.3,
-          "dir": ""
-        },
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        }
-      ]
-    },
     "TANEJA HEMANT": {
       "type": "funder",
       "name": "Hemant Taneja",
@@ -4315,6 +4468,22 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 1018105,
+          "dir": ""
+        }
+      ]
+    },
+    "HOUSTON ANDREW": {
+      "type": "funder",
+      "name": "Andrew Houston",
+      "total": 1011644.36,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1011644.36,
           "dir": ""
         }
       ]
@@ -4539,6 +4708,22 @@
       "total": 1000000,
       "industry": "[Crypto entrepreneur who cofounded Ripple](https://www.forbes.com/profile/jed-mccaleb/) and Stellar and founded Mt. Gox",
       "net_worth": "[$3.9 billion](https://www.forbes.com/profile/jed-mccaleb/), Forbes real-time estimate as of Oct. 27, 2026",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1000000,
+          "dir": ""
+        }
+      ]
+    },
+    "MULHERIN OLIVER": {
+      "type": "funder",
+      "name": "Oliver Mulherin",
+      "total": 1000000,
+      "industry": "",
+      "net_worth": "",
       "politics": "",
       "spending": [
         {
@@ -4855,6 +5040,38 @@
         }
       ]
     },
+    "SANDELL SCOTT D": {
+      "type": "funder",
+      "name": "Scott D Sandell",
+      "total": 500000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "TAYLOR BRET": {
+      "type": "funder",
+      "name": "Bret Taylor",
+      "total": 500000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
     "TIERNEY DANIEL": {
       "type": "funder",
       "name": "Daniel Tierney",
@@ -5093,6 +5310,38 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 274892.11,
+          "dir": ""
+        }
+      ]
+    },
+    "KARSH BRUCE": {
+      "type": "funder",
+      "name": "Bruce Karsh",
+      "total": 250000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "KARSH MARTHA": {
+      "type": "funder",
+      "name": "Martha Karsh",
+      "total": 250000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -6526,6 +6775,21 @@
       "support": 72570,
       "against": 0,
       "policy_platform": "Valencia, an assemblymember for the past four years and the son of immigrant small business owners, is running for SD 34. [His campaign](https://www.avelinovalencia.com/) pledges to \"fully fund schools,\" \"stop rising costs\" of gas and groceries, \"build housing\" including first-time homebuyer programs, \"combat climate change,\" \"create new jobs,\" \"increase transparency\" in government and expand college access."
+    },
+    "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC": {
+      "type": "committee",
+      "name": "California State Council Of Laborers Independent Expenditure Pac",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 8000,
+          "dir": "support"
+        }
+      ],
+      "supports": [
+        "Latinos For An Affordable California 2026 ($100K)"
+      ]
     }
   }
 }
