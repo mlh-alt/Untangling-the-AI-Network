@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The AI Outside Spending Network</title>
+<title>The Tech Outside Spending Network</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
@@ -107,6 +107,30 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   transition: color .15s, border-color .15s;
 }
 #reset-btn:hover { color: var(--fg); border-color: var(--fg2); }
+
+/* Report a bug: bottom left, same look as Reset view, with a hover note */
+#bug-wrap {
+  position: fixed; z-index: 20;
+  bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  left: max(16px, env(safe-area-inset-left, 0px));
+}
+#bug-btn {
+  display: inline-block; text-decoration: none;
+  background: var(--bg3); border: 1px solid var(--border); color: var(--fg2);
+  font-family: var(--font-mono); font-size: 10px; padding: 4px 10px;
+  border-radius: 4px; cursor: pointer; white-space: nowrap;
+  transition: color .15s, border-color .15s;
+}
+#bug-btn:hover, #bug-btn:focus-visible { color: var(--fg); border-color: var(--fg2); outline: none; }
+#bug-tip {
+  position: absolute; bottom: calc(100% + 8px); left: 0; width: 240px;
+  background: var(--bg2); border: 1px solid var(--border); border-radius: 6px;
+  padding: 8px 12px; font-size: 11px; line-height: 1.5; color: var(--fg2);
+  opacity: 0; pointer-events: none; transform: translateY(4px);
+  transition: opacity .15s, transform .15s;
+}
+#bug-wrap:hover #bug-tip, #bug-btn:focus-visible + #bug-tip { opacity: 1; transform: translateY(0); }
+@media (max-width: 520px) { #bug-tip { width: 200px; } }
 
 #canvas-wrap { position: fixed; inset: 0; padding-top: calc(env(safe-area-inset-top, 0px) + 45px); }
 #canvas-wrap svg { width: 100%; height: 100%; display: block; }
@@ -250,7 +274,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
 <div id="header">
   <div>
     <div id="title-row">
-      <h1>The AI Outside Spending Network</h1>
+      <h1>The Tech Outside Spending Network</h1>
       <button id="info-btn" aria-label="How to use this map" aria-expanded="false" aria-controls="info-pop">i</button>
     </div>
     <div class="sub" id="header-sub">California Independent Expenditures (IE) · 2025–2026</div>
@@ -308,6 +332,11 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   </div>
   <div id="sheet-body"></div>
 </aside>
+
+<div id="bug-wrap">
+  <a id="bug-btn" href="https://forms.gle/iUNB3PMXj2zs41p28" target="_blank" rel="noopener" aria-describedby="bug-tip">Report a bug</a>
+  <div id="bug-tip" role="tooltip">I want this map to be the best it can be! If you notice anything you think might be a mistake, please let me know by clicking the button.</div>
+</div>
 
 <div id="stats-panel">
   <h3>Network overview</h3>
@@ -7103,7 +7132,7 @@ html, body { height: 100%; background: var(--bg); color: var(--fg); font-family:
   // before "- " nests it. Links are written as [words](url). Empty sections show "To be added".
   const PAGES = {
     methodology: { title: 'Methodology', sections: [
-      { h: 'Scope', text: `This map tracks funding of and outside spending by six political action committees (PACs) associated with key players in the AI industry: Building a Better California, California Back to Basics, California Leads, Deliver for California, Grow California and META California.
+      { h: 'Scope', text: `This map tracks funding of and outside spending by six political action committees (PACs) associated with key players in the tech industry: Building a Better California, California Back to Basics, California Leads, Deliver for California, Grow California and META California.
 
 These PACs were chosen because of their remarkably large expenditures and the extensive coverage they drew from the media. Their disclosures show activity across three core levels of state politics- ballot measures, the state legislature and the governor's mansion- revealing a comprehensive effort to influence the future of governance in California.` },
       { h: 'Data', text: `All outside spending data was drawn from California's official campaign finance database, [Cal-Access](https://cal-access.sos.ca.gov/). By law, most lobbyists, campaigns, candidates and political committees must report their financial activities through this system. This network map uses a variety of items from the database to track different activities:
