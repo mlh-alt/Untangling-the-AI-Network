@@ -1,28 +1,28 @@
 {
   "meta": {
-    "total_funded": "$627,839,963",
+    "total_funded": "$458,469,137",
     "total_spent_ie": "$389,372,037",
-    "n_funders": 150,
-    "n_candidates": 37,
+    "n_funders": 141,
+    "n_candidates": 36,
     "date_range": "Jan 01, 2025 – Nov 03, 2026"
   },
   "pacs": [
     {
       "id": "1483808",
       "label": "Grow California",
-      "raised": "$54,318,569",
+      "raised": "$26,027,965",
       "spent_ie": "$23,770,528"
     },
     {
       "id": "1478581",
       "label": "California Leads",
-      "raised": "$28,262,079",
+      "raised": "$19,200,140",
       "spent_ie": "$14,959,927"
     },
     {
       "id": "1486767",
       "label": "Building a Better California",
-      "raised": "$467,844,135",
+      "raised": "$366,270,535",
       "spent_ie": "$324,750,000"
     },
     {
@@ -34,13 +34,13 @@
     {
       "id": "1487425",
       "label": "California Back to Basics",
-      "raised": "$54,571,559",
+      "raised": "$27,040,864",
       "spent_ie": "$19,506,423"
     },
     {
       "id": "1488176",
       "label": "Deliver for California",
-      "raised": "$6,505,063",
+      "raised": "$3,272,855",
       "spent_ie": "$2,764,437"
     }
   ],
@@ -49,17 +49,9 @@
       "id": "BRIN SERGEY",
       "label": "Sergey Brin",
       "tier": "Funders",
-      "total": 114000000,
+      "total": 113000000,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($112,000,000); Deliver for California ($2,000,000)"
-    },
-    {
-      "id": "Morgan Stanley",
-      "label": "Morgan Stanley",
-      "tier": "Funders",
-      "total": 101501869.05,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($101,501,869)"
+      "detail": "Gave to: Building a Better California ($112,000,000); Deliver for California ($1,000,000)"
     },
     {
       "id": "SCHMIDT ERIC",
@@ -73,65 +65,65 @@
       "id": "DOERR III L JOHN",
       "label": "L John Doerr III",
       "tier": "Funders",
-      "total": 42000000,
+      "total": 41000000,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($40,000,000); California Back to Basics ($2,000,000)"
+      "detail": "Gave to: Building a Better California ($40,000,000); California Back to Basics ($1,000,000)"
     },
     {
       "id": "COLLISON PATRICK",
       "label": "Patrick Collison",
       "tier": "Funders",
-      "total": 42967492.63,
+      "total": 41477492.63,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($39,987,493); California Back to Basics ($2,980,000)"
+      "detail": "Gave to: Building a Better California ($39,987,493); California Back to Basics ($1,490,000)"
     },
     {
       "id": "LARSEN CHRIS",
       "label": "Chris Larsen",
       "tier": "Funders",
-      "total": 49377594.16,
+      "total": 30478282.14,
       "n_connections": 2,
-      "detail": "Gave to: Grow California ($36,865,749); Building a Better California ($12,511,845)"
-    },
-    {
-      "id": "Google LLC",
-      "label": "Google LLC",
-      "tier": "Funders",
-      "total": 21000000,
-      "n_connections": 1,
-      "detail": "Gave to: California Leads ($21,000,000)"
-    },
-    {
-      "id": "DRAPER TIMOTHY",
-      "label": "Timothy Draper",
-      "tier": "Funders",
-      "total": 17000000,
-      "n_connections": 1,
-      "detail": "Gave to: Grow California ($17,000,000)"
+      "detail": "Gave to: Grow California ($17,966,437); Building a Better California ($12,511,845)"
     },
     {
       "id": "Meta Platforms",
       "label": "Meta Platforms",
       "tier": "Funders",
-      "total": 24050000,
+      "total": 23050000,
       "n_connections": 2,
-      "detail": "Gave to: META California ($17,000,000); California Leads ($7,050,000)"
+      "detail": "Gave to: META California ($17,000,000); California Leads ($6,050,000)"
+    },
+    {
+      "id": "Google LLC",
+      "label": "Google LLC",
+      "tier": "Funders",
+      "total": 13000000,
+      "n_connections": 1,
+      "detail": "Gave to: California Leads ($13,000,000)"
     },
     {
       "id": "KHOSLA VINOD",
       "label": "Vinod Khosla",
       "tier": "Funders",
-      "total": 14761504,
+      "total": 13661504,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($12,561,504); California Back to Basics ($2,200,000)"
+      "detail": "Gave to: Building a Better California ($12,561,504); California Back to Basics ($1,100,000)"
+    },
+    {
+      "id": "DRAPER TIMOTHY",
+      "label": "Timothy Draper",
+      "tier": "Funders",
+      "total": 8000000,
+      "n_connections": 1,
+      "detail": "Gave to: Grow California ($8,000,000)"
     },
     {
       "id": "MORITZ MICHAEL",
       "label": "Michael Moritz",
       "tier": "Funders",
-      "total": 13500000,
+      "total": 10500000,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($7,500,000); California Back to Basics ($6,000,000)"
+      "detail": "Gave to: Building a Better California ($7,500,000); California Back to Basics ($3,000,000)"
     },
     {
       "id": "SHRIRAM KAVITARK RAM",
@@ -177,9 +169,9 @@
       "id": "HERING JOHN",
       "label": "John Hering",
       "tier": "Funders",
-      "total": 5911960.75,
+      "total": 4916960.75,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($3,921,961); California Back to Basics ($1,990,000)"
+      "detail": "Gave to: Building a Better California ($3,921,961); California Back to Basics ($995,000)"
     },
     {
       "id": "COOK SCOTT D",
@@ -193,9 +185,9 @@
       "id": "XU TONY",
       "label": "Tony Xu",
       "tier": "Funders",
-      "total": 3993982.02,
+      "total": 3743982.02,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($3,493,982); California Back to Basics ($500,000)"
+      "detail": "Gave to: Building a Better California ($3,493,982); California Back to Basics ($250,000)"
     },
     {
       "id": "LEVCHIN MAKSIM RAFAEL",
@@ -204,14 +196,6 @@
       "total": 3021883.55,
       "n_connections": 1,
       "detail": "Gave to: Building a Better California ($3,021,884)"
-    },
-    {
-      "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
-      "label": "Govern For California Action Committee",
-      "tier": "Funders",
-      "total": 3000000,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($3,000,000)"
     },
     {
       "id": "KARAM ANDREW",
@@ -230,20 +214,12 @@
       "detail": "Gave to: Building a Better California ($3,000,000)"
     },
     {
-      "id": "RICK CARUSO AND AFFILIATED ENTITIES",
-      "label": "Rick Caruso And Affiliated Entities",
-      "tier": "Funders",
-      "total": 3000000,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($3,000,000)"
-    },
-    {
       "id": "MALKA MEYER",
       "label": "Meyer Malka",
       "tier": "Funders",
-      "total": 3486173.77,
+      "total": 3236173.77,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($2,986,174); California Back to Basics ($500,000)"
+      "detail": "Gave to: Building a Better California ($2,986,174); California Back to Basics ($250,000)"
     },
     {
       "id": "COULTER JAMES",
@@ -278,30 +254,6 @@
       "detail": "Gave to: Building a Better California ($2,110,000)"
     },
     {
-      "id": "MERRILL ASHLEY",
-      "label": "Ashley Merrill",
-      "tier": "Funders",
-      "total": 2040000,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($2,040,000)"
-    },
-    {
-      "id": "BUCHHEIT PAUL",
-      "label": "Paul Buchheit",
-      "tier": "Funders",
-      "total": 2000000,
-      "n_connections": 1,
-      "detail": "Gave to: Deliver for California ($2,000,000)"
-    },
-    {
-      "id": "HASTINGS REED",
-      "label": "Reed Hastings",
-      "tier": "Funders",
-      "total": 2000000,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($2,000,000)"
-    },
-    {
       "id": "MARCUS GEORGE",
       "label": "George Marcus",
       "tier": "Funders",
@@ -313,9 +265,9 @@
       "id": "MEHTA NEIL",
       "label": "Neil Mehta",
       "tier": "Funders",
-      "total": 3999998,
+      "total": 2999999,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($2,000,000); California Back to Basics ($1,999,998)"
+      "detail": "Gave to: Building a Better California ($2,000,000); California Back to Basics ($999,999)"
     },
     {
       "id": "PARKER SEAN",
@@ -326,22 +278,6 @@
       "detail": "Gave to: Building a Better California ($2,000,000)"
     },
     {
-      "id": "SEIBEL MICHAEL",
-      "label": "Michael Seibel",
-      "tier": "Funders",
-      "total": 2000000,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($2,000,000)"
-    },
-    {
-      "id": "HUFFMAN STEVE",
-      "label": "Steve Huffman",
-      "tier": "Funders",
-      "total": 2101800.64,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,999,998); Building a Better California ($101,803)"
-    },
-    {
       "id": "EHRSAM III FREDERICK E",
       "label": "Frederick E Ehrsam III",
       "tier": "Funders",
@@ -350,20 +286,12 @@
       "detail": "Gave to: Building a Better California ($1,979,908)"
     },
     {
-      "id": "OBERNDORF WILLIAM E",
-      "label": "William E Oberndorf",
-      "tier": "Funders",
-      "total": 1686400,
-      "n_connections": 1,
-      "detail": "Gave to: California Back to Basics ($1,686,400)"
-    },
-    {
       "id": "REED ANDREW PHILLIPS",
       "label": "Andrew Phillips Reed",
       "tier": "Funders",
-      "total": 2575831.3,
+      "total": 2075831.3,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($1,575,831); California Back to Basics ($1,000,000)"
+      "detail": "Gave to: Building a Better California ($1,575,831); California Back to Basics ($500,000)"
     },
     {
       "id": "LAFFONT PHILIPPE",
@@ -390,36 +318,20 @@
       "detail": "Gave to: Building a Better California ($1,500,000)"
     },
     {
-      "id": "MAKAN DIVESH",
-      "label": "Divesh Makan",
+      "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
+      "label": "Govern for California Action Committee",
       "tier": "Funders",
-      "total": 2490479.52,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,500,000); Building a Better California ($990,480)"
+      "total": 1500000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($1,500,000)"
     },
     {
-      "id": "SINGERMAN BRIAN",
-      "label": "Brian Singerman",
+      "id": "RICK CARUSO AND AFFILIATED ENTITIES",
+      "label": "Rick Caruso and Affiliated Entities",
       "tier": "Funders",
-      "total": 2720818,
-      "n_connections": 3,
-      "detail": "Gave to: California Back to Basics ($1,500,000); Building a Better California ($720,818); Deliver for California ($500,000)"
-    },
-    {
-      "id": "BAKER JR G LEONARD",
-      "label": "G Leonard Baker JR",
-      "tier": "Funders",
-      "total": 1695829.84,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,300,000); Building a Better California ($395,830)"
-    },
-    {
-      "id": "BYERS BROOK",
-      "label": "Brook Byers",
-      "tier": "Funders",
-      "total": 2104393.67,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,100,000); Building a Better California ($1,004,394)"
+      "total": 1500000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($1,500,000)"
     },
     {
       "id": "PINCUS MARK",
@@ -430,44 +342,108 @@
       "detail": "Gave to: Building a Better California ($1,085,747)"
     },
     {
-      "id": "BYERS BLAKE",
-      "label": "Blake Byers",
+      "id": "TANEJA HEMANT",
+      "label": "Hemant Taneja",
       "tier": "Funders",
-      "total": 1200000,
-      "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,000,000); Deliver for California ($200,000)"
+      "total": 1047667.5,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,047,668)"
     },
     {
-      "id": "PRITZKER JOHN",
-      "label": "John Pritzker",
+      "id": "MERRILL ASHLEY",
+      "label": "Ashley Merrill",
       "tier": "Funders",
-      "total": 1250000,
+      "total": 1020000,
+      "n_connections": 1,
+      "detail": "Gave to: California Back to Basics ($1,020,000)"
+    },
+    {
+      "id": "FISHER ROBERT",
+      "label": "Robert Fisher",
+      "tier": "Funders",
+      "total": 1018105,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,018,105)"
+    },
+    {
+      "id": "HOUSTON ANDREW",
+      "label": "Andrew Houston",
+      "tier": "Funders",
+      "total": 1011644.36,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,011,644)"
+    },
+    {
+      "id": "BYERS BROOK",
+      "label": "Brook Byers",
+      "tier": "Funders",
+      "total": 1554393.67,
       "n_connections": 2,
-      "detail": "Gave to: California Back to Basics ($1,000,000); Building a Better California ($250,000)"
+      "detail": "Gave to: Building a Better California ($1,004,394); California Back to Basics ($550,000)"
+    },
+    {
+      "id": "MAGUIRE SHAUN",
+      "label": "Shaun Maguire",
+      "tier": "Funders",
+      "total": 1003329.11,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,003,329)"
+    },
+    {
+      "id": "HUFFMAN STEVE",
+      "label": "Steve Huffman",
+      "tier": "Funders",
+      "total": 1101801.64,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($999,999); Building a Better California ($101,803)"
+    },
+    {
+      "id": "MAKAN DIVESH",
+      "label": "Divesh Makan",
+      "tier": "Funders",
+      "total": 1490479.52,
+      "n_connections": 2,
+      "detail": "Gave to: Building a Better California ($990,480); California Back to Basics ($500,000)"
+    },
+    {
+      "id": "SINGERMAN BRIAN",
+      "label": "Brian Singerman",
+      "tier": "Funders",
+      "total": 1720818,
+      "n_connections": 3,
+      "detail": "Gave to: California Back to Basics ($750,000); Building a Better California ($720,818); Deliver for California ($250,000)"
+    },
+    {
+      "id": "BAKER JR G LEONARD",
+      "label": "G Leonard Baker JR",
+      "tier": "Funders",
+      "total": 1045829.84,
+      "n_connections": 2,
+      "detail": "Gave to: California Back to Basics ($650,000); Building a Better California ($395,830)"
     },
     {
       "id": "1483808",
       "label": "Grow California",
       "tier": "PACs",
-      "total": 54318568.89,
-      "n_connections": 21,
-      "detail": "Raised: $54,318,569 | Spent on IEs: $23,770,528 | Candidates/measures targeted: 18"
+      "total": 26027964.52,
+      "n_connections": 22,
+      "detail": "Raised: $26,027,965 | Spent on IEs: $23,770,528 | Candidates/measures targeted: 18"
     },
     {
       "id": "1478581",
       "label": "California Leads",
       "tier": "PACs",
-      "total": 28262079.14,
+      "total": 19200139.57,
       "n_connections": 16,
-      "detail": "Raised: $28,262,079 | Spent on IEs: $14,959,927 | Candidates/measures targeted: 14"
+      "detail": "Raised: $19,200,140 | Spent on IEs: $14,959,927 | Candidates/measures targeted: 14"
     },
     {
       "id": "1486767",
       "label": "Building a Better California",
       "tier": "PACs",
-      "total": 467844134.85,
-      "n_connections": 46,
-      "detail": "Raised: $467,844,135 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
+      "total": 366270534.52,
+      "n_connections": 48,
+      "detail": "Raised: $366,270,535 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
     },
     {
       "id": "1483390",
@@ -481,17 +457,17 @@
       "id": "1487425",
       "label": "California Back to Basics",
       "tier": "PACs",
-      "total": 54571558.58,
-      "n_connections": 23,
-      "detail": "Raised: $54,571,559 | Spent on IEs: $19,506,423 | Candidates/measures targeted: 1"
+      "total": 27040863.55,
+      "n_connections": 18,
+      "detail": "Raised: $27,040,864 | Spent on IEs: $19,506,423 | Candidates/measures targeted: 1"
     },
     {
       "id": "1488176",
       "label": "Deliver for California",
       "tier": "PACs",
-      "total": 6505063.21,
-      "n_connections": 5,
-      "detail": "Raised: $6,505,063 | Spent on IEs: $2,764,437 | Candidates/measures targeted: 1"
+      "total": 3272855.46,
+      "n_connections": 3,
+      "detail": "Raised: $3,272,855 | Spent on IEs: $2,764,437 | Candidates/measures targeted: 1"
     },
     {
       "id": "CAND|Measure: PROPOSITION 42",
@@ -905,15 +881,6 @@
       "label": "Contribution: $112,000,000"
     },
     {
-      "source": "Morgan Stanley",
-      "target": "1486767",
-      "amount": 101501869.05,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $101,501,869"
-    },
-    {
       "source": "1486767",
       "target": "CAND|Measure: PROPOSITION 41",
       "amount": 58350000,
@@ -950,24 +917,6 @@
       "label": "Contribution: $39,987,493"
     },
     {
-      "source": "LARSEN CHRIS",
-      "target": "1483808",
-      "amount": 36865749.36,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $36,865,749"
-    },
-    {
-      "source": "Google LLC",
-      "target": "1478581",
-      "amount": 21000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $21,000,000"
-    },
-    {
       "source": "1487425",
       "target": "CAND|MATT MAHAN",
       "amount": 19506423.49,
@@ -977,13 +926,13 @@
       "label": "Supports: $19,506,423"
     },
     {
-      "source": "DRAPER TIMOTHY",
+      "source": "LARSEN CHRIS",
       "target": "1483808",
-      "amount": 17000000,
+      "amount": 17966437.34,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
-      "label": "Contribution: $17,000,000"
+      "label": "Contribution: $17,966,437"
     },
     {
       "source": "Meta Platforms",
@@ -993,6 +942,15 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $17,000,000"
+    },
+    {
+      "source": "Google LLC",
+      "target": "1478581",
+      "amount": 13000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $13,000,000"
     },
     {
       "source": "KHOSLA VINOD",
@@ -1022,6 +980,15 @@
       "label": "Supports: $10,000,000"
     },
     {
+      "source": "DRAPER TIMOTHY",
+      "target": "1483808",
+      "amount": 8000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $8,000,000"
+    },
+    {
       "source": "MORITZ MICHAEL",
       "target": "1486767",
       "amount": 7500000,
@@ -1033,20 +1000,11 @@
     {
       "source": "Meta Platforms",
       "target": "1478581",
-      "amount": 7050000,
+      "amount": 6050000,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
-      "label": "Contribution: $7,050,000"
-    },
-    {
-      "source": "MORITZ MICHAEL",
-      "target": "1487425",
-      "amount": 6000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $6,000,000"
+      "label": "Contribution: $6,050,000"
     },
     {
       "source": "1486767",
@@ -1157,15 +1115,6 @@
       "label": "Contribution: $3,021,884"
     },
     {
-      "source": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
-      "target": "1487425",
-      "amount": 3000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $3,000,000"
-    },
-    {
       "source": "KARAM ANDREW",
       "target": "1486767",
       "amount": 3000000,
@@ -1184,7 +1133,7 @@
       "label": "Contribution: $3,000,000"
     },
     {
-      "source": "RICK CARUSO AND AFFILIATED ENTITIES",
+      "source": "MORITZ MICHAEL",
       "target": "1487425",
       "amount": 3000000,
       "type": "funder_pac",
@@ -1200,15 +1149,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $2,986,174"
-    },
-    {
-      "source": "COLLISON PATRICK",
-      "target": "1487425",
-      "amount": 2980000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,980,000"
     },
     {
       "source": "1478581",
@@ -1301,15 +1241,6 @@
       "label": "Opposes: $2,242,028"
     },
     {
-      "source": "KHOSLA VINOD",
-      "target": "1487425",
-      "amount": 2200000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,200,000"
-    },
-    {
       "source": "DUNLEVIE BRUCE",
       "target": "1486767",
       "amount": 2110000,
@@ -1317,51 +1248,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $2,110,000"
-    },
-    {
-      "source": "MERRILL ASHLEY",
-      "target": "1487425",
-      "amount": 2040000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,040,000"
-    },
-    {
-      "source": "BRIN SERGEY",
-      "target": "1488176",
-      "amount": 2000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,000,000"
-    },
-    {
-      "source": "BUCHHEIT PAUL",
-      "target": "1488176",
-      "amount": 2000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,000,000"
-    },
-    {
-      "source": "DOERR III L JOHN",
-      "target": "1487425",
-      "amount": 2000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,000,000"
-    },
-    {
-      "source": "HASTINGS REED",
-      "target": "1487425",
-      "amount": 2000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,000,000"
     },
     {
       "source": "MARCUS GEORGE",
@@ -1391,42 +1277,6 @@
       "label": "Contribution: $2,000,000"
     },
     {
-      "source": "SEIBEL MICHAEL",
-      "target": "1487425",
-      "amount": 2000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $2,000,000"
-    },
-    {
-      "source": "HUFFMAN STEVE",
-      "target": "1487425",
-      "amount": 1999998,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,999,998"
-    },
-    {
-      "source": "MEHTA NEIL",
-      "target": "1487425",
-      "amount": 1999998,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,999,998"
-    },
-    {
-      "source": "HERING JOHN",
-      "target": "1487425",
-      "amount": 1990000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,990,000"
-    },
-    {
       "source": "EHRSAM III FREDERICK E",
       "target": "1486767",
       "amount": 1979907.76,
@@ -1434,15 +1284,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $1,979,908"
-    },
-    {
-      "source": "OBERNDORF WILLIAM E",
-      "target": "1487425",
-      "amount": 1686400,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,686,400"
     },
     {
       "source": "REED ANDREW PHILLIPS",
@@ -1481,7 +1322,7 @@
       "label": "Contribution: $1,500,000"
     },
     {
-      "source": "MAKAN DIVESH",
+      "source": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
       "target": "1487425",
       "amount": 1500000,
       "type": "funder_pac",
@@ -1490,7 +1331,7 @@
       "label": "Contribution: $1,500,000"
     },
     {
-      "source": "SINGERMAN BRIAN",
+      "source": "RICK CARUSO AND AFFILIATED ENTITIES",
       "target": "1487425",
       "amount": 1500000,
       "type": "funder_pac",
@@ -1506,6 +1347,15 @@
       "sup_opp": "O",
       "edge_kind": "Opposes candidate",
       "label": "Opposes: $1,490,767"
+    },
+    {
+      "source": "COLLISON PATRICK",
+      "target": "1487425",
+      "amount": 1490000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,490,000"
     },
     {
       "source": "1483808",
@@ -1544,15 +1394,6 @@
       "label": "Supports: $1,302,055"
     },
     {
-      "source": "BAKER JR G LEONARD",
-      "target": "1487425",
-      "amount": 1300000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,300,000"
-    },
-    {
       "source": "1478581",
       "target": "CAND|Mark Pulido",
       "amount": 1260592.27,
@@ -1562,7 +1403,7 @@
       "label": "Supports: $1,260,592"
     },
     {
-      "source": "BYERS BROOK",
+      "source": "KHOSLA VINOD",
       "target": "1487425",
       "amount": 1100000,
       "type": "funder_pac",
@@ -1598,6 +1439,15 @@
       "label": "Supports: $1,057,110"
     },
     {
+      "source": "TANEJA HEMANT",
+      "target": "1486767",
+      "amount": 1047667.5,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,047,668"
+    },
+    {
       "source": "1483808",
       "target": "CAND|Scott Sakakihara",
       "amount": 1039940,
@@ -1605,6 +1455,33 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $1,039,940"
+    },
+    {
+      "source": "MERRILL ASHLEY",
+      "target": "1487425",
+      "amount": 1020000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,020,000"
+    },
+    {
+      "source": "FISHER ROBERT",
+      "target": "1486767",
+      "amount": 1018105,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,018,105"
+    },
+    {
+      "source": "HOUSTON ANDREW",
+      "target": "1486767",
+      "amount": 1011644.36,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,011,644"
     },
     {
       "source": "1478581",
@@ -1625,8 +1502,17 @@
       "label": "Contribution: $1,004,394"
     },
     {
-      "source": "BYERS BLAKE",
-      "target": "1487425",
+      "source": "MAGUIRE SHAUN",
+      "target": "1486767",
+      "amount": 1003329.11,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,003,329"
+    },
+    {
+      "source": "BRIN SERGEY",
+      "target": "1488176",
       "amount": 1000000,
       "type": "funder_pac",
       "sup_opp": "",
@@ -1634,16 +1520,7 @@
       "label": "Contribution: $1,000,000"
     },
     {
-      "source": "PRITZKER JOHN",
-      "target": "1487425",
-      "amount": 1000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,000,000"
-    },
-    {
-      "source": "REED ANDREW PHILLIPS",
+      "source": "DOERR III L JOHN",
       "target": "1487425",
       "amount": 1000000,
       "type": "funder_pac",
@@ -1661,6 +1538,24 @@
       "label": "Supports: $1,000,000"
     },
     {
+      "source": "HUFFMAN STEVE",
+      "target": "1487425",
+      "amount": 999999,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $999,999"
+    },
+    {
+      "source": "MEHTA NEIL",
+      "target": "1487425",
+      "amount": 999999,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $999,999"
+    },
+    {
       "source": "1483390",
       "target": "CAND|Xavier Becerra",
       "amount": 999066,
@@ -1668,6 +1563,15 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $999,066"
+    },
+    {
+      "source": "HERING JOHN",
+      "target": "1487425",
+      "amount": 995000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $995,000"
     },
     {
       "source": "MAKAN DIVESH",
@@ -1725,12 +1629,30 @@
     },
     {
       "source": "SINGERMAN BRIAN",
+      "target": "1487425",
+      "amount": 750000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $750,000"
+    },
+    {
+      "source": "SINGERMAN BRIAN",
       "target": "1486767",
       "amount": 720818,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $720,818"
+    },
+    {
+      "source": "BAKER JR G LEONARD",
+      "target": "1487425",
+      "amount": 650000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $650,000"
     },
     {
       "source": "1483808",
@@ -1751,16 +1673,16 @@
       "label": "Supports: $622,570"
     },
     {
-      "source": "1487425",
-      "target": "1488176",
-      "amount": 565310.92,
-      "type": "pac_pac",
+      "source": "BYERS BROOK",
+      "target": "1487425",
+      "amount": 550000,
+      "type": "funder_pac",
       "sup_opp": "",
-      "edge_kind": "PAC to PAC",
-      "label": "Transfer: $565,311"
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $550,000"
     },
     {
-      "source": "MALKA MEYER",
+      "source": "MAKAN DIVESH",
       "target": "1487425",
       "amount": 500000,
       "type": "funder_pac",
@@ -1769,16 +1691,7 @@
       "label": "Contribution: $500,000"
     },
     {
-      "source": "SINGERMAN BRIAN",
-      "target": "1488176",
-      "amount": 500000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $500,000"
-    },
-    {
-      "source": "XU TONY",
+      "source": "REED ANDREW PHILLIPS",
       "target": "1487425",
       "amount": 500000,
       "type": "funder_pac",
@@ -1832,6 +1745,15 @@
       "label": "Opposes: $343,920"
     },
     {
+      "source": "1487425",
+      "target": "1488176",
+      "amount": 282655.46,
+      "type": "pac_pac",
+      "sup_opp": "",
+      "edge_kind": "PAC to PAC",
+      "label": "Transfer: $282,655"
+    },
+    {
       "source": "1483390",
       "target": "CAND|Rick Chavez Zbur",
       "amount": 281763.48,
@@ -1868,8 +1790,8 @@
       "label": "Supports: $272,439"
     },
     {
-      "source": "PRITZKER JOHN",
-      "target": "1486767",
+      "source": "MALKA MEYER",
+      "target": "1487425",
       "amount": 250000,
       "type": "funder_pac",
       "sup_opp": "",
@@ -1877,13 +1799,22 @@
       "label": "Contribution: $250,000"
     },
     {
-      "source": "BYERS BLAKE",
+      "source": "SINGERMAN BRIAN",
       "target": "1488176",
-      "amount": 200000,
+      "amount": 250000,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
-      "label": "Contribution: $200,000"
+      "label": "Contribution: $250,000"
+    },
+    {
+      "source": "XU TONY",
+      "target": "1487425",
+      "amount": 250000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $250,000"
     },
     {
       "source": "1483808",
@@ -1931,15 +1862,6 @@
       "label": "Contribution: $101,803"
     },
     {
-      "source": "1488176",
-      "target": "1487425",
-      "amount": 96131.1,
-      "type": "pac_pac",
-      "sup_opp": "",
-      "edge_kind": "PAC to PAC",
-      "label": "Transfer: $96,131"
-    },
-    {
       "source": "1478581",
       "target": "CAND|Avelino Valencia",
       "amount": 72570,
@@ -1947,13 +1869,22 @@
       "sup_opp": "S",
       "edge_kind": "Supports candidate",
       "label": "Supports: $72,570"
+    },
+    {
+      "source": "1488176",
+      "target": "1487425",
+      "amount": 60565.55,
+      "type": "pac_pac",
+      "sup_opp": "",
+      "edge_kind": "PAC to PAC",
+      "label": "Transfer: $60,566"
     }
   ],
   "sheets": {
     "1483808": {
       "type": "pac",
       "name": "Grow California",
-      "raised": 54318568.89,
+      "raised": 26027964.52,
       "spent": 23770527.55,
       "mission": "Grow California [says its mission](https://www.growcalifornia.org/) is to \"help California perform at its best for everyone who lives here,\" with a state government that works for everyday Californians, \"not insiders or ideology.\" It says its priorities are affordable housing, safe streets, economic competitiveness, results-based public spending and \"principled, bipartisan legislative leadership\". Chris Larsen and Tim Draper launched it as a [\"counterforce\"](https://www.sfexaminer.com/crypto-billionaires-try-to-build-a-moderate-counterforce-in-california-politics/article_47632d6a-d752-50dc-8abe-4f13b12b37a5.html) to labor unions. \"We've got to fight on par with the unions when they're proposing stupid, job-killing ideas like the San Francisco CEO tax,\" Larsen [said](https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech) at a March 2026 event. He has said the group will stay in for the long haul: \"If it takes a couple of cycles, fine.\"",
       "spending": [
@@ -2082,31 +2013,25 @@
         {
           "id": "LARSEN CHRIS",
           "name": "Chris Larsen",
-          "amount": 36865749.36,
+          "amount": 17966437.34,
           "dir": ""
         },
         {
           "id": "DRAPER TIMOTHY",
           "name": "Timothy Draper",
-          "amount": 17000000,
-          "dir": ""
-        },
-        {
-          "id": "BANK OF MARIN",
-          "name": "Of Marin Bank",
-          "amount": 325397.83,
-          "dir": ""
-        },
-        {
-          "id": "742855",
-          "name": "742855",
-          "amount": 106108.72,
+          "amount": 8000000,
           "dir": ""
         },
         {
           "id": "GARY'S LIST ACTION",
           "name": "Gary's List Action",
           "amount": 35000,
+          "dir": ""
+        },
+        {
+          "id": "California Dental Association PAC",
+          "name": "California Dental Association PAC",
+          "amount": 26527.18,
           "dir": ""
         },
         {
@@ -2114,51 +2039,45 @@
           "name": "Grow California Inc.",
           "amount": 0,
           "dir": ""
-        },
-        {
-          "id": "COINBASE INC",
-          "name": "Coinbase Inc.",
-          "amount": -13687.02,
-          "dir": ""
         }
       ],
       "top_funders": [
         {
           "id": "LARSEN CHRIS",
           "name": "Chris Larsen",
-          "amount": 36865749.36,
+          "amount": 17966437.34,
           "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)"
         },
         {
           "id": "DRAPER TIMOTHY",
           "name": "Timothy Draper",
-          "amount": 17000000,
+          "amount": 8000000,
           "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor"
-        },
-        {
-          "id": "BANK OF MARIN",
-          "name": "Of Marin Bank",
-          "amount": 325397.83,
-          "industry": ""
-        },
-        {
-          "id": "742855",
-          "name": "742855",
-          "amount": 106108.72,
-          "industry": ""
         },
         {
           "id": "GARY'S LIST ACTION",
           "name": "Gary's List Action",
           "amount": 35000,
           "industry": "[Political arm of Y Combinator CEO Garry Tan's Garry's List](https://missionlocal.org/2026/02/sf-garry-tan-california-politics-garrys-list/)"
+        },
+        {
+          "id": "California Dental Association PAC",
+          "name": "California Dental Association PAC",
+          "amount": 26527.18,
+          "industry": ""
+        },
+        {
+          "id": "GROW CALIFORNIA INC",
+          "name": "Grow California Inc.",
+          "amount": 0,
+          "industry": "[Affiliated nonprofit of Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) (internal transfer, $0 net)"
         }
       ]
     },
     "1478581": {
       "type": "pac",
       "name": "California Leads",
-      "raised": 28262079.14,
+      "raised": 19200139.57,
       "spent": 14959926.97,
       "mission": "California Leads is a super PAC for state legislative races, built on the idea that [\"who serves in the State Legislature matters.\"](https://californialeads.com/) It says it backs candidates with a \"practical, forward-looking approach to public service\" who prioritize innovation and economic growth, and lists Meta, Google and SV Angel as its top funders. At its launch, spokesperson Nathan Click, a longtime Newsom adviser, [said](https://www.yahoo.com/news/articles/california-super-pac-debuts-10m-135500673.html) \"the stakes couldn't be higher for California in 2026\" and that the funding companies would have no role in choosing races. Google and Meta did not comment on why they funded it.",
       "spending": [
@@ -2251,13 +2170,13 @@
         {
           "id": "Google LLC",
           "name": "Google LLC",
-          "amount": 21000000,
+          "amount": 13000000,
           "dir": ""
         },
         {
           "id": "Meta Platforms",
           "name": "Meta Platforms",
-          "amount": 7050000,
+          "amount": 6050000,
           "dir": ""
         },
         {
@@ -2268,20 +2187,14 @@
         },
         {
           "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
-          "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
-          "amount": 58876.96,
+          "name": "Housing Providers for Responsible Solutions, Sponsored By Housing Providers",
+          "amount": 29438.48,
           "dir": ""
         },
         {
           "id": "KEEP CALIFORNIA GOLDEN",
-          "name": "California Golden Keep",
-          "amount": 41402.18,
-          "dir": ""
-        },
-        {
-          "id": "UPTOWN STRATEGIES LLC",
-          "name": "Uptown Strategies LLC",
-          "amount": 11800,
+          "name": "Keep California Golden",
+          "amount": 20701.09,
           "dir": ""
         }
       ],
@@ -2289,13 +2202,13 @@
         {
           "id": "Google LLC",
           "name": "Google LLC",
-          "amount": 21000000,
+          "amount": 13000000,
           "industry": "Alphabet subsidiary behind Google Search, ads, cloud and Gemini AI"
         },
         {
           "id": "Meta Platforms",
           "name": "Meta Platforms",
-          "amount": 7050000,
+          "amount": 6050000,
           "industry": "Owner of Facebook, Instagram and WhatsApp and developer of Llama AI models"
         },
         {
@@ -2306,14 +2219,14 @@
         },
         {
           "id": "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS",
-          "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
-          "amount": 58876.96,
+          "name": "Housing Providers for Responsible Solutions, Sponsored By Housing Providers",
+          "amount": 29438.48,
           "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)"
         },
         {
           "id": "KEEP CALIFORNIA GOLDEN",
-          "name": "California Golden Keep",
-          "amount": 41402.18,
+          "name": "Keep California Golden",
+          "amount": 20701.09,
           "industry": ""
         }
       ]
@@ -2321,7 +2234,7 @@
     "1486767": {
       "type": "pac",
       "name": "Building a Better California",
-      "raised": 467844134.85,
+      "raised": 366270534.52,
       "spent": 324750000,
       "mission": "Building a Better California describes itself as a nonprofit whose [mission](http://buildingabetterca.org/) is \"to improve affordability and quality of life for all Californians,\" and says its priorities are middle-class housing, \"stable funding for public education,\" more transparency from state programs and \"protecting innovation.\" Sergey Brin [launched it](https://fortune.com/2026/01/29/sergey-brin-biggest-donation-ever-california-housing-billionaire-tax-moving-to-nevada) in January 2026 with Eric Schmidt and Michael Moritz, and nearly all of its spending went to fighting the billionaire tax. A spokesperson [said](https://missionlocal.org/2026/08/california-billionaire-tax-sergey-brin-prop-40/) Prop 40 \"will create a permanent hole in the state budget,\" leaving \"less money for schools, public safety, and healthcare.\" An adviser to Schmidt told Fortune that defeating the tax is his [\"only current involvement in politics.\"](https://fortune.com/2026/11/02/sergey-brin-political-102-million-prop-40-billionaire/)",
       "spending": [
@@ -2373,12 +2286,6 @@
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
           "amount": 112000000,
-          "dir": ""
-        },
-        {
-          "id": "Morgan Stanley",
-          "name": "Morgan Stanley",
-          "amount": 101501869.05,
           "dir": ""
         },
         {
@@ -2814,12 +2721,6 @@
           "dir": ""
         },
         {
-          "id": "BANK OF MARIN",
-          "name": "Of Marin Bank",
-          "amount": 124663.66,
-          "dir": ""
-        },
-        {
           "id": "HUFFMAN STEVE",
           "name": "Steve Huffman",
           "amount": 101802.64,
@@ -2902,18 +2803,6 @@
           "name": "Ken Goldman",
           "amount": 11847,
           "dir": ""
-        },
-        {
-          "id": "BUILDING A BETTER CALIFORNIA INCORPORATED NON REPORTABLE ACCOUNT",
-          "name": "Building A Better California Incorporated Non Reportable Account",
-          "amount": 0,
-          "dir": ""
-        },
-        {
-          "id": "COINBASE INC FBO ITS CUSTOMERS",
-          "name": "Coinbase Inc. Fbo Its Customers",
-          "amount": -52932.38,
-          "dir": ""
         }
       ],
       "top_funders": [
@@ -2922,12 +2811,6 @@
           "name": "Sergey Brin",
           "amount": 112000000,
           "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
-        },
-        {
-          "id": "Morgan Stanley",
-          "name": "Morgan Stanley",
-          "amount": 101501869.05,
-          "industry": ""
         },
         {
           "id": "SCHMIDT ERIC",
@@ -2946,6 +2829,12 @@
           "name": "Patrick Collison",
           "amount": 39987492.63,
           "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)"
+        },
+        {
+          "id": "KHOSLA VINOD",
+          "name": "Vinod Khosla",
+          "amount": 12561504,
+          "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder"
         }
       ]
     },
@@ -3013,7 +2902,7 @@
     "1487425": {
       "type": "pac",
       "name": "California Back to Basics",
-      "raised": 54571558.58,
+      "raised": 27040863.55,
       "spent": 19506423.49,
       "mission": "Independent expenditure committee [supporting Matt Mahan for governor](https://www.sanjoseinside.com/news/california-back-to-basics-aired-this-pro-mahan-super-bowl-ad/). Its namesake group, launched by veterans of Mahan's San Jose mayoral campaign, [says it exists](https://backtobasicssj.com/about-us/) to \"support a back-to-basics agenda\": addressing homelessness, \"getting smarter about fighting crime,\" cleaner streets and an economy that works for everyone, and to balance budgets \"by growing our tax base, rather than simply increasing taxes.\" David Crane, president of $3 million donor Govern for California, [said](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/): \"We are 100% focused on getting more Californians to know Matt, because if Californians get to know him, he wins.\"",
       "spending": [
@@ -3026,7 +2915,7 @@
         {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 565310.92,
+          "amount": 282655.46,
           "dir": "transfer"
         }
       ],
@@ -3034,331 +2923,313 @@
         {
           "id": "MORITZ MICHAEL",
           "name": "Michael Moritz",
-          "amount": 6000000,
+          "amount": 3000000,
           "dir": ""
         },
         {
           "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
-          "name": "Govern For California Action Committee",
-          "amount": 3000000,
+          "name": "Govern for California Action Committee",
+          "amount": 1500000,
           "dir": ""
         },
         {
           "id": "RICK CARUSO AND AFFILIATED ENTITIES",
-          "name": "Rick Caruso And Affiliated Entities",
-          "amount": 3000000,
+          "name": "Rick Caruso and Affiliated Entities",
+          "amount": 1500000,
           "dir": ""
         },
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
-          "amount": 2980000,
+          "amount": 1490000,
           "dir": ""
         },
         {
           "id": "KHOSLA VINOD",
           "name": "Vinod Khosla",
-          "amount": 2200000,
+          "amount": 1100000,
           "dir": ""
         },
         {
           "id": "MERRILL ASHLEY",
           "name": "Ashley Merrill",
-          "amount": 2040000,
+          "amount": 1020000,
           "dir": ""
         },
         {
           "id": "DOERR III L JOHN",
           "name": "L John Doerr III",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         },
         {
           "id": "HASTINGS REED",
           "name": "Reed Hastings",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         },
         {
           "id": "SEIBEL MICHAEL",
           "name": "Michael Seibel",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         },
         {
           "id": "HUFFMAN STEVE",
           "name": "Steve Huffman",
-          "amount": 1999998,
+          "amount": 999999,
           "dir": ""
         },
         {
           "id": "MEHTA NEIL",
           "name": "Neil Mehta",
-          "amount": 1999998,
+          "amount": 999999,
           "dir": ""
         },
         {
           "id": "HERING JOHN",
           "name": "John Hering",
-          "amount": 1990000,
+          "amount": 995000,
           "dir": ""
         },
         {
           "id": "OBERNDORF WILLIAM E",
           "name": "William E Oberndorf",
-          "amount": 1686400,
-          "dir": ""
-        },
-        {
-          "id": "MAKAN DIVESH",
-          "name": "Divesh Makan",
-          "amount": 1500000,
+          "amount": 843200,
           "dir": ""
         },
         {
           "id": "SINGERMAN BRIAN",
           "name": "Brian Singerman",
-          "amount": 1500000,
+          "amount": 750000,
           "dir": ""
         },
         {
           "id": "BAKER JR G LEONARD",
           "name": "G Leonard Baker JR",
-          "amount": 1300000,
+          "amount": 650000,
           "dir": ""
         },
         {
           "id": "BYERS BROOK",
           "name": "Brook Byers",
-          "amount": 1100000,
+          "amount": 550000,
           "dir": ""
         },
         {
           "id": "ARMSTRONG BRIAN",
           "name": "Brian Armstrong",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "BYERS BLAKE",
           "name": "Blake Byers",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "COOK DAVID SCOTT",
           "name": "David Scott Cook",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "HARSH V GRIFFITH RUTHERFORD",
           "name": "Griffith Rutherford Harsh V",
-          "amount": 1000000,
+          "amount": 500000,
+          "dir": ""
+        },
+        {
+          "id": "MAKAN DIVESH",
+          "name": "Divesh Makan",
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "OSTBY HELEN SIGNE",
           "name": "Helen Signe Ostby",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "PRITZKER JOHN",
           "name": "John Pritzker",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "REED ANDREW PHILLIPS",
           "name": "Andrew Phillips Reed",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "WANSTRATH CHRIS",
           "name": "Chris Wanstrath",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "WANSTRATH NINA",
           "name": "Nina Wanstrath",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         },
         {
           "id": "WARREN E SPIEKER JR INCLUDING SPIEKER REALTY INVESTMENTS",
           "name": "Warren E Spieker Jr Including Spieker Realty Investments",
-          "amount": 600000,
+          "amount": 300000,
           "dir": ""
         },
         {
           "id": "BOYERS MICHELLE",
           "name": "Michelle Boyers",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "DOORDASH INC",
           "name": "Doordash Inc.",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "FUSHMAN ILYA",
           "name": "Ilya Fushman",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "MALKA MEYER",
           "name": "Meyer Malka",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "PRITZKER NICHOLAS",
           "name": "Nicholas Pritzker",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "WALSH DIANA RUTH",
           "name": "Diana Ruth Walsh",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "WOLF RICHARD",
           "name": "Richard Wolf",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "XU TONY",
           "name": "Tony Xu",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "MARQUARDT DAVID",
           "name": "David Marquardt",
-          "amount": 400000,
+          "amount": 200000,
           "dir": ""
         },
         {
           "id": "TINSLEY RICHARD",
           "name": "Richard Tinsley",
-          "amount": 400000,
+          "amount": 200000,
           "dir": ""
         },
         {
           "id": "WACHTER PAUL",
           "name": "Paul Wachter",
-          "amount": 300000,
+          "amount": 150000,
           "dir": ""
         },
         {
           "id": "LIEW JEREMY",
           "name": "Jeremy Liew",
-          "amount": 250000,
+          "amount": 125000,
           "dir": ""
         },
         {
           "id": "ATWATER JOHN",
           "name": "John Atwater",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         },
         {
           "id": "RESNICK JOSHUA",
           "name": "Joshua Resnick",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         },
         {
           "id": "RODAN AMNON",
           "name": "Amnon Rodan",
-          "amount": 150000,
-          "dir": ""
-        },
-        {
-          "id": "BUTCHER C PRESTON",
-          "name": "C Preston Butcher",
-          "amount": 100000,
-          "dir": ""
-        },
-        {
-          "id": "HOCKEY WILLIAM",
-          "name": "William Hockey",
-          "amount": 100000,
-          "dir": ""
-        },
-        {
-          "id": "PATTERSON ARTHUR",
-          "name": "Arthur Patterson",
-          "amount": 100000,
-          "dir": ""
-        },
-        {
-          "id": "RAVITCH JOSEPH",
-          "name": "Joseph Ravitch",
-          "amount": 100000,
-          "dir": ""
-        },
-        {
-          "id": "RAVITCH SONYA",
-          "name": "Sonya Ravitch",
-          "amount": 100000,
-          "dir": ""
-        },
-        {
-          "id": "VAN KONYNENBURG DERK MICHAEL",
-          "name": "Konynenburg Derk Michael Van",
-          "amount": 100000,
+          "amount": 75000,
           "dir": ""
         },
         {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 96131.1,
+          "amount": 60565.55,
           "dir": "transfer"
         },
         {
-          "id": "MAPLEBEAR INC DBA INSTACART",
-          "name": "Maplebear Inc. Dba Instacart",
+          "id": "BUTCHER C PRESTON",
+          "name": "C Preston Butcher",
           "amount": 50000,
           "dir": ""
         },
         {
-          "id": "BANK OF MARIN",
-          "name": "Of Marin Bank",
-          "amount": 14831.48,
+          "id": "HOCKEY WILLIAM",
+          "name": "William Hockey",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "PATTERSON ARTHUR",
+          "name": "Arthur Patterson",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "RAVITCH JOSEPH",
+          "name": "Joseph Ravitch",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "RAVITCH SONYA",
+          "name": "Sonya Ravitch",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "VAN KONYNENBURG DERK MICHAEL",
+          "name": "Konynenburg Derk Michael Van",
+          "amount": 50000,
+          "dir": ""
+        },
+        {
+          "id": "MAPLEBEAR INC DBA INSTACART",
+          "name": "Maplebear Inc. Dba Instacart",
+          "amount": 25000,
           "dir": ""
         },
         {
           "id": "CONTE JEAN PIERRE",
           "name": "Jean Pierre Conte",
-          "amount": 14000,
+          "amount": 7000,
           "dir": ""
         },
         {
           "id": "KINNEY ANNA",
           "name": "Anna Kinney",
-          "amount": 200,
-          "dir": ""
-        },
-        {
-          "id": "MERRILL KATIE",
-          "name": "Katie Merrill",
-          "amount": 0,
-          "dir": ""
-        },
-        {
-          "id": "MERRILL STEVEN",
-          "name": "Steven Merrill",
-          "amount": 0,
+          "amount": 100,
           "dir": ""
         }
       ],
@@ -3366,31 +3237,31 @@
         {
           "id": "MORITZ MICHAEL",
           "name": "Michael Moritz",
-          "amount": 6000000,
+          "amount": 3000000,
           "industry": "[Venture capitalist](https://www.forbes.com/profile/michael-moritz/) and longtime Sequoia Capital partner"
         },
         {
           "id": "GOVERN FOR CALIFORNIA ACTION COMMITTEE",
-          "name": "Govern For California Action Committee",
-          "amount": 3000000,
+          "name": "Govern for California Action Committee",
+          "amount": 1500000,
           "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers"
         },
         {
           "id": "RICK CARUSO AND AFFILIATED ENTITIES",
-          "name": "Rick Caruso And Affiliated Entities",
-          "amount": 3000000,
+          "name": "Rick Caruso and Affiliated Entities",
+          "amount": 1500000,
           "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)"
         },
         {
           "id": "COLLISON PATRICK",
           "name": "Patrick Collison",
-          "amount": 2980000,
+          "amount": 1490000,
           "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)"
         },
         {
           "id": "KHOSLA VINOD",
           "name": "Vinod Khosla",
-          "amount": 2200000,
+          "amount": 1100000,
           "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder"
         }
       ]
@@ -3398,7 +3269,7 @@
     "1488176": {
       "type": "pac",
       "name": "Deliver for California",
-      "raised": 6505063.21,
+      "raised": 3272855.46,
       "spent": 2764437.25,
       "mission": "Deliver for California is an independent expenditure committee [registered](https://fullertonobserver.com/2026/05/05/follow-money-ca-governors-race-2026/) as \"Deliver for California - Matt Mahan for Governor 2026.\" It raised nearly $3.3 million from January through mid-April 2026, including [$1 million from Sergey Brin](https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech) (Brin gave $2 million in all, per Cal-Access), and [shut down in May](https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections). Tech donors to Mahan's campaign told the Los Angeles Times their support was not about tech policy. Ring founder Jamie Siminoff called Mahan \"a nice, pragmatic, sort of centrist person\" who \"wants to make California better.\" Former Facebook engineer Ruchi Sanghvi said, \"He cares about measurable outcomes.\" Brin did not respond to the Times' request for comment.",
       "spending": [
@@ -3411,7 +3282,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 96131.1,
+          "amount": 60565.55,
           "dir": "transfer"
         }
       ],
@@ -3419,78 +3290,78 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         },
         {
           "id": "BUCHHEIT PAUL",
           "name": "Paul Buchheit",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         },
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 565310.92,
+          "amount": 282655.46,
           "dir": "transfer"
         },
         {
           "id": "SINGERMAN BRIAN",
           "name": "Brian Singerman",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         },
         {
           "id": "GARY FILIZETTI",
           "name": "Filizetti Gary",
-          "amount": 480000,
+          "amount": 240000,
           "dir": ""
         },
         {
           "id": "BOYERS MICHELLE",
           "name": "Michelle Boyers",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         },
         {
           "id": "BYERS BLAKE",
           "name": "Blake Byers",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         },
         {
           "id": "PRITZKER NICHOLAS",
           "name": "Nicholas Pritzker",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         },
         {
           "id": "FRANTZ EUGENE",
           "name": "Eugene Frantz",
-          "amount": 100000,
+          "amount": 50000,
           "dir": ""
         },
         {
           "id": "TED SCHLEIN",
           "name": "Schlein Ted",
-          "amount": 90000,
-          "dir": ""
-        },
-        {
-          "id": "CRAWFORD GORDON",
-          "name": "Gordon Crawford",
-          "amount": 50000,
-          "dir": ""
-        },
-        {
-          "id": "RODAN AMNON",
-          "name": "Amnon Rodan",
-          "amount": 50000,
+          "amount": 45000,
           "dir": ""
         },
         {
           "id": "CLARK JAMES RYAN",
           "name": "James Ryan Clark",
+          "amount": 25000,
+          "dir": ""
+        },
+        {
+          "id": "CRAWFORD GORDON",
+          "name": "Gordon Crawford",
+          "amount": 25000,
+          "dir": ""
+        },
+        {
+          "id": "RODAN AMNON",
+          "name": "Amnon Rodan",
           "amount": 25000,
           "dir": ""
         },
@@ -3503,19 +3374,7 @@
         {
           "id": "MILLS PATRICIA",
           "name": "Patricia Mills",
-          "amount": 10000,
-          "dir": ""
-        },
-        {
-          "id": "THEMATIC CAMPAIGNS LLC",
-          "name": "Thematic Campaigns LLC",
-          "amount": 8882.5,
-          "dir": ""
-        },
-        {
-          "id": "BANK OF MARIN",
-          "name": "Of Marin Bank",
-          "amount": 669.79,
+          "amount": 5000,
           "dir": ""
         },
         {
@@ -3535,31 +3394,31 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 2000000,
+          "amount": 1000000,
           "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
         },
         {
           "id": "BUCHHEIT PAUL",
           "name": "Paul Buchheit",
-          "amount": 2000000,
+          "amount": 1000000,
           "industry": "[Creator of Gmail](https://case.edu/bicentennial/history/our-stories/paul-buchheit-cwr-98-grs-98-computer-engineering), FriendFeed cofounder and Y Combinator partner emeritus"
         },
         {
           "id": "SINGERMAN BRIAN",
           "name": "Brian Singerman",
-          "amount": 500000,
+          "amount": 250000,
           "industry": "[Silicon Valley venture capitalist](https://www.forbes.com/profile/brian-singerman/) and partner emeritus at Peter Thiel's Founders Fund"
         },
         {
           "id": "GARY FILIZETTI",
           "name": "Filizetti Gary",
-          "amount": 480000,
+          "amount": 240000,
           "industry": "[President of Devcon Construction](https://www.devcon-const.com/management/gary-filizetti), a Silicon Valley design-build contractor"
         },
         {
           "id": "BOYERS MICHELLE",
           "name": "Michelle Boyers",
-          "amount": 200000,
+          "amount": 100000,
           "industry": ""
         }
       ]
@@ -3567,7 +3426,7 @@
     "BRIN SERGEY": {
       "type": "funder",
       "name": "Sergey Brin",
-      "total": 114000000,
+      "total": 113000000,
       "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member",
       "net_worth": "[$217.2 billion](https://www.forbes.com/profile/sergey-brin/), Forbes real-time estimate as of Oct. 29, 2026",
       "politics": "Brin had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. He spent [$500,000 against San Francisco's \"Overpaid CEO\" tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/), which was rejected by voters in June 2026. He [moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025 in reaction to Prop 40. He equated the tax with the Soviet Union, where he grew up, saying, \"I don't want California to end up in the same place.\"",
@@ -3581,23 +3440,7 @@
         {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 2000000,
-          "dir": ""
-        }
-      ]
-    },
-    "Morgan Stanley": {
-      "type": "funder",
-      "name": "Morgan Stanley",
-      "total": 101501869.05,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 101501869.05,
+          "amount": 1000000,
           "dir": ""
         }
       ]
@@ -3621,7 +3464,7 @@
     "DOERR III L JOHN": {
       "type": "funder",
       "name": "L John Doerr III",
-      "total": 42000000,
+      "total": 41000000,
       "industry": "[Chairman of venture firm Kleiner Perkins](https://www.forbes.com/profile/john-doerr/)",
       "net_worth": "[$21.6 billion](https://www.forbes.com/profile/john-doerr/), Forbes real-time estimate as of Oct. 26, 2026",
       "politics": "Doerr is a longtime Democratic fundraiser who has given [over $8 million to federal candidates and PACs](https://www.influencewatch.org/person/john-doerr/) since 1982 and served on President Obama's Economic Recovery Advisory Board. He co-chaired California's Prop 39 and Prop 71 campaigns.",
@@ -3635,7 +3478,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 2000000,
+          "amount": 1000000,
           "dir": ""
         }
       ]
@@ -3643,7 +3486,7 @@
     "COLLISON PATRICK": {
       "type": "funder",
       "name": "Patrick Collison",
-      "total": 42967492.63,
+      "total": 41477492.63,
       "industry": "[Cofounder and CEO of Stripe (online payments)](https://www.forbes.com/profile/patrick-collison/)",
       "net_worth": "[$17.5 billion](https://www.forbes.com/profile/patrick-collison/), Forbes real-time estimate as of Nov. 2, 2026",
       "politics": "Collison gave [about $33 million to Building a Better California](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) and [nearly $1.5 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026, and has voiced frustration with the billionaire tax.",
@@ -3657,7 +3500,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 2980000,
+          "amount": 1490000,
           "dir": ""
         }
       ]
@@ -3665,7 +3508,7 @@
     "LARSEN CHRIS": {
       "type": "funder",
       "name": "Chris Larsen",
-      "total": 49377594.16,
+      "total": 30478282.14,
       "industry": "[Ripple cofounder](https://www.forbes.com/profile/chris-larsen/) (crypto payments)",
       "net_worth": "[$8.4 billion](https://www.forbes.com/profile/chris-larsen/), Forbes real-time estimate as of Nov. 2, 2026",
       "politics": "Larsen is a longtime Democratic donor. He gave $5 million with Tim Draper to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions) in September 2025 to counter union influence and back business-friendly legislators. He gave [about $28 million of his own money](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) to state and local races in 2026, including support for Scott Sakakihara through Grow California, and [$5 million to Golden State Promise](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), a committee opposing the wealth tax. With Ripple, he gave [$65.7 million in federal races](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle, with much of it going to the crypto super PAC Fairshake.",
@@ -3673,7 +3516,7 @@
         {
           "id": "1483808",
           "name": "Grow California",
-          "amount": 36865749.36,
+          "amount": 17966437.34,
           "dir": ""
         },
         {
@@ -3684,42 +3527,10 @@
         }
       ]
     },
-    "Google LLC": {
-      "type": "funder",
-      "name": "Google LLC",
-      "total": 21000000,
-      "industry": "Alphabet subsidiary behind Google Search, ads, cloud and Gemini AI",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 21000000,
-          "dir": ""
-        }
-      ]
-    },
-    "DRAPER TIMOTHY": {
-      "type": "funder",
-      "name": "Timothy Draper",
-      "total": 17000000,
-      "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor",
-      "net_worth": "[$2.3 billion](https://www.forbes.com/profile/tim-draper/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Draper sponsored the 2018 [\"Cal 3\" initiative](https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html) to split California into three states, which qualified before the state Supreme Court removed it. He gave $5 million with Chris Larsen to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions). He [backed Nikki Haley](https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/) for president in 2024.",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 17000000,
-          "dir": ""
-        }
-      ]
-    },
     "Meta Platforms": {
       "type": "funder",
       "name": "Meta Platforms",
-      "total": 24050000,
+      "total": 23050000,
       "industry": "Owner of Facebook, Instagram and WhatsApp and developer of Llama AI models",
       "net_worth": "",
       "politics": "Meta [created META California](https://techcrunch.com/?p=3039993) in 2025 to back candidates who support AI development.",
@@ -3733,7 +3544,23 @@
         {
           "id": "1478581",
           "name": "California Leads",
-          "amount": 7050000,
+          "amount": 6050000,
+          "dir": ""
+        }
+      ]
+    },
+    "Google LLC": {
+      "type": "funder",
+      "name": "Google LLC",
+      "total": 13000000,
+      "industry": "Alphabet subsidiary behind Google Search, ads, cloud and Gemini AI",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 13000000,
           "dir": ""
         }
       ]
@@ -3741,7 +3568,7 @@
     "KHOSLA VINOD": {
       "type": "funder",
       "name": "Vinod Khosla",
-      "total": 14761504,
+      "total": 13661504,
       "industry": "[Founder of Khosla Ventures](https://www.forbes.com/profile/vinod-khosla/) and Sun Microsystems cofounder",
       "net_worth": "[$11.2 billion](https://www.forbes.com/profile/vinod-khosla/), Forbes real-time estimate as of Oct. 29, 2026",
       "politics": "Khosla gave [$12.6 million to Building a Better California and $1.1 million to Mahan's campaign](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/) in 2026. He [called the billionaire tax a \"junkie fix\"](https://fortune.com/2026/03/05/vinod-khosla-interview-california-billionaire-tax-not-leaving-the-state) while saying he will not leave California. He has [opposed Trump and called for higher taxes](https://www.yakimaherald.com/news/northwest/seahawks-buyer-vinod-khosla-s-politics-include-opposing-trump-calling-for-higher-taxes/article_ceaac18c-8f1a-5b84-bef3-dffa9b6a5b36.html) in the past.",
@@ -3755,7 +3582,23 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 2200000,
+          "amount": 1100000,
+          "dir": ""
+        }
+      ]
+    },
+    "DRAPER TIMOTHY": {
+      "type": "funder",
+      "name": "Timothy Draper",
+      "total": 8000000,
+      "industry": "[Venture capitalist](https://www.forbes.com/profile/tim-draper/) (Draper Associates, cofounder of Draper Fisher Jurvetson) and crypto investor",
+      "net_worth": "[$2.3 billion](https://www.forbes.com/profile/tim-draper/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Draper sponsored the 2018 [\"Cal 3\" initiative](https://www.cnbc.com/2018/06/13/tim-drapers-three-californias-plan-qualifies-for-november-ballot.html) to split California into three states, which qualified before the state Supreme Court removed it. He gave $5 million with Chris Larsen to [launch Grow California](https://regional-front.cointelegraph.com/news/crypto-larsen-draper-40m-california-politics-wealth-tax-unions). He [backed Nikki Haley](https://www.forbes.com/sites/saradorn/2024/03/04/pro-haley-venture-capitalist-tim-draper-still-thinks-she-can-beat-trump-as-other-wealthy-backers-move-on/) for president in 2024.",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 8000000,
           "dir": ""
         }
       ]
@@ -3763,7 +3606,7 @@
     "MORITZ MICHAEL": {
       "type": "funder",
       "name": "Michael Moritz",
-      "total": 13500000,
+      "total": 10500000,
       "industry": "[Venture capitalist](https://www.forbes.com/profile/michael-moritz/) and longtime Sequoia Capital partner",
       "net_worth": "[$7.5 billion](https://www.forbes.com/profile/michael-moritz/), Forbes real-time estimate as of Oct. 24, 2026",
       "politics": "Moritz is a major funder of San Francisco's moderate political groups, including TogetherSF. He [spent millions in the 2024 San Francisco election](https://www.sfexaminer.com/news/politics/billionaire-venture-capitalist-michael-moritz-looms-big-in-coming-election/article_35865582-98a6-11ef-9bfd-2bcbb0d62747.html) and [opposed San Francisco's Prop D](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/) with Chris Larsen. He [backed a 2016 measure](https://www.forbes.com/sites/katiasavchuk/2016/10/12/tech-investors-michael-moritz-ron-conway-back-measure-to-clear-homeless-tents-in-san-francisco/) to clear homeless tents.",
@@ -3777,7 +3620,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 6000000,
+          "amount": 3000000,
           "dir": ""
         }
       ]
@@ -3865,7 +3708,7 @@
     "HERING JOHN": {
       "type": "funder",
       "name": "John Hering",
-      "total": 5911960.75,
+      "total": 4916960.75,
       "industry": "[Cofounder and executive chair of mobile security company Lookout](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/)",
       "net_worth": "",
       "politics": "Hering spent [over $1.25 million in the 2026 Los Angeles city attorney race](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) to defeat Marissa Roy and elect John McKinney, and spent to boost Spencer Pratt for LA mayor. He gave $41,300 to the Republican National Committee and $500,000 to Elon Musk's America PAC in 2024.",
@@ -3879,7 +3722,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 1990000,
+          "amount": 995000,
           "dir": ""
         }
       ]
@@ -3903,7 +3746,7 @@
     "XU TONY": {
       "type": "funder",
       "name": "Tony Xu",
-      "total": 3993982.02,
+      "total": 3743982.02,
       "industry": "[Cofounder and CEO of DoorDash](https://www.forbes.com/profile/tony-xu/)",
       "net_worth": "[$1.7 billion](https://www.forbes.com/profile/tony-xu/), Forbes real-time estimate as of Nov. 1, 2026",
       "politics": "In 2026, Xu gave [$3.5 million to Building a Better California, $250,000 to a committee backing Mahan, $39,200 to Mahan directly and $39,200 to Becerra](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He has sat on Meta's board since 2022.",
@@ -3917,7 +3760,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -3934,22 +3777,6 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 3021883.55,
-          "dir": ""
-        }
-      ]
-    },
-    "GOVERN FOR CALIFORNIA ACTION COMMITTEE": {
-      "type": "funder",
-      "name": "Govern For California Action Committee",
-      "total": 3000000,
-      "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers",
-      "net_worth": "",
-      "politics": "Govern for California is [David Crane's network of donor chapters](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/) that coordinates giving to moderate legislators to counter unions. Crane on Mahan: [\"if Californians get to know him, he wins.\"](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/)",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 3000000,
           "dir": ""
         }
       ]
@@ -3986,26 +3813,10 @@
         }
       ]
     },
-    "RICK CARUSO AND AFFILIATED ENTITIES": {
-      "type": "funder",
-      "name": "Rick Caruso And Affiliated Entities",
-      "total": 3000000,
-      "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)",
-      "net_worth": "[$7.1 billion](https://www.forbes.com/profile/rick-caruso/), Forbes real-time estimate as of Oct. 30, 2026",
-      "politics": "Caruso [ran for Los Angeles mayor in 2022](https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/) and lost to Karen Bass after spending a record [$160 per vote](https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/) of his own money. He [funds the group backing John McKinney](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) in the 2026 LA city attorney race.",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 3000000,
-          "dir": ""
-        }
-      ]
-    },
     "MALKA MEYER": {
       "type": "funder",
       "name": "Meyer Malka",
-      "total": 3486173.77,
+      "total": 3236173.77,
       "industry": "[Founder of fintech venture firm Ribbit Capital](https://investors.robinhood.com/board-member/meyer-malka) and Robinhood board member",
       "net_worth": "",
       "politics": "",
@@ -4019,7 +3830,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 500000,
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -4088,54 +3899,6 @@
         }
       ]
     },
-    "MERRILL ASHLEY": {
-      "type": "funder",
-      "name": "Ashley Merrill",
-      "total": 2040000,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 2040000,
-          "dir": ""
-        }
-      ]
-    },
-    "BUCHHEIT PAUL": {
-      "type": "funder",
-      "name": "Paul Buchheit",
-      "total": 2000000,
-      "industry": "[Creator of Gmail](https://case.edu/bicentennial/history/our-stories/paul-buchheit-cwr-98-grs-98-computer-engineering), FriendFeed cofounder and Y Combinator partner emeritus",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 2000000,
-          "dir": ""
-        }
-      ]
-    },
-    "HASTINGS REED": {
-      "type": "funder",
-      "name": "Reed Hastings",
-      "total": 2000000,
-      "industry": "[Cofounder and chairman of Netflix](https://www.forbes.com/profile/reed-hastings/)",
-      "net_worth": "[$4.1 billion](https://www.forbes.com/profile/reed-hastings/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "Hastings is a major [charter school backer](https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280) who funds school board candidates. He gave [$3 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/) and is a [Senate Majority PAC donor](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 2000000,
-          "dir": ""
-        }
-      ]
-    },
     "MARCUS GEORGE": {
       "type": "funder",
       "name": "George Marcus",
@@ -4155,7 +3918,7 @@
     "MEHTA NEIL": {
       "type": "funder",
       "name": "Neil Mehta",
-      "total": 3999998,
+      "total": 2999999,
       "industry": "[Founder and managing partner of venture firm Greenoaks](https://www.forbes.com/profile/neil-mehta/)",
       "net_worth": "",
       "politics": "",
@@ -4169,7 +3932,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 1999998,
+          "amount": 999999,
           "dir": ""
         }
       ]
@@ -4190,44 +3953,6 @@
         }
       ]
     },
-    "SEIBEL MICHAEL": {
-      "type": "funder",
-      "name": "Michael Seibel",
-      "total": 2000000,
-      "industry": "[Twitch cofounder](https://mastersofscale.com/people/michael-seibel) and former Y Combinator CEO",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 2000000,
-          "dir": ""
-        }
-      ]
-    },
-    "HUFFMAN STEVE": {
-      "type": "funder",
-      "name": "Steve Huffman",
-      "total": 2101800.64,
-      "industry": "[Cofounder and CEO of Reddit](https://www.forbes.com/profile/steve-huffman/)",
-      "net_worth": "[Billionaire](https://www.forbes.com/sites/monicahunter-hart/2025/11/02/reddits-ceo-debuts-as-a-steve-huffman-billionaire-20-years-after-cofounding-the-company/) per Forbes (November 2025); no current figure published",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1999998,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 101802.64,
-          "dir": ""
-        }
-      ]
-    },
     "EHRSAM III FREDERICK E": {
       "type": "funder",
       "name": "Frederick E Ehrsam III",
@@ -4244,26 +3969,10 @@
         }
       ]
     },
-    "OBERNDORF WILLIAM E": {
-      "type": "funder",
-      "name": "William E Oberndorf",
-      "total": 1686400,
-      "industry": "[Investor (cofounder of SPO Partners) and school choice philanthropist](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/)",
-      "net_worth": "",
-      "politics": "Oberndorf is a leading [school choice funder](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/) and Republican donor, described as a [\"never-Trump Republican\"](https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/) funding primaries outside California.",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1686400,
-          "dir": ""
-        }
-      ]
-    },
     "REED ANDREW PHILLIPS": {
       "type": "funder",
       "name": "Andrew Phillips Reed",
-      "total": 2575831.3,
+      "total": 2075831.3,
       "industry": "[Partner at Sequoia Capital](https://crunchbase.com/person/andrew-reed)",
       "net_worth": "",
       "politics": "",
@@ -4277,7 +3986,7 @@
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 1000000,
+          "amount": 500000,
           "dir": ""
         }
       ]
@@ -4330,96 +4039,34 @@
         }
       ]
     },
-    "MAKAN DIVESH": {
+    "GOVERN FOR CALIFORNIA ACTION COMMITTEE": {
       "type": "funder",
-      "name": "Divesh Makan",
-      "total": 2490479.52,
-      "industry": "[Founder of ICONIQ, wealth manager to tech billionaires and growth investor](https://www.forbes.com/sites/briansolomon/2014/12/01/the-spider-of-silicon-valley-inside-zuck-friends-secret-billionaire-fund/)",
+      "name": "Govern for California Action Committee",
+      "total": 1500000,
+      "industry": "[David Crane's donor network](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/), funded largely by tech leaders and financiers",
       "net_worth": "",
-      "politics": "",
+      "politics": "Govern for California is [David Crane's network of donor chapters](https://calmatters.org/newsletters/whatmatters/2022/08/california-politics-donor-network/) that coordinates giving to moderate legislators to counter unions. Crane on Mahan: [\"if Californians get to know him, he wins.\"](https://kvia.com/politics/cnn-us-politics/2026/05/03/backed-by-tech-money-a-moderate-democrat-from-silicon-valley-mounts-a-bid-for-california-governor/)",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1500000,
           "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 990479.52,
-          "dir": ""
         }
       ]
     },
-    "SINGERMAN BRIAN": {
+    "RICK CARUSO AND AFFILIATED ENTITIES": {
       "type": "funder",
-      "name": "Brian Singerman",
-      "total": 2720818,
-      "industry": "[Silicon Valley venture capitalist](https://www.forbes.com/profile/brian-singerman/) and partner emeritus at Peter Thiel's Founders Fund",
-      "net_worth": "",
-      "politics": "",
+      "name": "Rick Caruso and Affiliated Entities",
+      "total": 1500000,
+      "industry": "[Los Angeles real estate developer](https://www.forbes.com/profile/rick-caruso/)",
+      "net_worth": "[$7.1 billion](https://www.forbes.com/profile/rick-caruso/), Forbes real-time estimate as of Oct. 30, 2026",
+      "politics": "Caruso [ran for Los Angeles mayor in 2022](https://www.forbes.com/sites/dereksaul/2022/11/16/los-angeles-mayors-race-rep-karen-bass-defeats-billionaire-rick-caruso/) and lost to Karen Bass after spending a record [$160 per vote](https://xtown.la/2022/11/23/mayor-los-angeles-caruso-dollar-per-vote/) of his own money. He [funds the group backing John McKinney](https://theintercept.com/2026/10/27/la-city-attorney-roy-mckinney-big-tech-billionaires/) in the 2026 LA city attorney race.",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1500000,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 720818,
-          "dir": ""
-        },
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 500000,
-          "dir": ""
-        }
-      ]
-    },
-    "BAKER JR G LEONARD": {
-      "type": "funder",
-      "name": "G Leonard Baker JR",
-      "total": 1695829.84,
-      "industry": "[Silicon Valley venture capitalist](https://carboncontainmentlab.org/who-we-are/people/len-baker) and longtime Sutter Hill Ventures partner",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1300000,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 395829.84,
-          "dir": ""
-        }
-      ]
-    },
-    "BYERS BROOK": {
-      "type": "funder",
-      "name": "Brook Byers",
-      "total": 2104393.67,
-      "industry": "[Silicon Valley venture capitalist](https://www.sourcewatch.org/index.php/Brook_Byers) and Kleiner Perkins partner since 1977",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1100000,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1004393.67,
           "dir": ""
         }
       ]
@@ -4456,6 +4103,22 @@
         }
       ]
     },
+    "MERRILL ASHLEY": {
+      "type": "funder",
+      "name": "Ashley Merrill",
+      "total": 1020000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 1020000,
+          "dir": ""
+        }
+      ]
+    },
     "FISHER ROBERT": {
       "type": "funder",
       "name": "Robert Fisher",
@@ -4484,6 +4147,28 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 1011644.36,
+          "dir": ""
+        }
+      ]
+    },
+    "BYERS BROOK": {
+      "type": "funder",
+      "name": "Brook Byers",
+      "total": 1554393.67,
+      "industry": "[Silicon Valley venture capitalist](https://www.sourcewatch.org/index.php/Brook_Byers) and Kleiner Perkins partner since 1977",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1004393.67,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 550000,
           "dir": ""
         }
       ]
@@ -4552,22 +4237,6 @@
         }
       ]
     },
-    "ARMSTRONG BRIAN": {
-      "type": "funder",
-      "name": "Brian Armstrong",
-      "total": 1000000,
-      "industry": "[Cofounder and CEO of Coinbase](https://www.forbes.com/profile/brian-armstrong/)",
-      "net_worth": "[$7.2 billion](https://www.forbes.com/profile/brian-armstrong/), Forbes real-time estimate as of Nov. 1, 2026",
-      "politics": "Coinbase is a [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        }
-      ]
-    },
     "BHATT BAIJU": {
       "type": "funder",
       "name": "Baiju Bhatt",
@@ -4584,24 +4253,18 @@
         }
       ]
     },
-    "BYERS BLAKE": {
+    "BUCHHEIT PAUL": {
       "type": "funder",
-      "name": "Blake Byers",
-      "total": 1200000,
-      "industry": "[Silicon Valley venture capitalist](https://globalventuring.com/blake-byers-exits-gv), founder of Byers Capital and former GV (Google Ventures) investor",
+      "name": "Paul Buchheit",
+      "total": 1000000,
+      "industry": "[Creator of Gmail](https://case.edu/bicentennial/history/our-stories/paul-buchheit-cwr-98-grs-98-computer-engineering), FriendFeed cofounder and Y Combinator partner emeritus",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        },
-        {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 200000,
+          "amount": 1000000,
           "dir": ""
         }
       ]
@@ -4622,29 +4285,13 @@
         }
       ]
     },
-    "COOK DAVID SCOTT": {
+    "HASTINGS REED": {
       "type": "funder",
-      "name": "David Scott Cook",
+      "name": "Reed Hastings",
       "total": 1000000,
-      "industry": "[Intuit cofounder](https://www.forbes.com/profile/scott-cook/) (TurboTax, QuickBooks)",
-      "net_worth": "[$5.1 billion](https://www.forbes.com/profile/scott-cook/), Forbes real-time estimate as of Sept. 20, 2026",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        }
-      ]
-    },
-    "HARSH V GRIFFITH RUTHERFORD": {
-      "type": "funder",
-      "name": "Griffith Rutherford Harsh V",
-      "total": 1000000,
-      "industry": "[Neurosurgeon](https://www.forbes.com/profile/meg-whitman/) and husband of former eBay and HP CEO Meg Whitman",
-      "net_worth": "",
-      "politics": "Harsh is the husband of Meg Whitman, who [ran for California governor as a Republican in 2010](https://www.forbes.com/profile/meg-whitman/) and was U.S. ambassador to Kenya. The couple [gave $200,000 to Romney's super PAC](https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/) in 2012.",
+      "industry": "[Cofounder and chairman of Netflix](https://www.forbes.com/profile/reed-hastings/)",
+      "net_worth": "[$4.1 billion](https://www.forbes.com/profile/reed-hastings/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "Hastings is a major [charter school backer](https://edsource.org/2017/reed-hastings-backs-school-board-candidates-but-opposes-elected-school-boards/583280) who funds school board candidates. He gave [$3 million to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/) and is a [Senate Majority PAC donor](https://www.forbes.com/sites/alisondurkee/2026/08/28/here-are-the-biggest-billionaire-donors-in-the-midterms-so-far/) this cycle.",
       "spending": [
         {
           "id": "1487425",
@@ -4734,44 +4381,6 @@
         }
       ]
     },
-    "OSTBY HELEN SIGNE": {
-      "type": "funder",
-      "name": "Helen Signe Ostby",
-      "total": 1000000,
-      "industry": "[Philanthropist](https://valhalla.org/people/signe-ostby/), cofounder of the Valhalla Foundation and wife of Intuit cofounder Scott Cook",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        }
-      ]
-    },
-    "PRITZKER JOHN": {
-      "type": "funder",
-      "name": "John Pritzker",
-      "total": 1250000,
-      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
-      "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
-      "politics": "Pritzker gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 1000000,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 250000,
-          "dir": ""
-        }
-      ]
-    },
     "RAMPELL ALASTAIR": {
       "type": "funder",
       "name": "Alastair Rampell",
@@ -4788,12 +4397,12 @@
         }
       ]
     },
-    "WANSTRATH CHRIS": {
+    "SEIBEL MICHAEL": {
       "type": "funder",
-      "name": "Chris Wanstrath",
+      "name": "Michael Seibel",
       "total": 1000000,
-      "industry": "[GitHub cofounder](https://www.forbes.com/profile/chris-wanstrath/)",
-      "net_worth": "[$1.3 billion](https://www.forbes.com/profile/chris-wanstrath/), Forbes real-time estimate as of Oct. 21, 2026",
+      "industry": "[Twitch cofounder](https://mastersofscale.com/people/michael-seibel) and former Y Combinator CEO",
+      "net_worth": "",
       "politics": "",
       "spending": [
         {
@@ -4804,18 +4413,24 @@
         }
       ]
     },
-    "WANSTRATH NINA": {
+    "HUFFMAN STEVE": {
       "type": "funder",
-      "name": "Nina Wanstrath",
-      "total": 1000000,
-      "industry": "[Wife of GitHub cofounder Chris Wanstrath](https://www.forbes.com/profile/chris-wanstrath/)",
-      "net_worth": "",
+      "name": "Steve Huffman",
+      "total": 1101801.64,
+      "industry": "[Cofounder and CEO of Reddit](https://www.forbes.com/profile/steve-huffman/)",
+      "net_worth": "[Billionaire](https://www.forbes.com/sites/monicahunter-hart/2025/11/02/reddits-ceo-debuts-as-a-steve-huffman-billionaire-20-years-after-cofounding-the-company/) per Forbes (November 2025); no current figure published",
       "politics": "",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 1000000,
+          "amount": 999999,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 101802.64,
           "dir": ""
         }
       ]
@@ -4836,6 +4451,28 @@
         }
       ]
     },
+    "MAKAN DIVESH": {
+      "type": "funder",
+      "name": "Divesh Makan",
+      "total": 1490479.52,
+      "industry": "[Founder of ICONIQ, wealth manager to tech billionaires and growth investor](https://www.forbes.com/sites/briansolomon/2014/12/01/the-spider-of-silicon-valley-inside-zuck-friends-secret-billionaire-fund/)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 990479.52,
+          "dir": ""
+        },
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
     "SHALEK NICK": {
       "type": "funder",
       "name": "Nick Shalek",
@@ -4852,18 +4489,68 @@
         }
       ]
     },
-    "WARREN E SPIEKER JR INCLUDING SPIEKER REALTY INVESTMENTS": {
+    "OBERNDORF WILLIAM E": {
       "type": "funder",
-      "name": "Warren E Spieker Jr Including Spieker Realty Investments",
-      "total": 600000,
-      "industry": "[Founder of Spieker Properties](https://littlesis.org/org/91685-Spieker_Properties_LP/giving) (Bay Area commercial real estate)",
+      "name": "William E Oberndorf",
+      "total": 843200,
+      "industry": "[Investor (cofounder of SPO Partners) and school choice philanthropist](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/)",
+      "net_worth": "",
+      "politics": "Oberndorf is a leading [school choice funder](https://www.philanthropyroundtable.org/philanthropy-roundtable-announces-bill-oberndorf-as-2021-recipient-of-the-simon-devos-prize-for-philanthropic-leadership/) and Republican donor, described as a [\"never-Trump Republican\"](https://www.alreporter.com/2018/06/01/never-trump-republican-from-california-pours-money-into-alabama-primary-races/) funding primaries outside California.",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 843200,
+          "dir": ""
+        }
+      ]
+    },
+    "SINGERMAN BRIAN": {
+      "type": "funder",
+      "name": "Brian Singerman",
+      "total": 1720818,
+      "industry": "[Silicon Valley venture capitalist](https://www.forbes.com/profile/brian-singerman/) and partner emeritus at Peter Thiel's Founders Fund",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
-          "amount": 600000,
+          "amount": 750000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 720818,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "BAKER JR G LEONARD": {
+      "type": "funder",
+      "name": "G Leonard Baker JR",
+      "total": 1045829.84,
+      "industry": "[Silicon Valley venture capitalist](https://carboncontainmentlab.org/who-we-are/people/len-baker) and longtime Sutter Hill Ventures partner",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 650000,
+          "dir": ""
+        },
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 395829.84,
           "dir": ""
         }
       ]
@@ -4948,11 +4635,27 @@
         }
       ]
     },
-    "BOYERS MICHELLE": {
+    "ARMSTRONG BRIAN": {
       "type": "funder",
-      "name": "Michelle Boyers",
-      "total": 700000,
-      "industry": "",
+      "name": "Brian Armstrong",
+      "total": 500000,
+      "industry": "[Cofounder and CEO of Coinbase](https://www.forbes.com/profile/brian-armstrong/)",
+      "net_worth": "[$7.2 billion](https://www.forbes.com/profile/brian-armstrong/), Forbes real-time estimate as of Nov. 1, 2026",
+      "politics": "Coinbase is a [top funder of the crypto super PAC Fairshake](https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms), with $25 million pledged for the 2026 midterms.",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "BYERS BLAKE": {
+      "type": "funder",
+      "name": "Blake Byers",
+      "total": 600000,
+      "industry": "[Silicon Valley venture capitalist](https://globalventuring.com/blake-byers-exits-gv), founder of Byers Capital and former GV (Google Ventures) investor",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -4965,33 +4668,17 @@
         {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 200000,
+          "amount": 100000,
           "dir": ""
         }
       ]
     },
-    "DOORDASH INC": {
+    "COOK DAVID SCOTT": {
       "type": "funder",
-      "name": "Doordash Inc.",
+      "name": "David Scott Cook",
       "total": 500000,
-      "industry": "[Food and grocery delivery app](https://www.forbes.com/companies/doordash/)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 500000,
-          "dir": ""
-        }
-      ]
-    },
-    "FUSHMAN ILYA": {
-      "type": "funder",
-      "name": "Ilya Fushman",
-      "total": 500000,
-      "industry": "[Kleiner Perkins general partner](https://kleinerperkins.com/people/ilya-fushman) and former Dropbox executive",
-      "net_worth": "",
+      "industry": "[Intuit cofounder](https://www.forbes.com/profile/scott-cook/) (TurboTax, QuickBooks)",
+      "net_worth": "[$5.1 billion](https://www.forbes.com/profile/scott-cook/), Forbes real-time estimate as of Sept. 20, 2026",
       "politics": "",
       "spending": [
         {
@@ -5018,13 +4705,45 @@
         }
       ]
     },
-    "PRITZKER NICHOLAS": {
+    "HARSH V GRIFFITH RUTHERFORD": {
       "type": "funder",
-      "name": "Nicholas Pritzker",
-      "total": 700000,
-      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
-      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
-      "politics": "Pritzker [backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
+      "name": "Griffith Rutherford Harsh V",
+      "total": 500000,
+      "industry": "[Neurosurgeon](https://www.forbes.com/profile/meg-whitman/) and husband of former eBay and HP CEO Meg Whitman",
+      "net_worth": "",
+      "politics": "Harsh is the husband of Meg Whitman, who [ran for California governor as a Republican in 2010](https://www.forbes.com/profile/meg-whitman/) and was U.S. ambassador to Kenya. The couple [gave $200,000 to Romney's super PAC](https://www.forbes.com/sites/ericsavitz/2012/03/25/hp-ceo-whitman-hubby-plow-200k-into-romneys-pac/) in 2012.",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "OSTBY HELEN SIGNE": {
+      "type": "funder",
+      "name": "Helen Signe Ostby",
+      "total": 500000,
+      "industry": "[Philanthropist](https://valhalla.org/people/signe-ostby/), cofounder of the Valhalla Foundation and wife of Intuit cofounder Scott Cook",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 500000,
+          "dir": ""
+        }
+      ]
+    },
+    "PRITZKER JOHN": {
+      "type": "funder",
+      "name": "John Pritzker",
+      "total": 750000,
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/john-pritzker/) and investor (Geolo Capital)",
+      "net_worth": "[$3.2 billion](https://www.forbes.com/profile/john-pritzker/), Forbes real-time estimate as of Oct. 23, 2026",
+      "politics": "Pritzker gave [$50,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
       "spending": [
         {
           "id": "1487425",
@@ -5033,9 +4752,9 @@
           "dir": ""
         },
         {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 200000,
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -5088,12 +4807,12 @@
         }
       ]
     },
-    "WALSH DIANA RUTH": {
+    "WANSTRATH CHRIS": {
       "type": "funder",
-      "name": "Diana Ruth Walsh",
+      "name": "Chris Wanstrath",
       "total": 500000,
-      "industry": "",
-      "net_worth": "",
+      "industry": "[GitHub cofounder](https://www.forbes.com/profile/chris-wanstrath/)",
+      "net_worth": "[$1.3 billion](https://www.forbes.com/profile/chris-wanstrath/), Forbes real-time estimate as of Oct. 21, 2026",
       "politics": "",
       "spending": [
         {
@@ -5104,11 +4823,11 @@
         }
       ]
     },
-    "WOLF RICHARD": {
+    "WANSTRATH NINA": {
       "type": "funder",
-      "name": "Richard Wolf",
+      "name": "Nina Wanstrath",
       "total": 500000,
-      "industry": "",
+      "industry": "[Wife of GitHub cofounder Chris Wanstrath](https://www.forbes.com/profile/chris-wanstrath/)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5168,22 +4887,6 @@
         }
       ]
     },
-    "GARY FILIZETTI": {
-      "type": "funder",
-      "name": "Filizetti Gary",
-      "total": 480000,
-      "industry": "[President of Devcon Construction](https://www.devcon-const.com/management/gary-filizetti), a Silicon Valley design-build contractor",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 480000,
-          "dir": ""
-        }
-      ]
-    },
     "FIELD DYLAN": {
       "type": "funder",
       "name": "Dylan Field",
@@ -5196,38 +4899,6 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 471329.76,
-          "dir": ""
-        }
-      ]
-    },
-    "MARQUARDT DAVID": {
-      "type": "funder",
-      "name": "David Marquardt",
-      "total": 400000,
-      "industry": "Founding partner of August Capital and early Microsoft investor",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 400000,
-          "dir": ""
-        }
-      ]
-    },
-    "TINSLEY RICHARD": {
-      "type": "funder",
-      "name": "Richard Tinsley",
-      "total": 400000,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 400000,
           "dir": ""
         }
       ]
@@ -5248,45 +4919,11 @@
         }
       ]
     },
-    "BANK OF MARIN": {
+    "WARREN E SPIEKER JR INCLUDING SPIEKER REALTY INVESTMENTS": {
       "type": "funder",
-      "name": "Of Marin Bank",
-      "total": 465562.76,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 325397.83,
-          "dir": ""
-        },
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 124663.66,
-          "dir": ""
-        },
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 14831.48,
-          "dir": ""
-        },
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 669.79,
-          "dir": ""
-        }
-      ]
-    },
-    "WACHTER PAUL": {
-      "type": "funder",
-      "name": "Paul Wachter",
+      "name": "Warren E Spieker Jr Including Spieker Realty Investments",
       "total": 300000,
-      "industry": "[Founder and CEO of Main Street Advisors (investment advisory) and UTA chairman](https://www.mainstreetadvisors.com/team/paul-wachter)",
+      "industry": "[Founder of Spieker Properties](https://littlesis.org/org/91685-Spieker_Properties_LP/giving) (Bay Area commercial real estate)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5310,6 +4947,60 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 274892.11,
+          "dir": ""
+        }
+      ]
+    },
+    "BOYERS MICHELLE": {
+      "type": "funder",
+      "name": "Michelle Boyers",
+      "total": 350000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 100000,
+          "dir": ""
+        }
+      ]
+    },
+    "DOORDASH INC": {
+      "type": "funder",
+      "name": "Doordash Inc.",
+      "total": 250000,
+      "industry": "[Food and grocery delivery app](https://www.forbes.com/companies/doordash/)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "FUSHMAN ILYA": {
+      "type": "funder",
+      "name": "Ilya Fushman",
+      "total": 250000,
+      "industry": "[Kleiner Perkins general partner](https://kleinerperkins.com/people/ilya-fushman) and former Dropbox executive",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
           "dir": ""
         }
       ]
@@ -5346,18 +5037,24 @@
         }
       ]
     },
-    "LIEW JEREMY": {
+    "PRITZKER NICHOLAS": {
       "type": "funder",
-      "name": "Jeremy Liew",
-      "total": 250000,
-      "industry": "Lightspeed Venture Partners partner and Snap's first investor",
-      "net_worth": "",
-      "politics": "",
+      "name": "Nicholas Pritzker",
+      "total": 350000,
+      "industry": "[Hyatt hotel heir](https://www.forbes.com/profile/nicholas-pritzker/) and investor (Tao Capital)",
+      "net_worth": "[$2.2 billion](https://www.forbes.com/profile/nicholas-pritzker/), Forbes real-time estimate as of Oct. 29, 2026",
+      "politics": "Pritzker [backed Proposition 64](https://www.forbes.com/profile/nicholas-pritzker/), California's 2016 marijuana legalization measure, and directs giving and investment to clean energy, legalization and criminal justice reform.",
       "spending": [
         {
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 250000,
+          "dir": ""
+        },
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 100000,
           "dir": ""
         }
       ]
@@ -5378,6 +5075,54 @@
         }
       ]
     },
+    "WALSH DIANA RUTH": {
+      "type": "funder",
+      "name": "Diana Ruth Walsh",
+      "total": 250000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "WOLF RICHARD": {
+      "type": "funder",
+      "name": "Richard Wolf",
+      "total": 250000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "GARY FILIZETTI": {
+      "type": "funder",
+      "name": "Filizetti Gary",
+      "total": 240000,
+      "industry": "[President of Devcon Construction](https://www.devcon-const.com/management/gary-filizetti), a Silicon Valley design-build contractor",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 240000,
+          "dir": ""
+        }
+      ]
+    },
     "MEEKER MARY": {
       "type": "funder",
       "name": "Mary Meeker",
@@ -5394,9 +5139,25 @@
         }
       ]
     },
-    "ATWATER JOHN": {
+    "MARQUARDT DAVID": {
       "type": "funder",
-      "name": "John Atwater",
+      "name": "David Marquardt",
+      "total": 200000,
+      "industry": "Founding partner of August Capital and early Microsoft investor",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "TINSLEY RICHARD": {
+      "type": "funder",
+      "name": "Richard Tinsley",
       "total": 200000,
       "industry": "",
       "net_worth": "",
@@ -5410,27 +5171,11 @@
         }
       ]
     },
-    "RESNICK JOSHUA": {
+    "WACHTER PAUL": {
       "type": "funder",
-      "name": "Joshua Resnick",
-      "total": 200000,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 200000,
-          "dir": ""
-        }
-      ]
-    },
-    "RODAN AMNON": {
-      "type": "funder",
-      "name": "Amnon Rodan",
-      "total": 200000,
-      "industry": "Husband of Rodan + Fields cofounder Katie Rodan and former Guthy-Renker board member",
+      "name": "Paul Wachter",
+      "total": 150000,
+      "industry": "[Founder and CEO of Main Street Advisors (investment advisory) and UTA chairman](https://www.mainstreetadvisors.com/team/paul-wachter)",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5439,27 +5184,21 @@
           "name": "California Back to Basics",
           "amount": 150000,
           "dir": ""
-        },
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 50000,
-          "dir": ""
         }
       ]
     },
-    "742855": {
+    "LIEW JEREMY": {
       "type": "funder",
-      "name": "742855",
-      "total": 106108.72,
-      "industry": "",
+      "name": "Jeremy Liew",
+      "total": 125000,
+      "industry": "Lightspeed Venture Partners partner and Snap's first investor",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 106108.72,
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 125000,
           "dir": ""
         }
       ]
@@ -5518,11 +5257,11 @@
         }
       ]
     },
-    "BUTCHER C PRESTON": {
+    "ATWATER JOHN": {
       "type": "funder",
-      "name": "C Preston Butcher",
+      "name": "John Atwater",
       "total": 100000,
-      "industry": "[Founder of real estate firm Legacy Partners](https://knowledge.uli.org/en/people/b/p/preston-butcher-7e3d)",
+      "industry": "",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5566,22 +5305,6 @@
         }
       ]
     },
-    "FRANTZ EUGENE": {
-      "type": "funder",
-      "name": "Eugene Frantz",
-      "total": 100000,
-      "industry": "[General partner at CapitalG](https://crunchbase.com/person/gene-frantz), Alphabet's growth fund, and former TPG partner",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 100000,
-          "dir": ""
-        }
-      ]
-    },
     "HARTZ KEVIN": {
       "type": "funder",
       "name": "Kevin Hartz",
@@ -5598,57 +5321,9 @@
         }
       ]
     },
-    "HOCKEY WILLIAM": {
+    "RESNICK JOSHUA": {
       "type": "funder",
-      "name": "William Hockey",
-      "total": 100000,
-      "industry": "[Plaid cofounder](https://www.forbes.com/profile/william-hockey/) and cofounder of Column, a bank for fintechs",
-      "net_worth": "[$3.3 billion](https://www.forbes.com/profile/william-hockey/), Forbes real-time estimate as of Oct. 28, 2026",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 100000,
-          "dir": ""
-        }
-      ]
-    },
-    "PATTERSON ARTHUR": {
-      "type": "funder",
-      "name": "Arthur Patterson",
-      "total": 100000,
-      "industry": "[Cofounder of Accel](https://accel.com/team/arthur-patterson) (VC)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 100000,
-          "dir": ""
-        }
-      ]
-    },
-    "RAVITCH JOSEPH": {
-      "type": "funder",
-      "name": "Joseph Ravitch",
-      "total": 100000,
-      "industry": "Cofounder of The Raine Group (media and tech merchant bank)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 100000,
-          "dir": ""
-        }
-      ]
-    },
-    "RAVITCH SONYA": {
-      "type": "funder",
-      "name": "Sonya Ravitch",
+      "name": "Joshua Resnick",
       "total": 100000,
       "industry": "",
       "net_worth": "",
@@ -5673,22 +5348,6 @@
         {
           "id": "1478581",
           "name": "California Leads",
-          "amount": 100000,
-          "dir": ""
-        }
-      ]
-    },
-    "VAN KONYNENBURG DERK MICHAEL": {
-      "type": "funder",
-      "name": "Konynenburg Derk Michael Van",
-      "total": 100000,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
           "amount": 100000,
           "dir": ""
         }
@@ -5726,34 +5385,24 @@
         }
       ]
     },
-    "TED SCHLEIN": {
+    "RODAN AMNON": {
       "type": "funder",
-      "name": "Schlein Ted",
-      "total": 90000,
-      "industry": "[Cofounder of cybersecurity investor Ballistic Ventures](https://techcrunch.com/2024/03/14/ted-schlein-ballistic-ventures-venture-capital-fundraising) and Kleiner Perkins general partner",
+      "name": "Amnon Rodan",
+      "total": 100000,
+      "industry": "Husband of Rodan + Fields cofounder Katie Rodan and former Guthy-Renker board member",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 75000,
+          "dir": ""
+        },
+        {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 90000,
-          "dir": ""
-        }
-      ]
-    },
-    "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS": {
-      "type": "funder",
-      "name": "Housing Providers For Responsible Solutions, Sponsored By Housing Providers",
-      "total": 58876.96,
-      "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)",
-      "net_worth": "",
-      "politics": "This landlord-sponsored committee has made [about $3 million in independent expenditures](https://calmatters.digitaldemocracy.org/organizations/-19963) in legislative races.",
-      "spending": [
-        {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 58876.96,
+          "amount": 25000,
           "dir": ""
         }
       ]
@@ -5774,11 +5423,27 @@
         }
       ]
     },
-    "CRAWFORD GORDON": {
+    "BUTCHER C PRESTON": {
       "type": "funder",
-      "name": "Gordon Crawford",
+      "name": "C Preston Butcher",
       "total": 50000,
-      "industry": "[Retired Capital Group media investor](https://www.nexttv.com/news/gordon-crawford-retire-326668)",
+      "industry": "[Founder of real estate firm Legacy Partners](https://knowledge.uli.org/en/people/b/p/preston-butcher-7e3d)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "FRANTZ EUGENE": {
+      "type": "funder",
+      "name": "Eugene Frantz",
+      "total": 50000,
+      "industry": "[General partner at CapitalG](https://crunchbase.com/person/gene-frantz), Alphabet's growth fund, and former TPG partner",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5790,11 +5455,75 @@
         }
       ]
     },
-    "MAPLEBEAR INC DBA INSTACART": {
+    "HOCKEY WILLIAM": {
       "type": "funder",
-      "name": "Maplebear Inc. Dba Instacart",
+      "name": "William Hockey",
       "total": 50000,
-      "industry": "[Instacart, the grocery delivery app](https://www.forbes.com/pictures/eimh45ehhhf/instacart/)",
+      "industry": "[Plaid cofounder](https://www.forbes.com/profile/william-hockey/) and cofounder of Column, a bank for fintechs",
+      "net_worth": "[$3.3 billion](https://www.forbes.com/profile/william-hockey/), Forbes real-time estimate as of Oct. 28, 2026",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "PATTERSON ARTHUR": {
+      "type": "funder",
+      "name": "Arthur Patterson",
+      "total": 50000,
+      "industry": "[Cofounder of Accel](https://accel.com/team/arthur-patterson) (VC)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "RAVITCH JOSEPH": {
+      "type": "funder",
+      "name": "Joseph Ravitch",
+      "total": 50000,
+      "industry": "Cofounder of The Raine Group (media and tech merchant bank)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "RAVITCH SONYA": {
+      "type": "funder",
+      "name": "Sonya Ravitch",
+      "total": 50000,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 50000,
+          "dir": ""
+        }
+      ]
+    },
+    "VAN KONYNENBURG DERK MICHAEL": {
+      "type": "funder",
+      "name": "Konynenburg Derk Michael Van",
+      "total": 50000,
+      "industry": "",
       "net_worth": "",
       "politics": "",
       "spending": [
@@ -5838,18 +5567,18 @@
         }
       ]
     },
-    "KEEP CALIFORNIA GOLDEN": {
+    "TED SCHLEIN": {
       "type": "funder",
-      "name": "California Golden Keep",
-      "total": 41402.18,
-      "industry": "",
+      "name": "Schlein Ted",
+      "total": 45000,
+      "industry": "[Cofounder of cybersecurity investor Ballistic Ventures](https://techcrunch.com/2024/03/14/ted-schlein-ballistic-ventures-venture-capital-fundraising) and Kleiner Perkins general partner",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 41402.18,
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 45000,
           "dir": ""
         }
       ]
@@ -5866,6 +5595,70 @@
           "id": "1483808",
           "name": "Grow California",
           "amount": 35000,
+          "dir": ""
+        }
+      ]
+    },
+    "HOUSING PROVIDERS FOR RESPONSIBLE SOLUTIONS, SPONSORED BY HOUSING PROVIDERS": {
+      "type": "funder",
+      "name": "Housing Providers for Responsible Solutions, Sponsored By Housing Providers",
+      "total": 29438.48,
+      "industry": "[Landlord-sponsored political committee](https://calmatters.digitaldemocracy.org/organizations/-19963)",
+      "net_worth": "",
+      "politics": "This landlord-sponsored committee has made [about $3 million in independent expenditures](https://calmatters.digitaldemocracy.org/organizations/-19963) in legislative races.",
+      "spending": [
+        {
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 29438.48,
+          "dir": ""
+        }
+      ]
+    },
+    "California Dental Association PAC": {
+      "type": "funder",
+      "name": "California Dental Association PAC",
+      "total": 26527.18,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1483808",
+          "name": "Grow California",
+          "amount": 26527.18,
+          "dir": ""
+        }
+      ]
+    },
+    "CRAWFORD GORDON": {
+      "type": "funder",
+      "name": "Gordon Crawford",
+      "total": 25000,
+      "industry": "[Retired Capital Group media investor](https://www.nexttv.com/news/gordon-crawford-retire-326668)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1488176",
+          "name": "Deliver for California",
+          "amount": 25000,
+          "dir": ""
+        }
+      ]
+    },
+    "MAPLEBEAR INC DBA INSTACART": {
+      "type": "funder",
+      "name": "Maplebear Inc. Dba Instacart",
+      "total": 25000,
+      "industry": "[Instacart, the grocery delivery app](https://www.forbes.com/pictures/eimh45ehhhf/instacart/)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 25000,
           "dir": ""
         }
       ]
@@ -5902,18 +5695,18 @@
         }
       ]
     },
-    "CONTE JEAN PIERRE": {
+    "KEEP CALIFORNIA GOLDEN": {
       "type": "funder",
-      "name": "Jean Pierre Conte",
-      "total": 14000,
-      "industry": "[Chairman of San Francisco private equity firm Genstar Capital](https://www.sec.gov/Archives/edgar/data/0001374535/000095013507002295/b65030dfdef14a.htm)",
+      "name": "Keep California Golden",
+      "total": 20701.09,
+      "industry": "",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 14000,
+          "id": "1478581",
+          "name": "California Leads",
+          "amount": 20701.09,
           "dir": ""
         }
       ]
@@ -5934,18 +5727,18 @@
         }
       ]
     },
-    "UPTOWN STRATEGIES LLC": {
+    "CONTE JEAN PIERRE": {
       "type": "funder",
-      "name": "Uptown Strategies LLC",
-      "total": 11800,
-      "industry": "",
+      "name": "Jean Pierre Conte",
+      "total": 7000,
+      "industry": "[Chairman of San Francisco private equity firm Genstar Capital](https://www.sec.gov/Archives/edgar/data/0001374535/000095013507002295/b65030dfdef14a.htm)",
       "net_worth": "",
       "politics": "",
       "spending": [
         {
-          "id": "1478581",
-          "name": "California Leads",
-          "amount": 11800,
+          "id": "1487425",
+          "name": "California Back to Basics",
+          "amount": 7000,
           "dir": ""
         }
       ]
@@ -5953,7 +5746,7 @@
     "MILLS PATRICIA": {
       "type": "funder",
       "name": "Patricia Mills",
-      "total": 10000,
+      "total": 5000,
       "industry": "",
       "net_worth": "",
       "politics": "",
@@ -5961,39 +5754,7 @@
         {
           "id": "1488176",
           "name": "Deliver for California",
-          "amount": 10000,
-          "dir": ""
-        }
-      ]
-    },
-    "THEMATIC CAMPAIGNS LLC": {
-      "type": "funder",
-      "name": "Thematic Campaigns LLC",
-      "total": 8882.5,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1488176",
-          "name": "Deliver for California",
-          "amount": 8882.5,
-          "dir": ""
-        }
-      ]
-    },
-    "KINNEY ANNA": {
-      "type": "funder",
-      "name": "Anna Kinney",
-      "total": 200,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 200,
+          "amount": 5000,
           "dir": ""
         }
       ]
@@ -6009,6 +5770,22 @@
         {
           "id": "1488176",
           "name": "Deliver for California",
+          "amount": 100,
+          "dir": ""
+        }
+      ]
+    },
+    "KINNEY ANNA": {
+      "type": "funder",
+      "name": "Anna Kinney",
+      "total": 100,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1487425",
+          "name": "California Back to Basics",
           "amount": 100,
           "dir": ""
         }
@@ -6030,22 +5807,6 @@
         }
       ]
     },
-    "BUILDING A BETTER CALIFORNIA INCORPORATED NON REPORTABLE ACCOUNT": {
-      "type": "funder",
-      "name": "Building A Better California Incorporated Non Reportable Account",
-      "total": 0,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 0,
-          "dir": ""
-        }
-      ]
-    },
     "GROW CALIFORNIA INC": {
       "type": "funder",
       "name": "Grow California Inc.",
@@ -6058,70 +5819,6 @@
           "id": "1483808",
           "name": "Grow California",
           "amount": 0,
-          "dir": ""
-        }
-      ]
-    },
-    "MERRILL KATIE": {
-      "type": "funder",
-      "name": "Katie Merrill",
-      "total": 0,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 0,
-          "dir": ""
-        }
-      ]
-    },
-    "MERRILL STEVEN": {
-      "type": "funder",
-      "name": "Steven Merrill",
-      "total": 0,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1487425",
-          "name": "California Back to Basics",
-          "amount": 0,
-          "dir": ""
-        }
-      ]
-    },
-    "COINBASE INC": {
-      "type": "funder",
-      "name": "Coinbase Inc.",
-      "total": -13687.02,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": -13687.02,
-          "dir": ""
-        }
-      ]
-    },
-    "COINBASE INC FBO ITS CUSTOMERS": {
-      "type": "funder",
-      "name": "Coinbase Inc. Fbo Its Customers",
-      "total": -52932.38,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": -52932.38,
           "dir": ""
         }
       ]
@@ -6775,21 +6472,6 @@
       "support": 72570,
       "against": 0,
       "policy_platform": "Valencia, an assemblymember for the past four years and the son of immigrant small business owners, is running for SD 34. [His campaign says](https://www.avelinovalencia.com/) he will \"fully fund schools,\" \"stop rising costs\" of gas and groceries, \"build housing\" including first-time homebuyer programs, \"combat climate change,\" \"create new jobs,\" \"increase transparency\" in government and expand college access."
-    },
-    "CAND|CALIFORNIA STATE COUNCIL OF LABORERS INDEPENDENT EXPENDITURE PAC": {
-      "type": "committee",
-      "name": "California State Council Of Laborers Independent Expenditure Pac",
-      "spending": [
-        {
-          "id": "1483808",
-          "name": "Grow California",
-          "amount": 8000,
-          "dir": "support"
-        }
-      ],
-      "supports": [
-        "Latinos For An Affordable California 2026 ($100K)"
-      ]
     }
   }
 }
