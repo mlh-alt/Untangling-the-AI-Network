@@ -1,8 +1,8 @@
 {
   "meta": {
-    "total_funded": "$458,469,137",
+    "total_funded": "$490,730,604",
     "total_spent_ie": "$389,372,037",
-    "n_funders": 141,
+    "n_funders": 145,
     "n_candidates": 36,
     "date_range": "Jan 01, 2025 – Nov 03, 2026"
   },
@@ -22,7 +22,7 @@
     {
       "id": "1486767",
       "label": "Building a Better California",
-      "raised": "$366,270,535",
+      "raised": "$398,532,002",
       "spent_ie": "$324,750,000"
     },
     {
@@ -49,17 +49,17 @@
       "id": "BRIN SERGEY",
       "label": "Sergey Brin",
       "tier": "Funders",
-      "total": 113000000,
+      "total": 133000000,
       "n_connections": 2,
-      "detail": "Gave to: Building a Better California ($112,000,000); Deliver for California ($1,000,000)"
+      "detail": "Gave to: Building a Better California ($132,000,000); Deliver for California ($1,000,000)"
     },
     {
       "id": "SCHMIDT ERIC",
       "label": "Eric Schmidt",
       "tier": "Funders",
-      "total": 40236457.01,
+      "total": 45558173.01,
       "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($40,236,457)"
+      "detail": "Gave to: Building a Better California ($45,558,173)"
     },
     {
       "id": "DOERR III L JOHN",
@@ -166,20 +166,20 @@
       "detail": "Gave to: Building a Better California ($4,500,000)"
     },
     {
+      "id": "COOK SCOTT D",
+      "label": "Scott D Cook",
+      "tier": "Funders",
+      "total": 4014250,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($4,014,250)"
+    },
+    {
       "id": "HERING JOHN",
       "label": "John Hering",
       "tier": "Funders",
       "total": 4916960.75,
       "n_connections": 2,
       "detail": "Gave to: Building a Better California ($3,921,961); California Back to Basics ($995,000)"
-    },
-    {
-      "id": "COOK SCOTT D",
-      "label": "Scott D Cook",
-      "tier": "Funders",
-      "total": 3687250,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($3,687,250)"
     },
     {
       "id": "XU TONY",
@@ -220,6 +220,14 @@
       "total": 3236173.77,
       "n_connections": 2,
       "detail": "Gave to: Building a Better California ($2,986,174); California Back to Basics ($250,000)"
+    },
+    {
+      "id": "BOTHA ROELOF",
+      "label": "Roelof Botha",
+      "tier": "Funders",
+      "total": 2985827.24,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($2,985,827)"
     },
     {
       "id": "COULTER JAMES",
@@ -294,6 +302,14 @@
       "detail": "Gave to: Building a Better California ($1,575,831); California Back to Basics ($500,000)"
     },
     {
+      "id": "GRADY PATRICK",
+      "label": "Patrick Grady",
+      "tier": "Funders",
+      "total": 1514421.41,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,514,421)"
+    },
+    {
       "id": "LAFFONT PHILIPPE",
       "label": "Philippe Laffont",
       "tier": "Funders",
@@ -334,6 +350,14 @@
       "detail": "Gave to: California Back to Basics ($1,500,000)"
     },
     {
+      "id": "FISHER ROBERT",
+      "label": "Robert Fisher",
+      "tier": "Funders",
+      "total": 1268105,
+      "n_connections": 1,
+      "detail": "Gave to: Building a Better California ($1,268,105)"
+    },
+    {
       "id": "PINCUS MARK",
       "label": "Pincus Mark",
       "tier": "Funders",
@@ -358,14 +382,6 @@
       "detail": "Gave to: California Back to Basics ($1,020,000)"
     },
     {
-      "id": "FISHER ROBERT",
-      "label": "Robert Fisher",
-      "tier": "Funders",
-      "total": 1018105,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($1,018,105)"
-    },
-    {
       "id": "HOUSTON ANDREW",
       "label": "Andrew Houston",
       "tier": "Funders",
@@ -380,14 +396,6 @@
       "total": 1554393.67,
       "n_connections": 2,
       "detail": "Gave to: Building a Better California ($1,004,394); California Back to Basics ($550,000)"
-    },
-    {
-      "id": "MAGUIRE SHAUN",
-      "label": "Shaun Maguire",
-      "tier": "Funders",
-      "total": 1003329.11,
-      "n_connections": 1,
-      "detail": "Gave to: Building a Better California ($1,003,329)"
     },
     {
       "id": "HUFFMAN STEVE",
@@ -441,9 +449,9 @@
       "id": "1486767",
       "label": "Building a Better California",
       "tier": "PACs",
-      "total": 366270534.52,
-      "n_connections": 48,
-      "detail": "Raised: $366,270,535 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
+      "total": 398532002.3,
+      "n_connections": 49,
+      "detail": "Raised: $398,532,002 | Spent on IEs: $324,750,000 | Candidates/measures targeted: 7"
     },
     {
       "id": "1483390",
@@ -854,6 +862,15 @@
   ],
   "edges": [
     {
+      "source": "BRIN SERGEY",
+      "target": "1486767",
+      "amount": 132000000,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $132,000,000"
+    },
+    {
       "source": "1486767",
       "target": "CAND|Measure: PROPOSITION 42",
       "amount": 127800000,
@@ -872,15 +889,6 @@
       "label": "Opposes: $118,500,000"
     },
     {
-      "source": "BRIN SERGEY",
-      "target": "1486767",
-      "amount": 112000000,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $112,000,000"
-    },
-    {
       "source": "1486767",
       "target": "CAND|Measure: PROPOSITION 41",
       "amount": 58350000,
@@ -892,11 +900,11 @@
     {
       "source": "SCHMIDT ERIC",
       "target": "1486767",
-      "amount": 40236457.01,
+      "amount": 45558173.01,
       "type": "funder_pac",
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
-      "label": "Contribution: $40,236,457"
+      "label": "Contribution: $45,558,173"
     },
     {
       "source": "DOERR III L JOHN",
@@ -1070,6 +1078,15 @@
       "label": "Supports: $4,241,922"
     },
     {
+      "source": "COOK SCOTT D",
+      "target": "1486767",
+      "amount": 4014250,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $4,014,250"
+    },
+    {
       "source": "HERING JOHN",
       "target": "1486767",
       "amount": 3921960.75,
@@ -1077,15 +1094,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $3,921,961"
-    },
-    {
-      "source": "COOK SCOTT D",
-      "target": "1486767",
-      "amount": 3687250,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $3,687,250"
     },
     {
       "source": "XU TONY",
@@ -1149,6 +1157,15 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $2,986,174"
+    },
+    {
+      "source": "BOTHA ROELOF",
+      "target": "1486767",
+      "amount": 2985827.24,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $2,985,827"
     },
     {
       "source": "1478581",
@@ -1295,6 +1312,15 @@
       "label": "Contribution: $1,575,831"
     },
     {
+      "source": "GRADY PATRICK",
+      "target": "1486767",
+      "amount": 1514421.41,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,514,421"
+    },
+    {
       "source": "LAFFONT PHILIPPE",
       "target": "1486767",
       "amount": 1500076.6,
@@ -1394,6 +1420,15 @@
       "label": "Supports: $1,302,055"
     },
     {
+      "source": "FISHER ROBERT",
+      "target": "1486767",
+      "amount": 1268105,
+      "type": "funder_pac",
+      "sup_opp": "",
+      "edge_kind": "Funder to PAC",
+      "label": "Contribution: $1,268,105"
+    },
+    {
       "source": "1478581",
       "target": "CAND|Mark Pulido",
       "amount": 1260592.27,
@@ -1466,15 +1501,6 @@
       "label": "Contribution: $1,020,000"
     },
     {
-      "source": "FISHER ROBERT",
-      "target": "1486767",
-      "amount": 1018105,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,018,105"
-    },
-    {
       "source": "HOUSTON ANDREW",
       "target": "1486767",
       "amount": 1011644.36,
@@ -1500,15 +1526,6 @@
       "sup_opp": "",
       "edge_kind": "Funder to PAC",
       "label": "Contribution: $1,004,394"
-    },
-    {
-      "source": "MAGUIRE SHAUN",
-      "target": "1486767",
-      "amount": 1003329.11,
-      "type": "funder_pac",
-      "sup_opp": "",
-      "edge_kind": "Funder to PAC",
-      "label": "Contribution: $1,003,329"
     },
     {
       "source": "BRIN SERGEY",
@@ -2234,7 +2251,7 @@
     "1486767": {
       "type": "pac",
       "name": "Building a Better California",
-      "raised": 366270534.52,
+      "raised": 398532002.3,
       "spent": 324750000,
       "mission": "Building a Better California describes itself as a nonprofit whose [mission](http://buildingabetterca.org/) is \"to improve affordability and quality of life for all Californians,\" and says its priorities are middle-class housing, \"stable funding for public education,\" more transparency from state programs and \"protecting innovation.\" Sergey Brin [launched it](https://fortune.com/2026/01/29/sergey-brin-biggest-donation-ever-california-housing-billionaire-tax-moving-to-nevada) in January 2026 with Eric Schmidt and Michael Moritz, and nearly all of its spending went to fighting the billionaire tax. A spokesperson [said](https://missionlocal.org/2026/08/california-billionaire-tax-sergey-brin-prop-40/) Prop 40 \"will create a permanent hole in the state budget,\" leaving \"less money for schools, public safety, and healthcare.\" An adviser to Schmidt told Fortune that defeating the tax is his [\"only current involvement in politics.\"](https://fortune.com/2026/11/02/sergey-brin-political-102-million-prop-40-billionaire/)",
       "spending": [
@@ -2285,13 +2302,13 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 112000000,
+          "amount": 132000000,
           "dir": ""
         },
         {
           "id": "SCHMIDT ERIC",
           "name": "Eric Schmidt",
-          "amount": 40236457.01,
+          "amount": 45558173.01,
           "dir": ""
         },
         {
@@ -2355,15 +2372,15 @@
           "dir": ""
         },
         {
-          "id": "HERING JOHN",
-          "name": "John Hering",
-          "amount": 3921960.75,
+          "id": "COOK SCOTT D",
+          "name": "Scott D Cook",
+          "amount": 4014250,
           "dir": ""
         },
         {
-          "id": "COOK SCOTT D",
-          "name": "Scott D Cook",
-          "amount": 3687250,
+          "id": "HERING JOHN",
+          "name": "John Hering",
+          "amount": 3921960.75,
           "dir": ""
         },
         {
@@ -2394,6 +2411,12 @@
           "id": "MALKA MEYER",
           "name": "Meyer Malka",
           "amount": 2986173.77,
+          "dir": ""
+        },
+        {
+          "id": "BOTHA ROELOF",
+          "name": "Roelof Botha",
+          "amount": 2985827.24,
           "dir": ""
         },
         {
@@ -2451,6 +2474,12 @@
           "dir": ""
         },
         {
+          "id": "GRADY PATRICK",
+          "name": "Patrick Grady",
+          "amount": 1514421.41,
+          "dir": ""
+        },
+        {
           "id": "LAFFONT PHILIPPE",
           "name": "Philippe Laffont",
           "amount": 1500076.6,
@@ -2469,6 +2498,12 @@
           "dir": ""
         },
         {
+          "id": "FISHER ROBERT",
+          "name": "Robert Fisher",
+          "amount": 1268105,
+          "dir": ""
+        },
+        {
           "id": "PINCUS MARK",
           "name": "Pincus Mark",
           "amount": 1085746.83,
@@ -2478,12 +2513,6 @@
           "id": "TANEJA HEMANT",
           "name": "Hemant Taneja",
           "amount": 1047667.5,
-          "dir": ""
-        },
-        {
-          "id": "FISHER ROBERT",
-          "name": "Robert Fisher",
-          "amount": 1018105,
           "dir": ""
         },
         {
@@ -2583,9 +2612,27 @@
           "dir": ""
         },
         {
+          "id": "LEONE DOUG",
+          "name": "Doug Leone",
+          "amount": 981151.36,
+          "dir": ""
+        },
+        {
+          "id": "LEONE PATTI",
+          "name": "Patti Leone",
+          "amount": 981151.36,
+          "dir": ""
+        },
+        {
           "id": "SHALEK NICK",
           "name": "Nick Shalek",
           "amount": 971600.76,
+          "dir": ""
+        },
+        {
+          "id": "FISHER WILLIAM",
+          "name": "William Fisher",
+          "amount": 759052.5,
           "dir": ""
         },
         {
@@ -2598,18 +2645,6 @@
           "id": "PEETS CHAD",
           "name": "Chad Peets",
           "amount": 513270,
-          "dir": ""
-        },
-        {
-          "id": "FISHER WILLIAM",
-          "name": "William Fisher",
-          "amount": 509052.5,
-          "dir": ""
-        },
-        {
-          "id": "GRADY PATRICK",
-          "name": "Patrick Grady",
-          "amount": 507763.89,
           "dir": ""
         },
         {
@@ -2721,6 +2756,12 @@
           "dir": ""
         },
         {
+          "id": "SHMUNIS VLADIMIR",
+          "name": "Vladimir Shmunis",
+          "amount": 157964.3,
+          "dir": ""
+        },
+        {
           "id": "HUFFMAN STEVE",
           "name": "Steve Huffman",
           "amount": 101802.64,
@@ -2809,13 +2850,13 @@
         {
           "id": "BRIN SERGEY",
           "name": "Sergey Brin",
-          "amount": 112000000,
+          "amount": 132000000,
           "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member"
         },
         {
           "id": "SCHMIDT ERIC",
           "name": "Eric Schmidt",
-          "amount": 40236457.01,
+          "amount": 45558173.01,
           "industry": "[Former Google CEO](https://www.forbes.com/profile/eric-schmidt/) (2001 to 2011)"
         },
         {
@@ -3271,7 +3312,7 @@
       "name": "Deliver for California",
       "raised": 3272855.46,
       "spent": 2764437.25,
-      "mission": "Deliver for California is an independent expenditure committee [registered](https://fullertonobserver.com/2026/05/05/follow-money-ca-governors-race-2026/) as \"Deliver for California - Matt Mahan for Governor 2026.\" It raised nearly $3.3 million from January through mid-April 2026, including [$1 million from Sergey Brin](https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech) (Brin gave $2 million in all, per Cal-Access), and [shut down in May](https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections). Tech donors to Mahan's campaign told the Los Angeles Times their support was not about tech policy. Ring founder Jamie Siminoff called Mahan \"a nice, pragmatic, sort of centrist person\" who \"wants to make California better.\" Former Facebook engineer Ruchi Sanghvi said, \"He cares about measurable outcomes.\" Brin did not respond to the Times' request for comment.",
+      "mission": "Deliver for California is an independent expenditure committee [registered](https://fullertonobserver.com/2026/05/05/follow-money-ca-governors-race-2026/) as \"Deliver for California - Matt Mahan for Governor 2026.\" It raised nearly $3.3 million from January through mid-April 2026, including $2 million from Sergey Brin, and [shut down in May](https://www.theguardian.com/us-news/2026/jun/01/tech-billionaires-california-elections). Tech donors to Mahan's campaign [told the Los Angeles Times](https://www.latimes.com/california/story/2026-05-18/tech-leaders-funding-matt-mahans-campaign-for-california-governor-say-its-not-about-tech) their support was not about tech policy. Ring founder Jamie Siminoff called Mahan \"a nice, pragmatic, sort of centrist person\" who \"wants to make California better.\" Former Facebook engineer Ruchi Sanghvi said, \"He cares about measurable outcomes.\" Brin did not respond to the Times' request for comment.",
       "spending": [
         {
           "id": "CAND|MATT MAHAN",
@@ -3426,7 +3467,7 @@
     "BRIN SERGEY": {
       "type": "funder",
       "name": "Sergey Brin",
-      "total": 113000000,
+      "total": 133000000,
       "industry": "[Google cofounder](https://www.forbes.com/profile/sergey-brin/) and Alphabet board member",
       "net_worth": "[$217.2 billion](https://www.forbes.com/profile/sergey-brin/), Forbes real-time estimate as of Oct. 29, 2026",
       "politics": "Brin had little political history before 2026, then became the largest single funder against the billionaire tax, with [about $102 million to Building a Better California](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/). He also gave $3 million to Jobspac, a California Chamber of Commerce PAC that spent over $15 million against Tom Steyer, $1 million to a committee backing Matt Mahan for governor, and $39,200 each to Republicans Steve Hilton and Chad Bianco. He spent [$500,000 against San Francisco's \"Overpaid CEO\" tax](https://missionlocal.org/2026/07/meet-the-billionaires-behind-336m-explosion-of-money-in-california-politics-per-new-report/), which was rejected by voters in June 2026. He [moved his residence and businesses to Nevada](https://gvwire.com/2026/10/27/inside-the-billionaires-war-against-californias-proposed-wealth-tax/) in late 2025 in reaction to Prop 40. He equated the tax with the Soviet Union, where he grew up, saying, \"I don't want California to end up in the same place.\"",
@@ -3434,7 +3475,7 @@
         {
           "id": "1486767",
           "name": "Building a Better California",
-          "amount": 112000000,
+          "amount": 132000000,
           "dir": ""
         },
         {
@@ -3448,7 +3489,7 @@
     "SCHMIDT ERIC": {
       "type": "funder",
       "name": "Eric Schmidt",
-      "total": 40236457.01,
+      "total": 45558173.01,
       "industry": "[Former Google CEO](https://www.forbes.com/profile/eric-schmidt/) (2001 to 2011)",
       "net_worth": "[$32.9 billion](https://www.forbes.com/profile/eric-schmidt/), Forbes real-time estimate as of Oct. 30, 2026",
       "politics": "Schmidt advised and funded Obama's 2008 campaign, then chaired the Pentagon's Defense Innovation Board (2016 to 2020) and co-chaired the National Security Commission on AI (2019 to 2021). In 2026, he gave [$40.2 million to Building a Better California and $2.6 million to the California Business Roundtable Issues PAC](https://timesofsandiego.com/politics/2026/10/30/who-are-the-billionaires-behind-the-304-million-effort-to-defeat-californias-wealth-tax/), which opposed Prop 40 and backed Prop 43. He gave [$195,000 to oppose the 2021 Newsom recall](https://www.forbes.com/sites/michelatindera/2021/09/15/these-billionaires-spent-the-most-on-the-california-recall-election/).",
@@ -3456,7 +3497,7 @@
         {
           "id": "1486767",
           "name": "Building a Better California",
-          "amount": 40236457.01,
+          "amount": 45558173.01,
           "dir": ""
         }
       ]
@@ -3705,6 +3746,22 @@
         }
       ]
     },
+    "COOK SCOTT D": {
+      "type": "funder",
+      "name": "Scott D Cook",
+      "total": 4014250,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 4014250,
+          "dir": ""
+        }
+      ]
+    },
     "HERING JOHN": {
       "type": "funder",
       "name": "John Hering",
@@ -3723,22 +3780,6 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 995000,
-          "dir": ""
-        }
-      ]
-    },
-    "COOK SCOTT D": {
-      "type": "funder",
-      "name": "Scott D Cook",
-      "total": 3687250,
-      "industry": "",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 3687250,
           "dir": ""
         }
       ]
@@ -3831,6 +3872,22 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 250000,
+          "dir": ""
+        }
+      ]
+    },
+    "BOTHA ROELOF": {
+      "type": "funder",
+      "name": "Roelof Botha",
+      "total": 2985827.24,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 2985827.24,
           "dir": ""
         }
       ]
@@ -3991,6 +4048,22 @@
         }
       ]
     },
+    "GRADY PATRICK": {
+      "type": "funder",
+      "name": "Patrick Grady",
+      "total": 1514421.41,
+      "industry": "[Partner at Sequoia Capital](https://signal.nfx.com/investors/pat-grady) (growth/AI investing)",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1514421.41,
+          "dir": ""
+        }
+      ]
+    },
     "LAFFONT PHILIPPE": {
       "type": "funder",
       "name": "Philippe Laffont",
@@ -4071,6 +4144,22 @@
         }
       ]
     },
+    "FISHER ROBERT": {
+      "type": "funder",
+      "name": "Robert Fisher",
+      "total": 1268105,
+      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/robert-fisher/)",
+      "net_worth": "[$1.9 billion](https://www.forbes.com/profile/robert-fisher/), Forbes real-time estimate as of Nov. 2, 2026",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 1268105,
+          "dir": ""
+        }
+      ]
+    },
     "PINCUS MARK": {
       "type": "funder",
       "name": "Pincus Mark",
@@ -4115,22 +4204,6 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 1020000,
-          "dir": ""
-        }
-      ]
-    },
-    "FISHER ROBERT": {
-      "type": "funder",
-      "name": "Robert Fisher",
-      "total": 1018105,
-      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/robert-fisher/)",
-      "net_worth": "[$1.9 billion](https://www.forbes.com/profile/robert-fisher/), Forbes real-time estimate as of Nov. 2, 2026",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 1018105,
           "dir": ""
         }
       ]
@@ -4473,6 +4546,38 @@
         }
       ]
     },
+    "LEONE DOUG": {
+      "type": "funder",
+      "name": "Doug Leone",
+      "total": 981151.36,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 981151.36,
+          "dir": ""
+        }
+      ]
+    },
+    "LEONE PATTI": {
+      "type": "funder",
+      "name": "Patti Leone",
+      "total": 981151.36,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 981151.36,
+          "dir": ""
+        }
+      ]
+    },
     "SHALEK NICK": {
       "type": "funder",
       "name": "Nick Shalek",
@@ -4501,6 +4606,22 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 843200,
+          "dir": ""
+        }
+      ]
+    },
+    "FISHER WILLIAM": {
+      "type": "funder",
+      "name": "William Fisher",
+      "total": 759052.5,
+      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/william-fisher/)",
+      "net_worth": "[$1.6 billion](https://www.forbes.com/profile/william-fisher/), Forbes real-time estimate as of Oct. 5, 2026",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 759052.5,
           "dir": ""
         }
       ]
@@ -4567,38 +4688,6 @@
           "id": "1486767",
           "name": "Building a Better California",
           "amount": 513270,
-          "dir": ""
-        }
-      ]
-    },
-    "FISHER WILLIAM": {
-      "type": "funder",
-      "name": "William Fisher",
-      "total": 509052.5,
-      "industry": "[Gap Inc. heir](https://www.forbes.com/profile/william-fisher/)",
-      "net_worth": "[$1.6 billion](https://www.forbes.com/profile/william-fisher/), Forbes real-time estimate as of Oct. 5, 2026",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 509052.5,
-          "dir": ""
-        }
-      ]
-    },
-    "GRADY PATRICK": {
-      "type": "funder",
-      "name": "Patrick Grady",
-      "total": 507763.89,
-      "industry": "[Partner at Sequoia Capital](https://signal.nfx.com/investors/pat-grady) (growth/AI investing)",
-      "net_worth": "",
-      "politics": "",
-      "spending": [
-        {
-          "id": "1486767",
-          "name": "Building a Better California",
-          "amount": 507763.89,
           "dir": ""
         }
       ]
@@ -5167,6 +5256,22 @@
           "id": "1487425",
           "name": "California Back to Basics",
           "amount": 200000,
+          "dir": ""
+        }
+      ]
+    },
+    "SHMUNIS VLADIMIR": {
+      "type": "funder",
+      "name": "Vladimir Shmunis",
+      "total": 157964.3,
+      "industry": "",
+      "net_worth": "",
+      "politics": "",
+      "spending": [
+        {
+          "id": "1486767",
+          "name": "Building a Better California",
+          "amount": 157964.3,
           "dir": ""
         }
       ]
